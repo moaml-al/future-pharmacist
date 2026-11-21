@@ -1,0 +1,153 @@
+{
+  "appTitle": "Future pharmacist",
+  "subtitle": "بنك الأسئلة الذكي • تحديث تلقائي وأوفلاين",
+  "version": "1.0",
+  "subjects": [
+    {
+      "id": "pharm_physics",
+      "name": "الفيزياء الصيدلانية",
+      "icon": "⚛️",
+      "lectures": [
+        {
+          "id": "phys_lec1",
+          "title": "المحاضرة 1: حالات المادة والتوتر السطحي",
+          "questions": [
+            {
+              "q": "Which of the following forces is responsible for the spherical shape of liquid droplets?",
+              "options": [
+                "Surface tension",
+                "Osmotic pressure",
+                "Viscosity",
+                "Vapor pressure"
+              ],
+              "answer": 0,
+              "difficulty": "سهل",
+              "explanation": "التوتر السطحي (Surface tension) يسحب جزيئات السطح نحو الداخل لتقليل المساحة السطحية، مما يعطي القطرة شكلها الكروي."
+            },
+            {
+              "q": "As temperature increases, the viscosity of most liquids generally:",
+              "options": [
+                "Decreases",
+                "Increases",
+                "Remains constant",
+                "Becomes zero immediately"
+              ],
+              "answer": 0,
+              "difficulty": "سهل",
+              "explanation": "ارتفاع درجة الحرارة يزيد الطاقة الحركية للجزيئات ويضعف قوى التماسك بينها، فتقل لزوجة السوائل (عكس الغازات)."
+            },
+            {
+              "q": "The SI unit of dynamic viscosity is:",
+              "options": [
+                "Pascal-second (Pa·s)",
+                "Newton per meter (N/m)",
+                "Joule per Kelvin (J/K)",
+                "Watt per square meter (W/m²)"
+              ],
+              "answer": 0,
+              "difficulty": "متوسط",
+              "explanation": "الوحدة الدولية للزوجة الديناميكية هي باسكال.ثانية (Pa·s)، بينما (N/m) هي وحدة التوتر السطحي."
+            },
+            {
+              "q": "A solution that has the same osmotic pressure as blood plasma is called:",
+              "options": [
+                "Isotonic solution",
+                "Hypertonic solution",
+                "Hypotonic solution",
+                "Saturated solution"
+              ],
+              "answer": 0,
+              "difficulty": "سهل",
+              "explanation": "المحلول متساوي التوتر (Isotonic) له نفس الضغط الأزموزي لبلازما الدم، فلا يسبب انكماش أو انفجار كريات الدم الحمراء."
+            },
+            {
+              "q": "Surfactants reduce surface tension primarily by:",
+              "options": [
+                "Accumulating at the interface between two phases",
+                "Increasing the boiling point of the solvent",
+                "Freezing the surface molecules",
+                "Removing all hydrogen bonds in the bulk liquid"
+              ],
+              "answer": 0,
+              "difficulty": "متوسط",
+              "explanation": "المواد الخافضة للتوتر السطحي (Surfactants) تتركز عند السطح الفاصل بين الطورين لاحتوائها على جزء محب للماء وآخر كاره للماء."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology",
+      "name": "الفسلجة الطبية",
+      "icon": "🧬",
+      "lectures": [
+        {
+          "id": "physio_lec1",
+          "title": "المحاضرة 1: الخلية والنقل الغشائي",
+          "questions": [
+            {
+              "q": "Which transport mechanism requires ATP directly to move ions against their concentration gradient?",
+              "options": [
+                "Primary active transport",
+                "Simple diffusion",
+                "Facilitated diffusion",
+                "Osmosis"
+              ],
+              "answer": 0,
+              "difficulty": "سهل",
+              "explanation": "النقل الفعال الأولي (مثل مضخة الصوديوم والبوتاسيوم) يستهلك ATP مباشرة لنقل الأيونات عكس تدرج التركيز."
+            },
+            {
+              "q": "During the depolarization phase of a neuronal action potential, which channels open rapidly?",
+              "options": [
+                "Voltage-gated Na+ channels",
+                "Voltage-gated K+ channels",
+                "Ligand-gated Cl- channels",
+                "Leakage Ca2+ channels"
+              ],
+              "answer": 0,
+              "difficulty": "متوسط",
+              "explanation": "إزالة الاستقطاب (Depolarization) تحدث بسبب الانفتاح السريع لقنوات الصوديوم (Na+) ودخوله إلى داخل الخلية."
+            },
+            {
+              "q": "The Sodium-Potassium pump (Na+/K+ ATPase) moves how many ions per cycle?",
+              "options": [
+                "3 Na+ out and 2 K+ in",
+                "2 Na+ out and 3 K+ in",
+                "3 Na+ in and 2 K+ out",
+                "1 Na+ out and 1 K+ in"
+              ],
+              "answer": 0,
+              "difficulty": "متوسط",
+              "explanation": "المضخة تطرد 3 أيونات صوديوم للخارج وتدخل 2 أيون بوتاسيوم للداخل مقابل استهلاك جزيئة ATP واحدة."
+            },
+            {
+              "q": "Homeostasis is primarily maintained in the human body through:",
+              "options": [
+                "Negative feedback mechanisms",
+                "Positive feedback mechanisms",
+                "Random hormonal release",
+                "Complete cessation of metabolism"
+              ],
+              "answer": 0,
+              "difficulty": "سهل",
+              "explanation": "التغذية الراجعة السلبية (Negative feedback) هي الآلية الأساسية للحفاظ على الاتزان الداخلي وتصحيح أي انحراف."
+            },
+            {
+              "q": "Which organelle is primarily responsible for ATP production via oxidative phosphorylation?",
+              "options": [
+                "Mitochondria",
+                "Golgi apparatus",
+                "Lysosome",
+                "Smooth endoplasmic reticulum"
+              ],
+              "answer": 0,
+              "difficulty": "سهل",
+              "explanation": "الميتوكوندريا هي بيت الطاقة في الخلية المسؤولة عن إنتاج معظم الـ ATP."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

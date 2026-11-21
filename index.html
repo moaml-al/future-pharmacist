@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#0d1117" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Future pharmacist" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" type="image/jpeg" href="icon.jpg" />
+  <link rel="apple-touch-icon" href="icon.jpg" />
+  <title>Future pharmacist</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card: #161b22;
+      --card-hover: #1f2630;
+      --border: #2a323d;
+      --primary: #f472b6;
+      --primary-soft: rgba(244, 114, 182, 0.14);
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --success: #2ea043;
+      --success-bg: rgba(46, 160, 67, 0.16);
+      --danger: #f85149;
+      --danger-bg: rgba(248, 81, 73, 0.16);
+      --warn: #d29922;
+    }
+
+    * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(13, 17, 23, 0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .menu-btn, .sync-btn {
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 10px;
+      padding: 8px 12px;
+      font-size: 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .menu-btn:active, .sync-btn:active { transform: scale(0.96); }
+    .header-title {
+      flex: 1;
+      text-align: center;
+      font-weight: 700;
+      font-size: 16px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: var(--primary);
+    }
+
+    .overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.65);
+      z-index: 90;
+      display: none;
+    }
+    .overlay.show { display: block; }
+    .drawer {
+      position: fixed;
+      top: 0;
+      right: -300px;
+      width: 285px;
+      height: 100vh;
+      background: var(--card);
+      border-left: 1px solid var(--border);
+      z-index: 100;
+      transition: right 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      padding: 18px 14px;
+      overflow-y: auto;
+    }
+    .drawer.open { right: 0; }
+    .drawer-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 14px;
+    }
+    .drawer-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .drawer-brand img {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      object-fit: cover;
+      background: #fff;
+    }
+    .drawer-item {
+      width: 100%;
+      text-align: right;
+      background: transparent;
+      border: 1px solid transparent;
+      color: var(--text);
+      padding: 11px 12px;
+      border-radius: 10px;
+      margin-bottom: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .drawer-item:hover, .drawer-item.active {
+      background: var(--primary-soft);
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+    .drawer-section {
+      font-size: 12px;
+      color: var(--muted);
+      margin: 12px 6px 6px;
+      font-weight: 600;
+    }
+
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 16px;
+      padding-bottom: 40px;
+    }
+
+    .status-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 14px;
+      padding: 8px 12px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px;
+      margin-bottom: 14px;
+    }
+
+    .hero-card {
+      text-align: center;
+      background: linear-gradient(145deg, #161b22, #231825);
+      border-color: rgba(244, 114, 182, 0.35);
+    }
+    .hero-logo {
+      width: 86px;
+      height: 86px;
+      border-radius: 22px;
+      object-fit: cover;
+      background: #fff;
+      padding: 4px;
+      margin-bottom: 10px;
+      box-shadow: 0 6px 18px rgba(244, 114, 182, 0.25);
+    }
+
+    .subject-card {
+      cursor: pointer;
+      transition: transform 0.15s, border-color 0.15s;
+    }
+    .subject-card:hover { border-color: var(--primary); }
+    .subject-card:active { transform: scale(0.98); }
+
+    .subject-top {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .subject-icon {
+      font-size: 28px;
+      background: var(--primary-soft);
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: var(--primary-soft);
+      color: var(--primary);
+      font-weight: 600;
+    }
+    .badge-warn { background: rgba(210,153,34,0.16); color: var(--warn); }
+
+    .btn {
+      width: 100%;
+      padding: 13px 16px;
+      border-radius: 12px;
+      border: none;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: opacity 0.15s, transform 0.1s;
+    }
+    .btn:active { transform: scale(0.98); }
+    .btn-primary { background: var(--primary); color: #0d1117; }
+    .btn-outline {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text);
+      margin-top: 8px;
+    }
+
+    .progress-wrap {
+      width: 100%;
+      height: 8px;
+      background: var(--border);
+      border-radius: 999px;
+      overflow: hidden;
+      margin-bottom: 14px;
+    }
+    .progress-fill {
+      height: 100%;
+      background: var(--primary);
+      transition: width 0.3s ease;
+    }
+    .q-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .q-text {
+      font-size: 17px;
+      line-height: 1.65;
+      font-weight: 600;
+      margin-bottom: 18px;
+      direction: auto;
+      text-align: start;
+    }
+    .opt-btn {
+      width: 100%;
+      text-align: start;
+      direction: auto;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 14px 16px;
+      border-radius: 12px;
+      margin-bottom: 10px;
+      font-size: 15px;
+      cursor: pointer;
+      transition: all 0.15s;
+      line-height: 1.5;
+    }
+    .opt-btn:hover:not(:disabled) { border-color: var(--primary); background: var(--card-hover); }
+    .opt-btn.correct { background: var(--success-bg); border-color: var(--success); color: #7ee787; font-weight: 700; }
+    .opt-btn.wrong { background: var(--danger-bg); border-color: var(--danger); color: #ffa198; }
+    .opt-btn:disabled { cursor: default; }
+
+    .explain-box {
+      margin-top: 14px;
+      padding: 14px;
+      border-radius: 12px;
+      background: rgba(244, 114, 182, 0.08);
+      border-right: 4px solid var(--primary);
+      font-size: 14px;
+      line-height: 1.7;
+      display: none;
+    }
+    .explain-box.show { display: block; }
+
+    .toast {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #238636;
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      z-index: 200;
+      display: none;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    }
+    .toast.show { display: block; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <button class="menu-btn" onclick="toggleDrawer()">☰</button>
+    <div class="header-title" id="appTitle">Future pharmacist</div>
+    <button class="sync-btn" onclick="syncQuestions(true)" title="تحديث الأسئلة">🔄</button>
+  </header>
+
+  <div class="overlay" id="overlay" onclick="toggleDrawer()"></div>
+  <aside class="drawer" id="drawer">
+    <div class="drawer-head">
+      <div class="drawer-brand">
+        <img src="icon.jpg" alt="Future pharmacist" />
+        <strong>Future pharmacist</strong>
+      </div>
+      <button class="menu-btn" onclick="toggleDrawer()">✕</button>
+    </div>
+    <button class="drawer-item" onclick="showHome(); toggleDrawer();">🏠 الرئيسية</button>
+    <button class="drawer-item" onclick="startAllQuiz(); toggleDrawer();">⚡ اختبار شامل لكل المواد</button>
+    <div class="drawer-section">المواد الدراسية</div>
+    <div id="drawerSubjects"></div>
+    <div style="margin-top:auto; padding-top:16px; border-top:1px solid var(--border); font-size:12px; color:var(--muted);">
+      الإصدار: <span id="verTag">-</span><br/>
+      الحالة: <span id="netStatus">جاري التحقق...</span>
+    </div>
+  </aside>
+
+  <main id="app"></main>
+  <div class="toast" id="toast"></div>
+
+  <script>
+    const CACHE_KEY = 'future_pharmacist_bank_v1';
+    let bankData = null;
+    let currentQuestions = [];
+    let currentIndex = 0;
+    let score = 0;
+    let wrongList = [];
+    let currentTitle = '';
+
+    function shuffle(arr) {
+      const a = [...arr];
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    function showToast(msg, isError = false) {
+      const t = document.getElementById('toast');
+      t.textContent = msg;
+      t.style.background = isError ? '#da3633' : '#238636';
+      t.classList.add('show');
+      setTimeout(() => t.classList.remove('show'), 2600);
+    }
+
+    function toggleDrawer() {
+      document.getElementById('drawer').classList.toggle('open');
+      document.getElementById('overlay').classList.toggle('show');
+    }
+
+    async function initApp() {
+      const cached = localStorage.getItem(CACHE_KEY);
+      if (cached) {
+        try {
+          bankData = JSON.parse(cached);
+          applyMetadata();
+          showHome();
+        } catch (e) {}
+      }
+      await syncQuestions(false);
+    }
+
+    async function syncQuestions(manual = false) {
+      const statusEl = document.getElementById('netStatus');
+      try {
+        const res = await fetch('./questions.json?t=' + Date.now(), { cache: 'no-store' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const fresh = await res.json();
+        const oldStr = localStorage.getItem(CACHE_KEY);
+        const newStr = JSON.stringify(fresh);
+
+        bankData = fresh;
+        localStorage.setItem(CACHE_KEY, newStr);
+        applyMetadata();
+        statusEl.textContent = 'متصل ومُحدّث ✅';
+
+        if (!oldStr || oldStr !== newStr) {
+          showHome();
+          showToast('تم تحديث الأسئلة وحفظها أوفلاين ✨');
+        } else if (manual) {
+          showToast('الأسئلة محدثة لآخر نسخة ✅');
+        }
+      } catch (err) {
+        statusEl.textContent = 'وضع أوفلاين 📴';
+        if (!bankData) {
+          document.getElementById('app').innerHTML = `
+            <div class="card" style="text-align:center;">
+              <h3>لا يوجد اتصال بالإنترنت</h3>
+              <p style="color:var(--muted);">افتح التطبيق مرة واحدة بوجود إنترنت لحفظ الأسئلة على جهازك.</p>
+              <button class="btn btn-primary" onclick="syncQuestions(true)">إعادة المحاولة</button>
+            </div>`;
+        } else if (manual) {
+          showToast('أنت بدون إنترنت — يتم استخدام النسخة المحفوظة', true);
+        }
+      }
+    }
+
+    function applyMetadata() {
+      if (!bankData) return;
+      document.title = bankData.appTitle || 'Future pharmacist';
+      document.getElementById('appTitle').textContent = bankData.appTitle || 'Future pharmacist';
+      document.getElementById('verTag').textContent = bankData.version || '1.0';
+
+      const drawerList = document.getElementById('drawerSubjects');
+      drawerList.innerHTML = bankData.subjects.map(s => {
+        const count = s.lectures.reduce((acc, l) => acc + l.questions.length, 0);
+        return `<button class="drawer-item" onclick="showSubject('${s.id}'); toggleDrawer();">
+          <span>${s.icon || '📘'} ${s.name}</span>
+          <span class="badge">${count}</span>
+        </button>`;
+      }).join('');
+    }
+
+    function showHome() {
+      if (!bankData) return;
+      const totalQ = bankData.subjects.reduce((sum, s) =>
+        sum + s.lectures.reduce((a, l) => a + l.questions.length, 0), 0);
+
+      let html = `
+        <div class="status-bar">
+          <span>📚 إجمالي الأسئلة: <strong>${totalQ}</strong></span>
+          <span>الإصدار ${bankData.version || '1.0'}</span>
+        </div>
+        <div class="card hero-card">
+          <img src="icon.jpg" alt="Future pharmacist" class="hero-logo" />
+          <h2 style="margin:0 0 6px; color:var(--primary);">${bankData.appTitle}</h2>
+          <p style="margin:0 0 16px; color:var(--muted); font-size:14px;">${bankData.subtitle || ''}</p>
+          <button class="btn btn-primary" onclick="startAllQuiz()">⚡ ابدأ اختبار شامل عشوائي (${totalQ} سؤال)</button>
+        </div>
+      `;
+
+      bankData.subjects.forEach(s => {
+        const count = s.lectures.reduce((a, l) => a + l.questions.length, 0);
+        html += `
+          <div class="card subject-card" onclick="showSubject('${s.id}')">
+            <div class="subject-top">
+              <div class="subject-icon">${s.icon || '📘'}</div>
+              <div>
+                <div style="font-weight:700; font-size:16px;">${s.name}</div>
+                <div style="color:var(--muted); font-size:13px;">${s.lectures.length} محاضرة • ${count} سؤال</div>
+              </div>
+            </div>
+          </div>`;
+      });
+
+      document.getElementById('app').innerHTML = html;
+    }
+
+    function showSubject(subjectId) {
+      const sub = bankData.subjects.find(s => s.id === subjectId);
+      if (!sub) return;
+      const allSubQ = sub.lectures.flatMap(l => l.questions);
+
+      let html = `
+        <button class="btn btn-outline" style="margin-bottom:14px; margin-top:0;" onclick="showHome()">→ رجوع للمواد</button>
+        <div class="card">
+          <h2 style="margin:0 0 10px;">${sub.icon || '📘'} ${sub.name}</h2>
+          <button class="btn btn-primary" onclick="startQuizFromSubject('${sub.id}')">اختبار شامل للمادة (${allSubQ.length} سؤال)</button>
+        </div>
+      `;
+
+      sub.lectures.forEach(lec => {
+        html += `
+          <div class="card subject-card" onclick="startQuizFromLecture('${sub.id}', '${lec.id}')">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <strong>${lec.title}</strong>
+              <span class="badge">${lec.questions.length} سؤال</span>
+            </div>
+          </div>`;
+      });
+
+      document.getElementById('app').innerHTML = html;
+    }
+
+    function startAllQuiz() {
+      const all = bankData.subjects.flatMap(s => s.lectures.flatMap(l => l.questions));
+      beginQuiz(all, 'الاختبار الشامل');
+    }
+
+    function startQuizFromSubject(subId) {
+      const sub = bankData.subjects.find(s => s.id === subId);
+      const qs = sub.lectures.flatMap(l => l.questions);
+      beginQuiz(qs, sub.name);
+    }
+
+    function startQuizFromLecture(subId, lecId) {
+      const sub = bankData.subjects.find(s => s.id === subId);
+      const lec = sub.lectures.find(l => l.id === lecId);
+      beginQuiz(lec.questions, lec.title);
+    }
+
+    function beginQuiz(questionsArr, title) {
+      currentTitle = title;
+      currentQuestions = shuffle(questionsArr);
+      currentIndex = 0;
+      score = 0;
+      wrongList = [];
+      renderQuestion();
+    }
+
+    function renderQuestion() {
+      if (currentIndex >= currentQuestions.length) {
+        renderResult();
+        return;
+      }
+
+      const item = currentQuestions[currentIndex];
+      const pct = Math.round((currentIndex / currentQuestions.length) * 100);
+
+      const mappedOpts = item.options.map((text, idx) => ({
+        text,
+        isCorrect: idx === item.answer
+      }));
+      const shuffledOpts = shuffle(mappedOpts);
+
+      const letters = ['A', 'B', 'C', 'D'];
+      let optsHtml = shuffledOpts.map((opt, idx) => `
+        <button class="opt-btn" data-correct="${opt.isCorrect}" onclick="selectOption(this)">
+          <strong>${letters[idx] || (idx + 1)}.</strong> ${opt.text}
+        </button>
+      `).join('');
+
+      document.getElementById('app').innerHTML = `
+        <div class="progress-wrap"><div class="progress-fill" style="width:${pct}%"></div></div>
+        <div class="card">
+          <div class="q-meta">
+            <span>${currentTitle}</span>
+            <span>سؤال ${currentIndex + 1} من ${currentQuestions.length}</span>
+          </div>
+          ${item.difficulty ? `<span class="badge badge-warn" style="margin-bottom:10px;">${item.difficulty}</span>` : ''}
+          <div class="q-text">${item.q}</div>
+          <div id="optionsContainer">${optsHtml}</div>
+          <div class="explain-box" id="explainBox">
+            <strong>💡 التوضيح:</strong><br/>${item.explanation || 'إجابة مسجلة.'}
+          </div>
+          <button class="btn btn-primary" id="nextBtn" style="display:none; margin-top:14px;" onclick="nextQuestion()">
+            ${currentIndex + 1 === currentQuestions.length ? 'عرض النتيجة 🎯' : 'السؤال التالي ←'}
+          </button>
+        </div>
+        <button class="btn btn-outline" onclick="showHome()">إنهاء الاختبار</button>
+      `;
+    }
+
+    function selectOption(btn) {
+      const allBtns = document.querySelectorAll('.opt-btn');
+      allBtns.forEach(b => b.disabled = true);
+
+      const isCorrect = btn.getAttribute('data-correct') === 'true';
+      if (isCorrect) {
+        btn.classList.add('correct');
+        score++;
+      } else {
+        btn.classList.add('wrong');
+        wrongList.push(currentQuestions[currentIndex]);
+        allBtns.forEach(b => {
+          if (b.getAttribute('data-correct') === 'true') b.classList.add('correct');
+        });
+      }
+
+      document.getElementById('explainBox').classList.add('show');
+      document.getElementById('nextBtn').style.display = 'block';
+    }
+
+    function nextQuestion() {
+      currentIndex++;
+      renderQuestion();
+    }
+
+    function renderResult() {
+      const total = currentQuestions.length;
+      const pct = Math.round((score / total) * 100);
+      document.getElementById('app').innerHTML = `
+        <div class="card" style="text-align:center; padding:28px 18px;">
+          <div style="font-size:48px; margin-bottom:8px;">${pct >= 80 ? '🏆' : pct >= 50 ? '👏' : '💪'}</div>
+          <h2 style="margin:0 0 6px;">انتهى الاختبار!</h2>
+          <p style="color:var(--muted); margin:0 0 18px;">${currentTitle}</p>
+          <div style="font-size:36px; font-weight:800; color:var(--primary); margin-bottom:8px;">${pct}%</div>
+          <p style="margin:0 0 20px;">الإجابات الصحيحة: <strong>${score}</strong> من <strong>${total}</strong></p>
+          ${wrongList.length > 0 ? `<button class="btn btn-primary" style="margin-bottom:8px;" onclick="beginQuiz(wrongList, 'مراجعة الأخطاء')">🔁 إعادة الأسئلة الخاطئة (${wrongList.length})</button>` : ''}
+          <button class="btn btn-outline" onclick="showHome()">🏠 العودة للرئيسية</button>
+        </div>
+      `;
+    }
+
+    initApp();
+  </script>
+</body>
+</html>
