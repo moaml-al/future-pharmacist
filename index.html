@@ -543,4 +543,128 @@
     function setRange(from, to, btn) {
       document.getElementById('fromQ').value = from;
       document.getElementById('toQ').value = to;
-      document.querySelectorAll('.chip').forEach(c => c.
+      document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+      if (btn) btn.classList.add('active');
+    }
+
+    function launchCustomQuiz() {
+      const total = loadedPool.length;
+      let from = parseInt(document.getElementById('fromQ').value) || 1;
+      let to = parseInt(document.getElementById('toQ').value) || total;
+      if (from < 1) from = 1;
+      if (to > total) to = total;
+      if (from > to) [from, to] = [to, from];
+
+      let list = loadedPool.slice(from - 1, to);
+      const filter = document.getElementById('filterType').value;
+      if (filter === 'clinical') list = list.filter(q => q.type === 'clinical');
+      if (filter === 'hard') list = list.filter(q => q.difficulty === 'صعب');
+
+      if (list.length === 0) {
+        showToast('لا توجد أسئلة مطابقة بهذا النطاق');
+        return;
+      }
+
+      const order = document.getElementById('orderType').value;
+      activeQuestions = order === 'shuffle' ? shuffle(list) : list;
+      qIndex = 0;
+      score = 0;
+      wrongList = [];
+      renderQuestion();
+    }
+
+    function renderQuestion() {
+      if (qIndex >= activeQuestions.length) {
+        renderResult();
+        return;
+      }
+      const item = activeQuestions[qIndex];
+      const pct = Math.round((qIndex / activeQuestions.length) * 100);
+
+      const mapped = item.options.map((text, idx) => ({ text, isCorrect: idx === item.answer }));
+      const shuffledOpts = shuffle(mapped);
+      const letters = ['A', 'B', 'C', 'D'];
+
+      const optsHtml = shuffledOpts.map((opt, idx) => `
+        <button class="opt-btn" data-correct="${opt.isCorrect}" onclick="selectOption(this)">
+          <strong>${letters[idx] || (idx + 1)}.</strong> ${opt.text}
+        </button>
+      `).join('');
+
+      document.getElementById('app').innerHTML = `
+        <div class="progress-wrap"><div class="progress-fill" style="width:${pct}%"></div></div>
+        <div class="card">
+          <div class="q-meta">
+            <span>${loadedTitle}</span>
+            <span>${qIndex + 1} / ${activeQuestions.length}</span>
+          </div>
+          <div style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom:8px;">
+            ${item.type === 'clinical' ? `<span class="badge badge-clinical">سريري</span>` : ''}
+            ${item.difficulty ? `<span class="badge badge-warn">${item.difficulty}</span>` : ''}
+          </div>
+          <div class="q-text">${item.q}</div>
+          <div>${optsHtml}</div>
+          <div class="explain-box" id="explainBox">${item.explanation || ''}</div>
+          <button class="btn btn-primary" id="nextBtn" style="display:none; margin-top:14px;" onclick="nextQuestion()">
+            ${qIndex + 1 === activeQuestions.length ? 'النتيجة' : 'التالي ←'}
+          </button>
+        </div>
+        <button class="btn btn-outline" onclick="renderSetupScreen()">إنهاء</button>
+      `;
+    }
+
+    function selectOption(btn) {
+      const allBtns = document.querySelectorAll('.opt-btn');
+      allBtns.forEach(b => b.disabled = true);
+
+      if (btn.getAttribute('data-correct') === 'true') {
+        btn.classList.add('correct');
+        score++;
+      } else {
+        btn.classList.add('wrong');
+        wrongList.push(activeQuestions[qIndex]);
+        allBtns.forEach(b => {
+          if (b.getAttribute('data-correct') === 'true') b.classList.add('correct');
+        });
+      }
+      const exp = document.getElementById('explainBox');
+      if (exp.textContent.trim()) exp.classList.add('show');
+      document.getElementById('nextBtn').style.display = 'block';
+    }
+
+    function nextQuestion() {
+      qIndex++;
+      renderQuestion();
+    }
+
+    function renderResult() {
+      const total = activeQuestions.length;
+      const pct = Math.round((score / total) * 100);
+      document.getElementById('app').innerHTML = `
+        <div class="card" style="text-align:center; padding:28px 18px;">
+          <div style="font-size:42px; font-weight:800; color:var(--primary); margin-bottom:6px;">${pct}%</div>
+          <p style="margin:0 0 20px; color:var(--muted);">${score} من ${total}</p>
+          ${wrongList.length > 0 ? `<button class="btn btn-primary" style="margin-bottom:8px;" onclick="retryWrong()">إعادة الأخطاء (${wrongList.length})</button>` : ''}
+          <button class="btn btn-outline" onclick="renderSetupScreen()">نطاق آخر</button>
+          <button class="btn btn-outline" onclick="showHome()">الرئيسية</button>
+        </div>
+      `;
+    }
+
+    function retryWrong() {
+      activeQuestions = shuffle(wrongList);
+      qIndex = 0;
+      score = 0;
+      wrongList = [];
+      renderQuestion();
+    }
+
+    applyTheme(localStorage.getItem(THEME_KEY) || 'light');
+    showHome();
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js');
+    }
+    initApp();
+  </script>
+</body>
+</html>
