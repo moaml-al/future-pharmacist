@@ -26,6 +26,8 @@
       --danger: #f85149;
       --danger-bg: rgba(248, 81, 73, 0.16);
       --warn: #d29922;
+      --clinical: #38bdf8;
+      --clinical-bg: rgba(56, 189, 248, 0.15);
     }
 
     * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -42,7 +44,7 @@
       position: sticky;
       top: 0;
       z-index: 50;
-      background: rgba(13, 17, 23, 0.92);
+      background: rgba(13, 17, 23, 0.94);
       backdrop-filter: blur(10px);
       border-bottom: 1px solid var(--border);
       padding: 12px 16px;
@@ -51,7 +53,7 @@
       justify-content: space-between;
       gap: 10px;
     }
-    .menu-btn, .sync-btn {
+    .icon-btn {
       background: var(--card);
       border: 1px solid var(--border);
       color: var(--text);
@@ -59,22 +61,20 @@
       padding: 8px 12px;
       font-size: 16px;
       cursor: pointer;
-      display: flex;
-      align-items: center;
-      gap: 6px;
     }
-    .menu-btn:active, .sync-btn:active { transform: scale(0.96); }
+    .icon-btn:active { transform: scale(0.95); }
     .header-title {
       flex: 1;
       text-align: center;
       font-weight: 700;
       font-size: 16px;
+      color: var(--primary);
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-      color: var(--primary);
     }
 
+    /* Drawer */
     .overlay {
       position: fixed;
       inset: 0;
@@ -86,8 +86,8 @@
     .drawer {
       position: fixed;
       top: 0;
-      right: -300px;
-      width: 285px;
+      right: -310px;
+      width: 295px;
       height: 100vh;
       background: var(--card);
       border-left: 1px solid var(--border);
@@ -95,7 +95,7 @@
       transition: right 0.25s ease;
       display: flex;
       flex-direction: column;
-      padding: 18px 14px;
+      padding: 16px 14px;
       overflow-y: auto;
     }
     .drawer.open { right: 0; }
@@ -105,19 +105,11 @@
       align-items: center;
       padding-bottom: 12px;
       border-bottom: 1px solid var(--border);
-      margin-bottom: 14px;
+      margin-bottom: 12px;
     }
-    .drawer-brand {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
+    .drawer-brand { display: flex; align-items: center; gap: 10px; }
     .drawer-brand img {
-      width: 36px;
-      height: 36px;
-      border-radius: 10px;
-      object-fit: cover;
-      background: #fff;
+      width: 36px; height: 36px; border-radius: 10px; object-fit: cover; background: #fff;
     }
     .drawer-item {
       width: 100%;
@@ -125,46 +117,26 @@
       background: transparent;
       border: 1px solid transparent;
       color: var(--text);
-      padding: 11px 12px;
+      padding: 10px 12px;
       border-radius: 10px;
-      margin-bottom: 6px;
+      margin-bottom: 5px;
       cursor: pointer;
       font-size: 14px;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
-    .drawer-item:hover, .drawer-item.active {
-      background: var(--primary-soft);
-      border-color: var(--primary);
-      color: var(--primary);
+    .drawer-item:hover { background: var(--primary-soft); border-color: var(--primary); color: var(--primary); }
+    .drawer-sub {
+      padding-right: 22px;
+      font-size: 13px;
+      color: var(--muted);
     }
     .drawer-section {
-      font-size: 12px;
-      color: var(--muted);
-      margin: 12px 6px 6px;
-      font-weight: 600;
+      font-size: 12px; color: var(--muted); margin: 12px 6px 6px; font-weight: 700;
     }
 
-    main {
-      max-width: 680px;
-      margin: 0 auto;
-      padding: 16px;
-      padding-bottom: 40px;
-    }
-
-    .status-bar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 12px;
-      color: var(--muted);
-      margin-bottom: 14px;
-      padding: 8px 12px;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-    }
+    main { max-width: 700px; margin: 0 auto; padding: 16px; padding-bottom: 45px; }
 
     .card {
       background: var(--card);
@@ -173,118 +145,82 @@
       padding: 18px;
       margin-bottom: 14px;
     }
-
     .hero-card {
       text-align: center;
       background: linear-gradient(145deg, #161b22, #231825);
       border-color: rgba(244, 114, 182, 0.35);
     }
     .hero-logo {
-      width: 86px;
-      height: 86px;
-      border-radius: 22px;
-      object-fit: cover;
-      background: #fff;
-      padding: 4px;
-      margin-bottom: 10px;
+      width: 84px; height: 84px; border-radius: 22px; object-fit: cover;
+      background: #fff; padding: 4px; margin-bottom: 10px;
       box-shadow: 0 6px 18px rgba(244, 114, 182, 0.25);
     }
 
-    .subject-card {
-      cursor: pointer;
-      transition: transform 0.15s, border-color 0.15s;
-    }
-    .subject-card:hover { border-color: var(--primary); }
-    .subject-card:active { transform: scale(0.98); }
+    .click-card { cursor: pointer; transition: transform 0.15s, border-color 0.15s; }
+    .click-card:hover { border-color: var(--primary); }
+    .click-card:active { transform: scale(0.98); }
 
-    .subject-top {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
+    .row-between { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+    .subject-top { display: flex; align-items: center; gap: 12px; }
     .subject-icon {
-      font-size: 28px;
-      background: var(--primary-soft);
-      width: 48px;
-      height: 48px;
-      border-radius: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      font-size: 26px; background: var(--primary-soft);
+      width: 48px; height: 48px; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
     }
+
     .badge {
-      display: inline-block;
-      font-size: 11px;
-      padding: 3px 9px;
-      border-radius: 999px;
-      background: var(--primary-soft);
-      color: var(--primary);
-      font-weight: 600;
+      display: inline-block; font-size: 11px; padding: 3px 9px;
+      border-radius: 999px; background: var(--primary-soft);
+      color: var(--primary); font-weight: 700;
     }
     .badge-warn { background: rgba(210,153,34,0.16); color: var(--warn); }
+    .badge-clinical { background: var(--clinical-bg); color: var(--clinical); }
 
     .btn {
-      width: 100%;
-      padding: 13px 16px;
-      border-radius: 12px;
-      border: none;
-      font-size: 15px;
-      font-weight: 700;
-      cursor: pointer;
-      transition: opacity 0.15s, transform 0.1s;
+      width: 100%; padding: 13px 16px; border-radius: 12px; border: none;
+      font-size: 15px; font-weight: 700; cursor: pointer; transition: transform 0.1s;
     }
     .btn:active { transform: scale(0.98); }
     .btn-primary { background: var(--primary); color: #0d1117; }
     .btn-outline {
-      background: transparent;
-      border: 1px solid var(--border);
-      color: var(--text);
-      margin-top: 8px;
+      background: transparent; border: 1px solid var(--border);
+      color: var(--text); margin-top: 8px;
     }
 
+    /* Setup Form */
+    .form-label { display: block; font-size: 13px; color: var(--muted); margin-bottom: 6px; font-weight: 600; }
+    .range-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 12px; }
+    .input-box, select.input-box {
+      width: 100%; padding: 11px 12px; border-radius: 10px;
+      background: var(--bg); border: 1px solid var(--border);
+      color: var(--text); font-size: 15px; font-weight: 600;
+    }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+    .chip {
+      background: var(--bg); border: 1px solid var(--border); color: var(--text);
+      padding: 7px 12px; border-radius: 999px; font-size: 12px; cursor: pointer; font-weight: 600;
+    }
+    .chip:hover, .chip.active { border-color: var(--primary); color: var(--primary); background: var(--primary-soft); }
+
+    /* Quiz UI */
     .progress-wrap {
-      width: 100%;
-      height: 8px;
-      background: var(--border);
-      border-radius: 999px;
-      overflow: hidden;
-      margin-bottom: 14px;
+      width: 100%; height: 8px; background: var(--border);
+      border-radius: 999px; overflow: hidden; margin-bottom: 14px;
     }
-    .progress-fill {
-      height: 100%;
-      background: var(--primary);
-      transition: width 0.3s ease;
-    }
+    .progress-fill { height: 100%; background: var(--primary); transition: width 0.25s ease; }
     .q-meta {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 12px;
-      font-size: 13px;
-      color: var(--muted);
+      display: flex; justify-content: space-between; align-items: center;
+      margin-bottom: 10px; font-size: 12px; color: var(--muted);
     }
     .q-text {
-      font-size: 17px;
-      line-height: 1.65;
-      font-weight: 600;
-      margin-bottom: 18px;
-      direction: auto;
-      text-align: start;
+      font-size: 16.5px; line-height: 1.7; font-weight: 600;
+      margin: 10px 0 18px; direction: auto; text-align: start;
     }
     .opt-btn {
-      width: 100%;
-      text-align: start;
-      direction: auto;
-      background: var(--bg);
-      border: 1px solid var(--border);
-      color: var(--text);
-      padding: 14px 16px;
-      border-radius: 12px;
-      margin-bottom: 10px;
-      font-size: 15px;
-      cursor: pointer;
-      transition: all 0.15s;
-      line-height: 1.5;
+      width: 100%; text-align: start; direction: auto;
+      background: var(--bg); border: 1px solid var(--border); color: var(--text);
+      padding: 13px 15px; border-radius: 12px; margin-bottom: 10px;
+      font-size: 15px; cursor: pointer; line-height: 1.5; transition: all 0.15s;
     }
     .opt-btn:hover:not(:disabled) { border-color: var(--primary); background: var(--card-hover); }
     .opt-btn.correct { background: var(--success-bg); border-color: var(--success); color: #7ee787; font-weight: 700; }
@@ -292,30 +228,16 @@
     .opt-btn:disabled { cursor: default; }
 
     .explain-box {
-      margin-top: 14px;
-      padding: 14px;
-      border-radius: 12px;
-      background: rgba(244, 114, 182, 0.08);
-      border-right: 4px solid var(--primary);
-      font-size: 14px;
-      line-height: 1.7;
-      display: none;
+      margin-top: 14px; padding: 14px; border-radius: 12px;
+      background: rgba(244, 114, 182, 0.08); border-right: 4px solid var(--primary);
+      font-size: 14px; line-height: 1.7; display: none;
     }
     .explain-box.show { display: block; }
 
     .toast {
-      position: fixed;
-      bottom: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-      background: #238636;
-      color: #fff;
-      padding: 10px 18px;
-      border-radius: 999px;
-      font-size: 13px;
-      font-weight: 600;
-      z-index: 200;
-      display: none;
+      position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+      background: #238636; color: #fff; padding: 10px 18px; border-radius: 999px;
+      font-size: 13px; font-weight: 600; z-index: 200; display: none;
       box-shadow: 0 6px 20px rgba(0,0,0,0.4);
     }
     .toast.show { display: block; }
@@ -324,26 +246,25 @@
 <body>
 
   <header>
-    <button class="menu-btn" onclick="toggleDrawer()">☰</button>
+    <button class="icon-btn" onclick="toggleDrawer()">☰</button>
     <div class="header-title" id="appTitle">Future pharmacist</div>
-    <button class="sync-btn" onclick="syncQuestions(true)" title="تحديث الأسئلة">🔄</button>
+    <button class="icon-btn" onclick="syncCatalog(true)" title="تحديث">🔄</button>
   </header>
 
   <div class="overlay" id="overlay" onclick="toggleDrawer()"></div>
   <aside class="drawer" id="drawer">
     <div class="drawer-head">
       <div class="drawer-brand">
-        <img src="icon.jpg" alt="Future pharmacist" />
+        <img src="icon.jpg" alt="Logo" />
         <strong>Future pharmacist</strong>
       </div>
-      <button class="menu-btn" onclick="toggleDrawer()">✕</button>
+      <button class="icon-btn" onclick="toggleDrawer()">✕</button>
     </div>
     <button class="drawer-item" onclick="showHome(); toggleDrawer();">🏠 الرئيسية</button>
-    <button class="drawer-item" onclick="startAllQuiz(); toggleDrawer();">⚡ اختبار شامل لكل المواد</button>
-    <div class="drawer-section">المواد الدراسية</div>
-    <div id="drawerSubjects"></div>
-    <div style="margin-top:auto; padding-top:16px; border-top:1px solid var(--border); font-size:12px; color:var(--muted);">
-      الإصدار: <span id="verTag">-</span><br/>
+    <div class="drawer-section">المواد والملازم</div>
+    <div id="drawerMenu"></div>
+    <div style="margin-top:auto; padding-top:14px; border-top:1px solid var(--border); font-size:12px; color:var(--muted);">
+      الإصدار: <span id="verTag">2.0</span><br/>
       الحالة: <span id="netStatus">جاري التحقق...</span>
     </div>
   </aside>
@@ -352,13 +273,16 @@
   <div class="toast" id="toast"></div>
 
   <script>
-    const CACHE_KEY = 'future_pharmacist_bank_v1';
-    let bankData = null;
-    let currentQuestions = [];
-    let currentIndex = 0;
+    const CATALOG_KEY = 'fp_catalog_v2';
+    const FILE_PREFIX = 'fp_file_v2_';
+
+    let catalog = null;
+    let loadedPool = [];
+    let loadedTitle = '';
+    let activeQuestions = [];
+    let qIndex = 0;
     let score = 0;
     let wrongList = [];
-    let currentTitle = '';
 
     function shuffle(arr) {
       const a = [...arr];
@@ -369,12 +293,12 @@
       return a;
     }
 
-    function showToast(msg, isError = false) {
+    function showToast(msg, isErr = false) {
       const t = document.getElementById('toast');
       t.textContent = msg;
-      t.style.background = isError ? '#da3633' : '#238636';
+      t.style.background = isErr ? '#da3633' : '#238636';
       t.classList.add('show');
-      setTimeout(() => t.classList.remove('show'), 2600);
+      setTimeout(() => t.classList.remove('show'), 2500);
     }
 
     function toggleDrawer() {
@@ -383,172 +307,300 @@
     }
 
     async function initApp() {
-      const cached = localStorage.getItem(CACHE_KEY);
+      const cached = localStorage.getItem(CATALOG_KEY);
       if (cached) {
         try {
-          bankData = JSON.parse(cached);
-          applyMetadata();
+          catalog = JSON.parse(cached);
+          renderDrawer();
           showHome();
         } catch (e) {}
       }
-      await syncQuestions(false);
+      await syncCatalog(false);
     }
 
-    async function syncQuestions(manual = false) {
-      const statusEl = document.getElementById('netStatus');
+    async function syncCatalog(manual = false) {
+      const st = document.getElementById('netStatus');
       try {
-        const res = await fetch('./questions.json?t=' + Date.now(), { cache: 'no-store' });
+        const res = await fetch('./catalog.json?t=' + Date.now(), { cache: 'no-store' });
         if (!res.ok) throw new Error('HTTP ' + res.status);
         const fresh = await res.json();
-        const oldStr = localStorage.getItem(CACHE_KEY);
+        const oldStr = localStorage.getItem(CATALOG_KEY);
         const newStr = JSON.stringify(fresh);
 
-        bankData = fresh;
-        localStorage.setItem(CACHE_KEY, newStr);
-        applyMetadata();
-        statusEl.textContent = 'متصل ومُحدّث ✅';
+        catalog = fresh;
+        localStorage.setItem(CATALOG_KEY, newStr);
+        st.textContent = 'متصل ومُحدّث ✅';
+        renderDrawer();
 
         if (!oldStr || oldStr !== newStr) {
           showHome();
-          showToast('تم تحديث الأسئلة وحفظها أوفلاين ✨');
+          showToast('تم تحديث القائمة والملازم ✨');
         } else if (manual) {
-          showToast('الأسئلة محدثة لآخر نسخة ✅');
+          showToast('كل الملازم محدثة لآخر نسخة ✅');
         }
-      } catch (err) {
-        statusEl.textContent = 'وضع أوفلاين 📴';
-        if (!bankData) {
+      } catch (e) {
+        st.textContent = 'وضع أوفلاين 📴';
+        if (!catalog) {
           document.getElementById('app').innerHTML = `
             <div class="card" style="text-align:center;">
               <h3>لا يوجد اتصال بالإنترنت</h3>
-              <p style="color:var(--muted);">افتح التطبيق مرة واحدة بوجود إنترنت لحفظ الأسئلة على جهازك.</p>
-              <button class="btn btn-primary" onclick="syncQuestions(true)">إعادة المحاولة</button>
+              <p style="color:var(--muted);">اتصل بالإنترنت أول مرة لتحميل قائمة الملازم.</p>
+              <button class="btn btn-primary" onclick="syncCatalog(true)">إعادة المحاولة</button>
             </div>`;
         } else if (manual) {
-          showToast('أنت بدون إنترنت — يتم استخدام النسخة المحفوظة', true);
+          showToast('أنت بدون إنترنت — يتم استخدام المحفوظ', true);
         }
       }
     }
 
-    function applyMetadata() {
-      if (!bankData) return;
-      document.title = bankData.appTitle || 'Future pharmacist';
-      document.getElementById('appTitle').textContent = bankData.appTitle || 'Future pharmacist';
-      document.getElementById('verTag').textContent = bankData.version || '1.0';
+    async function fetchQuizFile(fileName) {
+      const key = FILE_PREFIX + fileName;
+      try {
+        const res = await fetch('./' + fileName + '?t=' + Date.now(), { cache: 'no-store' });
+        if (!res.ok) throw new Error('Not found');
+        const data = await res.json();
+        localStorage.setItem(key, JSON.stringify(data));
+        return data;
+      } catch (e) {
+        const cached = localStorage.getItem(key);
+        if (cached) return JSON.parse(cached);
+        throw e;
+      }
+    }
 
-      const drawerList = document.getElementById('drawerSubjects');
-      drawerList.innerHTML = bankData.subjects.map(s => {
-        const count = s.lectures.reduce((acc, l) => acc + l.questions.length, 0);
-        return `<button class="drawer-item" onclick="showSubject('${s.id}'); toggleDrawer();">
-          <span>${s.icon || '📘'} ${s.name}</span>
-          <span class="badge">${count}</span>
+    function renderDrawer() {
+      if (!catalog) return;
+      document.title = catalog.appTitle || 'Future pharmacist';
+      document.getElementById('appTitle').textContent = catalog.appTitle || 'Future pharmacist';
+      document.getElementById('verTag').textContent = catalog.version || '2.0';
+
+      let html = '';
+      (catalog.subjects || []).forEach(sub => {
+        html += `<button class="drawer-item" onclick="showSubject('${sub.id}'); toggleDrawer();">
+          <span>${sub.icon || '📘'} ${sub.name}</span>
+          <span class="badge">${sub.files.length}</span>
         </button>`;
-      }).join('');
+        sub.files.forEach(f => {
+          html += `<button class="drawer-item drawer-sub" onclick="openFileSetup('${f.file}', '${f.title.replace(/'/g, "\\'")}'); toggleDrawer();">
+            <span>📄 ${f.title}</span>
+            <span>${f.count || ''}</span>
+          </button>`;
+        });
+      });
+      document.getElementById('drawerMenu').innerHTML = html;
     }
 
     function showHome() {
-      if (!bankData) return;
-      const totalQ = bankData.subjects.reduce((sum, s) =>
-        sum + s.lectures.reduce((a, l) => a + l.questions.length, 0), 0);
+      if (!catalog) return;
+      const totalFiles = (catalog.subjects || []).reduce((s, x) => s + x.files.length, 0);
+      const totalQ = (catalog.subjects || []).reduce((s, x) => s + x.files.reduce((a, f) => a + (f.count || 0), 0), 0);
 
       let html = `
-        <div class="status-bar">
-          <span>📚 إجمالي الأسئلة: <strong>${totalQ}</strong></span>
-          <span>الإصدار ${bankData.version || '1.0'}</span>
-        </div>
         <div class="card hero-card">
           <img src="icon.jpg" alt="Future pharmacist" class="hero-logo" />
-          <h2 style="margin:0 0 6px; color:var(--primary);">${bankData.appTitle}</h2>
-          <p style="margin:0 0 16px; color:var(--muted); font-size:14px;">${bankData.subtitle || ''}</p>
-          <button class="btn btn-primary" onclick="startAllQuiz()">⚡ ابدأ اختبار شامل عشوائي (${totalQ} سؤال)</button>
+          <h2 style="margin:0 0 6px; color:var(--primary);">${catalog.appTitle}</h2>
+          <p style="margin:0 0 12px; color:var(--muted); font-size:13.5px;">${catalog.subtitle || ''}</p>
+          <div class="row-between" style="justify-content:center; gap:12px;">
+            <span class="badge">📚 ${totalFiles} ملزمة</span>
+            <span class="badge">📝 ${totalQ} سؤال</span>
+          </div>
         </div>
       `;
 
-      bankData.subjects.forEach(s => {
-        const count = s.lectures.reduce((a, l) => a + l.questions.length, 0);
-        html += `
-          <div class="card subject-card" onclick="showSubject('${s.id}')">
-            <div class="subject-top">
-              <div class="subject-icon">${s.icon || '📘'}</div>
-              <div>
-                <div style="font-weight:700; font-size:16px;">${s.name}</div>
-                <div style="color:var(--muted); font-size:13px;">${s.lectures.length} محاضرة • ${count} سؤال</div>
+      if (!catalog.subjects || catalog.subjects.length === 0) {
+        html += `<div class="card" style="text-align:center; color:var(--muted);">
+          لا توجد ملازم مضافة حالياً. دز أول ملزمة حتى نضيفها فوراً!
+        </div>`;
+      } else {
+        catalog.subjects.forEach(sub => {
+          const subQ = sub.files.reduce((a, f) => a + (f.count || 0), 0);
+          html += `
+            <div class="card click-card" onclick="showSubject('${sub.id}')">
+              <div class="subject-top">
+                <div class="subject-icon">${sub.icon || '💊'}</div>
+                <div style="flex:1;">
+                  <div style="font-weight:700; font-size:16px;">${sub.name}</div>
+                  <div style="color:var(--muted); font-size:13px;">${sub.files.length} ملزمة • ${subQ} سؤال</div>
+                </div>
+                <span style="color:var(--muted);">←</span>
               </div>
-            </div>
-          </div>`;
-      });
-
+            </div>`;
+        });
+      }
       document.getElementById('app').innerHTML = html;
     }
 
-    function showSubject(subjectId) {
-      const sub = bankData.subjects.find(s => s.id === subjectId);
+    function showSubject(subId) {
+      const sub = catalog.subjects.find(s => s.id === subId);
       if (!sub) return;
-      const allSubQ = sub.lectures.flatMap(l => l.questions);
 
       let html = `
-        <button class="btn btn-outline" style="margin-bottom:14px; margin-top:0;" onclick="showHome()">→ رجوع للمواد</button>
+        <button class="btn btn-outline" style="margin:0 0 14px;" onclick="showHome()">→ رجوع للرئيسية</button>
         <div class="card">
-          <h2 style="margin:0 0 10px;">${sub.icon || '📘'} ${sub.name}</h2>
-          <button class="btn btn-primary" onclick="startQuizFromSubject('${sub.id}')">اختبار شامل للمادة (${allSubQ.length} سؤال)</button>
+          <h2 style="margin:0 0 10px;">${sub.icon || '💊'} ${sub.name}</h2>
+          ${sub.files.length > 1 ? `<button class="btn btn-primary" onclick="openSubjectCombined('${sub.id}')">⚡ اختبار شامل لكل ملازم المادة</button>` : ''}
         </div>
       `;
 
-      sub.lectures.forEach(lec => {
-        html += `
-          <div class="card subject-card" onclick="startQuizFromLecture('${sub.id}', '${lec.id}')">
-            <div style="display:flex; justify-content:space-between; align-items:center;">
-              <strong>${lec.title}</strong>
-              <span class="badge">${lec.questions.length} سؤال</span>
-            </div>
-          </div>`;
-      });
-
+      if (sub.files.length === 0) {
+        html += `<div class="card" style="text-align:center; color:var(--muted);">بانتظار إضافة أول ملزمة لهذه المادة.</div>`;
+      } else {
+        sub.files.forEach(f => {
+          html += `
+            <div class="card click-card" onclick="openFileSetup('${f.file}', '${f.title.replace(/'/g, "\\'")}')">
+              <div class="row-between">
+                <strong>📄 ${f.title}</strong>
+                <span class="badge">${f.count ? f.count + ' سؤال' : 'فتح'}</span>
+              </div>
+            </div>`;
+        });
+      }
       document.getElementById('app').innerHTML = html;
     }
 
-    function startAllQuiz() {
-      const all = bankData.subjects.flatMap(s => s.lectures.flatMap(l => l.questions));
-      beginQuiz(all, 'الاختبار الشامل');
+    async function openFileSetup(fileName, title) {
+      document.getElementById('app').innerHTML = `<div class="card" style="text-align:center;">جاري تحميل الأسئلة... ⏳</div>`;
+      try {
+        const data = await fetchQuizFile(fileName);
+        loadedPool = data.questions || [];
+        loadedTitle = data.title || title;
+        renderSetupScreen();
+      } catch (e) {
+        showToast('تعذر تحميل الملف — تأكد من الإنترنت', true);
+        showHome();
+      }
     }
 
-    function startQuizFromSubject(subId) {
-      const sub = bankData.subjects.find(s => s.id === subId);
-      const qs = sub.lectures.flatMap(l => l.questions);
-      beginQuiz(qs, sub.name);
+    async function openSubjectCombined(subId) {
+      const sub = catalog.subjects.find(s => s.id === subId);
+      if (!sub) return;
+      document.getElementById('app').innerHTML = `<div class="card" style="text-align:center;">جاري تجميع كل ملازم ${sub.name}... ⏳</div>`;
+      try {
+        let combined = [];
+        for (const f of sub.files) {
+          const d = await fetchQuizFile(f.file);
+          combined = combined.concat(d.questions || []);
+        }
+        loadedPool = combined;
+        loadedTitle = 'شامل: ' + sub.name;
+        renderSetupScreen();
+      } catch (e) {
+        showToast('تعذر تحميل بعض الملفات', true);
+        showSubject(subId);
+      }
     }
 
-    function startQuizFromLecture(subId, lecId) {
-      const sub = bankData.subjects.find(s => s.id === subId);
-      const lec = sub.lectures.find(l => l.id === lecId);
-      beginQuiz(lec.questions, lec.title);
+    function renderSetupScreen() {
+      const total = loadedPool.length;
+      if (total === 0) {
+        document.getElementById('app').innerHTML = `<div class="card" style="text-align:center;">لا توجد أسئلة بهذا الملف.<button class="btn btn-outline" onclick="showHome()">رجوع</button></div>`;
+        return;
+      }
+      const clinicalCount = loadedPool.filter(q => q.type === 'clinical').length;
+      const hardCount = loadedPool.filter(q => q.difficulty === 'صعب').length;
+
+      let presets = `<button class="chip active" onclick="setRange(1, ${total}, this)">الكل (1 - ${total})</button>`;
+      if (total > 50) {
+        for (let i = 1; i <= total; i += 50) {
+          const end = Math.min(i + 49, total);
+          presets += `<button class="chip" onclick="setRange(${i}, ${end}, this)">${i} - ${end}</button>`;
+        }
+      }
+
+      document.getElementById('app').innerHTML = `
+        <button class="btn btn-outline" style="margin:0 0 14px;" onclick="showHome()">→ رجوع</button>
+        <div class="card">
+          <h2 style="margin:0 0 6px; color:var(--primary);">${loadedTitle}</h2>
+          <p style="margin:0 0 16px; color:var(--muted); font-size:13px;">
+            إجمالي الأسئلة: <strong>${total}</strong>
+            ${clinicalCount ? ` • سريرية: <strong>${clinicalCount}</strong>` : ''}
+            ${hardCount ? ` • صعبة: <strong>${hardCount}</strong>` : ''}
+          </p>
+
+          <label class="form-label">اختر نطاق الأسئلة سريعاً:</label>
+          <div class="chips">${presets}</div>
+
+          <div class="range-grid">
+            <div>
+              <label class="form-label">من سؤال:</label>
+              <input type="number" id="fromQ" class="input-box" min="1" max="${total}" value="1" />
+            </div>
+            <div>
+              <label class="form-label">إلى سؤال:</label>
+              <input type="number" id="toQ" class="input-box" min="1" max="${total}" value="${total}" />
+            </div>
+          </div>
+
+          <div class="range-grid">
+            <div>
+              <label class="form-label">نوع الأسئلة:</label>
+              <select id="filterType" class="input-box">
+                <option value="all">الكل</option>
+                ${clinicalCount ? `<option value="clinical">سريرية فقط (${clinicalCount})</option>` : ''}
+                ${hardCount ? `<option value="hard">صعبة فقط (${hardCount})</option>` : ''}
+              </select>
+            </div>
+            <div>
+              <label class="form-label">ترتيب الأسئلة:</label>
+              <select id="orderType" class="input-box">
+                <option value="shuffle">عشوائي 🔀</option>
+                <option value="seq">بالترتيب 🔢</option>
+              </select>
+            </div>
+          </div>
+
+          <button class="btn btn-primary" onclick="launchCustomQuiz()">🚀 ابدأ الاختبار الآن</button>
+        </div>
+      `;
     }
 
-    function beginQuiz(questionsArr, title) {
-      currentTitle = title;
-      currentQuestions = shuffle(questionsArr);
-      currentIndex = 0;
+    function setRange(from, to, btn) {
+      document.getElementById('fromQ').value = from;
+      document.getElementById('toQ').value = to;
+      document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+      if (btn) btn.classList.add('active');
+    }
+
+    function launchCustomQuiz() {
+      const total = loadedPool.length;
+      let from = parseInt(document.getElementById('fromQ').value) || 1;
+      let to = parseInt(document.getElementById('toQ').value) || total;
+      if (from < 1) from = 1;
+      if (to > total) to = total;
+      if (from > to) [from, to] = [to, from];
+
+      let list = loadedPool.slice(from - 1, to);
+      const filter = document.getElementById('filterType').value;
+      if (filter === 'clinical') list = list.filter(q => q.type === 'clinical');
+      if (filter === 'hard') list = list.filter(q => q.difficulty === 'صعب');
+
+      if (list.length === 0) {
+        showToast('لا توجد أسئلة مطابقة لهذا الفلتر ضمن هذا النطاق!', true);
+        return;
+      }
+
+      const order = document.getElementById('orderType').value;
+      activeQuestions = order === 'shuffle' ? shuffle(list) : list;
+      qIndex = 0;
       score = 0;
       wrongList = [];
       renderQuestion();
     }
 
     function renderQuestion() {
-      if (currentIndex >= currentQuestions.length) {
+      if (qIndex >= activeQuestions.length) {
         renderResult();
         return;
       }
+      const item = activeQuestions[qIndex];
+      const pct = Math.round((qIndex / activeQuestions.length) * 100);
 
-      const item = currentQuestions[currentIndex];
-      const pct = Math.round((currentIndex / currentQuestions.length) * 100);
-
-      const mappedOpts = item.options.map((text, idx) => ({
-        text,
-        isCorrect: idx === item.answer
-      }));
-      const shuffledOpts = shuffle(mappedOpts);
-
+      // توزيع عشوائي صارم للخيارات الأربعة
+      const mapped = item.options.map((text, idx) => ({ text, isCorrect: idx === item.answer }));
+      const shuffledOpts = shuffle(mapped);
       const letters = ['A', 'B', 'C', 'D'];
-      let optsHtml = shuffledOpts.map((opt, idx) => `
+
+      const optsHtml = shuffledOpts.map((opt, idx) => `
         <button class="opt-btn" data-correct="${opt.isCorrect}" onclick="selectOption(this)">
           <strong>${letters[idx] || (idx + 1)}.</strong> ${opt.text}
         </button>
@@ -558,20 +610,23 @@
         <div class="progress-wrap"><div class="progress-fill" style="width:${pct}%"></div></div>
         <div class="card">
           <div class="q-meta">
-            <span>${currentTitle}</span>
-            <span>سؤال ${currentIndex + 1} من ${currentQuestions.length}</span>
+            <span>${loadedTitle}</span>
+            <span>سؤال ${qIndex + 1} من ${activeQuestions.length}</span>
           </div>
-          ${item.difficulty ? `<span class="badge badge-warn" style="margin-bottom:10px;">${item.difficulty}</span>` : ''}
+          <div style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom:8px;">
+            ${item.type === 'clinical' ? `<span class="badge badge-clinical">🩺 سؤال سريري</span>` : ''}
+            ${item.difficulty ? `<span class="badge badge-warn">${item.difficulty}</span>` : ''}
+          </div>
           <div class="q-text">${item.q}</div>
-          <div id="optionsContainer">${optsHtml}</div>
+          <div>${optsHtml}</div>
           <div class="explain-box" id="explainBox">
-            <strong>💡 التوضيح:</strong><br/>${item.explanation || 'إجابة مسجلة.'}
+            <strong>💡 التوضيح:</strong><br/>${item.explanation || 'تم تسجيل الإجابة.'}
           </div>
           <button class="btn btn-primary" id="nextBtn" style="display:none; margin-top:14px;" onclick="nextQuestion()">
-            ${currentIndex + 1 === currentQuestions.length ? 'عرض النتيجة 🎯' : 'السؤال التالي ←'}
+            ${qIndex + 1 === activeQuestions.length ? 'عرض النتيجة 🎯' : 'السؤال التالي ←'}
           </button>
         </div>
-        <button class="btn btn-outline" onclick="showHome()">إنهاء الاختبار</button>
+        <button class="btn btn-outline" onclick="renderSetupScreen()">إنهاء الاختبار</button>
       `;
     }
 
@@ -579,41 +634,48 @@
       const allBtns = document.querySelectorAll('.opt-btn');
       allBtns.forEach(b => b.disabled = true);
 
-      const isCorrect = btn.getAttribute('data-correct') === 'true';
-      if (isCorrect) {
+      if (btn.getAttribute('data-correct') === 'true') {
         btn.classList.add('correct');
         score++;
       } else {
         btn.classList.add('wrong');
-        wrongList.push(currentQuestions[currentIndex]);
+        wrongList.push(activeQuestions[qIndex]);
         allBtns.forEach(b => {
           if (b.getAttribute('data-correct') === 'true') b.classList.add('correct');
         });
       }
-
       document.getElementById('explainBox').classList.add('show');
       document.getElementById('nextBtn').style.display = 'block';
     }
 
     function nextQuestion() {
-      currentIndex++;
+      qIndex++;
       renderQuestion();
     }
 
     function renderResult() {
-      const total = currentQuestions.length;
+      const total = activeQuestions.length;
       const pct = Math.round((score / total) * 100);
       document.getElementById('app').innerHTML = `
         <div class="card" style="text-align:center; padding:28px 18px;">
           <div style="font-size:48px; margin-bottom:8px;">${pct >= 80 ? '🏆' : pct >= 50 ? '👏' : '💪'}</div>
           <h2 style="margin:0 0 6px;">انتهى الاختبار!</h2>
-          <p style="color:var(--muted); margin:0 0 18px;">${currentTitle}</p>
+          <p style="color:var(--muted); margin:0 0 18px;">${loadedTitle}</p>
           <div style="font-size:36px; font-weight:800; color:var(--primary); margin-bottom:8px;">${pct}%</div>
           <p style="margin:0 0 20px;">الإجابات الصحيحة: <strong>${score}</strong> من <strong>${total}</strong></p>
-          ${wrongList.length > 0 ? `<button class="btn btn-primary" style="margin-bottom:8px;" onclick="beginQuiz(wrongList, 'مراجعة الأخطاء')">🔁 إعادة الأسئلة الخاطئة (${wrongList.length})</button>` : ''}
-          <button class="btn btn-outline" onclick="showHome()">🏠 العودة للرئيسية</button>
+          ${wrongList.length > 0 ? `<button class="btn btn-primary" style="margin-bottom:8px;" onclick="retryWrong()">🔁 إعادة الأسئلة الخاطئة (${wrongList.length})</button>` : ''}
+          <button class="btn btn-outline" onclick="renderSetupScreen()">⚙️ اختيار نطاق آخر</button>
+          <button class="btn btn-outline" onclick="showHome()">🏠 الرئيسية</button>
         </div>
       `;
+    }
+
+    function retryWrong() {
+      activeQuestions = shuffle(wrongList);
+      qIndex = 0;
+      score = 0;
+      wrongList = [];
+      renderQuestion();
     }
 
     initApp();
