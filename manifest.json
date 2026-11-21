@@ -2,6 +2,7 @@
   "id": "./index.html",
   "name": "Future pharmacist",
   "short_name": "Future pharmacist",
+  "description": "Future pharmacist",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#fdf8f9",
@@ -9,9 +10,15 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "./icon.jpg",
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
       "sizes": "512x512",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "any"
     }
   ]
