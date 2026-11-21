@@ -293,7 +293,7 @@
     const FILE_PREFIX = 'fp_file_v3_';
     const THEME_KEY = 'fp_theme_v3';
 
-    let catalog = null;
+    let catalog = { appTitle: 'Future pharmacist', subjects: [] };
     let loadedPool = [];
     let loadedTitle = '';
     let activeQuestions = [];
@@ -307,11 +307,11 @@
       document.getElementById('themeBtn').textContent = theme === 'dark' ? '☀️' : '🌙';
       document.getElementById('metaTheme').setAttribute('content', theme === 'dark' ? '#0f0c0e' : '#fdf8f9');
     }
+
     function toggleTheme() {
       const current = document.documentElement.getAttribute('data-theme') || 'light';
       applyTheme(current === 'light' ? 'dark' : 'light');
     }
-    applyTheme(localStorage.getItem(THEME_KEY) || 'light');
 
     function shuffle(arr) {
       const a = [...arr];
@@ -366,10 +366,7 @@
         }
       } catch (e) {
         if (manual) showToast('لا يوجد اتصال بالإنترنت');
-        if (!catalog) {
-          catalog = { appTitle: 'Future pharmacist', subjects: [] };
-          showHome();
-        }
+        showHome();
       }
     }
 
@@ -405,7 +402,6 @@
     }
 
     function showHome() {
-      if (!catalog) return;
       let html = `
         <div class="hero-card">
           <img src="icon.jpg" alt="Future pharmacist" class="hero-logo" />
@@ -545,4 +541,6 @@
     }
 
     function setRange(from, to, btn) {
-      doc
+      document.getElementById('fromQ').value = from;
+      document.getElementById('toQ').value = to;
+      document.querySelectorAll('.chip').forEach(c => c.
