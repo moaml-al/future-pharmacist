@@ -219,4 +219,330 @@
       background: var(--bg); border: 1px solid var(--border); color: var(--text);
       padding: 7px 12px; border-radius: 999px; font-size: 12px; cursor: pointer; font-weight: 600;
     }
-    .chip.active { border
+    .chip.active { border-color: var(--primary); color: var(--primary); background: var(--primary-soft); }
+
+    .progress-wrap {
+      width: 100%; height: 7px; background: var(--border);
+      border-radius: 999px; overflow: hidden; margin-bottom: 14px;
+    }
+    .progress-fill { height: 100%; background: var(--primary); transition: width 0.25s ease; }
+    .q-meta {
+      display: flex; justify-content: space-between; align-items: center;
+      margin-bottom: 10px; font-size: 12.5px; color: var(--muted);
+    }
+    .q-text {
+      font-size: 16.5px; line-height: 1.7; font-weight: 700;
+      margin: 10px 0 18px; direction: auto; text-align: start;
+    }
+    .opt-btn {
+      width: 100%; text-align: start; direction: auto;
+      background: var(--bg); border: 1px solid var(--border); color: var(--text);
+      padding: 13px 15px; border-radius: 14px; margin-bottom: 10px;
+      font-size: 15px; cursor: pointer; line-height: 1.5; transition: all 0.15s;
+    }
+    .opt-btn:hover:not(:disabled) { border-color: var(--primary); }
+    .opt-btn.correct { background: var(--success-bg); border-color: var(--success); color: var(--success); font-weight: 700; }
+    .opt-btn.wrong { background: var(--danger-bg); border-color: var(--danger); color: var(--danger); }
+    .opt-btn:disabled { cursor: default; }
+
+    .explain-box {
+      margin-top: 14px; padding: 14px; border-radius: 14px;
+      background: var(--primary-soft); border-right: 4px solid var(--primary);
+      font-size: 14px; line-height: 1.7; display: none;
+    }
+    .explain-box.show { display: block; }
+
+    .toast {
+      position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+      background: var(--primary); color: #fff; padding: 10px 18px; border-radius: 999px;
+      font-size: 13px; font-weight: 700; z-index: 200; display: none;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    }
+    .toast.show { display: block; }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <button class="icon-btn" onclick="toggleDrawer()" aria-label="القائمة">☰</button>
+    <div class="top-actions">
+      <button class="icon-btn" id="themeBtn" onclick="toggleTheme()" aria-label="تغيير المظهر">🌙</button>
+      <button class="icon-btn" onclick="syncCatalog(true)" aria-label="تحديث">↻</button>
+    </div>
+  </div>
+
+  <div class="overlay" id="overlay" onclick="toggleDrawer()"></div>
+  <aside class="drawer" id="drawer">
+    <div class="drawer-head">
+      <div class="drawer-brand">
+        <img src="icon.jpg" alt="Logo" />
+        <span>Future pharmacist</span>
+      </div>
+      <button class="icon-btn" style="width:34px;height:34px;" onclick="toggleDrawer()">✕</button>
+    </div>
+    <button class="drawer-item" onclick="showHome(); toggleDrawer();">🏠 الرئيسية</button>
+    <div class="drawer-section">المواد الدراسية</div>
+    <div id="drawerMenu"></div>
+  </aside>
+
+  <main id="app"></main>
+  <div class="toast" id="toast"></div>
+
+  <script>
+    const CATALOG_KEY = 'fp_catalog_v3';
+    const FILE_PREFIX = 'fp_file_v3_';
+    const THEME_KEY = 'fp_theme_v3';
+
+    let catalog = null;
+    let loadedPool = [];
+    let loadedTitle = '';
+    let activeQuestions = [];
+    let qIndex = 0;
+    let score = 0;
+    let wrongList = [];
+
+    function applyTheme(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem(THEME_KEY, theme);
+      document.getElementById('themeBtn').textContent = theme === 'dark' ? '☀️' : '🌙';
+      document.getElementById('metaTheme').setAttribute('content', theme === 'dark' ? '#0f0c0e' : '#fdf8f9');
+    }
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme') || 'light';
+      applyTheme(current === 'light' ? 'dark' : 'light');
+    }
+    applyTheme(localStorage.getItem(THEME_KEY) || 'light');
+
+    function shuffle(arr) {
+      const a = [...arr];
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    function showToast(msg) {
+      const t = document.getElementById('toast');
+      t.textContent = msg;
+      t.classList.add('show');
+      setTimeout(() => t.classList.remove('show'), 2200);
+    }
+
+    function toggleDrawer() {
+      document.getElementById('drawer').classList.toggle('open');
+      document.getElementById('overlay').classList.toggle('show');
+    }
+
+    async function initApp() {
+      const cached = localStorage.getItem(CATALOG_KEY);
+      if (cached) {
+        try {
+          catalog = JSON.parse(cached);
+          renderDrawer();
+          showHome();
+        } catch (e) {}
+      }
+      await syncCatalog(false);
+    }
+
+    async function syncCatalog(manual = false) {
+      try {
+        const res = await fetch('./catalog.json?t=' + Date.now(), { cache: 'no-store' });
+        if (!res.ok) throw new Error();
+        const fresh = await res.json();
+        const oldStr = localStorage.getItem(CATALOG_KEY);
+        const newStr = JSON.stringify(fresh);
+
+        catalog = fresh;
+        localStorage.setItem(CATALOG_KEY, newStr);
+        renderDrawer();
+
+        if (!oldStr || oldStr !== newStr) {
+          showHome();
+          if (manual) showToast('تم التحديث');
+        } else if (manual) {
+          showToast('محدّث لآخر نسخة');
+        }
+      } catch (e) {
+        if (manual) showToast('لا يوجد اتصال بالإنترنت');
+        if (!catalog) {
+          catalog = { appTitle: 'Future pharmacist', subjects: [] };
+          showHome();
+        }
+      }
+    }
+
+    async function fetchQuizFile(fileName) {
+      const key = FILE_PREFIX + fileName;
+      try {
+        const res = await fetch('./' + fileName + '?t=' + Date.now(), { cache: 'no-store' });
+        if (!res.ok) throw new Error();
+        const data = await res.json();
+        localStorage.setItem(key, JSON.stringify(data));
+        return data;
+      } catch (e) {
+        const cached = localStorage.getItem(key);
+        if (cached) return JSON.parse(cached);
+        throw e;
+      }
+    }
+
+    function renderDrawer() {
+      if (!catalog) return;
+      let html = '';
+      (catalog.subjects || []).forEach(sub => {
+        html += `<button class="drawer-item" onclick="showSubject('${sub.id}'); toggleDrawer();">
+          <span>${sub.icon || '💊'} ${sub.name}</span>
+        </button>`;
+        (sub.files || []).forEach(f => {
+          html += `<button class="drawer-item drawer-sub" onclick="openFileSetup('${f.file}', '${f.title.replace(/'/g, "\\'")}'); toggleDrawer();">
+            <span>${f.title}</span>
+          </button>`;
+        });
+      });
+      document.getElementById('drawerMenu').innerHTML = html;
+    }
+
+    function showHome() {
+      if (!catalog) return;
+      let html = `
+        <div class="hero-card">
+          <img src="icon.jpg" alt="Future pharmacist" class="hero-logo" />
+          <h1 class="hero-title">${catalog.appTitle || 'Future pharmacist'}</h1>
+        </div>
+        <h2 class="section-title">المواد الدراسية</h2>
+      `;
+
+      const subs = catalog.subjects || [];
+      if (subs.length > 0) {
+        html += `<div class="subjects-grid">`;
+        subs.forEach(sub => {
+          html += `
+            <div class="subject-tile" onclick="showSubject('${sub.id}')">
+              <div class="tile-icon">${sub.icon || '💊'}</div>
+              <div class="tile-name">${sub.name}</div>
+            </div>`;
+        });
+        html += `</div>`;
+      }
+      document.getElementById('app').innerHTML = html;
+    }
+
+    function showSubject(subId) {
+      const sub = (catalog.subjects || []).find(s => s.id === subId);
+      if (!sub) return;
+
+      let html = `
+        <button class="btn btn-outline" style="margin:0 0 14px;" onclick="showHome()">→ المواد الدراسية</button>
+        <div class="card" style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
+          <div style="display:flex; align-items:center; gap:12px;">
+            <div class="tile-icon" style="width:46px;height:46px;font-size:22px;">${sub.icon || '💊'}</div>
+            <h2 style="margin:0; font-size:18px;">${sub.name}</h2>
+          </div>
+          ${sub.files.length > 1 ? `<button class="badge" style="border:none;cursor:pointer;padding:7px 12px;" onclick="openSubjectCombined('${sub.id}')">شامل</button>` : ''}
+        </div>
+      `;
+
+      (sub.files || []).forEach(f => {
+        html += `
+          <div class="card lec-card" onclick="openFileSetup('${f.file}', '${f.title.replace(/'/g, "\\'")}')">
+            <strong style="font-size:15px;">${f.title}</strong>
+            ${f.count ? `<span class="badge">${f.count} سؤال</span>` : ''}
+          </div>`;
+      });
+
+      document.getElementById('app').innerHTML = html;
+    }
+
+    async function openFileSetup(fileName, title) {
+      try {
+        const data = await fetchQuizFile(fileName);
+        loadedPool = data.questions || [];
+        loadedTitle = data.title || title;
+        renderSetupScreen();
+      } catch (e) {
+        showToast('تأكد من الاتصال بالإنترنت');
+      }
+    }
+
+    async function openSubjectCombined(subId) {
+      const sub = catalog.subjects.find(s => s.id === subId);
+      if (!sub) return;
+      try {
+        let combined = [];
+        for (const f of sub.files) {
+          const d = await fetchQuizFile(f.file);
+          combined = combined.concat(d.questions || []);
+        }
+        loadedPool = combined;
+        loadedTitle = sub.name;
+        renderSetupScreen();
+      } catch (e) {
+        showToast('تأكد من الاتصال بالإنترنت');
+      }
+    }
+
+    function renderSetupScreen() {
+      const total = loadedPool.length;
+      if (total === 0) return showHome();
+
+      const clinicalCount = loadedPool.filter(q => q.type === 'clinical').length;
+      const hardCount = loadedPool.filter(q => q.difficulty === 'صعب').length;
+
+      let presets = `<button class="chip active" onclick="setRange(1, ${total}, this)">الكل (1 - ${total})</button>`;
+      if (total > 50) {
+        for (let i = 1; i <= total; i += 50) {
+          const end = Math.min(i + 49, total);
+          presets += `<button class="chip" onclick="setRange(${i}, ${end}, this)">${i} - ${end}</button>`;
+        }
+      }
+
+      document.getElementById('app').innerHTML = `
+        <button class="btn btn-outline" style="margin:0 0 14px;" onclick="showHome()">→ رجوع</button>
+        <div class="card">
+          <h2 style="margin:0 0 6px; font-size:18px;">${loadedTitle}</h2>
+          <p style="margin:0 0 16px; color:var(--muted); font-size:13px;">
+            ${total} سؤال
+            ${clinicalCount ? ` • ${clinicalCount} سريري` : ''}
+          </p>
+
+          <label class="form-label">نطاق الأسئلة:</label>
+          <div class="chips">${presets}</div>
+
+          <div class="range-grid">
+            <div>
+              <label class="form-label">من سؤال:</label>
+              <input type="number" id="fromQ" class="input-box" min="1" max="${total}" value="1" />
+            </div>
+            <div>
+              <label class="form-label">إلى سؤال:</label>
+              <input type="number" id="toQ" class="input-box" min="1" max="${total}" value="${total}" />
+            </div>
+          </div>
+
+          <div class="range-grid">
+            <div>
+              <label class="form-label">النوع:</label>
+              <select id="filterType" class="input-box">
+                <option value="all">الكل</option>
+                ${clinicalCount ? `<option value="clinical">سريرية فقط (${clinicalCount})</option>` : ''}
+                ${hardCount ? `<option value="hard">صعبة فقط (${hardCount})</option>` : ''}
+              </select>
+            </div>
+            <div>
+              <label class="form-label">الترتيب:</label>
+              <select id="orderType" class="input-box">
+                <option value="shuffle">عشوائي</option>
+                <option value="seq">بالترتيب</option>
+              </select>
+            </div>
+          </div>
+
+          <button class="btn btn-primary" onclick="launchCustomQuiz()">ابدأ الاختبار</button>
+        </div>
+      `;
+    }
+
+    function setRange(from, to, btn) {
+      doc
