@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar" dir="rtl" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="theme-color" content="#0d1117" />
+  <meta name="theme-color" content="#fdf8f9" id="metaTheme" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="Future pharmacist" />
   <link rel="manifest" href="manifest.json" />
   <link rel="icon" type="image/jpeg" href="icon.jpg" />
@@ -13,21 +12,43 @@
   <title>Future pharmacist</title>
   <style>
     :root {
-      --bg: #0d1117;
-      --card: #161b22;
-      --card-hover: #1f2630;
-      --border: #2a323d;
+      --bg: #fdf8f9;
+      --card: #ffffff;
+      --hero-bg: linear-gradient(180deg, #fff5f7 0%, #fcebf0 100%);
+      --border: #f2dce3;
+      --shadow: 0 4px 16px rgba(219, 112, 147, 0.08);
+      --primary: #e26d97;
+      --primary-soft: #fdebf1;
+      --text: #2b2125;
+      --muted: #8a757d;
+      --success: #229954;
+      --success-bg: #eafaf1;
+      --danger: #d9434e;
+      --danger-bg: #fdedee;
+      --clinical: #0284c7;
+      --clinical-bg: #e0f2fe;
+      --warn: #b7791f;
+      --warn-bg: #fef3c7;
+    }
+
+    [data-theme="dark"] {
+      --bg: #0f0c0e;
+      --card: #1a1518;
+      --hero-bg: linear-gradient(180deg, #1f171c 0%, #171215 100%);
+      --border: #2e242a;
+      --shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
       --primary: #f472b6;
       --primary-soft: rgba(244, 114, 182, 0.14);
-      --text: #e6edf3;
-      --muted: #8b949e;
-      --success: #2ea043;
-      --success-bg: rgba(46, 160, 67, 0.16);
-      --danger: #f85149;
-      --danger-bg: rgba(248, 81, 73, 0.16);
-      --warn: #d29922;
+      --text: #f4eef1;
+      --muted: #9e8d95;
+      --success: #34d399;
+      --success-bg: rgba(52, 211, 153, 0.14);
+      --danger: #f87171;
+      --danger-bg: rgba(248, 113, 113, 0.14);
       --clinical: #38bdf8;
       --clinical-bg: rgba(56, 189, 248, 0.15);
+      --warn: #fbbf24;
+      --warn-bg: rgba(251, 191, 36, 0.15);
     }
 
     * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -37,161 +58,165 @@
       background: var(--bg);
       color: var(--text);
       min-height: 100vh;
-      overflow-x: hidden;
+      transition: background 0.25s ease, color 0.25s ease;
     }
 
-    header {
+    /* Top Bar - Clean & Minimal */
+    .topbar {
       position: sticky;
       top: 0;
       z-index: 50;
-      background: rgba(13, 17, 23, 0.94);
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid var(--border);
-      padding: 12px 16px;
+      background: var(--bg);
+      padding: 12px 16px 8px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 10px;
     }
+    .top-actions { display: flex; gap: 8px; align-items: center; }
     .icon-btn {
       background: var(--card);
       border: 1px solid var(--border);
       color: var(--text);
-      border-radius: 10px;
-      padding: 8px 12px;
-      font-size: 16px;
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      font-size: 17px;
       cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: var(--shadow);
     }
-    .icon-btn:active { transform: scale(0.95); }
-    .header-title {
-      flex: 1;
-      text-align: center;
-      font-weight: 700;
-      font-size: 16px;
-      color: var(--primary);
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
+    .icon-btn:active { transform: scale(0.94); }
 
     /* Drawer */
     .overlay {
-      position: fixed;
-      inset: 0;
-      background: rgba(0,0,0,0.65);
-      z-index: 90;
-      display: none;
+      position: fixed; inset: 0; background: rgba(0,0,0,0.45);
+      z-index: 90; display: none;
     }
     .overlay.show { display: block; }
     .drawer {
-      position: fixed;
-      top: 0;
-      right: -310px;
-      width: 295px;
-      height: 100vh;
-      background: var(--card);
-      border-left: 1px solid var(--border);
-      z-index: 100;
-      transition: right 0.25s ease;
-      display: flex;
-      flex-direction: column;
-      padding: 16px 14px;
-      overflow-y: auto;
+      position: fixed; top: 0; right: -300px; width: 280px; height: 100vh;
+      background: var(--card); border-left: 1px solid var(--border);
+      z-index: 100; transition: right 0.25s ease;
+      display: flex; flex-direction: column; padding: 18px 14px; overflow-y: auto;
     }
     .drawer.open { right: 0; }
     .drawer-head {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding-bottom: 12px;
-      border-bottom: 1px solid var(--border);
-      margin-bottom: 12px;
+      display: flex; justify-content: space-between; align-items: center;
+      padding-bottom: 12px; border-bottom: 1px solid var(--border); margin-bottom: 12px;
     }
-    .drawer-brand { display: flex; align-items: center; gap: 10px; }
-    .drawer-brand img {
-      width: 36px; height: 36px; border-radius: 10px; object-fit: cover; background: #fff;
-    }
+    .drawer-brand { display: flex; align-items: center; gap: 10px; font-weight: 700; }
+    .drawer-brand img { width: 34px; height: 34px; border-radius: 10px; object-fit: cover; }
     .drawer-item {
-      width: 100%;
-      text-align: right;
-      background: transparent;
-      border: 1px solid transparent;
-      color: var(--text);
-      padding: 10px 12px;
-      border-radius: 10px;
-      margin-bottom: 5px;
+      width: 100%; text-align: right; background: transparent; border: none;
+      color: var(--text); padding: 11px 12px; border-radius: 12px; margin-bottom: 4px;
+      cursor: pointer; font-size: 14px; font-weight: 600;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .drawer-item:hover { background: var(--primary-soft); color: var(--primary); }
+    .drawer-sub { padding-right: 24px; font-size: 13px; color: var(--muted); font-weight: 500; }
+    .drawer-section { font-size: 12px; color: var(--muted); margin: 12px 10px 6px; font-weight: 700; }
+
+    /* Main Layout */
+    main { max-width: 640px; margin: 0 auto; padding: 8px 16px 40px; }
+
+    .hero-card {
+      background: var(--hero-bg);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 24px 16px;
+      text-align: center;
+      margin-bottom: 22px;
+      box-shadow: var(--shadow);
+    }
+    .hero-logo {
+      width: 78px; height: 78px; border-radius: 50%; object-fit: cover;
+      background: #fff; padding: 5px; margin-bottom: 10px;
+      box-shadow: 0 4px 14px rgba(226, 109, 151, 0.22);
+    }
+    .hero-title {
+      margin: 0; font-size: 20px; font-weight: 800; color: var(--text);
+      letter-spacing: 0.2px;
+    }
+
+    .section-title {
+      font-size: 16px; font-weight: 800; margin: 0 4px 12px; color: var(--text);
+    }
+
+    /* 2-Column Subject Grid */
+    .subjects-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+    .subject-tile {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 22px 14px;
+      text-align: center;
       cursor: pointer;
-      font-size: 14px;
+      box-shadow: var(--shadow);
+      transition: transform 0.15s, border-color 0.15s;
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
       align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 138px;
     }
-    .drawer-item:hover { background: var(--primary-soft); border-color: var(--primary); color: var(--primary); }
-    .drawer-sub {
-      padding-right: 22px;
-      font-size: 13px;
-      color: var(--muted);
+    .subject-tile:active { transform: scale(0.96); }
+    .subject-tile:hover { border-color: var(--primary); }
+    .tile-icon {
+      width: 52px; height: 52px; border-radius: 16px;
+      background: var(--primary-soft); color: var(--primary);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 26px;
     }
-    .drawer-section {
-      font-size: 12px; color: var(--muted); margin: 12px 6px 6px; font-weight: 700;
-    }
+    .tile-name { font-size: 15px; font-weight: 700; color: var(--text); line-height: 1.4; }
 
-    main { max-width: 700px; margin: 0 auto; padding: 16px; padding-bottom: 45px; }
-
+    /* Cards & Lists */
     .card {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 16px;
+      border-radius: 18px;
       padding: 18px;
-      margin-bottom: 14px;
+      margin-bottom: 12px;
+      box-shadow: var(--shadow);
     }
-    .hero-card {
-      text-align: center;
-      background: linear-gradient(145deg, #161b22, #231825);
-      border-color: rgba(244, 114, 182, 0.35);
+    .lec-card {
+      cursor: pointer;
+      display: flex; justify-content: space-between; align-items: center; gap: 10px;
+      transition: transform 0.15s, border-color 0.15s;
     }
-    .hero-logo {
-      width: 84px; height: 84px; border-radius: 22px; object-fit: cover;
-      background: #fff; padding: 4px; margin-bottom: 10px;
-      box-shadow: 0 6px 18px rgba(244, 114, 182, 0.25);
-    }
-
-    .click-card { cursor: pointer; transition: transform 0.15s, border-color 0.15s; }
-    .click-card:hover { border-color: var(--primary); }
-    .click-card:active { transform: scale(0.98); }
-
-    .row-between { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
-    .subject-top { display: flex; align-items: center; gap: 12px; }
-    .subject-icon {
-      font-size: 26px; background: var(--primary-soft);
-      width: 48px; height: 48px; border-radius: 12px;
-      display: flex; align-items: center; justify-content: center;
-    }
+    .lec-card:active { transform: scale(0.98); }
+    .lec-card:hover { border-color: var(--primary); }
 
     .badge {
-      display: inline-block; font-size: 11px; padding: 3px 9px;
+      display: inline-block; font-size: 11.5px; padding: 4px 10px;
       border-radius: 999px; background: var(--primary-soft);
-      color: var(--primary); font-weight: 700;
+      color: var(--primary); font-weight: 700; white-space: nowrap;
     }
-    .badge-warn { background: rgba(210,153,34,0.16); color: var(--warn); }
     .badge-clinical { background: var(--clinical-bg); color: var(--clinical); }
+    .badge-warn { background: var(--warn-bg); color: var(--warn); }
 
     .btn {
-      width: 100%; padding: 13px 16px; border-radius: 12px; border: none;
+      width: 100%; padding: 13px 16px; border-radius: 14px; border: none;
       font-size: 15px; font-weight: 700; cursor: pointer; transition: transform 0.1s;
     }
     .btn:active { transform: scale(0.98); }
-    .btn-primary { background: var(--primary); color: #0d1117; }
+    .btn-primary { background: var(--primary); color: #ffffff; }
     .btn-outline {
-      background: transparent; border: 1px solid var(--border);
+      background: var(--card); border: 1px solid var(--border);
       color: var(--text); margin-top: 8px;
     }
 
     /* Setup Form */
     .form-label { display: block; font-size: 13px; color: var(--muted); margin-bottom: 6px; font-weight: 600; }
     .range-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 12px; }
-    .input-box, select.input-box {
-      width: 100%; padding: 11px 12px; border-radius: 10px;
+    .input-box {
+      width: 100%; padding: 11px 12px; border-radius: 12px;
       background: var(--bg); border: 1px solid var(--border);
       color: var(--text); font-size: 15px; font-weight: 600;
     }
@@ -200,81 +225,80 @@
       background: var(--bg); border: 1px solid var(--border); color: var(--text);
       padding: 7px 12px; border-radius: 999px; font-size: 12px; cursor: pointer; font-weight: 600;
     }
-    .chip:hover, .chip.active { border-color: var(--primary); color: var(--primary); background: var(--primary-soft); }
+    .chip.active { border-color: var(--primary); color: var(--primary); background: var(--primary-soft); }
 
     /* Quiz UI */
     .progress-wrap {
-      width: 100%; height: 8px; background: var(--border);
+      width: 100%; height: 7px; background: var(--border);
       border-radius: 999px; overflow: hidden; margin-bottom: 14px;
     }
     .progress-fill { height: 100%; background: var(--primary); transition: width 0.25s ease; }
     .q-meta {
       display: flex; justify-content: space-between; align-items: center;
-      margin-bottom: 10px; font-size: 12px; color: var(--muted);
+      margin-bottom: 10px; font-size: 12.5px; color: var(--muted);
     }
     .q-text {
-      font-size: 16.5px; line-height: 1.7; font-weight: 600;
+      font-size: 16.5px; line-height: 1.7; font-weight: 700;
       margin: 10px 0 18px; direction: auto; text-align: start;
     }
     .opt-btn {
       width: 100%; text-align: start; direction: auto;
       background: var(--bg); border: 1px solid var(--border); color: var(--text);
-      padding: 13px 15px; border-radius: 12px; margin-bottom: 10px;
+      padding: 13px 15px; border-radius: 14px; margin-bottom: 10px;
       font-size: 15px; cursor: pointer; line-height: 1.5; transition: all 0.15s;
     }
-    .opt-btn:hover:not(:disabled) { border-color: var(--primary); background: var(--card-hover); }
-    .opt-btn.correct { background: var(--success-bg); border-color: var(--success); color: #7ee787; font-weight: 700; }
-    .opt-btn.wrong { background: var(--danger-bg); border-color: var(--danger); color: #ffa198; }
+    .opt-btn:hover:not(:disabled) { border-color: var(--primary); }
+    .opt-btn.correct { background: var(--success-bg); border-color: var(--success); color: var(--success); font-weight: 700; }
+    .opt-btn.wrong { background: var(--danger-bg); border-color: var(--danger); color: var(--danger); }
     .opt-btn:disabled { cursor: default; }
 
     .explain-box {
-      margin-top: 14px; padding: 14px; border-radius: 12px;
-      background: rgba(244, 114, 182, 0.08); border-right: 4px solid var(--primary);
+      margin-top: 14px; padding: 14px; border-radius: 14px;
+      background: var(--primary-soft); border-right: 4px solid var(--primary);
       font-size: 14px; line-height: 1.7; display: none;
     }
     .explain-box.show { display: block; }
 
     .toast {
       position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
-      background: #238636; color: #fff; padding: 10px 18px; border-radius: 999px;
-      font-size: 13px; font-weight: 600; z-index: 200; display: none;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+      background: var(--primary); color: #fff; padding: 10px 18px; border-radius: 999px;
+      font-size: 13px; font-weight: 700; z-index: 200; display: none;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.25);
     }
     .toast.show { display: block; }
   </style>
 </head>
 <body>
 
-  <header>
-    <button class="icon-btn" onclick="toggleDrawer()">☰</button>
-    <div class="header-title" id="appTitle">Future pharmacist</div>
-    <button class="icon-btn" onclick="syncCatalog(true)" title="تحديث">🔄</button>
-  </header>
+  <div class="topbar">
+    <button class="icon-btn" onclick="toggleDrawer()" aria-label="القائمة">☰</button>
+    <div class="top-actions">
+      <button class="icon-btn" id="themeBtn" onclick="toggleTheme()" aria-label="تغيير المظهر">🌙</button>
+      <button class="icon-btn" onclick="syncCatalog(true)" aria-label="تحديث">↻</button>
+    </div>
+  </div>
 
   <div class="overlay" id="overlay" onclick="toggleDrawer()"></div>
   <aside class="drawer" id="drawer">
     <div class="drawer-head">
       <div class="drawer-brand">
         <img src="icon.jpg" alt="Logo" />
-        <strong>Future pharmacist</strong>
+        <span>Future pharmacist</span>
       </div>
-      <button class="icon-btn" onclick="toggleDrawer()">✕</button>
+      <button class="icon-btn" style="width:34px;height:34px;" onclick="toggleDrawer()">✕</button>
     </div>
     <button class="drawer-item" onclick="showHome(); toggleDrawer();">🏠 الرئيسية</button>
-    <div class="drawer-section">المواد والملازم</div>
+    <div class="drawer-section">المواد الدراسية</div>
     <div id="drawerMenu"></div>
-    <div style="margin-top:auto; padding-top:14px; border-top:1px solid var(--border); font-size:12px; color:var(--muted);">
-      الإصدار: <span id="verTag">2.0</span><br/>
-      الحالة: <span id="netStatus">جاري التحقق...</span>
-    </div>
   </aside>
 
   <main id="app"></main>
   <div class="toast" id="toast"></div>
 
   <script>
-    const CATALOG_KEY = 'fp_catalog_v2';
-    const FILE_PREFIX = 'fp_file_v2_';
+    const CATALOG_KEY = 'fp_catalog_v3';
+    const FILE_PREFIX = 'fp_file_v3_';
+    const THEME_KEY = 'fp_theme_v3';
 
     let catalog = null;
     let loadedPool = [];
@@ -283,6 +307,19 @@
     let qIndex = 0;
     let score = 0;
     let wrongList = [];
+
+    // Theme Setup
+    function applyTheme(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem(THEME_KEY, theme);
+      document.getElementById('themeBtn').textContent = theme === 'dark' ? '☀️' : '🌙';
+      document.getElementById('metaTheme').setAttribute('content', theme === 'dark' ? '#0f0c0e' : '#fdf8f9');
+    }
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme') || 'light';
+      applyTheme(current === 'light' ? 'dark' : 'light');
+    }
+    applyTheme(localStorage.getItem(THEME_KEY) || 'light');
 
     function shuffle(arr) {
       const a = [...arr];
@@ -293,12 +330,11 @@
       return a;
     }
 
-    function showToast(msg, isErr = false) {
+    function showToast(msg) {
       const t = document.getElementById('toast');
       t.textContent = msg;
-      t.style.background = isErr ? '#da3633' : '#238636';
       t.classList.add('show');
-      setTimeout(() => t.classList.remove('show'), 2500);
+      setTimeout(() => t.classList.remove('show'), 2200);
     }
 
     function toggleDrawer() {
@@ -319,36 +355,28 @@
     }
 
     async function syncCatalog(manual = false) {
-      const st = document.getElementById('netStatus');
       try {
         const res = await fetch('./catalog.json?t=' + Date.now(), { cache: 'no-store' });
-        if (!res.ok) throw new Error('HTTP ' + res.status);
+        if (!res.ok) throw new Error();
         const fresh = await res.json();
         const oldStr = localStorage.getItem(CATALOG_KEY);
         const newStr = JSON.stringify(fresh);
 
         catalog = fresh;
         localStorage.setItem(CATALOG_KEY, newStr);
-        st.textContent = 'متصل ومُحدّث ✅';
         renderDrawer();
 
         if (!oldStr || oldStr !== newStr) {
           showHome();
-          showToast('تم تحديث القائمة والملازم ✨');
+          if (manual) showToast('تم التحديث');
         } else if (manual) {
-          showToast('كل الملازم محدثة لآخر نسخة ✅');
+          showToast('محدّث لآخر نسخة');
         }
       } catch (e) {
-        st.textContent = 'وضع أوفلاين 📴';
+        if (manual) showToast('لا يوجد اتصال بالإنترنت');
         if (!catalog) {
-          document.getElementById('app').innerHTML = `
-            <div class="card" style="text-align:center;">
-              <h3>لا يوجد اتصال بالإنترنت</h3>
-              <p style="color:var(--muted);">اتصل بالإنترنت أول مرة لتحميل قائمة الملازم.</p>
-              <button class="btn btn-primary" onclick="syncCatalog(true)">إعادة المحاولة</button>
-            </div>`;
-        } else if (manual) {
-          showToast('أنت بدون إنترنت — يتم استخدام المحفوظ', true);
+          catalog = { appTitle: 'Future pharmacist', subjects: [] };
+          showHome();
         }
       }
     }
@@ -357,7 +385,7 @@
       const key = FILE_PREFIX + fileName;
       try {
         const res = await fetch('./' + fileName + '?t=' + Date.now(), { cache: 'no-store' });
-        if (!res.ok) throw new Error('Not found');
+        if (!res.ok) throw new Error();
         const data = await res.json();
         localStorage.setItem(key, JSON.stringify(data));
         return data;
@@ -370,20 +398,14 @@
 
     function renderDrawer() {
       if (!catalog) return;
-      document.title = catalog.appTitle || 'Future pharmacist';
-      document.getElementById('appTitle').textContent = catalog.appTitle || 'Future pharmacist';
-      document.getElementById('verTag').textContent = catalog.version || '2.0';
-
       let html = '';
       (catalog.subjects || []).forEach(sub => {
         html += `<button class="drawer-item" onclick="showSubject('${sub.id}'); toggleDrawer();">
-          <span>${sub.icon || '📘'} ${sub.name}</span>
-          <span class="badge">${sub.files.length}</span>
+          <span>${sub.icon || '💊'} ${sub.name}</span>
         </button>`;
-        sub.files.forEach(f => {
+        (sub.files || []).forEach(f => {
           html += `<button class="drawer-item drawer-sub" onclick="openFileSetup('${f.file}', '${f.title.replace(/'/g, "\\'")}'); toggleDrawer();">
-            <span>📄 ${f.title}</span>
-            <span>${f.count || ''}</span>
+            <span>${f.title}</span>
           </button>`;
         });
       });
@@ -392,89 +414,69 @@
 
     function showHome() {
       if (!catalog) return;
-      const totalFiles = (catalog.subjects || []).reduce((s, x) => s + x.files.length, 0);
-      const totalQ = (catalog.subjects || []).reduce((s, x) => s + x.files.reduce((a, f) => a + (f.count || 0), 0), 0);
-
       let html = `
-        <div class="card hero-card">
+        <div class="hero-card">
           <img src="icon.jpg" alt="Future pharmacist" class="hero-logo" />
-          <h2 style="margin:0 0 6px; color:var(--primary);">${catalog.appTitle}</h2>
-          <p style="margin:0 0 12px; color:var(--muted); font-size:13.5px;">${catalog.subtitle || ''}</p>
-          <div class="row-between" style="justify-content:center; gap:12px;">
-            <span class="badge">📚 ${totalFiles} ملزمة</span>
-            <span class="badge">📝 ${totalQ} سؤال</span>
-          </div>
+          <h1 class="hero-title">${catalog.appTitle || 'Future pharmacist'}</h1>
         </div>
+        <h2 class="section-title">المواد الدراسية</h2>
       `;
 
-      if (!catalog.subjects || catalog.subjects.length === 0) {
-        html += `<div class="card" style="text-align:center; color:var(--muted);">
-          لا توجد ملازم مضافة حالياً. دز أول ملزمة حتى نضيفها فوراً!
-        </div>`;
-      } else {
-        catalog.subjects.forEach(sub => {
-          const subQ = sub.files.reduce((a, f) => a + (f.count || 0), 0);
+      const subs = catalog.subjects || [];
+      if (subs.length > 0) {
+        html += `<div class="subjects-grid">`;
+        subs.forEach(sub => {
           html += `
-            <div class="card click-card" onclick="showSubject('${sub.id}')">
-              <div class="subject-top">
-                <div class="subject-icon">${sub.icon || '💊'}</div>
-                <div style="flex:1;">
-                  <div style="font-weight:700; font-size:16px;">${sub.name}</div>
-                  <div style="color:var(--muted); font-size:13px;">${sub.files.length} ملزمة • ${subQ} سؤال</div>
-                </div>
-                <span style="color:var(--muted);">←</span>
-              </div>
+            <div class="subject-tile" onclick="showSubject('${sub.id}')">
+              <div class="tile-icon">${sub.icon || '💊'}</div>
+              <div class="tile-name">${sub.name}</div>
             </div>`;
         });
+        html += `</div>`;
       }
       document.getElementById('app').innerHTML = html;
     }
 
     function showSubject(subId) {
-      const sub = catalog.subjects.find(s => s.id === subId);
+      const sub = (catalog.subjects || []).find(s => s.id === subId);
       if (!sub) return;
 
       let html = `
-        <button class="btn btn-outline" style="margin:0 0 14px;" onclick="showHome()">→ رجوع للرئيسية</button>
-        <div class="card">
-          <h2 style="margin:0 0 10px;">${sub.icon || '💊'} ${sub.name}</h2>
-          ${sub.files.length > 1 ? `<button class="btn btn-primary" onclick="openSubjectCombined('${sub.id}')">⚡ اختبار شامل لكل ملازم المادة</button>` : ''}
+        <button class="btn btn-outline" style="margin:0 0 14px;" onclick="showHome()">→ المواد الدراسية</button>
+        <div class="card" style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
+          <div style="display:flex; align-items:center; gap:12px;">
+            <div class="tile-icon" style="width:46px;height:46px;font-size:22px;">${sub.icon || '💊'}</div>
+            <h2 style="margin:0; font-size:18px;">${sub.name}</h2>
+          </div>
+          ${sub.files.length > 1 ? `<button class="badge" style="border:none;cursor:pointer;padding:7px 12px;" onclick="openSubjectCombined('${sub.id}')">شامل</button>` : ''}
         </div>
       `;
 
-      if (sub.files.length === 0) {
-        html += `<div class="card" style="text-align:center; color:var(--muted);">بانتظار إضافة أول ملزمة لهذه المادة.</div>`;
-      } else {
-        sub.files.forEach(f => {
-          html += `
-            <div class="card click-card" onclick="openFileSetup('${f.file}', '${f.title.replace(/'/g, "\\'")}')">
-              <div class="row-between">
-                <strong>📄 ${f.title}</strong>
-                <span class="badge">${f.count ? f.count + ' سؤال' : 'فتح'}</span>
-              </div>
-            </div>`;
-        });
-      }
+      (sub.files || []).forEach(f => {
+        html += `
+          <div class="card lec-card" onclick="openFileSetup('${f.file}', '${f.title.replace(/'/g, "\\'")}')">
+            <strong style="font-size:15px;">${f.title}</strong>
+            ${f.count ? `<span class="badge">${f.count} سؤال</span>` : ''}
+          </div>`;
+      });
+
       document.getElementById('app').innerHTML = html;
     }
 
     async function openFileSetup(fileName, title) {
-      document.getElementById('app').innerHTML = `<div class="card" style="text-align:center;">جاري تحميل الأسئلة... ⏳</div>`;
       try {
         const data = await fetchQuizFile(fileName);
         loadedPool = data.questions || [];
         loadedTitle = data.title || title;
         renderSetupScreen();
       } catch (e) {
-        showToast('تعذر تحميل الملف — تأكد من الإنترنت', true);
-        showHome();
+        showToast('تأكد من الاتصال بالإنترنت');
       }
     }
 
     async function openSubjectCombined(subId) {
       const sub = catalog.subjects.find(s => s.id === subId);
       if (!sub) return;
-      document.getElementById('app').innerHTML = `<div class="card" style="text-align:center;">جاري تجميع كل ملازم ${sub.name}... ⏳</div>`;
       try {
         let combined = [];
         for (const f of sub.files) {
@@ -482,20 +484,17 @@
           combined = combined.concat(d.questions || []);
         }
         loadedPool = combined;
-        loadedTitle = 'شامل: ' + sub.name;
+        loadedTitle = sub.name;
         renderSetupScreen();
       } catch (e) {
-        showToast('تعذر تحميل بعض الملفات', true);
-        showSubject(subId);
+        showToast('تأكد من الاتصال بالإنترنت');
       }
     }
 
     function renderSetupScreen() {
       const total = loadedPool.length;
-      if (total === 0) {
-        document.getElementById('app').innerHTML = `<div class="card" style="text-align:center;">لا توجد أسئلة بهذا الملف.<button class="btn btn-outline" onclick="showHome()">رجوع</button></div>`;
-        return;
-      }
+      if (total === 0) return showHome();
+
       const clinicalCount = loadedPool.filter(q => q.type === 'clinical').length;
       const hardCount = loadedPool.filter(q => q.difficulty === 'صعب').length;
 
@@ -510,14 +509,13 @@
       document.getElementById('app').innerHTML = `
         <button class="btn btn-outline" style="margin:0 0 14px;" onclick="showHome()">→ رجوع</button>
         <div class="card">
-          <h2 style="margin:0 0 6px; color:var(--primary);">${loadedTitle}</h2>
+          <h2 style="margin:0 0 6px; font-size:18px;">${loadedTitle}</h2>
           <p style="margin:0 0 16px; color:var(--muted); font-size:13px;">
-            إجمالي الأسئلة: <strong>${total}</strong>
-            ${clinicalCount ? ` • سريرية: <strong>${clinicalCount}</strong>` : ''}
-            ${hardCount ? ` • صعبة: <strong>${hardCount}</strong>` : ''}
+            ${total} سؤال
+            ${clinicalCount ? ` • ${clinicalCount} سريري` : ''}
           </p>
 
-          <label class="form-label">اختر نطاق الأسئلة سريعاً:</label>
+          <label class="form-label">نطاق الأسئلة:</label>
           <div class="chips">${presets}</div>
 
           <div class="range-grid">
@@ -533,7 +531,7 @@
 
           <div class="range-grid">
             <div>
-              <label class="form-label">نوع الأسئلة:</label>
+              <label class="form-label">النوع:</label>
               <select id="filterType" class="input-box">
                 <option value="all">الكل</option>
                 ${clinicalCount ? `<option value="clinical">سريرية فقط (${clinicalCount})</option>` : ''}
@@ -541,144 +539,10 @@
               </select>
             </div>
             <div>
-              <label class="form-label">ترتيب الأسئلة:</label>
+              <label class="form-label">الترتيب:</label>
               <select id="orderType" class="input-box">
-                <option value="shuffle">عشوائي 🔀</option>
-                <option value="seq">بالترتيب 🔢</option>
+                <option value="shuffle">عشوائي</option>
+                <option value="seq">بالترتيب</option>
               </select>
             </div>
-          </div>
-
-          <button class="btn btn-primary" onclick="launchCustomQuiz()">🚀 ابدأ الاختبار الآن</button>
-        </div>
-      `;
-    }
-
-    function setRange(from, to, btn) {
-      document.getElementById('fromQ').value = from;
-      document.getElementById('toQ').value = to;
-      document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
-      if (btn) btn.classList.add('active');
-    }
-
-    function launchCustomQuiz() {
-      const total = loadedPool.length;
-      let from = parseInt(document.getElementById('fromQ').value) || 1;
-      let to = parseInt(document.getElementById('toQ').value) || total;
-      if (from < 1) from = 1;
-      if (to > total) to = total;
-      if (from > to) [from, to] = [to, from];
-
-      let list = loadedPool.slice(from - 1, to);
-      const filter = document.getElementById('filterType').value;
-      if (filter === 'clinical') list = list.filter(q => q.type === 'clinical');
-      if (filter === 'hard') list = list.filter(q => q.difficulty === 'صعب');
-
-      if (list.length === 0) {
-        showToast('لا توجد أسئلة مطابقة لهذا الفلتر ضمن هذا النطاق!', true);
-        return;
-      }
-
-      const order = document.getElementById('orderType').value;
-      activeQuestions = order === 'shuffle' ? shuffle(list) : list;
-      qIndex = 0;
-      score = 0;
-      wrongList = [];
-      renderQuestion();
-    }
-
-    function renderQuestion() {
-      if (qIndex >= activeQuestions.length) {
-        renderResult();
-        return;
-      }
-      const item = activeQuestions[qIndex];
-      const pct = Math.round((qIndex / activeQuestions.length) * 100);
-
-      // توزيع عشوائي صارم للخيارات الأربعة
-      const mapped = item.options.map((text, idx) => ({ text, isCorrect: idx === item.answer }));
-      const shuffledOpts = shuffle(mapped);
-      const letters = ['A', 'B', 'C', 'D'];
-
-      const optsHtml = shuffledOpts.map((opt, idx) => `
-        <button class="opt-btn" data-correct="${opt.isCorrect}" onclick="selectOption(this)">
-          <strong>${letters[idx] || (idx + 1)}.</strong> ${opt.text}
-        </button>
-      `).join('');
-
-      document.getElementById('app').innerHTML = `
-        <div class="progress-wrap"><div class="progress-fill" style="width:${pct}%"></div></div>
-        <div class="card">
-          <div class="q-meta">
-            <span>${loadedTitle}</span>
-            <span>سؤال ${qIndex + 1} من ${activeQuestions.length}</span>
-          </div>
-          <div style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom:8px;">
-            ${item.type === 'clinical' ? `<span class="badge badge-clinical">🩺 سؤال سريري</span>` : ''}
-            ${item.difficulty ? `<span class="badge badge-warn">${item.difficulty}</span>` : ''}
-          </div>
-          <div class="q-text">${item.q}</div>
-          <div>${optsHtml}</div>
-          <div class="explain-box" id="explainBox">
-            <strong>💡 التوضيح:</strong><br/>${item.explanation || 'تم تسجيل الإجابة.'}
-          </div>
-          <button class="btn btn-primary" id="nextBtn" style="display:none; margin-top:14px;" onclick="nextQuestion()">
-            ${qIndex + 1 === activeQuestions.length ? 'عرض النتيجة 🎯' : 'السؤال التالي ←'}
-          </button>
-        </div>
-        <button class="btn btn-outline" onclick="renderSetupScreen()">إنهاء الاختبار</button>
-      `;
-    }
-
-    function selectOption(btn) {
-      const allBtns = document.querySelectorAll('.opt-btn');
-      allBtns.forEach(b => b.disabled = true);
-
-      if (btn.getAttribute('data-correct') === 'true') {
-        btn.classList.add('correct');
-        score++;
-      } else {
-        btn.classList.add('wrong');
-        wrongList.push(activeQuestions[qIndex]);
-        allBtns.forEach(b => {
-          if (b.getAttribute('data-correct') === 'true') b.classList.add('correct');
-        });
-      }
-      document.getElementById('explainBox').classList.add('show');
-      document.getElementById('nextBtn').style.display = 'block';
-    }
-
-    function nextQuestion() {
-      qIndex++;
-      renderQuestion();
-    }
-
-    function renderResult() {
-      const total = activeQuestions.length;
-      const pct = Math.round((score / total) * 100);
-      document.getElementById('app').innerHTML = `
-        <div class="card" style="text-align:center; padding:28px 18px;">
-          <div style="font-size:48px; margin-bottom:8px;">${pct >= 80 ? '🏆' : pct >= 50 ? '👏' : '💪'}</div>
-          <h2 style="margin:0 0 6px;">انتهى الاختبار!</h2>
-          <p style="color:var(--muted); margin:0 0 18px;">${loadedTitle}</p>
-          <div style="font-size:36px; font-weight:800; color:var(--primary); margin-bottom:8px;">${pct}%</div>
-          <p style="margin:0 0 20px;">الإجابات الصحيحة: <strong>${score}</strong> من <strong>${total}</strong></p>
-          ${wrongList.length > 0 ? `<button class="btn btn-primary" style="margin-bottom:8px;" onclick="retryWrong()">🔁 إعادة الأسئلة الخاطئة (${wrongList.length})</button>` : ''}
-          <button class="btn btn-outline" onclick="renderSetupScreen()">⚙️ اختيار نطاق آخر</button>
-          <button class="btn btn-outline" onclick="showHome()">🏠 الرئيسية</button>
-        </div>
-      `;
-    }
-
-    function retryWrong() {
-      activeQuestions = shuffle(wrongList);
-      qIndex = 0;
-      score = 0;
-      wrongList = [];
-      renderQuestion();
-    }
-
-    initApp();
-  </script>
-</body>
-</html>
+  
