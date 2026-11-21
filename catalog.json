@@ -1,4 +1,17 @@
 {
   "appTitle": "Future pharmacist",
-  "subjects": []
+  "subjects": [
+    {
+      "id": "physiology",
+      "name": "الفسلجة",
+      "icon": "🫀",
+      "files": [
+        {
+          "file": "physio_lec1.json",
+          "title": "Lec 1: Muscle",
+          "count": 50
+        }
+      ]
+    }
+  ]
 }
