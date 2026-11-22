@@ -1,0 +1,115 @@
+{
+  "title": "مسائل وتطبيقات شاملة (الكيمياء العضوية)",
+  "questions": [
+    {
+      "q": "A pharmacist wants to synthesize a 5-carbon primary amine (n-pentylamine) from a 6-carbon amide (hexanamide). Which reaction removes the carbonyl carbon cleanly?",
+      "options": [
+        "Hofmann degradation (Br2 / NaOH or KOBr)",
+        "LiAlH4 reduction",
+        "Fischer esterification",
+        "Reductive amination"
+      ],
+      "answer": 0,
+      "explanation": "تكسير هوفمان (Hofmann degradation) يزيل ذرة كربون الكربونيل فيحوّل الهكساناميد (6C) إلى n-pentylamine (5C)."
+    },
+    {
+      "q": "A chemist starts with 1-bromopropane (3 carbons) and needs to synthesize butanoic acid (4 carbons). Which two-step route increases the chain by one carbon?",
+      "options": [
+        "1. NaCN (SN2) → 2. H3O+, H2O, heat (or Grignard + CO2, then H3O+)",
+        "1. LiAlH4 → 2. SOCl2",
+        "1. Br2/PBr3 → 2. H2O",
+        "1. Ag2O → 2. heat"
+      ],
+      "answer": 0,
+      "explanation": "إما تحويله لنيتريل بـ NaCN ثم تحلله المائي، أو تحويله لكاشف غرينيارد ثم تفاعله مع CO2 ثم H3O+؛ كلتا الطريقتين تضيف ذرة كربون واحدة."
+    },
+    {
+      "q": "An organic synthesis student tries to prepare N-ethylacetamide by simply mixing acetic acid and ethylamine at room temperature, but only gets a water-soluble salt. What should they add to form the amide?",
+      "options": [
+        "A coupling agent such as DCC (or first convert acetic acid to acetyl chloride with SOCl2)",
+        "Aqueous HCl",
+        "KMnO4 and heat",
+        "NaBH4"
+      ],
+      "answer": 0,
+      "explanation": "الخلط المباشر يعطي ملحاً؛ لتكوين الأميد نستخدم عامل ربط مثل DCC أو نحول الحامض أولاً لكلوريد حامض بواسطة SOCl2."
+    },
+    {
+      "q": "Why does 2-bromo-4-oxopentanoic acid use the prefix 'oxo-' instead of the suffix '-one'?",
+      "options": [
+        "Because the carboxylic acid (-COOH) has higher nomenclature priority than the ketone group",
+        "Because ketones are never named with -one",
+        "Because bromine has higher priority than ketones",
+        "Because it is an aldehyde"
+      ],
+      "answer": 0,
+      "explanation": "مجموعة الكربوكسيل أعلى أولوية من الكيتون، لذا تأخذ السلسلة المقطع -oic acid ويُسمى الكيتون كبادئة oxo-."
+    },
+    {
+      "q": "A medicinal chemist compares the basicity of an amide drug and an aliphatic amine drug to predict their ionization in the stomach. Which one is significantly more basic?",
+      "options": [
+        "The aliphatic amine, because the amide's lone pair is delocalized into the C=O group by resonance",
+        "The amide, because oxygen donates electrons",
+        "Both have identical pKaH values",
+        "Neither has a lone pair"
+      ],
+      "answer": 0,
+      "explanation": "الأمين الأليفاتي أكثر قاعدية بكثير لأن الزوج الإلكتروني في الأميد مشغول بالرنين مع مجموعة الكربونيل."
+    },
+    {
+      "q": "A student wants to prepare pure p-bromoaniline from aniline. If they accidentally add Br2(aq) directly to aniline without protection, what unwanted product will they get?",
+      "options": [
+        "2,4,6-Tribromoaniline",
+        "m-Bromoaniline",
+        "Benzene",
+        "Acetanilide"
+      ],
+      "answer": 0,
+      "explanation": "بدون حماية مجموعة -NH2 (تحويلها لأميد أولاً)، ستنشط الحلقة بشدة وتعطي 2,4,6-tribromoaniline."
+    },
+    {
+      "q": "Which reagent pair converts a carboxylic acid into an α-bromo carboxylic acid?",
+      "options": [
+        "Br2 / PBr3, followed by H2O (HVZ reaction)",
+        "Br2 / NaOH (Hofmann degradation)",
+        "HBr / peroxide",
+        "SOCl2 / Br2"
+      ],
+      "answer": 0,
+      "explanation": "تفاعل Hell-Volhard-Zelinsky يستخدم Br2 مع PBr3 ثم الماء لبرومة كربون ألفا."
+    },
+    {
+      "q": "If a tertiary alkylbenzene (like tert-butylbenzene, which has NO benzylic hydrogen) is boiled with aqueous KMnO4, what happens?",
+      "options": [
+        "No oxidation of the side chain occurs because a benzylic C—H bond is required",
+        "It rapidly forms benzoic acid",
+        "It forms phthalic acid",
+        "It forms aniline"
+      ],
+      "answer": 0,
+      "explanation": "الكربون البنزيلي الثالثي لا يحتوي على ذرة هيدروجين بنزيلية، لذا لا يتأكسد بـ KMnO4 القياسي."
+    },
+    {
+      "q": "A pharmacist tests the water solubility of two liquids: 1-propanamine (3C) and 1-decanamine (10C). Which is very soluble in water and why?",
+      "options": [
+        "1-Propanamine, because lower amines (up to 4 carbons) readily form hydrogen bonds with water",
+        "1-Decanamine, because longer carbon chains increase water solubility",
+        "Neither dissolves in water",
+        "Both are equally insoluble"
+      ],
+      "answer": 0,
+      "explanation": "الأمينات القصيرة (حتى 4 كربون) ذائبة جداً بالماء لقدرتها على تكوين أواصر هيدروجينية معه، وتقل الذوبانية بزيادة طول السلسلة."
+    },
+    {
+      "q": "To convert an aldehyde into a secondary (2°) amine in one versatile synthetic sequence, a chemist should react the aldehyde with:",
+      "options": [
+        "A primary (1°) amine to form an imine, followed by NaBH3CN (reductive amination)",
+        "Ammonia (NH3) followed by NaBH3CN",
+        "SOCl2 followed by H2O",
+        "KMnO4 followed by H3O+"
+      ],
+      "answer": 0,
+      "explanation": "الأمنة الاختزالية لألديهايد مع أمين أولي (1° amine) تعطي إيميناً يُختزل بـ NaBH3CN ليعطي أميناً ثانوياً (2° amine)."
+    }
+  ]
+}

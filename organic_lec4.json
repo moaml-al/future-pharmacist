@@ -1,0 +1,225 @@
+{
+  "title": "Lec 4: Amines 2 (Synthesis & Reactions)",
+  "questions": [
+    {
+      "q": "Reduction of a nitro compound (R-NO2 or Ar-NO2) using H2/Ni (or Pt), or Fe/HCl (or Sn/HCl) followed by OH- yields:",
+      "options": [
+        "A primary amine (1° amine)",
+        "A secondary amine",
+        "A tertiary amine",
+        "A quaternary ammonium salt"
+      ],
+      "answer": 0,
+      "explanation": "اختزال مركبات النيترو (الأليفاتية والأروماتية) يعطي دائماً أميناً أولياً (Primary amine)."
+    },
+    {
+      "q": "What is the product of reducing ethyl p-nitrobenzoate with H2/Pt?",
+      "options": [
+        "Ethyl p-aminobenzoate",
+        "p-Phenylenediamine",
+        "Benzylamine",
+        "Anilinium chloride"
+      ],
+      "answer": 0,
+      "explanation": "تُختزل مجموعة النيترو (-NO2) إلى أمين (-NH2) لينتج ethyl p-aminobenzoate."
+    },
+    {
+      "q": "In the reaction of alkyl halides (R-X) with ammonia or amines, what is the reaction mechanism and what is the main limitation?",
+      "options": [
+        "SN2 nucleophilic substitution; it can undergo successive alkylations up to a quaternary ammonium salt",
+        "SN1 mechanism; stops strictly at 1° amine",
+        "Electrophilic aromatic substitution",
+        "E1 elimination"
+      ],
+      "answer": 0,
+      "explanation": "التفاعل هو استبدال نيوكليوفيلي SN2 (يتطلب هاليد أولي أو CH3-X)، ويمكن للأمين الناتج أن يتفاعل مجدداً مع هاليد الألكيل حتى يصل لملح الأمونيوم الرباعي."
+    },
+    {
+      "q": "What is 'Reductive Amination' of aldehydes and ketones?",
+      "options": [
+        "Formation of an imine with NH3 or an amine, followed by reduction (e.g., NaBH3CN or NaBH4) to replace C=O with C-H and C-N bonds",
+        "Oxidation of an amine to a ketone",
+        "Cleavage of an amide with Br2/NaOH",
+        "Reduction of a nitro group with Fe/HCl"
+      ],
+      "answer": 0,
+      "explanation": "الأمنة الاختزالية (Reductive amination) تحوّل الألديهايد أو الكيتون إلى إيمين ثم يُختزل بواسطة NaBH3CN أو NaBH4 لإنتاج أمين 1° أو 2° أو 3°."
+    },
+    {
+      "q": "In reductive amination of an aldehyde or ketone, what class of amine is formed when reacting with: (a) NH3, (b) 1° amine, and (c) 2° amine?",
+      "options": [
+        "(a) 1° amine, (b) 2° amine, (c) 3° amine",
+        "(a) 3° amine, (b) 2° amine, (c) 1° amine",
+        "All three yield only 1° amines",
+        "All three yield amides"
+      ],
+      "answer": 0,
+      "explanation": "مع الأمونيا NH3 يعطي أمين أولي، ومع الأمين الأولي يعطي ثانوي، ومع الأمين الثانوي يعطي ثالثي."
+    },
+    {
+      "q": "Reduction of a nitrile (R-C≡N, such as benzonitrile) with LiAlH4 followed by H2O yields:",
+      "options": [
+        "A primary amine (R-CH2-NH2, e.g., benzylamine)",
+        "A secondary amine",
+        "A carboxylic acid",
+        "An amide"
+      ],
+      "answer": 0,
+      "explanation": "اختزال النيتريل بـ LiAlH4 ثم H2O يضيف هيدريدين لكربون النيتريل ويعطي أميناً أولياً (R-CH2-NH2)."
+    },
+    {
+      "q": "What happens to the carbon chain length in the Hofmann degradation of an unsubstituted amide (R-CONH2 + Br2 + 4NaOH)?",
+      "options": [
+        "It yields a primary amine (R-NH2) with ONE FEWER carbon atom (formal loss of the carbonyl carbon)",
+        "It yields a primary amine with one MORE carbon atom",
+        "The carbon chain length remains unchanged",
+        "It yields a tertiary amine"
+      ],
+      "answer": 0,
+      "explanation": "تكسير هوفمان للأميدات (Hofmann degradation) يحوّل الأميد غير المعوض إلى أمين أولي أقل بذرة كربون واحدة (فقدان مجموعة الكربونيل)."
+    },
+    {
+      "q": "What is the product of Hofmann degradation of caproamide (hexanamide, CH3(CH2)4CONH2) with KOBr?",
+      "options": [
+        "n-Pentylamine (CH3(CH2)4NH2)",
+        "n-Hexylamine",
+        "n-Butylamine",
+        "Hexanoic acid"
+      ],
+      "answer": 0,
+      "explanation": "يفقد الهكساناميد (6 كربون) ذرة كربون الكربونيل لينتج n-pentylamine (5 كربون)."
+    },
+    {
+      "q": "In the synthesis of primary amines via azide ion (N3-), an alkyl halide reacts with N3- by SN2, followed by reduction with which reagent?",
+      "options": [
+        "LiAlH4 or H2 / Pd-C",
+        "KMnO4 / H3O+",
+        "Br2 / NaOH",
+        "Ag2O / heat"
+      ],
+      "answer": 0,
+      "explanation": "أيون الأزيد نيوكليوفيل ممتاز يتفاعل بـ SN2 مع هاليد الألكيل ثم يُختزل بواسطة LiAlH4 أو Pd-C/H2 ليعطي أميناً أولياً."
+    },
+    {
+      "q": "When aniline reacts with HCl, or diethylamine reacts with CH3COOH, what reaction occurs?",
+      "options": [
+        "Acid-base reaction forming an amine salt (anilinium chloride / diethylammonium acetate)",
+        "Hofmann elimination",
+        "Nucleophilic acyl substitution",
+        "Ring bromination"
+      ],
+      "answer": 0,
+      "explanation": "تتفاعل الأمينات كقواعد مع الأحماض لتكوين أملاح الأمونيوم (Salt formation)."
+    },
+    {
+      "q": "Why do TERTIARY amines (R3N) give NO REACTION with acid chlorides (RCOCl) to form amides?",
+      "options": [
+        "Because tertiary amines have no replaceable N—H hydrogen",
+        "Because tertiary amines are too acidic",
+        "Because acid chlorides only react with alkanes",
+        "Because R3N has no lone pair"
+      ],
+      "answer": 0,
+      "explanation": "الأمينات الأولية والثانوية تتفاعل مع RCOCl لتكوين أميدات، أما الثالثية فلا تتفاعل لعدم وجود ذرة هيدروجين على النيتروجين يمكن استبدالها."
+    },
+    {
+      "q": "What famous insect repellent amide is formed by reacting diethylamine with m-toluoyl chloride?",
+      "options": [
+        "N,N-diethyl-m-toluamide (DEET)",
+        "Acetanilide",
+        "Benzylamine",
+        "Anilinium chloride"
+      ],
+      "answer": 0,
+      "explanation": "تفاعل ثنائي إثيل أمين مع كلوريد ميتا-تولويل يعطي N,N-diethyl-m-toluamide المعروف بـ DEET."
+    },
+    {
+      "q": "In electrophilic aromatic substitution, -NH2, -NHR, and -NR2 are powerful ortho/para activators. What happens when aniline is treated directly with aqueous Br2?",
+      "options": [
+        "Rapid trisubstitution occurs to give 2,4,6-tribromoaniline",
+        "No reaction occurs",
+        "Only m-bromoaniline is formed",
+        "Only p-bromoaniline is formed"
+      ],
+      "answer": 0,
+      "explanation": "لأن مجموعة -NH2 منشطة قوية جداً للحلقة، فإن تفاعل الأنيلين مع البروم المائي يعطي استبدالاً ثلاثياً فورياً (2,4,6-tribromoaniline)."
+    },
+    {
+      "q": "How can a chemist obtain MONO-brominated p-bromoaniline from aniline instead of 2,4,6-tribromoaniline?",
+      "options": [
+        "Convert -NH2 to the less powerfully activating amide (-NHCOCH3, acetanilide) using (CH3CO)2O, brominate with Br2, then hydrolyze with H3O+",
+        "Add excess Br2 in water",
+        "Use H2/Ni first",
+        "Heat with Ag2O"
+      ],
+      "answer": 0,
+      "explanation": "نحمي مجموعة -NH2 بتحويلها إلى أميد (Acetanilide) وهو منشط أضعف، ثم نبرمها لتعطي p-bromoacetanilide، ثم نعيدها للأمين بالتحلل المائي الحامضي."
+    },
+    {
+      "q": "What type of reaction is Hofmann Elimination (heating a quaternary ammonium hydroxide)?",
+      "options": [
+        "An E2-type elimination yielding an alkene, water, and a tertiary amine",
+        "An SN2 substitution yielding a primary amine",
+        "An oxidation yielding a carboxylic acid",
+        "A reduction yielding an alkane"
+      ],
+      "answer": 0,
+      "explanation": "حذف هوفمان هو تفاعل حذف من نوع E2 عند تسخين هيدروكسيد الأمونيوم الرباعي، حيث يعمل الأمين الثالثي المتعادل كمجموعة مغادرة جيدة وينتج ألكين."
+    },
+    {
+      "q": "How is a quaternary ammonium halide converted into a quaternary ammonium hydroxide prior to heating in Hofmann elimination?",
+      "options": [
+        "By treating it with silver oxide (Ag2O) and water",
+        "By treating it with LiAlH4",
+        "By treating it with HCl",
+        "By treating it with SOCl2"
+      ],
+      "answer": 0,
+      "explanation": "يُحوّل هاليد الأمونيوم الرباعي إلى هيدروكسيد الأمونيوم الرباعي باستخدام أوكسيد الفضة (Ag2O) ثم يُسخّن لإعطاء الألكين."
+    },
+    {
+      "q": "Which alkene is the major product of Hofmann elimination when heating a quaternary ammonium hydroxide?",
+      "options": [
+        "The LEAST substituted alkene",
+        "The most substituted alkene",
+        "An alkyne",
+        "A benzene ring"
+      ],
+      "answer": 0,
+      "explanation": "تسخين ملح هيدروكسيد الأمونيوم الرباعي في حذف هوفمان يعطي الألكين الأقل تعويضاً (Least substituted alkene)."
+    },
+    {
+      "q": "Reacting benzylamine with excess CH3I produces:",
+      "options": [
+        "Benzyltrimethylammonium iodide (a quaternary ammonium salt)",
+        "N-methylbenzylamine only",
+        "Benzonitrile",
+        "Benzyl alcohol"
+      ],
+      "answer": 0,
+      "explanation": "الألكلة بزيادة من CH3I تحوّل الأمين الأولي بالكامل إلى ملح أمونيوم رباعي (benzyltrimethylammonium iodide)."
+    },
+    {
+      "q": "What is the product of reacting p-nitroaniline with Sn / HCl and heat?",
+      "options": [
+        "p-Phenylenediamine",
+        "Nitrobenzene",
+        "p-Bromoaniline",
+        "Acetanilide"
+      ],
+      "answer": 0,
+      "explanation": "يختزل Sn/HCl مجموعة النيترو إلى أمين فيتحول p-nitroaniline إلى p-phenylenediamine."
+    },
+    {
+      "q": "In the reaction of a primary amine (R-NH2) with an acid chloride (R'COCl), what class of amide is produced?",
+      "options": [
+        "N-substituted amide (R'CONHR) + HCl",
+        "N,N-disubstituted amide",
+        "Unsubstituted amide",
+        "No reaction"
+      ],
+      "answer": 0,
+      "explanation": "الأمين الأولي مع كلوريد الحامض يعطي أميداً أحادي التعويض على النيتروجين (N-substituted amide)، بينما الأمين الثانوي يعطي ثنائي التعويض (N,N-disubstituted)."
+    }
+  ]
+}

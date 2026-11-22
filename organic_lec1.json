@@ -1,0 +1,280 @@
+{
+  "title": "Lec 1: Carboxylic Acids (Properties & Acidity)",
+  "questions": [
+    {
+      "q": "In IUPAC nomenclature, how is a carboxylic acid named from its parent alkane?",
+      "options": [
+        "Drop the final -e and add -oic acid",
+        "Drop the final -e and add -al",
+        "Drop the final -e and add -one",
+        "Add the prefix carboxy- to the alkane"
+      ],
+      "answer": 0,
+      "explanation": "في تسمية IUPAC للأحماض الكربوكسيلية، نحذف الحرف -e من اسم الألكان الأم ونضيف المقطع -oic acid، وتأخذ ذرة كربون الكربوكسيل الرقم 1 دائماً."
+    },
+    {
+      "q": "What is the IUPAC name of formic acid (HCOOH) and acetic acid (CH3COOH) respectively?",
+      "options": [
+        "Methanoic acid and ethanoic acid",
+        "Ethanoic acid and propanoic acid",
+        "Butanoic acid and pentanoic acid",
+        "Methanoic acid and butanoic acid"
+      ],
+      "answer": 0,
+      "explanation": "حامض الفورميك (كربون واحد) اسمه methanoic acid، وحامض الخليك (كربونان) اسمه ethanoic acid."
+    },
+    {
+      "q": "What is the IUPAC name for caproic acid, CH3(CH2)4COOH (6 carbons)?",
+      "options": [
+        "Hexanoic acid",
+        "Pentanoic acid",
+        "Heptanoic acid",
+        "Butanoic acid"
+      ],
+      "answer": 0,
+      "explanation": "حامض الكابرويك يحتوي على 6 ذرات كربون، لذا اسمه النظامي hexanoic acid (أما valeric فـ 5 كربون، و enanthic فـ 7 كربون)."
+    },
+    {
+      "q": "When a molecule contains both a carboxyl group (-COOH) and an aldehyde or ketone carbonyl group, which group has priority and what prefix is used for the aldehyde/ketone carbonyl?",
+      "options": [
+        "Carboxyl group has priority; prefix 'oxo-' is used for the carbonyl",
+        "Ketone has priority; prefix 'carboxy-' is used",
+        "Alcohol has priority over carboxyl",
+        "Aldehyde has priority; suffix '-al' is used"
+      ],
+      "answer": 0,
+      "explanation": "مجموعة الكربوكسيل لها الأولوية على الكحول والألديهايد والكيتون، وعند وجود ألديهايد أو كيتون يُستخدم البادئة oxo- (مثل 3-oxopropanoic acid)."
+    },
+    {
+      "q": "When a carboxyl group (-COOH) is attached directly to a cycloalkane ring, what suffix is added to the cycloalkane name?",
+      "options": [
+        "-carboxylic acid",
+        "-oic acid",
+        "-carbaldehyde",
+        "-ate"
+      ],
+      "answer": 0,
+      "explanation": "عند ارتباط مجموعة -COOH بحلقة ألكان حلقي نضيف المقطع -carboxylic acid لاسم الحلقة (مثل cyclopentanecarboxylic acid)."
+    },
+    {
+      "q": "What are the methylbenzoic acids commonly called?",
+      "options": [
+        "Toluic acids",
+        "Phthalic acids",
+        "Salicylic acids",
+        "Benzoic esters"
+      ],
+      "answer": 0,
+      "explanation": "أحماض مثيل بنزويك تُسمى بالاسم الشائع toluic acids (مثل o-toluic acid)."
+    },
+    {
+      "q": "What is the common name of 2-hydroxybenzoic acid?",
+      "options": [
+        "Salicylic acid",
+        "Phthalic acid",
+        "Toluic acid",
+        "Phenylacetic acid"
+      ],
+      "answer": 0,
+      "explanation": "حامض الساليسيليك (Salicylic acid) هو 2-hydroxybenzoic acid."
+    },
+    {
+      "q": "Which of the following correctly matches the aliphatic dicarboxylic acid with its IUPAC name?",
+      "options": [
+        "Oxalic acid = ethanedioic acid; Malonic acid = propanedioic acid; Succinic acid = butanedioic acid",
+        "Oxalic acid = propanedioic acid; Succinic acid = hexanedioic acid",
+        "Adipic acid = pentanedioic acid; Glutaric acid = hexanedioic acid",
+        "Malonic acid = butanedioic acid; Pimelic acid = pentanedioic acid"
+      ],
+      "answer": 0,
+      "explanation": "الأوكساليك (2C) = ethanedioic، المالونيك (3C) = propanedioic، السكسينيك (4C) = butanedioic، الغلوتاريك (5C) = pentanedioic، الأديبيك (6C) = hexanedioic."
+    },
+    {
+      "q": "What are the common names of the 1,2-, 1,3-, and 1,4-benzenedicarboxylic acids respectively?",
+      "options": [
+        "Phthalic acid, isophthalic acid, and terephthalic acid",
+        "Salicylic acid, toluic acid, and benzoic acid",
+        "Oxalic, malonic, and succinic acid",
+        "Terephthalic, phthalic, and isophthalic acid"
+      ],
+      "answer": 0,
+      "explanation": "1,2 = phthalic acid، و 1,3 = isophthalic acid، و 1,4 = terephthalic acid."
+    },
+    {
+      "q": "Why do carboxylic acids have unusually high boiling points compared to alcohols of similar molecular weight?",
+      "options": [
+        "They form strong hydrogen-bonded dimers",
+        "They are completely nonpolar",
+        "They have lower molecular weights",
+        "They cannot form hydrogen bonds"
+      ],
+      "answer": 0,
+      "explanation": "الأحماض الكربوكسيلية قطبية جداً وتكوّن ثنائيات (Dimers) مرتبطة بآصرتين هيدروجينيتين مما يرفع درجة غليانها بشكل كبير."
+    },
+    {
+      "q": "Which aliphatic carboxylic acids are completely miscible (∞ solubility) with water at 25°C?",
+      "options": [
+        "Lower acids up to 4 carbons (formic, acetic, propanoic, and butanoic acids)",
+        "Only decanoic and octanoic acids",
+        "Benzoic acid at 25°C",
+        "All carboxylic acids regardless of chain length"
+      ],
+      "answer": 0,
+      "explanation": "الأحماض الكربوكسيلية القصيرة (من C1 إلى C4) تمتزج تماماً بالماء، ثم تقل الذوبانية بزيادة طول السلسلة الهيدروكربونية."
+    },
+    {
+      "q": "How is the strength of a carboxylic acid related to its Ka and pKa values?",
+      "options": [
+        "Larger Ka or smaller pKa indicates a stronger acid",
+        "Smaller Ka or larger pKa indicates a stronger acid",
+        "Larger pKa indicates a stronger acid",
+        "Ka has no relation to acid strength"
+      ],
+      "answer": 0,
+      "explanation": "كلما كبرت قيمة Ka أو صغرت قيمة pKa (حيث pKa = -log Ka)، كان الحامض أقوى."
+    },
+    {
+      "q": "Why is acetic acid (Ka = 10⁻⁵) approximately 10¹¹ times stronger as an acid than ethanol (Ka = 10⁻¹⁶)?",
+      "options": [
+        "In the acetate ion, the negative charge is delocalized equally over two oxygen atoms by resonance, whereas in ethoxide it is localized on one oxygen",
+        "Ethanol has stronger resonance stabilization than acetic acid",
+        "Acetic acid has no oxygen atoms",
+        "Ethoxide ion shares its negative charge over three oxygens"
+      ],
+      "answer": 0,
+      "explanation": "أيون الأسيتات مستقر بالرنين حيث تتوزع الشحنة السالبة بالتساوي على ذرتي أوكسجين، بينما في الإيثوكسيد تتركز الشحنة على ذرة أوكسجين واحدة فقط."
+    },
+    {
+      "q": "Why are phenols (pKa ~10) weaker acids than carboxylic acids (pKa ~4–5) even though phenoxide ions are resonance-stabilized?",
+      "options": [
+        "Phenoxide resonance contributors are not equivalent, placing negative charge on carbon and disrupting aromaticity",
+        "Phenoxide has no resonance structures",
+        "Carboxylic acids have no resonance structures",
+        "Phenols are completely insoluble in base"
+      ],
+      "answer": 0,
+      "explanation": "في أيون الفينوكسيد، أشكال الرنين غير متكافئة وبعضها يضع الشحنة السالبة على الكربون ويخل بالأروماتية، بخلاف أيون الكربوكسيلات الذي يوزعها بالتساوي على ذرتي أوكسجين."
+    },
+    {
+      "q": "What is the correct order of relative acidities from strongest to weakest?",
+      "options": [
+        "RCOOH > HOH > ROH > HC≡CH > NH3 > RH",
+        "ROH > RCOOH > HOH > NH3",
+        "RH > NH3 > ROH > RCOOH",
+        "HOH > RCOOH > ROH > RH"
+      ],
+      "answer": 0,
+      "explanation": "ترتيب الحامضية النسبي: RCOOH > HOH > ROH > HC≡CH > NH3 > RH (وترتيب القاعدية لأيوناتها القرينة عكس ذلك تماماً)."
+    },
+    {
+      "q": "How do electron-withdrawing groups (like -Cl or -NO2) affect the acidity of a carboxylic acid?",
+      "options": [
+        "They enhance acidity by pulling electron density away and stabilizing the carboxylate anion",
+        "They reduce acidity by destabilizing the carboxylate anion",
+        "They have no effect on acidity",
+        "They convert the acid into an alcohol"
+      ],
+      "answer": 0,
+      "explanation": "المجاميع الساحبة للإلكترونات تزيد الحامضية لأنها تسحب الكثافة الإلكترونية وتشتت الشحنة السالبة على أيون الكربوكسيلات فتزيد استقراره."
+    },
+    {
+      "q": "Rank the following acids in order of INCREASING acidity (weakest to strongest): acetic acid, chloroacetic acid, dichloroacetic acid, trichloroacetic acid.",
+      "options": [
+        "Acetic < chloroacetic < dichloroacetic < trichloroacetic",
+        "Trichloroacetic < dichloroacetic < chloroacetic < acetic",
+        "Chloroacetic < acetic < trichloroacetic < dichloroacetic",
+        "All have identical pKa values"
+      ],
+      "answer": 0,
+      "explanation": "كلما زاد عدد ذرات الكلور الساحبة للإلكترونات زاد التأثير الحثي الساحب وزادت قوة الحامض (pKa ينخفض من 4.74 إلى 0.70 في trichloroacetic)."
+    },
+    {
+      "q": "How does the distance of an electron-withdrawing substituent from the -COOH group affect acidity?",
+      "options": [
+        "The closer the substituent to the carboxyl group, the stronger the acidity (e.g., 2-chlorobutanoic pKa 2.86 > 3-chlorobutanoic pKa 4.05)",
+        "The farther the substituent, the stronger the acidity",
+        "Distance has no effect on the inductive effect",
+        "4-chlorobutanoic acid is stronger than 2-chlorobutanoic acid"
+      ],
+      "answer": 0,
+      "explanation": "التأثير الحثي يضعف بالمسافة؛ فكلما اقترب الكلور من مجموعة الكربوكسيل زادت الحامضية (2-chlorobutanoic أقوى من 3-chlorobutanoic)."
+    },
+    {
+      "q": "What is the correct order of acidic strength among the α-haloacetic acids (based on -I effect)?",
+      "options": [
+        "FCH2COOH > ClCH2COOH > BrCH2COOH > ICH2COOH",
+        "ICH2COOH > BrCH2COOH > ClCH2COOH > FCH2COOH",
+        "ClCH2COOH > FCH2COOH > ICH2COOH > BrCH2COOH",
+        "All have the exact same acidity"
+      ],
+      "answer": 0,
+      "explanation": "التأثير الحثي الساحب (-I) للهالوجينات يتناقص بالترتيب F > Cl > Br > I، وبالتالي تتناقص قوة الحامض بنفس الترتيب."
+    },
+    {
+      "q": "Rank the following para-substituted benzoic acids from STRONGEST acid to WEAKEST acid:",
+      "options": [
+        "p-NO2 > p-Cl > H (benzoic acid) > p-CH3 > p-OH",
+        "p-OH > p-CH3 > H > p-Cl > p-NO2",
+        "p-CH3 > p-NO2 > H > p-Cl > p-OH",
+        "H > p-NO2 > p-OH > p-Cl > p-CH3"
+      ],
+      "answer": 0,
+      "explanation": "المجاميع الساحبة (مثل NO2 و Cl) تزيد حامضية حامض البنزويك، بينما المجاميع المانحة (مثل CH3 و OH) تقللها."
+    },
+    {
+      "q": "What is the general rule for ORTHO-substituted benzoic acids compared to unsubstituted benzoic acid?",
+      "options": [
+        "Ortho-substituted benzoic acids are stronger acids than benzoic acid irrespective of the nature of the substituent",
+        "Ortho-substituted acids are always weaker than benzoic acid",
+        "Only meta-substituted acids are stronger than benzoic acid",
+        "Ortho-nitrobenzoic acid is weaker than benzoic acid"
+      ],
+      "answer": 0,
+      "explanation": "تأثير الأورثو (Ortho effect): الأحماض البنزويكية المعوضة في موقع ortho تكون أقوى من حامض البنزويك بغض النظر عن طبيعة المجموعة المعوضة."
+    },
+    {
+      "q": "In electrophilic aromatic substitution, how are halogens (-F, -Cl, -Br, -I) classified?",
+      "options": [
+        "Deactivating, ortho/para-directing",
+        "Activating, ortho/para-directing",
+        "Deactivating, meta-directing",
+        "Activating, meta-directing"
+      ],
+      "answer": 0,
+      "explanation": "الهالوجينات حالة خاصة: هي مجاميع مثبطة للحلقة (Deactivating) لكنها موجهة لموقعي ortho و para."
+    },
+    {
+      "q": "When a carboxylic acid is treated with a strong base (such as NaOH), what product is formed and how is it named?",
+      "options": [
+        "A carboxylate salt; cation name + acid name changing -ic acid to -ate (e.g., sodium benzoate)",
+        "An ester; ending in -oic",
+        "An aldehyde; ending in -al",
+        "A nitrile; ending in -nitrile"
+      ],
+      "answer": 0,
+      "explanation": "تفاعل الحامض الكربوكسيلي مع قاعدة قوية يكوّن ملح كربوكسيلات، ويُسمى بذكر اسم الكاتيون متبوعاً باسم الحامض مع تغيير -ic acid إلى -ate."
+    },
+    {
+      "q": "Which of the following groups is a DEACTIVATING, META-directing group?",
+      "options": [
+        "-NO2, -CN, -COOH, -SO3H",
+        "-NH2 and -OH",
+        "-OCH3 and -CH3",
+        "-Cl and -Br"
+      ],
+      "answer": 0,
+      "explanation": "المجاميع -NO2 و -CN و -COOH و -SO3H و -CHO كلها مثبطة وموجهة لموقع meta."
+    },
+    {
+      "q": "What is the IUPAC name of CH3CH2CH2CH(CH3)CH2COOH?",
+      "options": [
+        "3-methylhexanoic acid",
+        "4-methylhexanoic acid",
+        "3-methylpentanoic acid",
+        "2-methylhexanoic acid"
+      ],
+      "answer": 0,
+      "explanation": "أطول سلسلة تحوي الكربوكسيل هي 6 ذرات كربون (hexanoic acid) والترقيم يبدأ من -COOH فتأخذ مجموعة المثيل رقم 3."
+    }
+  ]
+}

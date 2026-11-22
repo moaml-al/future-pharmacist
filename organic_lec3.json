@@ -1,0 +1,225 @@
+{
+  "title": "Lec 3: Amines (Structure, Naming & Basicity)",
+  "questions": [
+    {
+      "q": "What is the hybridization of the nitrogen atom in aliphatic amines, and what is the approximate C—N—C bond angle?",
+      "options": [
+        "sp³ hybridized with a lone pair; bond angle is less than 109.5° (~107°–108°)",
+        "sp² hybridized; bond angle is 120°",
+        "sp hybridized; bond angle is 180°",
+        "sp³ hybridized; bond angle is 120°"
+      ],
+      "answer": 0,
+      "explanation": "ذرة النيتروجين في الأمينات مهجنة sp³ مع زوج إلكتروني حر، وزاوية الآصرة أقل قليلاً من 109.5° (حوالي 107° في الأمونيا و 108° في ثلاثي مثيل أمين)."
+    },
+    {
+      "q": "How is a quaternary (4°) ammonium ion defined?",
+      "options": [
+        "An ion in which nitrogen is bonded to four alkyl or aryl groups and bears a positive charge",
+        "An amine with three alkyl groups and one lone pair",
+        "An amine with two hydrogens on nitrogen",
+        "A neutral molecule with four nitrogens"
+      ],
+      "answer": 0,
+      "explanation": "الأمين الرباعي (Quaternary ammonium ion) هو أيون ترتبط فيه ذرة النيتروجين بأربع مجاميع ألكيل أو أريل وتحمل شحنة موجبة."
+    },
+    {
+      "q": "In IUPAC nomenclature of secondary (2°) and tertiary (3°) amines, how are the smaller alkyl groups bonded directly to nitrogen indicated?",
+      "options": [
+        "Using the prefix 'N-' (e.g., N-ethylpropanamine, N,N-dimethylethanamine)",
+        "Using the prefix '1-'",
+        "Using the suffix '-ate'",
+        "Using the prefix 'oxo-'"
+      ],
+      "answer": 0,
+      "explanation": "نختار أطول سلسلة كأمين أم، ونسمي المجاميع الأصغر المرتبطة بالنيتروجين باستخدام البادئة N-."
+    },
+    {
+      "q": "When an -NH2 group is present in a molecule containing a higher-priority functional group (such as -COOH, -CHO, or -OH), what prefix is used?",
+      "options": [
+        "amino- (e.g., 2-aminoethanol, 3-aminobenzaldehyde)",
+        "aza-",
+        "nitro-",
+        "amido-"
+      ],
+      "answer": 0,
+      "explanation": "لأن الكربوكسيل والألديهايد والكيتون والكحول أعلى أولوية من الأمين، نستخدم البادئة amino- للدلالة على مجموعة -NH2."
+    },
+    {
+      "q": "What is the special name given to an aminotoluene (methyl-substituted aniline)?",
+      "options": [
+        "Toluidine (e.g., p-toluidine)",
+        "Toluic acid",
+        "Benzylamine",
+        "Anilinium"
+      ],
+      "answer": 0,
+      "explanation": "الأمينوتولوين يُعطى الاسم الخاص Toluidine (مثل p-toluidine)."
+    },
+    {
+      "q": "How are salts of amines named?",
+      "options": [
+        "Replace -amine with -ammonium (or aniline with -anilinium) and add the anion name (e.g., anilinium chloride)",
+        "Replace -amine with -ate",
+        "Add the prefix hydro- only",
+        "Replace -amine with -oic acid"
+      ],
+      "answer": 0,
+      "explanation": "تُسمى أملاح الأمينات باستبدال -amine بـ -ammonium (أو aniline بـ anilinium) متبوعاً باسم الأنيون (مثل anilinium chloride)."
+    },
+    {
+      "q": "For isomeric amines of the same molecular weight (e.g., C3H9N), what is the order of boiling points from highest to lowest?",
+      "options": [
+        "1° amine > 2° amine > 3° amine",
+        "3° amine > 2° amine > 1° amine",
+        "2° amine > 3° amine > 1° amine",
+        "All have identical boiling points"
+      ],
+      "answer": 0,
+      "explanation": "تتناقص درجة الغليان بالترتيب 1° > 2° > 3° بسبب تناقص الأواصر الهيدروجينية بين الجزيئات، حيث لا تستطيع الأمينات الثالثية تكوين أواصر هيدروجينية مع بعضها لعدم وجود N-H."
+    },
+    {
+      "q": "Compare the boiling points of compounds of similar molecular weight (~59): butane, propylamine, and propanol.",
+      "options": [
+        "Propanol (97°C) > Propylamine (48°C) > Butane (0°C)",
+        "Propylamine > Propanol > Butane",
+        "Butane > Propylamine > Propanol",
+        "Propanol > Butane > Propylamine"
+      ],
+      "answer": 0,
+      "explanation": "الأواصر الهيدروجينية في الكحولات (O-H) أقوى منها في الأمينات (N-H)، بينما الألكانات لا تكوّن أواصر هيدروجينية؛ لذا الكحول أعلى غلياناً ثم الأمين ثم الألكان."
+    },
+    {
+      "q": "Which classes of aliphatic amines can form hydrogen bonds with WATER molecules?",
+      "options": [
+        "All three classes (1°, 2°, and 3° amines)",
+        "Only 1° amines",
+        "Only 1° and 2° amines",
+        "None of them"
+      ],
+      "answer": 0,
+      "explanation": "جميع أصناف الأمينات (الأولية والثانوية والثالثية) تستطيع تكوين أواصر هيدروجينية مع جزيئات الماء (لوجود الزوج الإلكتروني الحر على N)، لذا فإن الأمينات القصيرة (حتى 4 كربون) ذائبة جداً بالماء."
+    },
+    {
+      "q": "Why are amines basic?",
+      "options": [
+        "Because they possess an unshared (lone) pair of electrons on nitrogen that can accept a proton",
+        "Because they donate protons easily",
+        "Because they contain a carbonyl group",
+        "Because they are nonpolar"
+      ],
+      "answer": 0,
+      "explanation": "الأمينات قاعدية لأنها تمتلك زوجاً إلكترونياً حراً غير مشارك على ذرة النيتروجين يمكنها مشاركته لاستقبال بروتون."
+    },
+    {
+      "q": "How does negative charge on nitrogen affect basicity (comparing NH3, NH2-, and NH²-)?",
+      "options": [
+        "Basicity increases with increased negative charge: NH3 < NH2- < NH²-",
+        "Basicity decreases with negative charge",
+        "NH3 is the most basic",
+        "Charge has no effect on basicity"
+      ],
+      "answer": 0,
+      "explanation": "تزداد القاعدية بزيادة الشحنة السالبة على النيتروجين: NH3 (أقل قاعدية) < NH2- < NH²- (الأكثر قاعدية)."
+    },
+    {
+      "q": "Why are aromatic amines (like aniline, pKaH = 4.6) MUCH LESS basic than aliphatic amines (like cyclohexylamine, pKaH = 11.2)?",
+      "options": [
+        "The lone pair on nitrogen in aniline is delocalized into the benzene ring by resonance, making it less available for protonation",
+        "Aniline has no lone pair on nitrogen",
+        "Cyclohexylamine has stronger resonance stabilization",
+        "Benzene is an electron-donating alkyl group"
+      ],
+      "answer": 0,
+      "explanation": "الزوج الإلكتروني الحر في الأنيلين يشارك بالرنين مع حلقة البنزين فيقل توفره لاستقبال البروتون، لذا فالأمينات الأروماتية أقل قاعدية من الأليفاتية."
+    },
+    {
+      "q": "Why are amides (R-CONH2) much LESS basic than amines (R-NH2)?",
+      "options": [
+        "The lone pair on nitrogen is delocalized by resonance into the adjacent C=O (pi-acceptor), plus the inductive effect of oxygen",
+        "Amides have no nitrogen atom",
+        "Amides are sp³ hybridized with localized lone pairs",
+        "Oxygen donates electrons to nitrogen"
+      ],
+      "answer": 0,
+      "explanation": "مجموعة الكربونيل C=O المجاورة للنيتروجين تسحب الزوج الإلكتروني الحر بالرنين (إضافة للتأثير الحثي للأوكسجين) مما يخفض قاعدية الأميدات بشدة."
+    },
+    {
+      "q": "How does the hybridization of nitrogen affect basicity (s-character trend)?",
+      "options": [
+        "Basicity increases with DECREASING s-character: sp (least basic) < sp² < sp³ (most basic)",
+        "Basicity increases with increasing s-character: sp³ < sp² < sp",
+        "sp² is the most basic",
+        "Hybridization has no effect"
+      ],
+      "answer": 0,
+      "explanation": "كلما قلّت نسبة صفة s (s-character)، كان الزوج الإلكتروني أبعد عن النواة وأسهل للمنح، فتزداد القاعدية: sp (الأقل) < sp² < sp³ (الأعلى)."
+    },
+    {
+      "q": "Why is morpholine (pKaH = 8.36) less basic than piperidine (pKaH = 10.9)?",
+      "options": [
+        "The electronegative oxygen atom in morpholine exerts an electron-withdrawing inductive effect, decreasing electron density on nitrogen",
+        "Piperidine has an oxygen atom",
+        "Morpholine is aromatic",
+        "Piperidine is a nitrile"
+      ],
+      "answer": 0,
+      "explanation": "ذرة الأوكسجين في المورفولين تسحب الإلكترونات حثياً فتقلل الكثافة الإلكترونية على النيتروجين وتخفض قاعديته مقارنة بالبيبيريدين."
+    },
+    {
+      "q": "How do substituents on the benzene ring affect the basicity of substituted anilines?",
+      "options": [
+        "Electron-donating groups (-CH3, -OH, -OCH3) increase basicity; electron-withdrawing groups (-Cl, -CN, -NO2) decrease basicity",
+        "Electron-withdrawing groups increase basicity",
+        "Electron-donating groups decrease basicity",
+        "Substituents have no effect on aniline basicity"
+      ],
+      "answer": 0,
+      "explanation": "المجاميع المانحة للإلكترونات (-NH2, -OCH3, -CH3) تزيد قاعدية الأنيلين، بينما المجاميع الساحبة (-Cl, -CF3, -CN, -NO2) تقلل قاعديته."
+    },
+    {
+      "q": "Rank the following aromatic amines in order of INCREASING basicity (least basic to most basic): p-nitroaniline, aniline, p-methylaniline (p-toluidine).",
+      "options": [
+        "p-Nitroaniline < aniline < p-methylaniline",
+        "p-Methylaniline < aniline < p-nitroaniline",
+        "Aniline < p-nitroaniline < p-methylaniline",
+        "p-Nitroaniline < p-methylaniline < aniline"
+      ],
+      "answer": 0,
+      "explanation": "مجموعة NO2 ساحبة فتجعل p-nitroaniline الأقل قاعدية، ومجموعة CH3 مانحة فتجعل p-methylaniline الأكثر قاعدية."
+    },
+    {
+      "q": "What is the basicity order for the following aliphatic amines in the gas phase/general inductive trend: NH3, CH3NH2, (CH3)2NH, (CH3)3N?",
+      "options": [
+        "(CH3)3N > (CH3)2NH > CH3NH2 > NH3",
+        "NH3 > CH3NH2 > (CH3)2NH > (CH3)3N",
+        "CH3NH2 > NH3 > (CH3)3N > (CH3)2NH",
+        "All are equally basic"
+      ],
+      "answer": 0,
+      "explanation": "مجاميع المثيل مانحة للإلكترونات، فتزيد الكثافة الإلكترونية على النيتروجين وتزيد القاعدية بزيادة عددها."
+    },
+    {
+      "q": "Why is diphenylamine (pKaH = 0.78) even LESS basic than aniline (pKaH = 4.6)?",
+      "options": [
+        "Its lone pair is delocalized by resonance across TWO benzene rings instead of one",
+        "It has no benzene rings",
+        "It is an aliphatic amine",
+        "It has a negative charge"
+      ],
+      "answer": 0,
+      "explanation": "في ثنائي فنيل أمين، يتشتت الزوج الإلكتروني الحر بالرنين على حلقتي بنزين بدل حلقة واحدة، مما يقلل قاعديته أكثر من الأنيلين."
+    },
+    {
+      "q": "What is the IUPAC name of H2N-(CH2)6-NH2?",
+      "options": [
+        "1,6-hexanediamine (hexane-1,6-diamine)",
+        "1,6-hexanamine",
+        "Hexylamine",
+        "N,N-dihexylamine"
+      ],
+      "answer": 0,
+      "explanation": "المركبات التي تحتوي على مجموعتي -NH2 تُسمى بإضافة المقطع -diamine لاسم الألكان (1,6-hexanediamine)."
+    }
+  ]
+}

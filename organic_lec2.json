@@ -1,0 +1,225 @@
+{
+  "title": "Lec 2: Preparation & Reactions of Carboxylic Acids",
+  "questions": [
+    {
+      "q": "What are the products of oxidative cleavage of oleic acid with KMnO4 / H3O+?",
+      "options": [
+        "Two carboxylic acids: nonanoic acid and nonanedioic acid (azelaic acid)",
+        "A single alcohol",
+        "An aldehyde and a ketone",
+        "An acid chloride"
+      ],
+      "answer": 0,
+      "explanation": "الانشطار التأكسدي للآصرة المزدوجة في حامض الأوليك بواسطة KMnO4/H3O+ يعطي حامضين كربوكسيليين: nonanoic acid و nonanedioic acid."
+    },
+    {
+      "q": "What structural requirement is necessary for an alkylbenzene to be oxidized to a benzoic acid derivative using hot aqueous KMnO4 (95°C)?",
+      "options": [
+        "At least one benzylic C—H bond must be present (tertiary benzylic carbons without H are not oxidized)",
+        "A tertiary benzylic carbon with no hydrogen",
+        "A nitro group must be present",
+        "An aldehyde must be attached to the ring"
+      ],
+      "answer": 0,
+      "explanation": "أكسدة الألكيل بنزين بـ KMnO4 الساخن تتطلب وجود هيدروجين بنزيلي (Benzylic C-H)؛ الكربون البنزيلي الثالثي الخالي من H لا يتأكسد بهذه الطريقة."
+    },
+    {
+      "q": "What is the product when p-nitrotoluene is oxidized with hot KMnO4 in water (95°C) followed by acid work-up?",
+      "options": [
+        "p-Nitrobenzoic acid",
+        "p-Nitroaniline",
+        "Benzoic acid",
+        "p-Nitrophenol"
+      ],
+      "answer": 0,
+      "explanation": "تتأكسد مجموعة المثيل في p-nitrotoluene إلى -COOH لينتج p-nitrobenzoic acid بنسبة عالية (88%)."
+    },
+    {
+      "q": "Oxidation of a primary alcohol (such as 1-decanol) with CrO3 in aqueous acid (H3O+) yields:",
+      "options": [
+        "A carboxylic acid (decanoic acid)",
+        "A ketone",
+        "An alkene",
+        "An ester"
+      ],
+      "answer": 0,
+      "explanation": "الأكسدة القوية للكحول الأولي بواسطة CrO3/H3O+ تحوله إلى ألديهايد ثم إلى حامض كربوكسيلي (1-decanol → decanoic acid)."
+    },
+    {
+      "q": "Which reagent selectively oxidizes an aldehyde (e.g., hexanal) to a carboxylic acid (hexanoic acid) without being a standard direct oxidant for primary alcohols?",
+      "options": [
+        "Tollens reagent (Ag2O / NH4OH)",
+        "LiAlH4 in dry ether",
+        "SOCl2",
+        "NaCN"
+      ],
+      "answer": 0,
+      "explanation": "كاشف تولنز (Ag2O / NH4OH) يؤكسد الألديهايدات إلى أحماض كربوكسيلية (مثل hexanal → hexanoic acid)."
+    },
+    {
+      "q": "Carboxylation of a Grignard reagent (R-MgBr) with dry CO2 in ether followed by aqueous acid (H3O+) produces:",
+      "options": [
+        "A carboxylic acid containing ONE more carbon atom than the starting alkyl halide",
+        "A carboxylic acid with one fewer carbon atom",
+        "A primary alcohol",
+        "An amide"
+      ],
+      "answer": 0,
+      "explanation": "تفاعل كاشف غرينيارد مع CO2 الجاف ثم H3O+ يضيف ذرة كربون واحدة من CO2 ويعطي حامضاً كربوكسيلياً."
+    },
+    {
+      "q": "In the stepwise mechanism of Grignard carboxylation, the organomagnesium halide (R:- +MgBr) acts as a nucleophile and attacks:",
+      "options": [
+        "The electrophilic carbon of C=O in carbon dioxide (CO2), forming a metal carboxylate",
+        "The hydrogen of H3O+ first",
+        "The ether solvent",
+        "A bromide ion"
+      ],
+      "answer": 0,
+      "explanation": "يهاجم كاشف غرينيارد كربون CO2 مكوناً ملح كربوكسيلات المغنيسيوم، ثم يتم برتنته بـ H3O+ في خطوة منفصلة لإعطاء الحامض الحر."
+    },
+    {
+      "q": "How is an alkyl halide (e.g., 1-bromopropane) converted into a carboxylic acid with one additional carbon (butanoic acid) via nitrile hydrolysis?",
+      "options": [
+        "Step 1: NaCN (SN2) to form nitrile; Step 2: H3O+, H2O, heat (hydrolysis)",
+        "Step 1: LiAlH4; Step 2: CO2",
+        "Step 1: SOCl2; Step 2: ethanol",
+        "Step 1: Br2/PBr3; Step 2: NaOH"
+      ],
+      "answer": 0,
+      "explanation": "الخطوة الأولى استبدال SN2 بـ NaCN لتكوين النيتريل (R-CN)، ثم التحلل المائي بالتسخين بوسط حامضي (أو قاعدي) ليعطي حامضاً كربوكسيلياً أطول بكربون واحد."
+    },
+    {
+      "q": "Why does the nitrile synthesis route (R-Br + NaCN → R-CN → R-COOH) work best with PRIMARY alkyl halides?",
+      "options": [
+        "Because elimination reactions occur with secondary or tertiary alkyl halides during the SN2 cyanide step",
+        "Because primary halides undergo elimination",
+        "Because tertiary halides do not react with water",
+        "Because CN- is a weak acid"
+      ],
+      "answer": 0,
+      "explanation": "تفاعل NaCN هو SN2، لذا يعمل بأفضل شكل مع الهاليدات الأولية لأن الهاليدات الثانوية والثالثية تميل لتفاعلات الحذف (Elimination)."
+    },
+    {
+      "q": "During hydrolysis of a nitrile (R-C≡N) to a carboxylic acid (R-COOH), what intermediate is formed along the pathway?",
+      "options": [
+        "An amide intermediate",
+        "An acid chloride intermediate",
+        "A Grignard intermediate",
+        "An alkene intermediate"
+      ],
+      "answer": 0,
+      "explanation": "أثناء التحلل المائي للنيتريل يمر التفاعل عبر وسيط أميدي (Amide intermediate) قبل أن يتحول إلى R-COOH."
+    },
+    {
+      "q": "Which reagent is used to convert a carboxylic acid (e.g., acetic acid) into an acid chloride (acetyl chloride), releasing SO2 and HCl gases?",
+      "options": [
+        "Thionyl chloride (SOCl2)",
+        "LiAlH4",
+        "KMnO4",
+        "Ag2O / NH4OH"
+      ],
+      "answer": 0,
+      "explanation": "كلوريد الثايونيل (SOCl2) يحوّل الحامض الكربوكسيلي إلى كلوريد الحامض (RCOCl) مع تحرر غازي SO2 و HCl."
+    },
+    {
+      "q": "Fischer esterification reacts a carboxylic acid with an alcohol in the presence of catalytic H2SO4 and heat. Because it is reversible, how can the equilibrium be driven toward the ester?",
+      "options": [
+        "By using excess alcohol or removing water as it forms",
+        "By adding excess water",
+        "By removing the acid catalyst",
+        "By cooling the reaction to 0°C"
+      ],
+      "answer": 0,
+      "explanation": "أسترة فيشر تفاعل انعكاسي (RCOOH + R'OH ⇌ RCOOR' + H2O)، ويمكن دفع التوازن نحو الإستر باستخدام زيادة من الكحول أو سحب الماء."
+    },
+    {
+      "q": "In the alternative ester preparation (carboxylate SN2), an acetate ion reacts with CH3CH2Br to form ethyl acetate. What role does the carboxylate ion play?",
+      "options": [
+        "Nucleophile attacking the primary alkyl halide",
+        "Electrophile",
+        "Oxidizing agent",
+        "Reducing agent"
+      ],
+      "answer": 0,
+      "explanation": "يعمل أيون الكربوكسيلات كنيوكليوفيل يهاجم هاليد الألكيل الأولي بتفاعل SN2 لتكوين الإستر."
+    },
+    {
+      "q": "Dehydrative coupling of two molecules of acetic acid under special conditions produces:",
+      "options": [
+        "Acetic anhydride + H2O",
+        "Acetyl chloride",
+        "Ethyl acetate",
+        "1-Ethanol"
+      ],
+      "answer": 0,
+      "explanation": "نزع جزيء ماء من جزيئتين من حامض الخليك يعطي أنهيدريد الحامض (Acetic anhydride)."
+    },
+    {
+      "q": "Why does direct mixing of a carboxylic acid (RCOOH) and an amine usually fail to form an amide at room temperature, and what reagent is used to couple them?",
+      "options": [
+        "Direct mixing forms an ammonium carboxylate salt; a coupling agent like DCC is required for efficient amide formation",
+        "Direct mixing forms an ester; KMnO4 is required",
+        "Amines are too acidic to react",
+        "Carboxylic acids are reduced to alkanes"
+      ],
+      "answer": 0,
+      "explanation": "الخلط المباشر يعطي ملح كربوكسيلات الأمونيوم (تفاعل حامض-قاعدة)، لذا نحتاج لعامل ربط/تنشيط مثل DCC لتكوين الأميد بكفاءة."
+    },
+    {
+      "q": "Reduction of a carboxylic acid (e.g., butanoic acid) with LiAlH4 in dry ether followed by H3O+ (or using BH3·THF) yields:",
+      "options": [
+        "A primary alcohol (1-butanol)",
+        "An aldehyde only",
+        "A secondary alcohol",
+        "An alkane"
+      ],
+      "answer": 0,
+      "explanation": "اختزال الحامض الكربوكسيلي بواسطة LiAlH4 (أو BH3·THF) يحوّل مجموعة الكربوكسيل إلى -CH2OH فيعطي كحولاً أولياً."
+    },
+    {
+      "q": "In the Hell-Volhard-Zelinsky (HVZ) reaction, treating propanoic acid with Br2 / PBr3 followed by H2O produces:",
+      "options": [
+        "2-Bromopropanoic acid (α-bromination)",
+        "3-Bromopropanoic acid",
+        "Propanoyl chloride",
+        "1-Bromopropane"
+      ],
+      "answer": 0,
+      "explanation": "تفاعل HVZ (بواسطة Br2/PBr3 ثم H2O) يقوم ببرومة ذرة الكربون ألفا (α-carbon) المجاورة للكربوكسيل، ويتطلب وجود α-hydrogen."
+    },
+    {
+      "q": "What is required structurally for a carboxylic acid to undergo the Hell-Volhard-Zelinsky (HVZ) α-bromination reaction?",
+      "options": [
+        "At least one α-hydrogen",
+        "A benzene ring",
+        "A double bond",
+        "A tertiary α-carbon"
+      ],
+      "answer": 0,
+      "explanation": "تفاعل HVZ يتطلب وجود هيدروجين على كربون ألفا (α-hydrogen) لأن التفاعل يمر عبر إنول بروميد الحامض."
+    },
+    {
+      "q": "Which of the following are the four main functional derivatives of carboxylic acids?",
+      "options": [
+        "Acid halides, anhydrides, esters, and amides",
+        "Alkanes, alkenes, alkynes, and ethers",
+        "Aldehydes, ketones, alcohols, and phenols",
+        "Nitriles, amines, nitro compounds, and halides"
+      ],
+      "answer": 0,
+      "explanation": "المشتقات الوظيفية الأربعة للأحماض الكربوكسيلية هي: هاليدات الحامض، الأنهيدريدات، الإسترات، والأميدات."
+    },
+    {
+      "q": "Predict the product: R-CH2-COOH + Br2/PBr3, then H2O → ?",
+      "options": [
+        "R-CH(Br)-COOH",
+        "R-CH2-COBr",
+        "R-CH2-CH2OH",
+        "R-CH2-Br"
+      ],
+      "answer": 0,
+      "explanation": "هذا هو تفاعل HVZ الذي يضيف ذرة بروم على كربون ألفا ثم يحلل بروميد الحامض بالماء ليعطي α-bromo carboxylic acid."
+    }
+  ]
+}

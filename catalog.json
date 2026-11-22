@@ -59,6 +59,38 @@
           "count": 35
         }
       ]
+    },
+    {
+      "id": "organic_chemistry",
+      "name": "الكيمياء العضوية",
+      "icon": "🧪",
+      "files": [
+        {
+          "file": "organic_lec1.json",
+          "title": "Lec 1: Carboxylic Acids",
+          "count": 25
+        },
+        {
+          "file": "organic_lec2.json",
+          "title": "Lec 2: Prep & Reactions of Acids",
+          "count": 20
+        },
+        {
+          "file": "organic_lec3.json",
+          "title": "Lec 3: Amines (Naming & Basicity)",
+          "count": 20
+        },
+        {
+          "file": "organic_lec4.json",
+          "title": "Lec 4: Amines 2 (Synthesis & Reactions)",
+          "count": 20
+        },
+        {
+          "file": "organic_applied.json",
+          "title": "مسائل وتطبيقات شاملة",
+          "count": 10
+        }
+      ]
     }
   ]
 }
