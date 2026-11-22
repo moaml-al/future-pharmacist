@@ -1,0 +1,445 @@
+{
+  "title": "Lec 4: Buffered & Isotonic Solutions (Part 2)",
+  "questions": [
+    {
+      "q": "What is the FIRST step in developing a new pharmaceutical buffer solution?",
+      "options": [
+        "Select a weak acid having a pKa approximately equal to the target pH",
+        "Add NaCl to reach 0.9%",
+        "Measure the freezing point depression",
+        "Add borate buffer to all oral products"
+      ],
+      "answer": 0,
+      "explanation": "أول خطوة لتحضير بفر صيدلاني هي اختيار حامض ضعيف تكون قيمة pKa له مساوية تقريباً للـ pH المطلوب."
+    },
+    {
+      "q": "What are the typical individual concentrations of buffer salt & acid and typical buffer capacity used in pharmaceutical buffers?",
+      "options": [
+        "Individual conc.: 0.05–0.5 M; Buffer capacity: 0.01–0.1",
+        "Individual conc.: 5–10 M; Buffer capacity: 1.0–2.0",
+        "Individual conc.: 0.0001 M; Buffer capacity: 0.5",
+        "Individual conc.: 2.0 M; Buffer capacity: 0.9"
+      ],
+      "answer": 0,
+      "explanation": "التركيز المعتاد لمكونات البفر هو 0.05–0.5 M، والسعة التنظيمية المناسبة 0.01–0.1."
+    },
+    {
+      "q": "Why should borate buffer NOT be used for oral or parenteral pharmaceutical products?",
+      "options": [
+        "Because of its toxic effect",
+        "Because it has zero solubility in water",
+        "Because its pH is always 1.0",
+        "Because it is too expensive"
+      ],
+      "answer": 0,
+      "explanation": "بفر البورات (Borate buffer) له تأثير سام (Toxic effect) لذلك لا يُستخدم في المستحضرات الفموية أو الحقنية."
+    },
+    {
+      "q": "Between the undissociated (molecular) form and the ionized (salt) form of a weakly acidic or basic drug, which penetrates biological lipid membranes more readily?",
+      "options": [
+        "The undissociated (molecular) form, because it is lipid soluble",
+        "The ionized (salt) form, because it is water soluble",
+        "Both penetrate lipid membranes at identical rates",
+        "Neither can cross cell membranes"
+      ],
+      "answer": 0,
+      "explanation": "الشكل غير المتأين (Molecular/Undissociated) ذائب في الدهون (Lipid soluble) فيعبر الأغشية الحيوية بسهولة أكبر من الشكل المتأين."
+    },
+    {
+      "q": "How is a weakly basic drug (like an alkaloidal eye drop) buffered for optimal stability and ocular absorption?",
+      "options": [
+        "Buffered at a low buffer capacity and a compromise pH so tears can gradually neutralize it into the unionized base",
+        "Buffered at a very high buffer capacity at pH 11",
+        "Buffered with strong HCl to prevent any absorption",
+        "Prepared without any water"
+      ],
+      "answer": 0,
+      "explanation": "تُحضّر قطرة العين بسعة تنظيمية منخفضة و pH وسطي بين الثباتية والفعالية، لتقوم الدموع بمعادلتها تدريجياً وتحويل الملح إلى قاعدة حرة تُمتص عبر القرنية."
+    },
+    {
+      "q": "Why must an aqueous solution of a weakly basic drug be buffered at a sufficiently LOW pH to prevent precipitation?",
+      "options": [
+        "At low pH the base is in its highly water-soluble ionized form (BH+); raising pH forms poorly soluble free base (B) which precipitates",
+        "At high pH the base becomes ionized and precipitates",
+        "Low pH converts the base into NaCl",
+        "Raising pH increases aqueous solubility of free bases"
+      ],
+      "answer": 0,
+      "explanation": "عند pH منخفض تكون القاعدة بشكلها الأيوني (BH+) عالي الذوبان بالماء، أما رفع الـ pH فيزيد القاعدة الحرة (B) قليلة الذوبان فتترسب."
+    },
+    {
+      "q": "For pilocarpine (pKb = 7.15 at 25°C), what is the mole percent of unionized free base at pH 7.4 versus pH 4.0?",
+      "options": [
+        "78% at pH 7.4 vs. 0.13% at pH 4.0",
+        "0.13% at pH 7.4 vs. 78% at pH 4.0",
+        "50% at both pH values",
+        "100% at pH 4.0 vs. 10% at pH 7.4"
+      ],
+      "answer": 0,
+      "explanation": "حسب مثال البيلوكاربين: عند pH 7.4 تكون نسبة القاعدة الحرة غير المتأينة 78%، بينما عند pH 4.0 تكون 0.13% فقط (معظمه متأين وذائب)."
+    },
+    {
+      "q": "Pharmaceutical solutions applied to delicate membranes (eye, nasal tract, blood) should be adjusted to match body fluids in:",
+      "options": [
+        "Both pH and osmotic pressure (tonicity)",
+        "Color and odor only",
+        "Viscosity only",
+        "Boiling point only"
+      ],
+      "answer": 0,
+      "explanation": "المحاليل المطبقة على الأغشية الحساسة (العين، الأنف، الدم) يجب تعديل الـ pH والضغط الأزموزي (التوترية) فيها لتطابق سوائل الجسم."
+    },
+    {
+      "q": "What concentration of NaCl solution is isotonic with human blood and lacrimal fluid?",
+      "options": [
+        "0.9% w/v (0.9 g per 100 mL)",
+        "2.0% w/v",
+        "0.2% w/v",
+        "5.0% w/v"
+      ],
+      "answer": 0,
+      "explanation": "محلول كلوريد الصوديوم بتركيز 0.9% (0.9 غرام لكل 100 مل) متساوي التوتر (Isotonic) مع الدم والدموع."
+    },
+    {
+      "q": "What happens to red blood cells (RBCs) when suspended in a HYPERTONIC solution (e.g., 2.0% NaCl)?",
+      "options": [
+        "Water leaves the cells, causing them to shrink and become wrinkled (crenation)",
+        "Water enters the cells, causing swelling and hemolysis",
+        "No net movement of water occurs",
+        "Cells retain their normal biconcave shape"
+      ],
+      "answer": 0,
+      "explanation": "في المحلول عالي التوتر (Hypertonic مثل 2.0% NaCl) يخرج الماء من الكرية الحمراء فتنكمش وتتجعد (Crenation)."
+    },
+    {
+      "q": "What happens to red blood cells when mixed with a HYPOTONIC solution (e.g., 0.2% NaCl or distilled water)?",
+      "options": [
+        "Water enters the cells, causing them to swell and burst (hemolysis) with liberation of hemoglobin",
+        "Water leaves the cells causing crenation",
+        "No net water movement occurs",
+        "Salt precipitates inside the cells"
+      ],
+      "answer": 0,
+      "explanation": "في المحلول منخفض التوتر (Hypotonic مثل 0.2% NaCl أو الماء المقطر) يدخل الماء للخلية فتنتفخ وتنفجر (Hemolysis) ويتحرر الهيموغلوبين."
+    },
+    {
+      "q": "What are the two main approaches used to measure the tonicity of solutions?",
+      "options": [
+        "Quantitative hemolytic method and Colligative properties methods (e.g., freezing point depression)",
+        "Colorimetric indicator method and pH meter only",
+        "X-ray diffraction and viscosity",
+        "Ideal gas law and phase rule"
+      ],
+      "answer": 0,
+      "explanation": "تُقاس التوترية بطريقتين: الطريقة الكمية للتحلل الدموي (Hemolytic method) وطرق الخواص التجميعية (مثل انخفاض درجة الانجماد)."
+    },
+    {
+      "q": "What is the freezing point of human blood, lacrimal fluid, and a 0.90% NaCl solution?",
+      "options": [
+        "-0.52°C",
+        "0.00°C",
+        "-1.86°C",
+        "-0.35°C"
+      ],
+      "answer": 0,
+      "explanation": "درجة انجماد الدم والدموع ومحلول 0.90% NaCl هي -0.52°C (أي انخفاض درجة الانجماد ΔTf = 0.52°C)."
+    },
+    {
+      "q": "Colligative properties (osmotic pressure, freezing point depression, boiling point elevation, vapor pressure lowering) depend ONLY on:",
+      "options": [
+        "The number of dissolved solute particles in the solution",
+        "The chemical identity of the solute",
+        "The color of the solution",
+        "The pH of the solution"
+      ],
+      "answer": 0,
+      "explanation": "الخواص التجميعية (Colligative properties) تعتمد فقط على عدد الجسيمات المذابة في المحلول وليس على نوعها."
+    },
+    {
+      "q": "In the van't Hoff expression ΔTf = Liso · C, what is the Liso value for a uni-univalent electrolyte (such as NaCl) vs. a non-electrolyte (such as sucrose)?",
+      "options": [
+        "Uni-univalent = 3.4; Non-electrolyte = 1.9",
+        "Uni-univalent = 1.9; Non-electrolyte = 3.4",
+        "Uni-univalent = 4.3; Non-electrolyte = 2.0",
+        "Both equal 1.86"
+      ],
+      "answer": 0,
+      "explanation": "قيم Liso: لغير الإلكتروليت (سكروز) = 1.9، للإلكتروليت الضعيف = 2.0، لأحادي-أحادي (NaCl) = 3.4، لأحادي-ثنائي (Na2SO4) = 4.3، لثنائي-أحادي (ZnCl2) = 4.8."
+    },
+    {
+      "q": "What is the freezing point lowering (ΔTf) of a 1% solution of sodium propionate (MW = 96, uni-univalent, Liso = 3.4, C = 0.104 M)?",
+      "options": [
+        "0.35°C (hypotonic, since < 0.52°C)",
+        "0.52°C (isotonic)",
+        "0.90°C (hypertonic)",
+        "1.86°C (hypertonic)"
+      ],
+      "answer": 0,
+      "explanation": "ΔTf = 3.4 × 0.104 = 0.35°C؛ وبما أنها أقل من 0.52°C فالمحلول منخفض التوتر (Hypotonic)."
+    },
+    {
+      "q": "Which tonicity adjustment methods belong to CLASS I (adding NaCl or another solute to lower freezing point to -0.52°C)?",
+      "options": [
+        "Cryoscopic method and Sodium chloride equivalent (E) method",
+        "White-Vincent method and Sprowls method",
+        "Henderson-Hasselbalch and Van Slyke methods",
+        "Hemolytic and colorimetric methods"
+      ],
+      "answer": 0,
+      "explanation": "طرق الصنف الأول (Class I - إضافة ملح NaCl) تشمل: الطريقة الكرايوسكوبية (Cryoscopic) وطريقة مكافئ كلوريد الصوديوم (E method)."
+    },
+    {
+      "q": "Which tonicity adjustment methods belong to CLASS II (adding water to make an isotonic solution, then completing volume with an isotonic vehicle)?",
+      "options": [
+        "White-Vincent method and Sprowls method",
+        "Cryoscopic method and E-value method",
+        "Clausius-Clapeyron method",
+        "pH meter method"
+      ],
+      "answer": 0,
+      "explanation": "طرق الصنف الثاني (Class II - إضافة ماء ثم إكمال الحجم بمذيب متساوي التوتر) تشمل طريقة White-Vincent وطريقة Sprowls."
+    },
+    {
+      "q": "Using the Cryoscopic method, how much NaCl is required to make 100 mL of a 1% apomorphine HCl solution (ΔTf 1% = 0.08°C) isotonic with blood (ΔTf 1% NaCl = 0.58°C)?",
+      "options": [
+        "0.76 g NaCl",
+        "0.90 g NaCl",
+        "0.44 g NaCl",
+        "0.58 g NaCl"
+      ],
+      "answer": 0,
+      "explanation": "النقص المطلوب = 0.52 - 0.08 = 0.44°C؛ وبالتناسب: X = 0.44 / 0.58 = 0.76% أي 0.76 غرام NaCl لكل 100 مل."
+    },
+    {
+      "q": "What is the definition of the Sodium Chloride Equivalent (E) of a drug?",
+      "options": [
+        "The weight of NaCl that produces the same osmotic effect (freezing point depression) as 1 g of the drug",
+        "The molecular weight of NaCl divided by 100",
+        "The volume of water needed to dissolve 1 g of drug",
+        "The pH of a 1% drug solution"
+      ],
+      "answer": 0,
+      "explanation": "مكافئ كلوريد الصوديوم (E) هو وزن كلوريد الصوديوم الذي يعطي نفس التأثير الأزموزي (أو انخفاض الانجماد) لغرام واحد من الدواء."
+    },
+    {
+      "q": "Which equation is used to calculate the approximate Sodium Chloride Equivalent (E) for a new drug?",
+      "options": [
+        "E ≈ 17 × (Liso / MW)",
+        "E ≈ 111.1 × (Liso / MW)",
+        "E ≈ MW / (17 × Liso)",
+        "E ≈ 0.52 × MW"
+      ],
+      "answer": 0,
+      "explanation": "يُحسب مكافئ كلوريد الصوديوم من المعادلة: E ≈ 17 × (Liso / MW)."
+    },
+    {
+      "q": "Calculate the approximate E value for a new amphetamine HCl derivative (MW = 187, uni-univalent salt, Liso = 3.4):",
+      "options": [
+        "0.31",
+        "0.16",
+        "0.58",
+        "0.90"
+      ],
+      "answer": 0,
+      "explanation": "E = (17 × 3.4) / 187 = 57.8 / 187 = 0.31."
+    },
+    {
+      "q": "A 100 mL solution contains 1 g of ephedrine sulfate (E = 0.23). How much NaCl must be added to make it isotonic?",
+      "options": [
+        "0.67 g NaCl",
+        "0.23 g NaCl",
+        "0.90 g NaCl",
+        "4.20 g NaCl"
+      ],
+      "answer": 0,
+      "explanation": "الدواء يكافئ 1 × 0.23 = 0.23 g NaCl؛ والمطلوب لـ 100 مل هو 0.90 g، إذن نضيف 0.90 - 0.23 = 0.67 g NaCl."
+    },
+    {
+      "q": "In the previous problem (0.67 g NaCl needed for 100 mL), if dextrose (E = 0.16) is used INSTEAD of NaCl, how much dextrose is required?",
+      "options": [
+        "4.2 g dextrose",
+        "0.16 g dextrose",
+        "0.67 g dextrose",
+        "1.07 g dextrose"
+      ],
+      "answer": 0,
+      "explanation": "كمية الدكستروز = 0.67 / 0.16 = 4.19 ≈ 4.2 g دكستروز."
+    },
+    {
+      "q": "What is the White-Vincent equation used to calculate the volume (V in mL) of isotonic solution prepared by mixing a drug with water?",
+      "options": [
+        "V = w × E × 111.1",
+        "V = w × E × 17",
+        "V = 0.9 − (w × E)",
+        "V = Liso × C"
+      ],
+      "answer": 0,
+      "explanation": "معادلة وايت-فنسنت هي V = w × E × 111.1، حيث 111.1 هو حجم المحلول متساوي التوتر (بالمل) الناتج عن إذابة 1 غرام NaCl بالماء (100/0.9)."
+    },
+    {
+      "q": "Using the White-Vincent method to prepare 30 mL of 1% procaine HCl (w = 0.3 g, E = 0.21), what volume of water (V) is first added to make the drug isotonic?",
+      "options": [
+        "7.0 mL (then complete to 30 mL with an isotonic diluting vehicle)",
+        "23.0 mL (then complete with pure water)",
+        "30.0 mL of pure water",
+        "0.063 mL"
+      ],
+      "answer": 0,
+      "explanation": "V = 0.3 × 0.21 × 111.1 = 7.0 mL ماء مقطر، ثم نكمل الحجم إلى 30 mL باستخدام مذيب متساوي التوتر (وليس ماء مقطر)."
+    },
+    {
+      "q": "In the White-Vincent method, after dissolving the drug in V mL of purified water to make it isotonic, what must be used to bring the preparation to the final volume?",
+      "options": [
+        "An isotonic or isotonic-buffered diluting vehicle",
+        "Pure distilled water",
+        "2.0% hypertonic NaCl",
+        "Ethanol"
+      ],
+      "answer": 0,
+      "explanation": "بعد تكوين المحلول متساوي التوتر بحجم V من الماء، يجب إكمال الحجم النهائي بمذيب متساوي التوتر (Isotonic vehicle) وليس بماء نقي حتى لا يصبح المحلول Hypotonic."
+    },
+    {
+      "q": "For a prescription containing 0.06 g phenacaine HCl (E = 0.20) and 0.3 g boric acid (E = 0.50) to make 100 mL isotonic, what is V using White-Vincent?",
+      "options": [
+        "18 mL",
+        "7 mL",
+        "50 mL",
+        "100 mL"
+      ],
+      "answer": 0,
+      "explanation": "V = [(0.06 × 0.20) + (0.3 × 0.50)] × 111.1 = [0.012 + 0.15] × 111.1 = 0.162 × 111.1 = 18 mL."
+    },
+    {
+      "q": "What does the constant 111.1 in the White-Vincent equation represent?",
+      "options": [
+        "The volume in mL of isotonic solution obtained by dissolving 1 g of NaCl in water (100 / 0.9)",
+        "The molecular weight of NaCl",
+        "The freezing point of water",
+        "The buffer capacity of tears"
+      ],
+      "answer": 0,
+      "explanation": "الثابت 111.1 (ناتج 100 ÷ 0.9) يمثل حجم المحلول متساوي التوتر بالمل الناتج عن إذابة 1 غرام من NaCl في الماء."
+    },
+    {
+      "q": "What is the Liso value for a uni-divalent electrolyte such as Na2SO4?",
+      "options": [
+        "4.3",
+        "3.4",
+        "4.8",
+        "2.0"
+      ],
+      "answer": 0,
+      "explanation": "قيمة Liso للإلكتروليت أحادي-ثنائي التكافؤ (مثل Na2SO4) هي 4.3، ولثنائي-أحادي (مثل ZnCl2) هي 4.8."
+    },
+    {
+      "q": "What is the Liso value for a weak electrolyte such as phenobarbital?",
+      "options": [
+        "2.0",
+        "1.9",
+        "3.4",
+        "4.8"
+      ],
+      "answer": 0,
+      "explanation": "قيمة Liso للإلكتروليت الضعيف (مثل الفينوباربيتال) هي 2.0."
+    },
+    {
+      "q": "Why does the buffer in an ophthalmic drop still need to be strong enough to resist small pH shifts during storage?",
+      "options": [
+        "To prevent pH changes caused by alkalinity of the glass container or acidity of dissolved CO2 from air",
+        "To prevent tears from neutralizing the drop",
+        "To make the drop hypertonic",
+        "To precipitate the free base"
+      ],
+      "answer": 0,
+      "explanation": "يجب أن تكون السعة التنظيمية كافية لمنع تغير الـ pH بسبب قاعدية الزجاج أو حامضية CO2 المذاب من الهواء، لكن منخفضة بما يكفي لتعادلها الدموع."
+    },
+    {
+      "q": "In the Sodium Chloride Equivalent method, when adjusting tonicity of a 100 mL solution, should you add BOTH NaCl and dextrose together?",
+      "options": [
+        "No, use one tonicity-adjusting agent at a time (either NaCl or dextrose)",
+        "Yes, always add equal amounts of both",
+        "Add neither and use distilled water",
+        "Add borate buffer instead"
+      ],
+      "answer": 0,
+      "explanation": "نستخدم عاملاً واحداً فقط لتعديل التوترية في المرة الواحدة (إما NaCl أو دكستروز) ولا نضيفهما معاً."
+    },
+    {
+      "q": "In the quantitative hemolytic method of measuring tonicity, what is liberated in direct proportion to the number of RBCs hemolyzed?",
+      "options": [
+        "Oxyhemoglobin",
+        "Albumin",
+        "Sodium chloride",
+        "Boric acid"
+      ],
+      "answer": 0,
+      "explanation": "تعتمد الطريقة الكمية للتحلل الدموي على أن المحلول منخفض التوتر يحرر الأوكسي هيموغلوبين بنسبة طردية مع عدد الكريات المتحللة."
+    },
+    {
+      "q": "What is the final step (Step 5) in preparing a new pharmaceutical buffer solution?",
+      "options": [
+        "Determine and verify the pH and buffer capacity using a reliable, calibrated pH meter",
+        "Taste the solution for acidity",
+        "Freeze the solution to -10°C",
+        "Add 2.0% NaCl"
+      ],
+      "answer": 0,
+      "explanation": "الخطوة الأخيرة هي قياس والتحقق من الـ pH والسعة التنظيمية باستخدام جهاز pH meter موثوق ومعاير."
+    },
+    {
+      "q": "As the unionized base (B) of an alkaloidal eye drop is absorbed through the corneal membrane, what happens to the remaining ionized salt (BH+) in the tear film?",
+      "options": [
+        "More BH+ converts into unionized base (B) to preserve equilibrium, allowing gradual sustained absorption",
+        "All BH+ precipitates immediately",
+        "Absorption stops completely",
+        "Tear pH drops to 2.0"
+      ],
+      "answer": 0,
+      "explanation": "كلما امتصت العين القاعدة الحرة (B)، يتحول المزيد من الملح المتأين (BH+) إلى قاعدة حرة للحفاظ على التوازن فيستمر الامتصاص تدريجياً."
+    },
+    {
+      "q": "In Mellen & Seltzer's derivation of E ≈ 17 × (Liso / MW), where does the number 17 come from?",
+      "options": [
+        "Molecular weight of NaCl (58.45) divided by Liso of NaCl (3.4)",
+        "100 divided by 5.845",
+        "14 + 3",
+        "1.86 × 9"
+      ],
+      "answer": 0,
+      "explanation": "الرقم 17 ناتج عن قسمة الوزن الجزيئي لـ NaCl (58.45) على قيمة Liso الخاصة به (3.4)."
+    },
+    {
+      "q": "Which direction does water (solvent) move by osmosis across a red blood cell membrane?",
+      "options": [
+        "Toward the side with higher solute concentration",
+        "Toward the side with lower solute concentration",
+        "Only out of the cell regardless of concentration",
+        "Water never crosses RBC membranes"
+      ],
+      "answer": 0,
+      "explanation": "ينتقل الماء بالأزموزية دائماً نحو الجهة ذات التركيز الأعلى للمذاب حتى يتساوى التركيز."
+    },
+    {
+      "q": "When a solution contains MORE than one drug ingredient in the White-Vincent method, how are the isotonic volumes calculated?",
+      "options": [
+        "The individual (w × E) values are additive and summed before multiplying by 111.1",
+        "Only the largest drug weight is used",
+        "The values are multiplied by each other",
+        "White-Vincent cannot be used for multiple drugs"
+      ],
+      "answer": 0,
+      "explanation": "عند وجود أكثر من مادة، تكون حجوم المحلول متساوي التوتر جمعية (Additive)، فنجمع حاصل ضرب (w × E) لكل مادة ثم نضرب المجموع في 111.1."
+    },
+    {
+      "q": "Does higher membrane permeability (unionized form) ALWAYS guarantee higher therapeutic activity by itself?",
+      "options": [
+        "No; optimum therapeutic response also depends on solubility, stability, receptor affinity, and drug concentration at the site of action",
+        "Yes; permeability is the only factor that matters",
+        "No; ionized drugs always have higher permeability",
+        "Yes; salt forms never dissolve in water"
+      ],
+      "answer": 0,
+      "explanation": "النفاذية العالية وحدها لا تكفي دائماً، فالاستجابة العلاجية المثلى تحتاج توازناً بين النفاذية، الذوبانية، الثباتية، وألفة المستقبل."
+    }
+  ]
+}

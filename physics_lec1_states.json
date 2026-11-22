@@ -1,0 +1,500 @@
+{
+  "title": "Lec 1: States of Matter",
+  "questions": [
+    {
+      "q": "Which of the following are the three primary states of matter?",
+      "options": [
+        "Gases, liquids, and crystalline solids",
+        "Gases, amorphous solids, and plasma",
+        "Liquids, supercritical fluids, and amorphous solids",
+        "Crystalline solids, gels, and vapors"
+      ],
+      "answer": 0,
+      "explanation": "الحالات الأساسية الثلاث للمادة هي الغازات (Gases)، السوائل (Liquids)، والمواد الصلبة البلورية (Crystalline solids)."
+    },
+    {
+      "q": "How do intermolecular forces compare to intramolecular forces?",
+      "options": [
+        "Intermolecular forces are weak forces between molecules, whereas intramolecular forces are strong bonds within a molecule",
+        "Intermolecular forces are stronger than covalent bonds",
+        "Intramolecular forces only exist in gases",
+        "Both have identical bond energies"
+      ],
+      "answer": 0,
+      "explanation": "القوى بين الجزيئات (Intermolecular) ضعيفة مقارنة بالقوى داخل الجزيء الواحد (Intramolecular) مثل الأواصر التساهمية والأيونية."
+    },
+    {
+      "q": "Which Van der Waals force occurs between two permanent polar molecules (dipole-dipole interaction / orientation effect)?",
+      "options": [
+        "Keesom forces",
+        "Debye forces",
+        "London forces",
+        "Ion-dipole forces"
+      ],
+      "answer": 0,
+      "explanation": "قوى كيسوم (Keesom forces) هي تفاعل ثنائي القطب-ثنائي القطب (Dipole-Dipole) وتُعرف أيضاً بتأثير التوجيه (Orientation effect)."
+    },
+    {
+      "q": "Dipole-induced dipole interaction (induction effect) is known as:",
+      "options": [
+        "Debye forces",
+        "Keesom forces",
+        "London dispersion forces",
+        "Hydrogen bonding"
+      ],
+      "answer": 0,
+      "explanation": "قوى ديباي (Debye forces) هي تفاعل ثنائي القطب-ثنائي القطب المستحث (Dipole-induced dipole)."
+    },
+    {
+      "q": "Induced dipole-induced dipole interaction (dispersion effect) occurring in nonpolar molecules is known as:",
+      "options": [
+        "London forces",
+        "Keesom forces",
+        "Debye forces",
+        "Electrovalent forces"
+      ],
+      "answer": 0,
+      "explanation": "قوى لندن التشتتية (London forces) هي تفاعل ثنائي القطب المستحث-ثنائي القطب المستحث."
+    },
+    {
+      "q": "What is the approximate bond energy range of Van der Waals forces and ion-dipole interactions?",
+      "options": [
+        "1–10 kcal/mole",
+        "50–150 kcal/mole",
+        "100–200 kcal/mole",
+        "200–400 kcal/mole"
+      ],
+      "answer": 0,
+      "explanation": "طاقة أواصر فان در فالز والتفاعلات بين الجزيئات تتراوح بين 1 إلى 10 kcal/mole، بينما الأواصر التساهمية 50–150 والأيونية 100–200."
+    },
+    {
+      "q": "Hydrogen bonding occurs when a hydrogen atom is covalently bonded to a strongly electronegative atom such as:",
+      "options": [
+        "Fluorine, oxygen, or nitrogen (F, O, N)",
+        "Carbon, sulfur, or phosphorus",
+        "Sodium, potassium, or calcium",
+        "Chlorine, bromine, or iodine only"
+      ],
+      "answer": 0,
+      "explanation": "الآصرة الهيدروجينية تتكون بين ذرة هيدروجين وذرة ذات سالبية كهربائية عالية مثل الفلور (F) والأوكسجين (O) والنيتروجين (N)."
+    },
+    {
+      "q": "Which of the following compounds exhibits BOTH intermolecular and intramolecular hydrogen bonding?",
+      "options": [
+        "Salicylic acid",
+        "Methane",
+        "Sodium chloride",
+        "Diethyl ether"
+      ],
+      "answer": 0,
+      "explanation": "حامض الساليسيليك (Salicylic acid) يُظهر آصرة هيدروجينية داخلية (Intramolecular) وخارجية بين الجزيئات (Intermolecular)."
+    },
+    {
+      "q": "Among the hydrogen bonds listed in the lecture table, which bond has the highest approximate bond energy (7 kcal/mole)?",
+      "options": [
+        "F—H···F",
+        "C—H···O",
+        "N—H···N",
+        "O—H···O"
+      ],
+      "answer": 0,
+      "explanation": "آصرة F—H···F لها أعلى طاقة (7 kcal/mole)، تليها O—H···O (6 kcal/mole)، بينما C—H···O و N—H···N تتراوح بين 2–3 kcal/mole."
+    },
+    {
+      "q": "Why does carboxylic acid have a high boiling point compared to hydrocarbons of similar molecular weight?",
+      "options": [
+        "Because of hydrogen bonding forming dimers",
+        "Because it has no intermolecular forces",
+        "Because it forms ionic lattices",
+        "Because it has lower molecular weight"
+      ],
+      "answer": 0,
+      "explanation": "الأحماض الكربوكسيلية لها درجة غليان عالية لأنها تكوّن ثنائيات (Dimers) مرتبطة بأواصر هيدروجينية."
+    },
+    {
+      "q": "In the gaseous state, pressure (force per unit area) is expressed in CGS units as:",
+      "options": [
+        "dyne/cm²",
+        "kcal/mole",
+        "erg/mole",
+        "cm³/g"
+      ],
+      "answer": 0,
+      "explanation": "يُعبّر عن الضغط (القوة لكل وحدة مساحة) بوحدة dyne/cm²، بينما الحجم باللتر أو السنتيمتر المكعب (1 cm³ = 1 mL)."
+    },
+    {
+      "q": "What are the Standard Temperature and Pressure (STP) conditions, and what volume does 1 mole of an ideal gas occupy at STP?",
+      "options": [
+        "0°C (273.15 K) and 1 atm; 22.414 L",
+        "25°C (298 K) and 1 atm; 24.4 L",
+        "100°C (373 K) and 1 atm; 22.414 L",
+        "0°C and 760 atm; 1.0 L"
+      ],
+      "answer": 0,
+      "explanation": "الظروف القياسية (STP) هي 0°C (273.15 K) وضغط 1 atm، ويشغل المول الواحد من الغاز المثالي حجماً قدره 22.414 لتر."
+    },
+    {
+      "q": "What is the value of the molar gas constant (R) expressed in L·atm/(mol·K)?",
+      "options": [
+        "0.082057 L·atm/(mol·K)",
+        "8.314 L·atm/(mol·K)",
+        "1.987 L·atm/(mol·K)",
+        "4.184 L·atm/(mol·K)"
+      ],
+      "answer": 0,
+      "explanation": "ثابت الغاز العام R يساوي 0.082057 L·atm/(mol·K)، أو 8.314 J/(mol·K)، أو 1.987 cal/(mol·deg)."
+    },
+    {
+      "q": "What is the value of the molar gas constant (R) in calories per mole-degree (using 1 cal = 4.184 joules)?",
+      "options": [
+        "1.987 cal/mole·deg",
+        "8.314 cal/mole·deg",
+        "0.082 cal/mole·deg",
+        "4.184 cal/mole·deg"
+      ],
+      "answer": 0,
+      "explanation": "بقسمة 8.314 جول على 4.184 جول/سعرة نحصل على 1.987 cal/mole·deg."
+    },
+    {
+      "q": "Using the ideal gas equation (PV = nRT), what is the volume of 2 moles of an ideal gas at 25°C (298 K) and 780 mmHg (1.026 atm)?",
+      "options": [
+        "47.65 L",
+        "22.41 L",
+        "10.26 L",
+        "95.30 L"
+      ],
+      "answer": 0,
+      "explanation": "بتطبيق PV = nRT: V = (2 × 0.08205 × 298) / 1.026 = 47.65 لتر."
+    },
+    {
+      "q": "If 0.30 g of ethyl alcohol vapor occupies 200 mL (0.2 L) at 1 atm and 100°C (373 K), what is its approximate molecular weight (M = gRT/PV)?",
+      "options": [
+        "46.0 g/mole",
+        "18.0 g/mole",
+        "92.0 g/mole",
+        "23.0 g/mole"
+      ],
+      "answer": 0,
+      "explanation": "بتطبيق M = (0.30 × 0.082 × 373) / (1 × 0.2) = 46.0 g/mole."
+    },
+    {
+      "q": "How do cooling (lowering temperature) and applying pressure liquefy a gas?",
+      "options": [
+        "Cooling reduces kinetic energy/velocity, and pressure brings molecules within the sphere of van der Waals forces",
+        "Cooling increases velocity, and pressure breaks van der Waals forces",
+        "Pressure increases kinetic energy while cooling expands volume",
+        "Only temperature affects liquefaction; pressure has no effect"
+      ],
+      "answer": 0,
+      "explanation": "التبريد يقلل الطاقة الحركية وسرعة الجزيئات، والضغط يقرّب الجزيئات ضمن مدى قوى فان در فالز فتتحول إلى سائل."
+    },
+    {
+      "q": "What is the 'Critical Temperature' (Tc) of a gas?",
+      "options": [
+        "The temperature above which it is impossible to liquefy a gas irrespective of the pressure applied",
+        "The temperature at which solid, liquid, and gas coexist",
+        "The normal boiling point at 1 atm",
+        "The temperature at which vapor pressure equals zero"
+      ],
+      "answer": 0,
+      "explanation": "درجة الحرارة الحرجة (Tc) هي الحرارة التي يستحيل فوقها تسييل الغاز مهما كان الضغط المسلط عليه."
+    },
+    {
+      "q": "What is the 'Critical Pressure' (Pc)?",
+      "options": [
+        "The minimum pressure required to liquefy a gas at its critical temperature",
+        "The maximum pressure of an ideal gas at 0°C",
+        "Atmospheric pressure at sea level (760 mmHg)",
+        "The vapor pressure at the triple point"
+      ],
+      "answer": 0,
+      "explanation": "الضغط الحرج (Pc) هو أقل ضغط لازم لتسييل الغاز عند درجة حرارته الحرجة."
+    },
+    {
+      "q": "What are the critical temperature (Tc) and critical pressure (Pc) of water?",
+      "options": [
+        "374°C (647 K) and 218 atm",
+        "100°C (373 K) and 1 atm",
+        "5.2 K and 2.26 atm",
+        "0.0098°C and 0.006 atm"
+      ],
+      "answer": 0,
+      "explanation": "درجة الحرارة الحرجة للماء هي 374°C (647 K) وضغطه الحرج 218 atm، بينما للهيليوم 5.2 K و 2.26 atm."
+    },
+    {
+      "q": "In pharmaceutical aerosols, a drug is dissolved or suspended in a propellant that is:",
+      "options": [
+        "Liquid under the high pressure inside the container, but vaporizes into a gas at normal atmospheric pressure",
+        "Always solid inside the container",
+        "Above its critical temperature inside the can",
+        "Incapable of expanding when the valve is opened"
+      ],
+      "answer": 0,
+      "explanation": "المادة الدافعة (Propellant) تكون سائلة تحت الضغط العالي داخل العبوة (دون Tc)، وعند فتح الصمام تتبخر لغاز وتطرد الدواء كرذاذ ناعم."
+    },
+    {
+      "q": "When is a liquid-vapor system in a closed container said to be at 'dynamic equilibrium'?",
+      "options": [
+        "When the rate of condensation equals the rate of evaporation",
+        "When all the liquid has completely evaporated",
+        "When evaporation completely stops",
+        "When vapor pressure drops to zero"
+      ],
+      "answer": 0,
+      "explanation": "يصل النظام إلى التوازن الديناميكي عندما يتساوى معدل التكثف مع معدل التبخر، ويُسمى الضغط حينها بضغط البخار التوازني."
+    },
+    {
+      "q": "How do strong intermolecular attractive forces affect the vapor pressure of a liquid?",
+      "options": [
+        "They result in lower vapor pressure",
+        "They result in higher vapor pressure",
+        "They have no effect on vapor pressure",
+        "They cause instantaneous evaporation"
+      ],
+      "answer": 0,
+      "explanation": "الجزيئات التي تمتلك قوى تجاذب قوية بينها يصعب هروبها للطور الغازي، لذلك يكون ضغط بخارها منخفضاً (مثل الماء مقارنة بالإيثر)."
+    },
+    {
+      "q": "Which equation explains the effect of temperature on the vapor pressure of a liquid and the effect of pressure on the boiling point?",
+      "options": [
+        "Clausius-Clapeyron equation",
+        "Ideal gas equation",
+        "Henderson-Hasselbalch equation",
+        "Gibbs phase rule"
+      ],
+      "answer": 0,
+      "explanation": "معادلة كلاوزيوس-كلابيرون (Clausius-Clapeyron) تفسر تأثير الحرارة على ضغط البخار وتأثير الضغط على درجة الغليان."
+    },
+    {
+      "q": "Using the Clausius-Clapeyron equation, if water has a vapor pressure of 1 atm at 100°C and ΔHvap = 9720 cal/mole, what is its vapor pressure at 120°C?",
+      "options": [
+        "1.95 atm",
+        "0.50 atm",
+        "5.20 atm",
+        "1.00 atm"
+      ],
+      "answer": 0,
+      "explanation": "بحسب مثال المحاضرة، بتطبيق معادلة Clausius-Clapeyron ينتج P2 = 1.95 atm."
+    },
+    {
+      "q": "What is the definition of the boiling point of a liquid?",
+      "options": [
+        "The temperature at which the vapor pressure of a liquid equals the external (atmospheric) pressure",
+        "The temperature at which a solid melts into a liquid",
+        "The temperature above which a gas cannot be liquefied",
+        "The temperature at which vapor pressure is 0.006 atm"
+      ],
+      "answer": 0,
+      "explanation": "درجة الغليان هي درجة الحرارة التي يتساوى عندها ضغط بخار السائل مع الضغط الجوي الخارجي."
+    },
+    {
+      "q": "How does branching of a hydrocarbon chain affect its boiling point?",
+      "options": [
+        "Branching produces less compact molecules with reduced intermolecular attractions, decreasing the boiling point",
+        "Branching increases surface area and increases boiling point",
+        "Branching forms hydrogen bonds",
+        "Branching has no effect on boiling point"
+      ],
+      "answer": 0,
+      "explanation": "التفرع يقلل مساحة التلامس والتجاذب بين الجزيئات، وبالتالي يقلل درجة الغليان."
+    },
+    {
+      "q": "How does atmospheric pressure at higher elevations affect the boiling point of water?",
+      "options": [
+        "Atmospheric pressure decreases, so the boiling point is lowered",
+        "Atmospheric pressure increases, so the boiling point rises",
+        "Boiling point remains fixed at 100°C regardless of elevation",
+        "Water freezes instead of boiling"
+      ],
+      "answer": 0,
+      "explanation": "في المرتفعات يقل الضغط الجوي، وبالتالي تنخفض درجة الغليان."
+    },
+    {
+      "q": "Which of the following correctly describes crystalline solids?",
+      "options": [
+        "Have fixed geometric lattices, definite shapes, and sharp definite melting points",
+        "Have random molecular arrangement and no definite melting point",
+        "Are easily compressible like gases",
+        "Are considered supercooled liquids"
+      ],
+      "answer": 0,
+      "explanation": "المواد الصلبة البلورية لها ترتيب هندسي منتظم (Lattice) وشكل محدد ودرجة انصهار حادة ومحددة، وهي غير قابلة للانضغاط عملياً."
+    },
+    {
+      "q": "What is 'Allotropy' (a special case of polymorphism)?",
+      "options": [
+        "The ability of an elemental substance (such as carbon or sulfur) to exist in more than one crystalline form",
+        "The conversion of a crystalline solid into a gas",
+        "The presence of water in a crystal lattice",
+        "The random arrangement of molecules in glass"
+      ],
+      "answer": 0,
+      "explanation": "التآصل (Allotropy) هو حالة خاصة من تعدد الأشكال البلورية للعناصر مثل الكربون (ألماس وغرافيت) والكبريت."
+    },
+    {
+      "q": "Polymorphs of the same chemical substance are chemically identical, yet they exhibit different:",
+      "options": [
+        "Melting points, X-ray diffraction patterns, stabilities, and solubilities",
+        "Molecular weights and chemical formulas",
+        "Atomic numbers",
+        "Number of covalent bonds"
+      ],
+      "answer": 0,
+      "explanation": "الأشكال متعددة التبلور (Polymorphs) متطابقة كيميائياً لكنها تختلف في درجة الانصهار، حيود الأشعة السينية، الثباتية، والذوبانية."
+    },
+    {
+      "q": "Theobroma oil (cocoa butter) exists in four polymorphic forms. Which form is the STABLE form, and what is its melting point?",
+      "options": [
+        "Beta (β) form, melting at 34.5°C",
+        "Gamma (γ) form, melting at 18°C",
+        "Alpha (α) form, melting at 22°C",
+        "Beta prime (β') form, melting at 28°C"
+      ],
+      "answer": 0,
+      "explanation": "زبدة الكاكاو لها 4 أشكال: غاما غير المستقر (18°C)، ألفا (22°C)، بيتا برايم (28°C)، والشكل المستقر بيتا (34.5°C)."
+    },
+    {
+      "q": "Why are amorphous solids considered 'supercooled liquids'?",
+      "options": [
+        "Their molecules are arranged in a somewhat random manner as in the liquid state, and they lack a sharp melting point",
+        "They exist only below 0°C",
+        "They have a rigid cubic crystal lattice",
+        "They have higher density than crystalline solids"
+      ],
+      "answer": 0,
+      "explanation": "المواد غير المتبلورة (Amorphous) تُعتبر سوائل فائقة التبريد لأن جزيئاتها مرتبة عشوائياً وليس لها درجة انصهار محددة."
+    },
+    {
+      "q": "Why do alkanes and fatty acids with an EVEN number of carbon atoms have higher melting points than those with an ODD number of carbon atoms?",
+      "options": [
+        "Even-numbered chains pack more efficiently in the crystal lattice (and carboxylic groups join at 2 points), making the lattice more stable",
+        "Odd-numbered chains have stronger hydrogen bonds",
+        "Even-numbered chains have higher molecular weights than all odd-numbered chains",
+        "Odd-numbered chains are amorphous"
+      ],
+      "answer": 0,
+      "explanation": "السلاسل ذات العدد الزوجي من ذرات الكربون تتراص بكفاءة أكبر في الشبكة البلورية (ومجاميع الكربوكسيل ترتبط بنقطتين) فتكون أكثر ثباتاً وأعلى انصهاراً."
+    },
+    {
+      "q": "What is a 'Supercritical Fluid'?",
+      "options": [
+        "A state intermediate between liquid and gas where increasing pressure increases density without significantly increasing viscosity",
+        "A solid that sublimes directly to gas",
+        "A liquid cooled below its freezing point",
+        "A gas at 0°C and 1 atm"
+      ],
+      "answer": 0,
+      "explanation": "المائع فوق الحرج (Supercritical fluid) حالة وسطية بين السائل والغاز، زيادة الضغط تزيد كثافته دون زيادة كبيرة في لزوجته."
+    },
+    {
+      "q": "Which of the following is a well-known pharmaceutical/industrial application of supercritical fluids?",
+      "options": [
+        "Decaffeination of coffee, extraction/purification at low temperature, and formation of nanoparticles",
+        "Increasing drug toxicity",
+        "Converting crystalline solids into ideal gases",
+        "Measuring blood tonicity"
+      ],
+      "answer": 0,
+      "explanation": "تُستخدم الموائع فوق الحرجة في نزع الكافيين، الاستخلاص والتنقية بدرجات حرارة منخفضة، وتكوين الجسيمات النانوية."
+    },
+    {
+      "q": "According to the Phase Rule (F = C − P + 2), what does 'P' represent?",
+      "options": [
+        "Number of homogeneous, physically distinct phases separated by interfaces",
+        "Atmospheric pressure in atm",
+        "Number of chemical components",
+        "Degrees of freedom"
+      ],
+      "answer": 0,
+      "explanation": "في قاعدة الطور F = C - P + 2، يمثل P عدد الأطوار (Phases)، و C عدد المكونات (Components)، و F درجات الحرية."
+    },
+    {
+      "q": "How many phases (P) are present in the thermal decomposition system: CaCO3(s) → CaO(s) + CO2(g)?",
+      "options": [
+        "3 phases (2 solid phases + 1 gas phase)",
+        "2 phases (1 solid + 1 gas)",
+        "1 phase",
+        "4 phases"
+      ],
+      "answer": 0,
+      "explanation": "كل مادة صلبة منفصلة تُعد طوراً مستقلاً (CaCO3 و CaO) بالإضافة إلى الغاز CO2، فالمجموع 3 أطوار."
+    },
+    {
+      "q": "How many phases (P) are present in a solution of NaCl completely dissolved in water?",
+      "options": [
+        "1 phase",
+        "2 phases",
+        "3 phases",
+        "0 phases"
+      ],
+      "answer": 0,
+      "explanation": "المحلول المتجانس (مثل NaCl مذاب بالماء) أو السوائل الممتزجة تماماً تشكل طوراً واحداً (P = 1)."
+    },
+    {
+      "q": "In the one-component phase diagram of water, what is the degree of freedom (F) at the Triple Point (point O, where solid, liquid, and vapor coexist)?",
+      "options": [
+        "F = 0 (invariant)",
+        "F = 1 (univariant)",
+        "F = 2 (bivariant)",
+        "F = 3"
+      ],
+      "answer": 0,
+      "explanation": "عند النقطة الثلاثية للماء: C = 1 و P = 3، إذن F = 1 - 3 + 2 = 0 (نظام لا متغير Invariant)."
+    },
+    {
+      "q": "In the phase diagram of water, what is the degree of freedom (F) along the vaporization curve (O-A) where liquid and vapor coexist?",
+      "options": [
+        "F = 1 (univariant)",
+        "F = 0 (invariant)",
+        "F = 2 (bivariant)",
+        "F = 3"
+      ],
+      "answer": 0,
+      "explanation": "على منحنى التبخر يوجد طوران (سائل وبخار): F = 1 - 2 + 2 = 1 (أحادي المتغير Univariant)."
+    },
+    {
+      "q": "What is a 'condensed system' in two-component phase equilibria?",
+      "options": [
+        "A system in which the vapor phase is ignored (pressure fixed at 1 atm) and only solid and/or liquid phases are considered",
+        "A system consisting only of gases",
+        "A system at the critical point",
+        "A one-component system at the triple point"
+      ],
+      "answer": 0,
+      "explanation": "النظام المكثف (Condensed system) هو النظام الذي يُهمل فيه الطور البخاري (بتثبيت الضغط عند 1 atm) ويُكتفى بالطور السائل والصلب."
+    },
+    {
+      "q": "What is the Upper Critical Solution Temperature (CST) of the phenol-water system, above which all combinations form a single liquid phase?",
+      "options": [
+        "66.8°C",
+        "100°C",
+        "208°C",
+        "60.8°C"
+      ],
+      "answer": 0,
+      "explanation": "درجة حرارة المحلول الحرجة العليا لنظام الفينول والماء هي 66.8°C، وفوقها يمتزجان تماماً في طور واحد."
+    },
+    {
+      "q": "Which two-component liquid system exhibits a LOWER critical solution temperature (miscibility increases as temperature decreases)?",
+      "options": [
+        "Triethylamine + water",
+        "Phenol + water",
+        "Ethanol + water",
+        "Benzene + hexane"
+      ],
+      "answer": 0,
+      "explanation": "خليط Triethylamine مع الماء يُظهر درجة حرارة محلول حرجة دنيا (Low CST) حيث تزداد الامتزاجية بانخفاض الحرارة."
+    },
+    {
+      "q": "Which two-component liquid system exhibits BOTH an upper (208°C) and a lower (60.8°C) critical solution temperature?",
+      "options": [
+        "Nicotine + water",
+        "Phenol + water",
+        "Triethylamine + water",
+        "Sulfur + water"
+      ],
+      "answer": 0,
+      "explanation": "نظام النيكوتين والماء يمتلك درجتي حرارة حرجتين: عليا (208°C) ودنيا (60.8°C)."
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "title": "الأسئلة السريرية والتطبيقية (الفيزياء الصيدلانية)",
+  "questions": [
+    {
+      "q": "A pharmacist melts theobroma oil (cocoa butter) at too high a temperature while preparing rectal suppositories and cools it rapidly. The suppositories fail to solidify at room temperature (25°C) because an unstable polymorph formed. Which stable polymorph (melting at 34.5°C) should have been preserved?",
+      "options": [
+        "Beta (β) form",
+        "Gamma (γ) form (18°C)",
+        "Alpha (α) form (22°C)",
+        "Beta prime (β') form (28°C)"
+      ],
+      "answer": 0,
+      "explanation": "التسخين المفرط يحوّل زبدة الكاكاو لأشكال غير مستقرة تنصهر بدرجات منخفضة (18°C أو 22°C)، بينما الشكل المستقر بيتا (β) ينصهر عند 34.5°C وهو المثالي للتحاميل."
+    },
+    {
+      "q": "A pharmaceutical company prepares an aqueous suspension of cortisone acetate using an unstable polymorphic form. During storage, the suspension develops severe caking of crystals. Why did this happen?",
+      "options": [
+        "Unstable polymorphs of cortisone acetate convert to the stable polymorph in the presence of water, causing crystal growth and caking",
+        "Cortisone acetate dissolved completely in water",
+        "The suspension reached its critical temperature",
+        "Water lowered the melting point to 0°C"
+      ],
+      "answer": 0,
+      "explanation": "أربع من أصل خمس أشكال لـ Cortisone acetate غير مستقرة بوجود الماء وتتحول للشكل المستقر مما يسبب تكتل البلورات (Caking)؛ لذا يجب استخدام الشكل المستقر قبل التحضير."
+    },
+    {
+      "q": "Two generic brands of a slightly soluble antibiotic (chloramphenicol palmitate) have identical chemical formulas, yet Brand A shows much higher blood levels and therapeutic activity than Brand B. What physical pharmacy phenomenon explains this?",
+      "options": [
+        "Polymorphism affecting the rate of drug dissolution",
+        "Different molecular weights",
+        "Different Arrhenius definitions",
+        "Hydrolysis of the capsule shell"
+      ],
+      "answer": 0,
+      "explanation": "في الأدوية قليلة الذوبان مثل Chloramphenicol palmitate، يؤثر تعدد الأشكال البلورية (Polymorphism) على سرعة الذوبان وبالتالي على الفعالية العلاجية."
+    },
+    {
+      "q": "An asthma patient uses a pressurized metered-dose inhaler (pMDI). Inside the canister, the propellant is a liquid, but upon depressing the actuator valve, it expels a fine drug spray. What happens if the canister is accidentally heated above the propellant's critical temperature (Tc)?",
+      "options": [
+        "The propellant can no longer exist as a liquid regardless of the pressure inside the canister",
+        "The propellant freezes into a crystalline solid",
+        "The vapor pressure drops to zero",
+        "The drug precipitates as a dimer"
+      ],
+      "answer": 0,
+      "explanation": "فوق درجة الحرارة الحرجة (Tc) يستحيل وجود المادة كسائل مهما كان الضغط المسلط داخل العبوة."
+    },
+    {
+      "q": "A pharmaceutical manufacturer wants to extract a heat-sensitive active herbal compound and remove caffeine from a botanical extract without using toxic organic solvents. Which state of matter is ideal for this process?",
+      "options": [
+        "Supercritical fluid state",
+        "Crystalline solid state",
+        "Ideal gas at 100°C",
+        "Hypertonic aqueous state"
+      ],
+      "answer": 0,
+      "explanation": "الموائع فوق الحرجة (Supercritical fluids) مثالية للاستخلاص والتنقية بدرجات حرارة منخفضة ونزع الكافيين وتقليل السمية."
+    },
+    {
+      "q": "A laboratory technician in a high-altitude mountain city boils water to sterilize glassware and notices it boils at 94°C instead of 100°C. What is the physical reason?",
+      "options": [
+        "Lower atmospheric pressure at higher elevation lowers the boiling point",
+        "Water forms stronger hydrogen bonds at high altitude",
+        "Higher atmospheric pressure raises the boiling point",
+        "Water becomes an amorphous liquid"
+      ],
+      "answer": 0,
+      "explanation": "في المرتفعات يقل الضغط الجوي، فيتساوى ضغط بخار الماء مع الضغط الخارجي عند درجة حرارة أقل من 100°C."
+    },
+    {
+      "q": "A pharmacist stores a volatile liquid anesthetic (diethyl ether) and an aqueous solution in identical closed bottles at 30°C. Which bottle develops much higher internal vapor pressure and why?",
+      "options": [
+        "Diethyl ether, because it has weaker intermolecular attractive forces than water",
+        "Water, because hydrogen bonding increases vapor pressure",
+        "Both have identical vapor pressures at 30°C",
+        "Neither develops vapor pressure below 100°C"
+      ],
+      "answer": 0,
+      "explanation": "الإيثر له قوى تجاذب ضعيفة مقارنة بالأواصر الهيدروجينية القوية في الماء، لذلك يتبخر بسهولة أكبر ويعطي ضغط بخار أعلى بكثير."
+    },
+    {
+      "q": "A formulation scientist mixes phenol and water (35% w/w phenol) at room temperature (25°C) and observes two separate liquid layers. How can the scientist convert this mixture into a single clear homogeneous phase without adding a third solvent?",
+      "options": [
+        "Heat the mixture above its Upper Critical Solution Temperature (66.8°C)",
+        "Cool the mixture to 5°C",
+        "Add NaCl to make it isotonic",
+        "Filter the mixture through paper"
+      ],
+      "answer": 0,
+      "explanation": "درجة حرارة المحلول الحرجة العليا لنظام الفينول والماء هي 66.8°C، وعند التسخين فوقها يمتزجان تماماً في طور واحد."
+    },
+    {
+      "q": "A hospital nurse accidentally infuses pure sterile distilled water (0% NaCl) intravenously into a patient instead of 0.9% normal saline. What dangerous effect occurs to the patient's red blood cells?",
+      "options": [
+        "Water rushes into RBCs causing swelling and hemolysis (rupture) with hemoglobin release",
+        "Water leaves RBCs causing crenation (shrinkage)",
+        "No change occurs because water is neutral",
+        "RBCs form a crystal lattice"
+      ],
+      "answer": 0,
+      "explanation": "الماء المقطر منخفض التوتر (Hypotonic) مقارنة بالدم، فيدخل الماء إلى كريات الدم الحمراء مسبباً انتفاخها وانفجارها (Hemolysis)."
+    },
+    {
+      "q": "A patient receives an accidental rapid infusion of a hypertonic 2.0% NaCl solution. What happens to the red blood cells exposed to this solution?",
+      "options": [
+        "Water moves out of the RBCs, causing them to shrink and wrinkle (crenation)",
+        "Water moves into the RBCs, causing hemolysis",
+        "RBCs remain unchanged in size",
+        "Blood pH drops to 3.0"
+      ],
+      "answer": 0,
+      "explanation": "محلول 2.0% NaCl عالي التوتر (Hypertonic)، فيسحب الماء من داخل كريات الدم الحمراء فتتكمش وتتجعد (Crenation)."
+    },
+    {
+      "q": "A patient with uncontrolled Type 1 diabetes is brought to the emergency department in diabetic coma. Arterial blood gas reveals a life-threatening blood pH of 6.8. Which primary plasma buffer system is immediately working to resist this severe drop in pH?",
+      "options": [
+        "Carbonic acid / bicarbonate and sodium phosphate buffers",
+        "Boric acid / borate buffer",
+        "Acetic acid / sodium acetate buffer",
+        "Ammonia / ammonium chloride buffer"
+      ],
+      "answer": 0,
+      "explanation": "في غيبوبة السكري قد يهبط pH الدم إلى 6.8 (تحت الحد الخطير 6.9)، وتعمل البفرات الأولية بالبلازما (الكربونيك/بيكربونات وفوسفات الصوديوم) لمقاومة هذا الهبوط."
+    },
+    {
+      "q": "A patient with metabolic acidosis has a blood pH below 7.4. How do the kidneys compensate to restore acid-base balance?",
+      "options": [
+        "By excreting excess H+ ions into the urine",
+        "By retaining H+ ions in the blood",
+        "By secreting NaOH into the bloodstream",
+        "By stopping urine production"
+      ],
+      "answer": 0,
+      "explanation": "عندما ينخفض pH الدم دون الطبيعي (< 7.4)، تقوم الكلى بطرح أيونات الهيدروجين (H+) في الإدرار."
+    },
+    {
+      "q": "A pharmacist is formulating an oral pediatric syrup and considers using a borate buffer because it is inexpensive. Why must this choice be rejected?",
+      "options": [
+        "Borate buffer has toxic effects and must not be used for oral or parenteral products",
+        "Borate buffer cannot dissolve in water",
+        "Borate buffer has a pKa of 1.0",
+        "Borate buffer is too volatile"
+      ],
+      "answer": 0,
+      "explanation": "بفر البورات سام (Toxic) لذلك يُمنع استخدامه في المستحضرات الفموية (Oral) أو الحقنية (Parenteral)."
+    },
+    {
+      "q": "An ophthalmologist notices that patients complain of stinging and redness when using an eye drop buffered at pH 5.5 with high-capacity phosphate buffer, whereas another eye drop at pH 5.0 in boric acid causes no discomfort. Why?",
+      "options": [
+        "Boric acid has a low buffer capacity so tears easily neutralize it to pH 7.4, whereas high-capacity phosphate resists neutralization",
+        "Phosphate buffer is hypotonic",
+        "Tears have a pH of 5.0",
+        "Boric acid is a strong base"
+      ],
+      "answer": 0,
+      "explanation": "حامض البوريك ذو سعة تنظيمية منخفضة فتستطيع الدموع معادلته بسهولة، بينما بفر الفوسفات عالي السعة يقاوم المعادلة ويسبب تهيّج العين."
+    },
+    {
+      "q": "A pharmacist formulates a pilocarpine (weak base, pKb = 7.15) eye drop. If the formulation pH is raised too high (e.g., pH 8.5) during storage, what problem will occur in the bottle?",
+      "options": [
+        "Excess unionized free base forms, exceeding its limited water solubility and precipitating out of solution",
+        "The drug becomes 100% ionized and more soluble",
+        "The bottle explodes from CO2",
+        "The drug converts into a strong acid"
+      ],
+      "answer": 0,
+      "explanation": "رفع الـ pH لمحلول قاعدة ضعيفة يزيد نسبة القاعدة الحرة (B) قليلة الذوبان بالماء، وعندما تتجاوز حد ذوبانيتها تترسب في العبوة."
+    },
+    {
+      "q": "Why does instilling an acidic pilocarpine HCl eye drop (low buffer capacity, pH ~4–5) still result in good drug absorption across the lipid corneal membrane?",
+      "options": [
+        "Tears (pH ~7.4) gradually neutralize the low-capacity drop, converting ionized salt (BH+) into lipid-soluble unionized base (B)",
+        "The ionized salt (BH+) crosses the lipid bilayer faster than the free base",
+        "Tears lower the pH to 2.0",
+        "The cornea only absorbs water-soluble ions"
+      ],
+      "answer": 0,
+      "explanation": "الدموع (pH 7.4) تعادل القطرة تدريجياً (لأن سعتها التنظيمية منخفضة) فتحوّل الملح المتأين (BH+) إلى قاعدة حرة غير متأينة (B) ذائبة بالدهون وتعبر القرنية بسهولة."
+    },
+    {
+      "q": "A pharmacist needs to prepare a buffer at target pH 4.8. Four weak acids are available with pKa values of 2.1, 4.76, 7.2, and 9.3. Which weak acid should be chosen for maximum buffer capacity?",
+      "options": [
+        "The acid with pKa = 4.76",
+        "The acid with pKa = 2.1",
+        "The acid with pKa = 7.2",
+        "The acid with pKa = 9.3"
+      ],
+      "answer": 0,
+      "explanation": "للحصول على أعلى سعة تنظيمية يجب اختيار حامض ضعيف تكون قيمة pKa له أقرب ما يمكن إلى الـ pH المطلوب (4.76 ≈ 4.8)."
+    },
+    {
+      "q": "A pharmacist prepares a 100 mL isotonic eye drop containing 1 g of ephedrine sulfate (E = 0.23). If the patient is on a strict sodium-free regimen and dextrose (E = 0.16) is used instead of NaCl, how much dextrose must be added?",
+      "options": [
+        "4.2 g dextrose",
+        "0.67 g dextrose",
+        "0.23 g dextrose",
+        "0.90 g dextrose"
+      ],
+      "answer": 0,
+      "explanation": "النقص المكافئ لـ NaCl هو 0.90 - 0.23 = 0.67 g؛ وبقسمته على E للدكستروز (0.16) نحتاج 4.2 g دكستروز."
+    },
+    {
+      "q": "A compounding pharmacist prepares 30 mL of 1% procaine HCl (E = 0.21) using the White-Vincent method. After dissolving 0.3 g of procaine HCl in 7.0 mL of purified water, the assistant accidentally adds 23 mL of pure distilled water to reach 30 mL. What is the resulting tonicity?",
+      "options": [
+        "Hypotonic, because pure water diluted the isotonic 7.0 mL solution instead of using an isotonic diluting vehicle",
+        "Isotonic",
+        "Hypertonic",
+        "Supersaturated"
+      ],
+      "answer": 0,
+      "explanation": "إضافة ماء مقطر لإكمال الحجم تخفف المحلول وتجعله منخفض التوتر (Hypotonic)؛ يجب الإكمال بمذيب متساوي التوتر (Isotonic diluent)."
+    },
+    {
+      "q": "A pharmacy student measures the pH of an unbuffered purified water sample using a colorimetric pH indicator paper and gets an inaccurate reading. Why is the colorimetric method unreliable for unbuffered solutions?",
+      "options": [
+        "The indicator itself is a weak acid or base and alters the pH of the unbuffered solution",
+        "Water destroys all color dyes",
+        "Colorimetric indicators only work above 100°C",
+        "Purified water has a buffer capacity above 0.2"
+      ],
+      "answer": 0,
+      "explanation": "الدليل اللوني نفسه عبارة عن حامض أو قاعدة ضعيفة، فيغيّر pH المحلول غير المنظم ويعطي قراءة غير دقيقة."
+    },
+    {
+      "q": "A hospital pharmacist checks the freezing point of a newly compounded ophthalmic solution and finds it freezes at -0.35°C. What does this indicate about the solution?",
+      "options": [
+        "It is hypotonic (freezing point depression < 0.52°C) and requires a tonicity-adjusting agent",
+        "It is isotonic with tears",
+        "It is hypertonic and needs dilution",
+        "It is pure water"
+      ],
+      "answer": 0,
+      "explanation": "لأن درجة الانجماد -0.35°C (أقل انخفاضاً من -0.52°C للدموع)، فالمحلول منخفض التوتر (Hypotonic) ويحتاج لإضافة عامل تعديل توترية."
+    },
+    {
+      "q": "A parenteral injection has a pH of 4.0 (far from blood pH 7.4) for drug stability. To minimize pain and tissue irritation upon injection, how should the pharmacist design the formulation?",
+      "options": [
+        "Use a low buffer capacity and the smallest practical injection volume",
+        "Use a very high buffer capacity and a large 10 mL volume",
+        "Use a basic buffer made from ammonia",
+        "Make the injection strongly hypertonic"
+      ],
+      "answer": 0,
+      "explanation": "لتقليل الألم وتهيّج الأنسجة عند وجود فرق كبير بالـ pH، نستخدم سعة تنظيمية منخفضة وأصغر حجم ممكن للحقنة."
+    },
+    {
+      "q": "A pharmacist stores a basic buffer solution (NH3 / NH4+) in a warm room (40°C) instead of 20°C and notices a significant drop in its pH, whereas an acetate buffer stored in the same room barely changes. Why?",
+      "options": [
+        "Basic buffers depend on pKw, which changes markedly with temperature",
+        "Acetate buffers are immune to Kw because they are strong acids",
+        "NH3 freezes at 40°C",
+        "Acetic acid evaporates faster than ammonia"
+      ],
+      "answer": 0,
+      "explanation": "معادلة البفر القاعدي تعتمد على pKw الذي يتغير بوضوح مع درجة الحرارة، بعكس البفر الحامضي."
+    },
+    {
+      "q": "A chemist adds a large amount of NaCl (neutral salt) to a phosphate buffer solution and measures a slight shift in pH. What is the physical explanation?",
+      "options": [
+        "Increased ionic strength reduces the activity coefficients (γ < 1) of the buffer ions",
+        "NaCl reacts chemically with water to form HCl",
+        "NaCl acts as a strong base",
+        "NaCl precipitates the phosphate"
+      ],
+      "answer": 0,
+      "explanation": "إضافة ملح متعادل تزيد القوة الأيونية وتقلل معاملات الفعالية (γ) لأيونات البفر مما يسبب تغيراً طفيفاً في الـ pH."
+    },
+    {
+      "q": "A quality control analyst wants to determine the approximate molecular weight of a new volatile liquid anesthetic. They vaporize 0.30 g of it in a 200 mL flask at 1 atm and 100°C. Which law allows them to calculate M?",
+      "options": [
+        "Ideal Gas Law (M = gRT / PV)",
+        "Clausius-Clapeyron equation",
+        "Henderson-Hasselbalch equation",
+        "White-Vincent equation"
+      ],
+      "answer": 0,
+      "explanation": "يمكن إيجاد الوزن الجزيئي التقريبي لبخار مادة متطايرة باستخدام قانون الغاز المثالي: M = gRT / PV."
+    },
+    {
+      "q": "A pharmacist needs a single buffer system that can maintain nearly constant buffer capacity across a very wide pH range (from pH 3 to pH 11) for an analytical dissolution study. What should they prepare?",
+      "options": [
+        "A universal buffer combining multiple buffers with overlapping pKa values",
+        "A 0.1 M acetate buffer alone",
+        "A 0.9% NaCl solution",
+        "A 1 M HCl solution"
+      ],
+      "answer": 0,
+      "explanation": "البفر الشامل (Universal buffer) يدمج عدة بفرات بقيم pKa متداخلة ليعطي سعة تنظيمية ثابتة تقريباً على مدى واسع (3–11)."
+    },
+    {
+      "q": "In a pharmacy lab, adding sodium acetate to an acetic acid solution causes the pH to rise and the degree of ionization of acetic acid to drop. What principle is demonstrated?",
+      "options": [
+        "Common ion effect",
+        "Allotropy",
+        "Supercritical fluid extraction",
+        "Hemolysis"
+      ],
+      "answer": 0,
+      "explanation": "إضافة أيون الأسيتات المشترك (Ac-) تزيح التوازن لليسار وتقلل تأين حامض الخليك، وهذا هو تأثير الأيون المشترك (Common ion effect)."
+    },
+    {
+      "q": "A pharmacist is calculating the E value for a newly synthesized uni-univalent drug salt (MW = 187, Liso = 3.4) that is not listed in standard tables. What E value will they calculate?",
+      "options": [
+        "0.31",
+        "0.17",
+        "0.90",
+        "3.40"
+      ],
+      "answer": 0,
+      "explanation": "بتطبيق معادلة E ≈ 17 × (Liso / MW) = 17 × 3.4 / 187 = 0.31."
+    },
+    {
+      "q": "A patient uses an ophthalmic solution of apomorphine HCl (1%, 100 mL, ΔTf 1% = 0.08°C). Using the cryoscopic method (ΔTf 1% NaCl = 0.58°C), how much NaCl must the pharmacist add to prevent eye irritation from hypotonicity?",
+      "options": [
+        "0.76 g NaCl",
+        "0.52 g NaCl",
+        "0.08 g NaCl",
+        "0.90 g NaCl"
+      ],
+      "answer": 0,
+      "explanation": "النقص المتبقي = 0.52 - 0.08 = 0.44°C، وبقسمته على 0.58 نحصل على 0.76 g NaCl لكل 100 مل."
+    },
+    {
+      "q": "A drug formulation contains an oily liquid immiscible with water, an aqueous phase, and solid undissolved drug crystals at the bottom. How many phases (P) are present in this condensed system?",
+      "options": [
+        "3 phases (oil phase + water phase + solid drug phase)",
+        "1 phase",
+        "2 phases",
+        "4 phases"
+      ],
+      "answer": 0,
+      "explanation": "السائلان غير الممتزجين يشكلان طورين منفصلين، بالإضافة إلى الدواء الصلب غير المذاب كطور ثالث، فالمجموع 3 أطوار."
+    },
+    {
+      "q": "A patient with severe vomiting loses stomach acid (HCl) and develops metabolic alkalosis (blood pH > 7.4). How do the kidneys respond to help normalize blood pH?",
+      "options": [
+        "By retaining H+ ions",
+        "By excreting more H+ ions",
+        "By excreting hemoglobin",
+        "By lowering urine pH to 2.0"
+      ],
+      "answer": 0,
+      "explanation": "عندما يرتفع pH الدم فوق 7.4 (قلوية)، تحتفظ الكلى بأيونات الهيدروجين (H+ retained) لإعادة التوازن."
+    },
+    {
+      "q": "A pharmacist dilutes a sample of human tears 1:10 with neutral distilled water during a lab test and notices no change in pH. Why?",
+      "options": [
+        "Tears have a high buffer capacity and tolerate up to 1:15 dilution with neutral water before pH changes",
+        "Distilled water has a pH of 7.4",
+        "Tears contain 2.0% NaCl",
+        "Tears have zero buffer capacity"
+      ],
+      "answer": 0,
+      "explanation": "الدموع تمتلك سعة تنظيمية عالية تسمح بتخفيف يصل إلى 1:15 بالماء المقطر المتعادل دون تغير ملحوظ في الـ pH."
+    },
+    {
+      "q": "A researcher prepares a 0.02 M total concentration acetate buffer at pH = pKa (4.76) for a stability test. What is the maximum buffer capacity (βmax) of this solution?",
+      "options": [
+        "0.0115 (≈ 0.012)",
+        "0.576",
+        "0.200",
+        "0.115"
+      ],
+      "answer": 0,
+      "explanation": "βmax = 0.576 × C = 0.576 × 0.02 = 0.01152."
+    },
+    {
+      "q": "Why does a weakly acidic drug (like aspirin, HA) cross the lipid gastric mucosa more readily at the low pH of the stomach (~2) than in the alkaline intestine?",
+      "options": [
+        "At low pH, the weak acid exists predominantly in its unionized, lipid-soluble molecular form (HA)",
+        "At low pH, the weak acid is 100% ionized",
+        "Stomach acid destroys the lipid bilayer",
+        "Aspirin is a strong base"
+      ],
+      "answer": 0,
+      "explanation": "في الوسط الحامضي للمعدة (pH ~2) يبقى الحامض الضعيف بشكل جزيئي غير متأين (HA) ذائب في الدهون فيعبر الأغشية بسهولة."
+    },
+    {
+      "q": "A compounding pharmacist prepares a 100 mL isotonic eye drop containing TWO ingredients: 0.06 g phenacaine HCl (E = 0.20) and 0.3 g boric acid (E = 0.50). Using White-Vincent, how much sterile distilled water is first added to dissolve the drugs into an isotonic solution?",
+      "options": [
+        "18 mL (then complete to 100 mL with an isotonic diluting vehicle)",
+        "82 mL",
+        "100 mL",
+        "7 mL"
+      ],
+      "answer": 0,
+      "explanation": "V = [(0.06 × 0.20) + (0.3 × 0.50)] × 111.1 = 18 mL ماء مقطر، ثم يُكمل الحجم إلى 100 mL بمذيب متساوي التوتر."
+    }
+  ]
+}

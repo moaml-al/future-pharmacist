@@ -27,6 +27,38 @@
           "count": 30
         }
       ]
+    },
+    {
+      "id": "physical_pharmacy",
+      "name": "الفيزياء الصيدلانية",
+      "icon": "⚗️",
+      "files": [
+        {
+          "file": "physics_lec1_states.json",
+          "title": "Lec 1: States of Matter",
+          "count": 45
+        },
+        {
+          "file": "physics_lec2_ionic.json",
+          "title": "Lec 2: Ionic Equilibria",
+          "count": 40
+        },
+        {
+          "file": "physics_lec3_buffers1.json",
+          "title": "Lec 3: Buffered & Isotonic (Part 1)",
+          "count": 40
+        },
+        {
+          "file": "physics_lec4_buffers2.json",
+          "title": "Lec 4: Buffered & Isotonic (Part 2)",
+          "count": 40
+        },
+        {
+          "file": "physics_clinical.json",
+          "title": "الأسئلة السريرية والتطبيقية الشاملة",
+          "count": 35
+        }
+      ]
     }
   ]
 }

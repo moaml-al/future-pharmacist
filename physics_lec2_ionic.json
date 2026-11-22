@@ -1,0 +1,445 @@
+{
+  "title": "Lec 2: Ionic Equilibria",
+  "questions": [
+    {
+      "q": "According to the Arrhenius definition, an acid is a substance that:",
+      "options": [
+        "Liberates H+ ions upon dissociation in aqueous solution",
+        "Accepts a pair of electrons",
+        "Accepts a proton from a base",
+        "Supplies OH- ions upon dissociation"
+      ],
+      "answer": 0,
+      "explanation": "حسب تعريف أرهينيوس، الحامض هو المادة التي تحرر أيونات H+ عند تفككها في الماء، والقاعدة هي التي تحرر OH-."
+    },
+    {
+      "q": "According to the Brønsted-Lowry definition, a base is defined as a:",
+      "options": [
+        "Proton (H+) acceptor containing a lone pair of electrons",
+        "Proton (H+) donor",
+        "Substance that must contain OH- in its formula",
+        "Electron-pair acceptor"
+      ],
+      "answer": 0,
+      "explanation": "حسب برونشتد-لوري، القاعدة هي مستقبِل للبروتون (H+ acceptor) ويجب أن تمتلك زوجاً إلكترونياً حراً."
+    },
+    {
+      "q": "According to Lewis electronic theory, which of the following acts as a Lewis acid (electron-pair acceptor) despite containing no hydrogen?",
+      "options": [
+        "BF3 and AlCl3",
+        "Amines (R-NH2)",
+        "Ethers (R-O-R)",
+        "OH- ion"
+      ],
+      "answer": 0,
+      "explanation": "حسب نظرية لويس، BF3 و AlCl3 هي أحماض لويس لأنها تستقبل زوجاً من الإلكترونات رغم عدم احتوائها على هيدروجين."
+    },
+    {
+      "q": "Why do amines (R-NH2) and ethers (R-O-R) act as Lewis bases?",
+      "options": [
+        "They have lone pairs of nonbonding electrons that can be donated",
+        "They liberate H+ ions in water",
+        "They accept electron pairs",
+        "They contain hydroxyl (OH-) groups"
+      ],
+      "answer": 0,
+      "explanation": "الأمينات والإيثرات تحتوي على أزواج إلكترونية غير رابطة (على N أو O) يمكنها منحها، لذا تعمل كقواعد لويس."
+    },
+    {
+      "q": "In the reaction CH3COOH + H2O ⇌ H3O+ + CH3COO-, what is CH3COO-?",
+      "options": [
+        "The conjugate base of acetic acid",
+        "The conjugate acid of water",
+        "A strong acid",
+        "A Lewis acid"
+      ],
+      "answer": 0,
+      "explanation": "أيون الأسيتات (CH3COO-) هو القاعدة القرينة (Conjugate base) لحامض الخليك بعد فقدانه البروتون."
+    },
+    {
+      "q": "Which class of solvents is basic and capable of accepting protons from the solute (e.g., acetone, ether, liquid ammonia)?",
+      "options": [
+        "Protophilic solvents",
+        "Protogenic solvents",
+        "Amphiprotic solvents",
+        "Aprotic solvents"
+      ],
+      "answer": 0,
+      "explanation": "المذيبات الـ Protophilic هي مذيبات قاعدية تستقبل البروتونات مثل الأسيتون والإيثر والأمونيا السائلة."
+    },
+    {
+      "q": "Which class of solvents is acidic and donates protons to the solute (e.g., formic acid, acetic acid, sulfuric acid, liquid HCl)?",
+      "options": [
+        "Protogenic solvents",
+        "Protophilic solvents",
+        "Aprotic solvents",
+        "Neutral solvents"
+      ],
+      "answer": 0,
+      "explanation": "المذيبات الـ Protogenic هي مذيبات حامضية مانحة للبروتونات مثل حامض الفورميك والخليك والكبريتيك."
+    },
+    {
+      "q": "Water and alcohols are classified as which type of solvent because they act as BOTH proton donors and proton acceptors?",
+      "options": [
+        "Amphiprotic solvents",
+        "Aprotic solvents",
+        "Protophilic solvents only",
+        "Protogenic solvents only"
+      ],
+      "answer": 0,
+      "explanation": "الماء والكحولات مذيبات أمفوتيرية (Amphiprotic) لأنها تستطيع منح واستقبال البروتونات."
+    },
+    {
+      "q": "Hydrocarbons (such as hexane and benzene) that neither accept nor donate protons are classified as:",
+      "options": [
+        "Aprotic solvents",
+        "Amphiprotic solvents",
+        "Protophilic solvents",
+        "Protogenic solvents"
+      ],
+      "answer": 0,
+      "explanation": "المذيبات اللابروتونية (Aprotic) مثل الهيدروكربونات (الهكسان والبنزين) لا تمنح ولا تستقبل البروتونات."
+    },
+    {
+      "q": "What happens to the forward and reverse reaction rates when an acid-base reaction reaches dynamic equilibrium?",
+      "options": [
+        "Forward rate equals reverse rate, and concentrations of all species remain constant",
+        "Both forward and reverse reactions completely stop",
+        "Forward rate becomes infinite",
+        "Reverse rate drops to zero"
+      ],
+      "answer": 0,
+      "explanation": "عند التوازن الديناميكي يتساوى معدل التفاعل الأمامي مع العكسي وتبقى تراكيز جميع المواد ثابتة."
+    },
+    {
+      "q": "Which statement correctly describes the relationship between an acid and its conjugate base?",
+      "options": [
+        "The stronger the acid, the weaker its conjugate base",
+        "The stronger the acid, the stronger its conjugate base",
+        "Strong acids have strong conjugate bases",
+        "There is no relationship between their strengths"
+      ],
+      "answer": 0,
+      "explanation": "كلما كان الحامض أقوى (مثل HCl)، كانت قاعدته القرينة أضعف (مثل Cl- ذات قاعدية مهملة في الماء)."
+    },
+    {
+      "q": "What does a LARGER dissociation constant (Ka) indicate about an acid?",
+      "options": [
+        "Stronger acid, more ionized, equilibrium lies far to the right",
+        "Weaker acid, slightly ionized, equilibrium lies to the left",
+        "Higher pH in solution",
+        "Complete absence of H3O+ ions"
+      ],
+      "answer": 0,
+      "explanation": "كلما كبرت قيمة Ka كان الحامض أقوى وأكثر تأيناً واتجه التوازن نحو اليمين (النواتج)."
+    },
+    {
+      "q": "In a 1 L solution of 0.1 M acetic acid, conductivity analysis shows it dissociates into 1.32 × 10⁻³ M each of H+ and acetate ions at 25°C. What is Ka?",
+      "options": [
+        "1.74 × 10⁻⁵",
+        "1.32 × 10⁻²",
+        "1.0 × 10⁻¹⁴",
+        "5.75 × 10⁻¹⁰"
+      ],
+      "answer": 0,
+      "explanation": "Ka = (1.32 × 10⁻³)² / 0.1 = 1.74 × 10⁻⁶ / 0.1 = 1.74 × 10⁻⁵."
+    },
+    {
+      "q": "For a weak base B reacting with water (B + H2O ⇌ OH- + BH+), how is the base dissociation constant Kb expressed?",
+      "options": [
+        "Kb = [OH-][BH+] / [B]",
+        "Kb = [B] / ([OH-][BH+])",
+        "Kb = [H3O+][B] / [BH+]",
+        "Kb = [OH-] × [H3O+]"
+      ],
+      "answer": 0,
+      "explanation": "ثابت تفكك القاعدة الضعيفة Kb يساوي حاصل ضرب تراكيز النواتج [OH-][BH+] مقسوماً على تركيز القاعدة غير المتأينة [B]."
+    },
+    {
+      "q": "What is the ion-product constant for pure water (Kw = [H3O+][OH-]) at 25°C?",
+      "options": [
+        "1.0 × 10⁻¹⁴",
+        "1.0 × 10⁻⁷",
+        "14.0",
+        "7.0"
+      ],
+      "answer": 0,
+      "explanation": "حاصل التأين الذاتي للماء Kw عند 25°C يساوي 1.0 × 10⁻¹⁴، وتركيز كل من H3O+ و OH- في الماء النقي 1.0 × 10⁻⁷ M."
+    },
+    {
+      "q": "If HCl (1.5 × 10⁻³ M) is added to water at 25°C so that [H3O+] = 1.5 × 10⁻³ M, what is the new [OH-] concentration?",
+      "options": [
+        "6.7 × 10⁻¹² M",
+        "1.5 × 10⁻¹¹ M",
+        "1.0 × 10⁻⁷ M",
+        "6.7 × 10⁻³ M"
+      ],
+      "answer": 0,
+      "explanation": "[OH-] = Kw / [H3O+] = (1.0 × 10⁻¹⁴) / (1.5 × 10⁻³) = 6.7 × 10⁻¹² M."
+    },
+    {
+      "q": "For a conjugate weak acid-base pair in an amphiprotic solvent (water), what is the relationship between Ka, Kb, and Kw?",
+      "options": [
+        "Ka × Kb = Kw",
+        "Ka + Kb = Kw",
+        "Ka / Kb = Kw",
+        "Ka − Kb = Kw"
+      ],
+      "answer": 0,
+      "explanation": "حاصل ضرب Ka للحامض الضعيف في Kb لقاعدته القرينة يساوي Kw، وباللوغاريتم: pKa + pKb = pKw = 14."
+    },
+    {
+      "q": "Ammonia (NH3) has a Kb of 1.74 × 10⁻⁵. What is the Ka for its conjugate acid, NH4+?",
+      "options": [
+        "5.75 × 10⁻¹⁰",
+        "1.74 × 10⁻⁹",
+        "1.0 × 10⁻¹⁴",
+        "5.75 × 10⁻⁵"
+      ],
+      "answer": 0,
+      "explanation": "Ka = Kw / Kb = (1.00 × 10⁻¹⁴) / (1.74 × 10⁻⁵) = 5.75 × 10⁻¹⁰."
+    },
+    {
+      "q": "According to Sörensen's pH scale at 25°C, what is the relationship between pH, pOH, and pKw?",
+      "options": [
+        "pH + pOH = pKw = 14.00",
+        "pH × pOH = 14.00",
+        "pH − pOH = 7.00",
+        "pH + pOH = 7.00"
+      ],
+      "answer": 0,
+      "explanation": "مجموع pH و pOH يساوي pKw وهو 14.00 عند درجة حرارة 25°C."
+    },
+    {
+      "q": "What is the pH of a 0.05 M solution of the strong acid HCl (given log 5.0 = 0.7)?",
+      "options": [
+        "1.3",
+        "2.7",
+        "0.5",
+        "12.7"
+      ],
+      "answer": 0,
+      "explanation": "pH = -log(5.0 × 10⁻²) = 2 - log(5.0) = 2 - 0.7 = 1.3."
+    },
+    {
+      "q": "In the stepwise dissociation of phosphoric acid (H3PO4), what is the correct Proton Balance Equation (PBE)?",
+      "options": [
+        "[H3O+] = [OH-] + [H2PO4-] + 2[HPO4²-] + 3[PO4³-]",
+        "[H3O+] = [OH-] + [H2PO4-] + [HPO4²-] + [PO4³-]",
+        "[H3O+] = [H3PO4] + [OH-]",
+        "[H3O+] = 3[H2PO4-] + 2[HPO4²-] + [PO4³-]"
+      ],
+      "answer": 0,
+      "explanation": "في معادلة توازن البروتون (PBE) نضرب كل أيون بعدد البروتونات التي فقدها: H2PO4- (×1)، HPO4²- (×2)، PO4³- (×3)."
+    },
+    {
+      "q": "For a solution of a strong acid (concentration Ca ≥ 1 × 10⁻⁶ M), how is [H3O+] approximated?",
+      "options": [
+        "[H3O+] ≈ Ca (100% ionized)",
+        "[H3O+] = √(Ka·Ca)",
+        "[H3O+] = Ka·Ca/Cb",
+        "[H3O+] = 1 × 10⁻⁷ M"
+      ],
+      "answer": 0,
+      "explanation": "الأحماض والقواعد القوية تتأين بنسبة 100% في الماء، لذا فإن [H3O+] ≈ Ca."
+    },
+    {
+      "q": "Which equation is used to calculate [H3O+] for an aqueous solution containing ONLY a weak acid?",
+      "options": [
+        "[H3O+] = √(Ka · Ca)",
+        "[H3O+] = Ka · Ca",
+        "[H3O+] = Ka · Ca / Cb",
+        "[H3O+] = √(Kb · Cb)"
+      ],
+      "answer": 0,
+      "explanation": "لمحلول يحتوي على حامض ضعيف فقط نستخدم المعادلة [H3O+] = √(Ka · Ca)."
+    },
+    {
+      "q": "Which equation is used to calculate [OH-] for an aqueous solution containing ONLY a weak base?",
+      "options": [
+        "[OH-] = √(Kb · Cb)",
+        "[OH-] = √(Ka · Ca)",
+        "[OH-] = Kb / Cb",
+        "[OH-] = Kw · Cb"
+      ],
+      "answer": 0,
+      "explanation": "لمحلول يحتوي على قاعدة ضعيفة فقط نستخدم المعادلة [OH-] = √(Kb · Cb)."
+    },
+    {
+      "q": "What is the pH of a 1 g/100 mL solution of ephedrine sulfate (MW = 428.5, Kb of ephedrine base = 2.3 × 10⁻⁵)?",
+      "options": [
+        "5.35",
+        "8.65",
+        "9.97",
+        "3.98"
+      ],
+      "answer": 0,
+      "explanation": "كبريتات الإيفيدرين تعطي 2 كاتيون BH+ لكل جزيء ملح: Ca = 2 × (10/428.5) = 4.67×10⁻² M، و Ka = 4.35×10⁻¹⁰، إذن [H3O+] = 4.51×10⁻⁶ و pH = 5.35."
+    },
+    {
+      "q": "What is the pH of a 0.0033 M solution of cocaine base (Kb = 2.6 × 10⁻⁶)?",
+      "options": [
+        "9.97",
+        "4.03",
+        "5.35",
+        "7.00"
+      ],
+      "answer": 0,
+      "explanation": "[OH-] = √(2.6×10⁻⁶ × 3.3×10⁻³) = 9.26×10⁻⁵ M، إذن pOH = 4.03 و pH = 14 - 4.03 = 9.97."
+    },
+    {
+      "q": "Which equation is used to calculate [H3O+] for a solution containing a single conjugate acid-base pair (e.g., weak acid and its salt)?",
+      "options": [
+        "[H3O+] = (Ka · Ca) / Cb",
+        "[H3O+] = √(Ka · Ca)",
+        "[H3O+] = √(K1Ca1 + K2Ca2)",
+        "[H3O+] = Ca + Cb"
+      ],
+      "answer": 0,
+      "explanation": "لمحلول يحتوي على حامض ضعيف وملحه (زوج قرين واحد) نستخدم المعادلة [H3O+] = (Ka · Ca) / Cb."
+    },
+    {
+      "q": "What is the pH of a solution containing 0.3 M acetic acid (Ka = 1.75 × 10⁻⁵) and 0.05 M sodium acetate?",
+      "options": [
+        "3.98",
+        "4.76",
+        "5.54",
+        "2.10"
+      ],
+      "answer": 0,
+      "explanation": "[H3O+] = (1.75×10⁻⁵ × 0.3) / 0.05 = 1.05×10⁻⁴ M، إذن pH = -log(1.05×10⁻⁴) = 3.98."
+    },
+    {
+      "q": "What is the pH of a solution containing 0.1 M ephedrine base and 0.01 M ephedrine HCl (Ka of conjugate acid = 4.35 × 10⁻¹⁰)?",
+      "options": [
+        "10.36",
+        "3.64",
+        "8.36",
+        "5.35"
+      ],
+      "answer": 0,
+      "explanation": "[H3O+] = (4.35×10⁻¹⁰ × 0.01) / 0.1 = 4.35×10⁻¹¹ M، إذن pH = -log(4.35×10⁻¹¹) = 10.36."
+    },
+    {
+      "q": "Which equation is used to calculate [H3O+] for a solution containing TWO weak acids?",
+      "options": [
+        "[H3O+] = √(K1·Ca1 + K2·Ca2)",
+        "[H3O+] = (K1·Ca1) / (K2·Ca2)",
+        "[H3O+] = √(K1·K2)",
+        "[H3O+] = Ca1 + Ca2"
+      ],
+      "answer": 0,
+      "explanation": "لمحلول يحتوي على حامضين ضعيفين نستخدم المعادلة [H3O+] = √(K1·Ca1 + K2·Ca2)."
+    },
+    {
+      "q": "What is the pH of a solution containing 0.01 M acetic acid (K1 = 1.75 × 10⁻⁵) and 0.001 M formic acid (K2 = 1.77 × 10⁻⁴)?",
+      "options": [
+        "3.23",
+        "4.76",
+        "2.00",
+        "5.93"
+      ],
+      "answer": 0,
+      "explanation": "[H3O+] = √((1.75×10⁻⁵)(0.01) + (1.77×10⁻⁴)(0.001)) = 5.93×10⁻⁴ M، إذن pH = 3.23."
+    },
+    {
+      "q": "On the pH scale of common substances, what is the approximate pH of human blood, milk, and stomach acid respectively?",
+      "options": [
+        "Blood ~7.4, Milk ~6.5, Stomach acid ~2",
+        "Blood ~6.0, Milk ~7.4, Stomach acid ~5",
+        "Blood ~8.5, Milk ~3.0, Stomach acid ~1",
+        "Blood ~7.0, Milk ~12.0, Stomach acid ~4"
+      ],
+      "answer": 0,
+      "explanation": "حسب مقياس الـ pH بالمحاضرة: الدم قريب من 7.4 (قاعدي قليلاً)، الحليب حوالي 6.5، وحامض المعدة حوالي 2."
+    },
+    {
+      "q": "What does the strength of an acid depend on according to Brønsted-Lowry theory?",
+      "options": [
+        "Both its ability to give up a proton and the basic strength of the solvent to accept the proton",
+        "Only the molecular weight of the acid",
+        "Only the concentration of the acid",
+        "Only the temperature of the room"
+      ],
+      "answer": 0,
+      "explanation": "قوة الحامض لا تعتمد فقط على قابليته لمنح البروتون، بل أيضاً على قدرة المذيب على استقبال هذا البروتون (القوة القاعدية للمذيب)."
+    },
+    {
+      "q": "Which of the following is classified as a polar aprotic solvent?",
+      "options": [
+        "DMSO (Dimethyl sulfoxide) and acetone",
+        "Water",
+        "Sulfuric acid",
+        "Hexane"
+      ],
+      "answer": 0,
+      "explanation": "الـ DMSO والأسيتون مذيبات قطبية لا بروتونية (Polar aprotic)، بينما الهكسان والبنزين غير قطبية لا بروتونية."
+    },
+    {
+      "q": "Which of the following is a strong acid that dissociates completely in water (negligible conjugate base basicity)?",
+      "options": [
+        "HCl, H2SO4, and HNO3",
+        "CH3COOH and H2CO3",
+        "NH4+ and H2S",
+        "H2O and HS-"
+      ],
+      "answer": 0,
+      "explanation": "أحماض HCl و H2SO4 و HNO3 أحماض قوية تتأين بالكامل في الماء."
+    },
+    {
+      "q": "Which species is listed as a STRONG base (strong proton acceptor in water)?",
+      "options": [
+        "OH-, S²-, and O²-",
+        "Cl- and NO3-",
+        "H2O and HSO4-",
+        "CH3COO- and F-"
+      ],
+      "answer": 0,
+      "explanation": "أيونات الهيدروكسيد (OH-) والكبريتيد (S²-) والأوكسيد (O²-) هي قواعد قوية جداً في الماء."
+    },
+    {
+      "q": "How is Molarity (M) calculated from concentration in g/L and Molecular Weight (g/mol)?",
+      "options": [
+        "M = Concentration (g/L) / Molecular Weight (g/mol)",
+        "M = Concentration (g/L) × Molecular Weight (g/mol)",
+        "M = Molecular Weight / Volume (L)",
+        "M = moles × liters"
+      ],
+      "answer": 0,
+      "explanation": "المولارية (M) تساوي التركيز بوحدة g/L مقسوماً على الوزن الجزيئي (g/mol)."
+    },
+    {
+      "q": "In the reaction AlCl3 + :Cl- → AlCl4-, why does AlCl3 act as a Lewis acid?",
+      "options": [
+        "Aluminum has an incomplete octet and accepts a lone pair of electrons from Cl-",
+        "Aluminum donates a proton to Cl-",
+        "Cl- donates a proton to AlCl3",
+        "AlCl3 releases OH- ions"
+      ],
+      "answer": 0,
+      "explanation": "ذرة الألمنيوم في AlCl3 لها 3 إلكترونات تكافؤ وتحتاج لزوج إلكتروني، فتستقبله من أيون الكلوريد وتعمل كحامض لويس."
+    },
+    {
+      "q": "In pure water at 25°C, what is the concentration of [H3O+] and [OH-]?",
+      "options": [
+        "Both equal 1.0 × 10⁻⁷ M",
+        "Both equal 1.0 × 10⁻¹⁴ M",
+        "[H3O+] = 1.0 M and [OH-] = 0",
+        "Both equal 7.0 M"
+      ],
+      "answer": 0,
+      "explanation": "في الماء النقي يتساوى تركيز الهيدرونيوم والهيدروكسيد ويساوي الجذر التربيعي لـ Kw وهو 1.0 × 10⁻⁷ M."
+    },
+    {
+      "q": "For weak acids (partially ionized), the dissociation constant Ka is:",
+      "options": [
+        "Small, with equilibrium lying to the left",
+        "Very large (≈ 10⁶), with equilibrium lying to the right",
+        "Always equal to 14",
+        "Always equal to 1.0 × 10⁻¹⁴"
+      ],
+      "answer": 0,
+      "explanation": "للأحماض الضعيفة تكون قيمة Ka صغيرة (مثل حامض الخليك 1.8×10⁻⁵) ويميل التوازن جهة اليسار (الجزيء غير المتأين)."
+    }
+  ]
+}

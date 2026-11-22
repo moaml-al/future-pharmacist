@@ -1,0 +1,445 @@
+{
+  "title": "Lec 3: Buffered & Isotonic Solutions (Part 1)",
+  "questions": [
+    {
+      "q": "What are 'buffers' and what is 'buffer action'?",
+      "options": [
+        "Compounds or mixtures that resist changes in pH upon addition of small quantities of acid or alkali; this resistance is buffer action",
+        "Strong acids that completely neutralize water",
+        "Neutral salts like NaCl that keep pH at 7",
+        "Indicators that change color at pH 7"
+      ],
+      "answer": 0,
+      "explanation": "المحاليل المنظمة (Buffers) هي مركبات أو مخاليط تقاوم التغير في الـ pH عند إضافة كميات قليلة من حامض أو قاعدة."
+    },
+    {
+      "q": "When 1 mL of 0.1 N HCl is added to pure water (pH 7), NaCl solution (pH 7), and acetate buffer (pH 4.7), what are the approximate resulting pH values?",
+      "options": [
+        "Water: 3, NaCl: 3, Acetate buffer: 4.58",
+        "Water: 6.9, NaCl: 6.9, Acetate buffer: 1.0",
+        "All three remain at pH 7",
+        "Water: 3, NaCl: 7, Acetate buffer: 4.58"
+      ],
+      "answer": 0,
+      "explanation": "الماء وملح NaCl المتعادل لا يمتلكان قدرة تنظيمية فينخفض pH إلى 3، بينما بفر الأسيتات يقاوم التغير فينخفض قليلاً فقط إلى 4.58."
+    },
+    {
+      "q": "How does a buffer composed of a weak acid (HA) and its conjugate base (A-) neutralize an added strong acid (H3O+)?",
+      "options": [
+        "The conjugate base (A-) accepts a proton from H3O+ to form HA and H2O",
+        "The weak acid (HA) donates a proton to H3O+",
+        "Water neutralizes H3O+ directly",
+        "Na+ ions precipitate the acid"
+      ],
+      "answer": 0,
+      "explanation": "القاعدة القرينة (A-) تستقبل البروتون من الحامض المضاف (H3O+) وتتحول إلى حامض ضعيف (HA) مما يمنع انخفاض الـ pH."
+    },
+    {
+      "q": "How does a weak acid / conjugate base buffer (HA / A-) neutralize an added strong base (OH-)?",
+      "options": [
+        "The weak acid (HA) donates a proton to OH- to form A- and H2O",
+        "The conjugate base (A-) reacts with OH-",
+        "H3O+ concentration increases",
+        "The buffer precipitates"
+      ],
+      "answer": 0,
+      "explanation": "الحامض الضعيف (HA) يمنح بروتوناً للقاعدة المضافة (OH-) ليتكون الماء والقاعدة القرينة (A-)."
+    },
+    {
+      "q": "What is the Henderson-Hasselbalch (buffer) equation for a weak acid and its salt?",
+      "options": [
+        "pH = pKa + log([salt]/[acid])",
+        "pH = pKa − log([salt]/[acid])",
+        "pH = pKw − pKb + log([salt]/[base])",
+        "pH = pKa + log([acid]/[salt])"
+      ],
+      "answer": 0,
+      "explanation": "معادلة هندرسون-هاسلباخ للحامض الضعيف وملحه هي: pH = pKa + log([salt]/[acid])."
+    },
+    {
+      "q": "What is the 'Common Ion Effect' when sodium acetate (NaAc) is added to an aqueous solution of acetic acid (HAc)?",
+      "options": [
+        "The added acetate ion (Ac-) shifts equilibrium to the left, repressing the ionization of acetic acid",
+        "The ionization of acetic acid increases",
+        "The value of Ka increases significantly",
+        "The pH drops sharply"
+      ],
+      "answer": 0,
+      "explanation": "إضافة الأيون المشترك (Ac-) تزيح التوازن لليسار وتثبط تأين حامض الخليك مع بقاء قيمة Ka ثابتة."
+    },
+    {
+      "q": "What is the buffer equation for a weak base and its salt?",
+      "options": [
+        "pH = pKw − pKb + log([base]/[salt])",
+        "pH = pKb + log([base]/[salt])",
+        "pH = pKw + pKb + log([salt]/[base])",
+        "pH = pKa − log([base]/[salt])"
+      ],
+      "answer": 0,
+      "explanation": "معادلة البفر للقاعدة الضعيفة وملحها هي: pH = pKw − pKb + log([base]/[salt])."
+    },
+    {
+      "q": "Why are pharmaceutical buffers NOT ordinarily prepared from weak bases and their salts?",
+      "options": [
+        "Volatility and instability of weak bases, and dependence of their pH on pKw which changes with temperature",
+        "Weak bases cannot dissolve in water",
+        "Weak bases have zero buffer capacity",
+        "Weak bases are always toxic"
+      ],
+      "answer": 0,
+      "explanation": "لا تُحضّر البفرات عادة من قواعد ضعيفة بسبب تطايرها وعدم ثباتها، واعتماد الـ pH فيها على pKw الذي يتأثر بالحرارة."
+    },
+    {
+      "q": "What is the molar ratio [Salt]/[Acid] required to prepare an acetate buffer of pH 5.0 (pKa = 4.76), and what is the mole percent of salt?",
+      "options": [
+        "Ratio = 1.74/1; Mole percent = 63.5%",
+        "Ratio = 1/1; Mole percent = 50%",
+        "Ratio = 0.24/1; Mole percent = 24%",
+        "Ratio = 2.50/1; Mole percent = 75%"
+      ],
+      "answer": 0,
+      "explanation": "log([Salt]/[Acid]) = 5.0 - 4.76 = 0.24، إذن النسبة = antilog(0.24) = 1.74/1، والنسبة المئوية المولية = 1.74/(1+1.74)×100 = 63.5%."
+    },
+    {
+      "q": "Which two main factors influence the pH of buffer solutions?",
+      "options": [
+        "Altering ionic strength (neutral salts or dilution) and Temperature",
+        "Only atmospheric pressure",
+        "Color of the container and stirring speed",
+        "Viscosity and surface tension only"
+      ],
+      "answer": 0,
+      "explanation": "العوامل المؤثرة على pH البفر هي تغيير القوة الأيونية (إضافة أملاح متعادلة أو التخفيف) ودرجة الحرارة."
+    },
+    {
+      "q": "How does temperature affect basic buffers compared to acid buffers?",
+      "options": [
+        "The pH of basic buffers changes more markedly with temperature than acid buffers, owing to Kw",
+        "Acid buffers change much more than basic buffers",
+        "Temperature has zero effect on Kw",
+        "Both are completely unaffected by temperature"
+      ],
+      "answer": 0,
+      "explanation": "يتغير pH البفرات القاعدية بشكل أكبر مع الحرارة مقارنة بالبفرات الحامضية بسبب اعتمادها على Kw."
+    },
+    {
+      "q": "What happens to the activity coefficient (γ) of ions when neutral salts (e.g., NaCl) are added to a buffer solution to increase ionic strength?",
+      "options": [
+        "γ becomes less than 1 (γ < 1), making activity lower than concentration",
+        "γ increases above 10",
+        "γ becomes zero",
+        "Activity becomes equal to concentration"
+      ],
+      "answer": 0,
+      "explanation": "زيادة القوة الأيونية تزيد التفاعلات بين الأيونات فتقل قيمة معامل الفعالية (γ < 1) وتصبح الفعالية أقل من التركيز."
+    },
+    {
+      "q": "What is the effective pH range of a colorimetric pH indicator?",
+      "options": [
+        "pH = pKin ± 1 (ratio of [base]/[acid] from 1:10 to 10:1)",
+        "pH = pKin ± 5",
+        "pH = 7 ± 1 for all indicators",
+        "pH = pKin ± 0.1"
+      ],
+      "answer": 0,
+      "explanation": "المدى الفعّال لدليل الـ pH هو pKin ± 1 لأن العين تلاحظ تغير اللون عندما تكون نسبة أحد الشكلين للآخر بين 1:10 و 10:1."
+    },
+    {
+      "q": "Which of the following is a disadvantage of the colorimetric method for measuring pH?",
+      "options": [
+        "Less accurate, difficult to apply to unbuffered preparations (indicator itself is an acid/base), and errors from salts & proteins",
+        "More expensive than electrometric pH meters",
+        "Cannot be used for colored solutions only, otherwise 100% exact",
+        "Requires high voltage electricity"
+      ],
+      "answer": 0,
+      "explanation": "الطريقة اللونية أقل دقة، ويصعب تطبيقها على المحاليل غير المنظمة (لأن الدليل نفسه حامض أو قاعدة فيغيّر الـ pH)، وتتأثر بالأملاح والبروتينات."
+    },
+    {
+      "q": "What is the definition of Buffer Capacity (β = ΔB / ΔpH)?",
+      "options": [
+        "The small increment in gram equivalents/L of strong base (or acid) added to produce a unit change in pH",
+        "The total pH of the buffer solution",
+        "The ratio of salt to acid at pH 7",
+        "The temperature at which a buffer precipitates"
+      ],
+      "answer": 0,
+      "explanation": "السعة التنظيمية (β) هي مقدار مقاومة البفر لتغير الـ pH وتساوي كمية القاعدة أو الحامض القوي المضافة (ΔB) مقسومة على التغير في الـ pH (ΔpH)."
+    },
+    {
+      "q": "If adding 0.01 mole of NaOH to an acetate buffer changes its pH from 4.76 to 4.85 (ΔpH = 0.09), what is the buffer capacity (β)?",
+      "options": [
+        "0.11",
+        "0.01",
+        "0.90",
+        "4.85"
+      ],
+      "answer": 0,
+      "explanation": "β = ΔB / ΔpH = 0.01 / 0.09 = 0.11."
+    },
+    {
+      "q": "According to the exact Van Slyke buffer capacity equation, β = 2.3 · C · (Ka·[H3O+]) / (Ka + [H3O+])², what does 'C' represent?",
+      "options": [
+        "Total buffer concentration (sum of molar concentrations of acid and salt)",
+        "Concentration of added strong base",
+        "Concentration of water",
+        "Activity coefficient"
+      ],
+      "answer": 0,
+      "explanation": "يمثل C التركيز الكلي للبفر وهو مجموع التركيز المولاري للحامض الضعيف وملحه."
+    },
+    {
+      "q": "At what condition does a buffer achieve its MAXIMUM buffer capacity (βmax)?",
+      "options": [
+        "When pH = pKa (i.e., [salt]/[acid] = 1 and [H3O+] = Ka)",
+        "When [salt]/[acid] = 10",
+        "When pH = 7.0 regardless of pKa",
+        "When all the weak acid is neutralized"
+      ],
+      "answer": 0,
+      "explanation": "أعلى سعة تنظيمية (βmax) تحدث عندما يتساوى تركيز الملح والحامض ([salt]/[acid] = 1) أي عند pH = pKa."
+    },
+    {
+      "q": "What is the simplified formula for Maximum Buffer Capacity (βmax) at pH = pKa?",
+      "options": [
+        "βmax = 0.576 · C",
+        "βmax = 2.303 · C",
+        "βmax = 0.115 · C",
+        "βmax = 4.0 · C"
+      ],
+      "answer": 0,
+      "explanation": "عند pH = pKa تختصر المعادلة إلى βmax = (2.303 / 4) · C = 0.576 · C."
+    },
+    {
+      "q": "What is the maximum buffer capacity (βmax) of an acetate buffer with a total concentration (C) of 0.02 mole/L?",
+      "options": [
+        "0.0115 (or 0.012)",
+        "0.576",
+        "0.200",
+        "0.046"
+      ],
+      "answer": 0,
+      "explanation": "βmax = 0.576 × 0.020 = 0.01152 (تقريباً 0.012)."
+    },
+    {
+      "q": "Because of interionic effects at high concentrations, buffer capacities generally do NOT exceed a value of:",
+      "options": [
+        "0.2",
+        "1.0",
+        "5.0",
+        "0.01"
+      ],
+      "answer": 0,
+      "explanation": "بسبب التفاعلات بين الأيونات (Interionic effects)، فإن السعة التنظيمية لا تتجاوز عادة قيمة 0.2."
+    },
+    {
+      "q": "What is a 'Universal Buffer'?",
+      "options": [
+        "A combination of buffers with overlapping pKa values providing nearly constant total buffer capacity (Σβ) over a wide pH range (e.g., 3–11)",
+        "A single strong acid buffer",
+        "Pure distilled water",
+        "A buffer that only works at pH 7.4"
+      ],
+      "answer": 0,
+      "explanation": "البفر الشامل (Universal buffer) هو خليط من عدة بفرات تتداخل قيم pKa لها لتعطي سعة تنظيمية كلية (Σβ) ثابتة تقريباً على مدى واسع من الـ pH."
+    },
+    {
+      "q": "What are the PRIMARY buffer systems present in human blood PLASMA to maintain blood pH at ~7.4?",
+      "options": [
+        "Carbonic acid/bicarbonate and acid/alkali sodium salts of phosphoric acid",
+        "Hemoglobin/oxyhemoglobin only",
+        "Potassium salts of phosphoric acid only",
+        "Boric acid/borate buffer"
+      ],
+      "answer": 0,
+      "explanation": "البفرات الأولية في بلازما الدم هي حامض الكربونيك/بيكربونات وأملاح الصوديوم لحامض الفوسفوريك (بالإضافة لبروتينات البلازما)."
+    },
+    {
+      "q": "What are the SECONDARY buffer systems present inside ERYTHROCYTES (red blood cells)?",
+      "options": [
+        "Hemoglobin/oxyhemoglobin and acid/alkali potassium salts of phosphoric acid",
+        "Sodium bicarbonate and albumin",
+        "Acetic acid and sodium acetate",
+        "Hydrochloric acid and chloride ions"
+      ],
+      "answer": 0,
+      "explanation": "البفرات الثانوية داخل كريات الدم الحمراء هي الهيموغلوبين/أوكسي هيموغلوبين وأملاح البوتاسيوم لحامض الفوسفوريك."
+    },
+    {
+      "q": "Below and above what blood pH values is the condition usually life-threatening?",
+      "options": [
+        "Below 6.9 or above 7.8",
+        "Below 7.35 or above 7.45",
+        "Below 5.0 or above 9.0",
+        "Below 6.0 or above 8.5"
+      ],
+      "answer": 0,
+      "explanation": "انخفاض pH الدم تحت 6.9 أو ارتفاعه فوق 7.8 يُعد مهدداً للحياة (وفي غيبوبة السكري قد يصل إلى 6.8)."
+    },
+    {
+      "q": "Lacrimal fluid (tears) has a pH of about 7.4 and a high buffer capacity, allowing what dilution with neutral distilled water before a pH alteration is noticed?",
+      "options": [
+        "1:15",
+        "1:2",
+        "1:100",
+        "1:5"
+      ],
+      "answer": 0,
+      "explanation": "الدموع لها pH حوالي 7.4 (مدى 7–8) وسعة تنظيمية عالية تسمح بتخفيف 1:15 بالماء المقطر المتعادل قبل ملاحظة أي تغير بالـ pH."
+    },
+    {
+      "q": "What is the average pH of human urine (and its normal range), and how do the kidneys respond when blood pH is below normal?",
+      "options": [
+        "pH 6.0 (range 4.5–7.8); kidneys excrete H+ ions",
+        "pH 7.4 (range 7.0–8.0); kidneys retain H+ ions",
+        "pH 2.0 (range 1.0–3.0); kidneys excrete OH- ions",
+        "pH 8.5 (range 7.5–9.5); kidneys stop filtering"
+      ],
+      "answer": 0,
+      "explanation": "متوسط pH الإدرار 6.0 (المدى 4.5–7.8)؛ وعند انخفاض pH الدم تطرح الكلية أيونات H+، وعند ارتفاعه فوق 7.4 تحتفظ بها."
+    },
+    {
+      "q": "When there is a large pH difference between an administered pharmaceutical solution and the physiological environment, tissue irritation will be MINIMAL when:",
+      "options": [
+        "The buffer capacity of the solution is LOWER and the volume used is SMALLER",
+        "The buffer capacity of the solution is very HIGH and the volume is LARGE",
+        "The solution is buffered with high-concentration phosphate",
+        "The pH difference is maximized"
+      ],
+      "answer": 0,
+      "explanation": "يقل تهيّج الأنسجة كلما كانت السعة التنظيمية للمحلول أقل (ليسُهل على سوائل الجسم معادلته) وكلما كان الحجم المستخدم أصغر."
+    },
+    {
+      "q": "Why did Martin and Mims find that a boric acid solution at pH 5 produced NO discomfort in the eyes, whereas Sörensen's phosphate buffer outside pH 6.5–8 caused irritation?",
+      "options": [
+        "Because of the low buffer capacity of boric acid (easily neutralized by tears) and different physiological response to ion species",
+        "Because boric acid has a pH of 7.4",
+        "Because phosphate buffer has zero buffer capacity",
+        "Because tears have a pH of 5"
+      ],
+      "answer": 0,
+      "explanation": "حامض البوريك بـ pH 5 لم يسبب تهيّجاً بسبب سعته التنظيمية المنخفضة (فتعادله الدموع بسهولة) واختلاف استجابة العين للأيونات مقارنة بالفوسفات."
+    },
+    {
+      "q": "In the blood plasma, how do plasma proteins act as buffers?",
+      "options": [
+        "They behave as acids in blood and can combine with bases",
+        "They act exclusively as strong bases",
+        "They precipitate H+ ions",
+        "They convert carbonic acid to NaCl"
+      ],
+      "answer": 0,
+      "explanation": "بروتينات البلازما تسلك سلوك الأحماض في الدم وتستطيع الاتحاد مع القواعد فتعمل كمنظمات."
+    },
+    {
+      "q": "What happens to the buffer capacity (β) of an equimolar (0.1 M) acetic acid/sodium acetate buffer as more NaOH is continuously added?",
+      "options": [
+        "It decreases progressively until the acid reserve is exhausted",
+        "It remains completely fixed at 0.11 forever",
+        "It increases exponentially",
+        "It immediately jumps to 0.576"
+      ],
+      "answer": 0,
+      "explanation": "السعة التنظيمية ليست قيمة ثابتة، بل تقل تدريجياً مع إضافة المزيد من NaOH حتى يُستهلك الحامض الضعيف تماماً."
+    },
+    {
+      "q": "At [H3O+] = 1.75 × 10⁻⁵ (pH = 4.76), what is the buffer capacity of a buffer containing 0.10 M acetic acid and 0.10 M sodium acetate (C = 0.20 M, Ka = 1.75 × 10⁻⁵)?",
+      "options": [
+        "0.115",
+        "0.230",
+        "0.058",
+        "0.576"
+      ],
+      "answer": 0,
+      "explanation": "لأن pH = pKa فإن β = 0.576 × 0.20 = 0.115."
+    },
+    {
+      "q": "Which of the following factors MUST a pharmacist consider regarding tissue irritation when formulating ophthalmic or parenteral products?",
+      "options": [
+        "Buffer capacity of the solution, volume used relative to body fluid volume, and buffer capacity of the body fluid",
+        "Only the cost of the bottle",
+        "Only the boiling point of the drug",
+        "Only the molecular weight of water"
+      ],
+      "answer": 0,
+      "explanation": "يجب مراعاة السعة التنظيمية للمحلول، والحجم المستخدم نسبةً لحجم سائل الجسم، والسعة التنظيمية لسائل الجسم نفسه."
+    },
+    {
+      "q": "In a buffer solution, what is the mathematical expression relating ion activity (ai), concentration ([i]), and activity coefficient (γi)?",
+      "options": [
+        "ai = γi · [i]",
+        "ai = [i] / γi",
+        "ai = γi + [i]",
+        "ai = -log([i])"
+      ],
+      "answer": 0,
+      "explanation": "فعالية الأيون تساوي معامل الفعالية مضروباً في التركيز: ai = γi · [i]."
+    },
+    {
+      "q": "In a very dilute (almost ideal) solution, what is the approximate value of the activity coefficient (γ)?",
+      "options": [
+        "γ ≈ 1",
+        "γ ≈ 0",
+        "γ ≈ 14",
+        "γ ≈ 0.01"
+      ],
+      "answer": 0,
+      "explanation": "في المحاليل المخففة جداً تكون الأيونات متباعدة وتفاعلاتها ضعيفة فيقترب معامل الفعالية من 1 (γ ≈ 1)."
+    },
+    {
+      "q": "What is the blood pH often observed in a patient with severe diabetic coma?",
+      "options": [
+        "As low as about 6.8",
+        "About 7.4",
+        "About 8.2",
+        "About 7.8"
+      ],
+      "answer": 0,
+      "explanation": "في غيبوبة السكري (Diabetic coma) قد ينخفض pH الدم ليصل إلى حوالي 6.8 (حالة حامضية مهددة للحياة)."
+    },
+    {
+      "q": "If [salt]/[acid] = 1 in a buffer solution, then log([salt]/[acid]) equals:",
+      "options": [
+        "0, so pH = pKa",
+        "1, so pH = pKa + 1",
+        "-1, so pH = pKa - 1",
+        "10, so pH = 14"
+      ],
+      "answer": 0,
+      "explanation": "لوغاريتم 1 يساوي صفراً، لذلك عندما يتساوى تركيز الملح والحامض يكون pH = pKa."
+    },
+    {
+      "q": "Which of the following is NOT another name for buffer capacity?",
+      "options": [
+        "Buffer molarity",
+        "Buffer efficiency",
+        "Buffer index",
+        "Buffer value"
+      ],
+      "answer": 0,
+      "explanation": "السعة التنظيمية تُعرف أيضاً بـ Buffer efficiency و Buffer index و Buffer value."
+    },
+    {
+      "q": "In the universal buffer graph, how is the total buffer capacity (Σβ) determined?",
+      "options": [
+        "It is the sum of the β values of the individual buffers",
+        "It is the average of the lowest two buffers",
+        "It is the product of all pKa values",
+        "It is always equal to 1.0"
+      ],
+      "answer": 0,
+      "explanation": "السعة التنظيمية الكلية (Σβ) للبفر الشامل هي مجموع قيم β لكل بفر منفرد في الخليط."
+    },
+    {
+      "q": "Why does diluting a buffer solution with water cause a small change in pH?",
+      "options": [
+        "Dilution decreases ionic strength and alters the activity coefficients of the buffer components",
+        "Dilution changes the value of Ka",
+        "Water destroys the conjugate base",
+        "Dilution increases ionic strength"
+      ],
+      "answer": 0,
+      "explanation": "التخفيف يقلل القوة الأيونية ويغيّر معاملات الفعالية (Activity coefficients) لمكونات البفر مما يسبب تغيراً طفيفاً في الـ pH."
+    }
+  ]
+}
