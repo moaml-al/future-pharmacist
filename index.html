@@ -13,21 +13,6 @@
   <style>
     :root {
       --bg: #fdf8f9;
-      --card: #ffffff[22/11/2026 05:22 م] 𝑴𝑶𝑨𝑴𝑳: <!DOCTYPE html>
-<html lang="ar" dir="rtl" data-theme="light">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="theme-color" content="#fdf8f9" id="metaTheme" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-title" content="Future pharmacist" />
-  <link rel="manifest" href="manifest.json" />
-  <link rel="icon" type="image/jpeg" href="icon.jpg" />
-  <link rel="apple-touch-icon" href="icon.jpg" />
-  <title>Future pharmacist</title>
-  <style>
-    :root {
-      --bg: #fdf8f9;
       --card: #ffffff;
       --card-soft: #f8f4f6;
       --hero-bg: linear-gradient(180deg, #fff5f7 0%, #fcebf0 100%);
@@ -76,473 +61,6 @@
       overscroll-behavior: none;
     }
 
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, system-ui, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-      transition: background 0.25s ease, color 0.25s ease;
-    }
-
-    .topbar {
-      position: sticky; top: 0; z-index: 50;
-      background: var(--bg); border-bottom: 1px solid var(--border);
-      padding: 10px 16px; display: flex; align-items: center; justify-content: space-between;
-    }
-    .top-actions { display: flex; gap: 8px; align-items: center; }
-    .icon-btn {
-      background: var(--card); border: 1px solid var(--border); color: var(--text);
-      width: 40px; height: 40px; border-radius: 12px; font-size: 17px; cursor: pointer;
-      display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow);
-    }
-    .icon-btn:active { transform: scale(0.94); }
-    .menu-btn {
-      background: var(--primary); color: #fff; border: none;
-      padding: 0 14px; height: 40px; border-radius: 12px; font-size: 14px; font-weight: 700;
-      cursor: pointer; display: flex; align-items: center; gap: 8px; box-shadow: var(--shadow);
-    }
-
-    /* Sidebar Drawer */
-    .overlay {
-      position: fixed; inset: 0; background: rgba(0,0,0,0.55);
-      z-index: 90; display: none; backdrop-filter: blur(2px);
-    }
-    .overlay.show { display: block; }
-    .drawer {
-      position: fixed; top: 0; right: -320px; width: 300px; max-width: 85vw; height: 100vh;
-      background: var(--card); border-left: 1px solid var(--border);
-      z-index: 100; transition: right 0.25s ease;
-      display: flex; flex-direction: column; box-shadow: -8px 0 28px rgba(0,0,0,0.25);
-    }
-    .drawer.open { right: 0; }
-    .drawer-head {
-      display: flex; justify-content: space-between; align-items: center;
-[22/11/2026 05:22 م] 𝑴𝑶𝑨𝑴𝑳: padding: 16px; border-bottom: 1px solid var(--border); background: var(--hero-bg);
-    }
-    .drawer-brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 15px; }
-    .drawer-brand img { width: 36px; height: 36px; border-radius: 10px; object-fit: cover; background: #fff; padding: 2px; }
-    .drawer-body { flex: 1; overflow-y: auto; padding: 14px; }
-    .drawer-section { font-size: 11.5px; color: var(--primary); margin: 14px 6px 8px; font-weight: 800; }
-    .drawer-home-btn {
-      width: 100%; background: var(--primary); color: #fff; border: none;
-      padding: 12px 14px; border-radius: 12px; font-weight: 700; font-size: 14px;
-      cursor: pointer; display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;
-    }
-    .drawer-item {
-      width: 100%; text-align: right; background: var(--card-soft);
-      border: 1px solid var(--border); color: var(--text);
-      padding: 11px 12px; border-radius: 12px; margin-bottom: 8px;
-      cursor: pointer; font-size: 13.5px; font-weight: 700;
-      display: flex; justify-content: space-between; align-items: center; gap: 8px;
-    }
-    .drawer-sub { background: transparent; border-style: dashed; font-size: 13px; font-weight: 600; padding: 9px 12px; }
-
-    main { max-width: 1140px; margin: 0 auto; padding: 16px 14px 60px; }
-    .narrow-wrap { max-width: 680px; margin: 0 auto; }
-
-    /* Home View */
-    .hero-card {
-      background: var(--hero-bg); border: 1px solid var(--border); border-radius: 24px;
-      padding: 28px 16px; text-align: center; margin-bottom: 22px; box-shadow: var(--shadow);
-    }
-    .hero-logo {
-      width: 82px; height: 82px; border-radius: 50%; object-fit: cover;
-      background: #fff; padding: 5px; margin-bottom: 12px;
-      box-shadow: 0 4px 16px rgba(226, 109, 151, 0.25);
-    }
-    .hero-title { margin: 0; font-size: 22px; font-weight: 800; }
-    .section-title { font-size: 16px; font-weight: 800; margin: 0 4px 14px; }
-
-    .subjects-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
-    .subject-tile {
-      background: var(--card); border: 1px solid var(--border); border-radius: 20px;
-      padding: 22px 14px; text-align: center; cursor: pointer; box-shadow: var(--shadow);
-      display: flex; flex-direction: column; align-items: center; justify-content: center;
-      gap: 10px; min-height: 142px; transition: transform 0.15s, border-color 0.15s;
-    }
-    .subject-tile:active { transform: scale(0.96); }
-    .subject-tile:hover { border-color: var(--primary); }
-    .tile-icon {
-      width: 54px; height: 54px; border-radius: 16px;
-      background: var(--primary-soft); color: var(--primary);
-      display: flex; align-items: center; justify-content: center; font-size: 27px;
-    }
-    .tile-name { font-size: 15.5px; font-weight: 800; }
-
-    .card {
-      background: var(--card); border: 1px solid var(--border);
-      border-radius: 20px; padding: 18px; margin-bottom: 14px; box-shadow: var(--shadow);
-    }
-    .lec-card {
-      cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 12px;
-    }
-    .lec-card:hover { border-color: var(--primary); }
-
-    .badge {
-      display: inline-block; font-size: 11.5px; padding: 4px 10px;
-      border-radius: 999px; background: var(--primary-soft);
-      color: var(--primary); font-weight: 700; white-space: nowrap;
-    }
-    .badge-clinical { background: var(--clinical-bg); color: var(--clinical); }
-    .badge-warn { background: var(--warn-bg); color: var(--warn); }
-
-    /* Exam Controls */
-    .exam-header-top {
-      display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;
-      gap: 12px; padding-bottom: 14px; border-bottom: 1px solid var(--border); margin-bottom: 14px;
-    }
-    .exam-title-wrap { display: flex; align-items: center; gap: 10px; }
-    .exam-title { margin: 4px 0 0; font-size: 17px; font-weight: 800; }
-[22/11/2026 05:22 م] 𝑴𝑶𝑨𝑴𝑳: .reshuffle-btn {
-      background: #f59e0b; color: #111827; border: none;
-      padding: 10px 14px; border-radius: 12px; font-size: 13px; font-weight: 800; cursor: pointer;
-    }
-    .stats-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
-    .stat-pill {
-      background: var(--card-soft); border: 1px solid var(--border);
-      padding: 7px 12px; border-radius: 12px; font-size: 12.5px; font-weight: 700;
-    }
-    .stat-pill.ok { background: var(--success-bg); border-color: var(--success); color: var(--success); }
-    .stat-pill.bad { background: var(--danger-bg); border-color: var(--danger); color: var(--danger); }
-
-    .dist-bar {
-      background: var(--card-soft); border: 1px solid var(--border);
-      padding: 8px 12px; border-radius: 12px; margin-bottom: 14px;
-      display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px;
-      font-size: 12px; font-weight: 700; color: var(--muted);
-    }
-    .dist-badges { display: flex; gap: 6px; font-family: monospace; }
-    .dist-badge { background: var(--primary-soft); color: var(--primary); padding: 3px 8px; border-radius: 6px; font-weight: 800; }
-
-    .filter-row { display: flex; flex-wrap: wrap; gap: 8px; }
-    .filter-btn {
-      background: var(--card-soft); border: 1px solid var(--border); color: var(--text);
-      padding: 8px 14px; border-radius: 10px; font-size: 12.5px; font-weight: 700; cursor: pointer;
-    }
-    .filter-btn.active { background: var(--primary); border-color: var(--primary); color: #fff; }
-
-    /* Questions Grid: 1 column on Mobile, 2 columns side-by-side on iPad & Laptop */
-    .questions-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 14px;
-      align-items: start;
-    }
-    @media (min-width: 768px) {
-      .questions-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    }
-    .questions-grid .card { margin-bottom: 0; }
-
-    .q-card-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 10px; }
-    .q-num { background: var(--primary-soft); color: var(--primary); padding: 4px 10px; border-radius: 8px; font-size: 12px; font-weight: 800; }
-    .q-text {
-      direction: ltr; text-align: left; font-size: 15px; font-weight: 700;
-      line-height: 1.6; margin: 0 0 14px;
-    }
-    .opts-grid { display: grid; grid-template-columns: 1fr; gap: 9px; }
-    .opt-btn {
-      width: 100%; direction: ltr; text-align: left;
-      background: var(--card-soft); border: 1px solid var(--border); color: var(--text);
-      padding: 11px 12px; border-radius: 13px; cursor: pointer;
-      display: flex; align-items: center; gap: 10px; font-size: 13.5px; line-height: 1.45;
-      transition: all 0.15s;
-    }
-    .opt-btn:hover:not(:disabled) { border-color: var(--primary); }
-    .opt-letter {
-      width: 28px; height: 28px; border-radius: 8px;
-      background: var(--border); color: var(--text);
-      font-weight: 800; font-size: 12.5px;
-      display: flex; align-items: center; justify-content: center; flex-shrink: 0;
-    }
-    .opt-btn.correct { background: var(--success-bg); border-color: var(--success); color: var(--success); font-weight: 700; }
-    .opt-btn.correct .opt-letter { background: var(--success); color: #fff; }
-    .opt-btn.wrong { background: var(--danger-bg); border-color: var(--danger); color: var(--danger); font-weight: 700; }
-    .opt-btn.wrong .opt-letter { background: var(--danger); color: #fff; }
-    .opt-btn.faded { opacity: 0.55; }
-    .opt-btn:disabled { cursor: default; }
-
-    .explain-box {
-      margin-top: 12px; padding: 12px 14px; border-radius: 12px;
-      font-size: 13.5px; line-height: 1.7;
-      border: 1px solid var(--warn); background: var(--warn-bg); color: var(--text);
-    }
-    .explain-box.ok { background: var(--success-bg); border-color: var(--success); }
-[22/11/2026 05:22 م] 𝑴𝑶𝑨𝑴𝑳: /* Final Summary Card at Bottom */
-    .summary-card {
-      margin-top: 22px;
-      background: var(--hero-bg);
-      border: 2px solid var(--primary);
-      border-radius: 24px;
-      padding: 26px 20px;
-      text-align: center;
-      box-shadow: var(--shadow);
-    }
-    .summary-score { font-size: 44px; font-weight: 900; color: var(--primary); margin: 4px 0; }
-    .summary-grid {
-      display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;
-      max-width: 460px; margin: 16px auto 20px;
-    }
-    .summary-box {
-      background: var(--card); border: 1px solid var(--border);
-      border-radius: 14px; padding: 12px 8px;
-    }
-    .summary-box strong { display: block; font-size: 20px; margin-bottom: 2px; }
-    .summary-box span { font-size: 12px; color: var(--muted); font-weight: 700; }
-
-    .btn-primary {
-      background: var(--primary); color: #fff; border: none;
-      padding: 13px 20px; border-radius: 14px; font-size: 14.5px; font-weight: 800;
-      cursor: pointer; margin: 5px; display: inline-flex; align-items: center; gap: 8px;
-    }
-    .btn-danger {
-      background: var(--danger); color: #fff; border: none;
-      padding: 13px 20px; border-radius: 14px; font-size: 14.5px; font-weight: 800;
-      cursor: pointer; margin: 5px; display: inline-flex; align-items: center; gap: 8px;
-    }
-    .btn-outline {
-      background: var(--card); border: 1px solid var(--border); color: var(--text);
-      padding: 11px 18px; border-radius: 12px; font-weight: 700; font-size: 13.5px; cursor: pointer; margin: 5px;
-    }
-
-    .toast {
-      position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
-      background: var(--primary); color: #fff; padding: 10px 18px; border-radius: 999px;
-      font-size: 13px; font-weight: 700; z-index: 200; display: none;
-    }
-    .toast.show { display: block; }
-  </style>
-</head>
-<body>
-
-  <header class="topbar">
-    <button class="menu-btn" onclick="toggleDrawer()">
-      <span>☰</span>
-      <span>القائمة</span>
-    </button>
-    <div class="top-actions">
-      <button class="icon-btn" id="themeBtn" onclick="toggleTheme()" aria-label="المظهر">🌙</button>
-      <button class="icon-btn" id="refreshBtn" onclick="syncCatalog(true)" aria-label="تحديث">↻</button>
-    </div>
-  </header>
-
-  <div class="overlay" id="overlay" onclick="toggleDrawer()"></div>
-  <aside class="drawer" id="drawer">
-    <div class="drawer-head">
-      <div class="drawer-brand">
-        <img src="icon.jpg" alt="Logo" />
-        <span>Future pharmacist</span>
-      </div>
-      <button class="icon-btn" style="width:34px;height:34px;" onclick="toggleDrawer()">✕</button>
-    </div>
-    <div class="drawer-body">
-      <button class="drawer-home-btn" onclick="showHome(); toggleDrawer();">
-        <span>🏠 الواجهة الرئيسية</span>
-        <span>←</span>
-      </button>
-      <div class="drawer-section">المواد والامتحانات (MCQ)</div>
-      <div id="drawerMenu"></div>
-    </div>
-  </aside>
-
-  <main id="app"></main>
-  <div class="toast" id="toast"></div>
-
-  <script>
-    const CATALOG_KEY = 'fp_catalog_v5';
-    const FILE_PREFIX = 'fp_file_v5_';
-    const THEME_KEY = 'fp_theme_v5';
-
-    let catalog = { appTitle: 'Future pharmacist', subjects: [] };
-    let currentView = 'home'; // 'home' | 'subject' | 'exam'
-    let currentExamTitle = '';
-    let currentExamBadge = '';
-    let rawPool = [];
-    let activeQuestions = [];
-    let userAnswers = {};
-    let currentFilter = 'all';
-
-    function updateRefreshVisibility() {
-      const btn = document.getElementById('refreshBtn');
-      if (btn) btn.style.display = currentView === 'home' ? 'flex' : 'none';
-    }
-
-    function applyTheme(theme) {
-      document.documentElement.setAttribute('data-theme', theme);
-      localStorage.setItem(THEME_KEY, theme);
-      document.getElementById('themeBtn').textContent = theme === 'dark' ? '☀️' : '🌙';
-      document.getElementById('metaTheme').setAttribute('content', theme === 'dark' ? '#0b0f19' : '#fdf8f9');
-    }
-[22/11/2026 05:22 م] 𝑴𝑶𝑨𝑴𝑳: function toggleTheme() {
-      const current = document.documentElement.getAttribute('data-theme') || 'light';
-      applyTheme(current === 'light' ? 'dark' : 'light');
-    }
-
-    function fisherYatesShuffle(arr) {
-      const a = [...arr];
-      for (let i = a.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [a[i], a[j]] = [a[j], a[i]];
-      }
-      return a;
-    }
-
-    function showToast(msg) {
-      const t = document.getElementById('toast');
-      t.textContent = msg;
-      t.classList.add('show');
-      setTimeout(() => t.classList.remove('show'), 2500);
-    }
-
-    function toggleDrawer() {
-      document.getElementById('drawer').classList.toggle('open');
-      document.getElementById('overlay').classList.toggle('show');
-    }
-
-    async function initApp() {
-      const cached = localStorage.getItem(CATALOG_KEY);
-      if (cached) {
-        try {
-          catalog = JSON.parse(cached);
-          renderDrawer();
-          showHome();
-        } catch (e) {}
-      }
-      await syncCatalog(false);
-    }
-
-    async function syncCatalog(manual = false) {
-      if (manual && currentView !== 'home') return;
-      try {
-        const res = await fetch('./catalog.json?t=' + Date.now(), { cache: 'no-store' });
-        if (!res.ok) throw new Error();
-        const fresh = await res.json();
-        const oldStr = localStorage.getItem(CATALOG_KEY);
-        const newStr = JSON.stringify(fresh);
-
-        catalog = fresh;
-        localStorage.setItem(CATALOG_KEY, newStr);
-        renderDrawer();
-
-        if (currentView === 'home') {
-          if (!oldStr || oldStr !== newStr) {
-            showHome();
-            if (manual) showToast('تم التحديث بنجاح');
-          } else if (manual) {
-            showToast('محدّث لآخر نسخة');
-          }
-        }
-      } catch (e) {
-        if (manual) showToast('تعذّر التحديث، تأكد من الاتصال');
-        if (currentView === 'home') showHome();
-      }
-    }
-
-    async function fetchQuizFile(fileName) {
-      const key = FILE_PREFIX + fileName;
-      try {
-        const res = await fetch('./' + fileName + '?t=' + Date.now(), { cache: 'no-store' });
-        if (!res.ok) throw new Error('الملف غير موجود (' + res.status + ')');
-        const text = await res.text();
-        let data;
-        try {
-          data = JSON.parse(text);
-        } catch (parseErr) {
-          throw new Error('خطأ في صيغة ملف JSON (احتمال ناقص قوس)');
-        }
-        localStorage.setItem(key, JSON.stringify(data));
-        return data;
-      } catch (e) {
-        const cached = localStorage.getItem(key);
-        if (cached) return JSON.parse(cached);
-        throw e;
-      }
-    }
-
-    function renderDrawer() {
-      if (!catalog) return;
-      let html = '';
-      (catalog.subjects || []).forEach(sub => {
-        html += <button class="drawer-item" onclick="showSubject('${sub.id}'); toggleDrawer();">
-          <span>${sub.icon || '💊'} ${sub.name}</span>
-          <span class="badge">${(sub.files || []).length}</span>
-        </button>;
-        (sub.files || []).forEach(f => {
-          html += <button class="drawer-item drawer-sub" onclick="openFileExam('${f.file}', '${f.title.replace(/'/g, "\'")}', '${sub.name.replace(/'/g, "\'")}'); toggleDrawer();">
-            <span>📄 ${f.title}</span>
-            ${f.count ? <span style="font-size:11px;color:var(--muted);">${f.count} سؤال</span> : ''}
-          </button>;
-        });
-      });
-      document.getElementById('drawerMenu').innerHTML = html;
-    }
-
-    function showHome() {
-      currentView = 'home';
-      updateRefreshVisibility();
-      let html = 
-        <div class="narrow-wrap">
-          <div class="hero-card">
-            <img src="icon.jpg" alt="Future pharmacist" class="hero-logo" />
-            <h1 class="hero-title">${catalog.appTitle || 'Future pharmacist'}</h1>
-          </div>
-          <h2 class="section-title">المواد الدراسية</h2>
-      ;
-[22/11/2026 05:22 م] 𝑴𝑶𝑨𝑴𝑳: const subs = catalog.subjects || [];
-      if (subs.length > 0) {
-        html += <div class="subjects-grid">;
-        subs.forEach(sub => {
-          html += 
-            <div class="subject-tile" onclick="showSubject('${sub.id}')">
-              <div class="tile-icon">${sub.icon || '💊'}</div>
-              <div class="tile-name">${sub.name}</div>
-            </div>;
-        });
-        html += </div>;
-      }
-      html += </div>;
-      --card-soft: #f8f4f6;
-      --hero-bg: linear-gradient(180deg, #fff5f7 0%, #fcebf0 100%);
-      --border: #f2dce3;
-      --shadow: 0 4px 16px rgba(219, 112, 147, 0.08);
-      --primary: #e26d97;
-      --primary-soft: #fdebf1;
-      --text: #2b2125;
-      --muted: #7c6870;
-      --success: #16a34a;
-      --success-bg: #ecfdf5;
-      --danger: #e11d48;
-      --danger-bg: #fff1f2;
-      --warn: #d97706;
-      --warn-bg: #fffbeb;
-      --clinical: #0284c7;
-      --clinical-bg: #e0f2fe;
-    }
-
-    [data-theme="dark"] {
-      --bg: #0b0f19;
-      --card: #131926;
-      --card-soft: #1c2436;
-      --hero-bg: linear-gradient(180deg, #1a1523 0%, #131926 100%);
-      --border: #263147;
-      --shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
-      --primary: #f472b6;
-      --primary-soft: rgba(244, 114, 182, 0.14);
-      --text: #f1f5f9;
-      --muted: #94a3b8;
-      --success: #34d399;
-      --success-bg: rgba(16, 185, 129, 0.14);
-      --danger: #fb7185;
-      --danger-bg: rgba(244, 63, 94, 0.14);
-      --warn: #fbbf24;
-      --warn-bg: rgba(245, 158, 11, 0.14);
-      --clinical: #38bdf8;
-      --clinical-bg: rgba(56, 189, 248, 0.14);
-    }
-
-    * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, system-ui, sans-serif;
@@ -793,7 +311,7 @@
     </button>
     <div class="top-actions">
       <button class="icon-btn" id="themeBtn" onclick="toggleTheme()" aria-label="المظهر">🌙</button>
-      <button class="icon-btn" onclick="syncCatalog(true)" aria-label="تحديث">↻</button>
+      <button class="icon-btn" id="refreshBtn" onclick="syncCatalog(true)" aria-label="تحديث">↻</button>
     </div>
   </header>
 
@@ -825,12 +343,18 @@
     const THEME_KEY = 'fp_theme_v5';
 
     let catalog = { appTitle: 'Future pharmacist', subjects: [] };
+    let currentView = 'home'; // 'home' | 'subject' | 'exam'
     let currentExamTitle = '';
     let currentExamBadge = '';
     let rawPool = [];
     let activeQuestions = [];
     let userAnswers = {};
     let currentFilter = 'all';
+
+    function updateRefreshVisibility() {
+      const btn = document.getElementById('refreshBtn');
+      if (btn) btn.style.display = currentView === 'home' ? 'flex' : 'none';
+    }
 
     function applyTheme(theme) {
       document.documentElement.setAttribute('data-theme', theme);
@@ -878,6 +402,7 @@
     }
 
     async function syncCatalog(manual = false) {
+      if (manual && currentView !== 'home') return;
       try {
         const res = await fetch('./catalog.json?t=' + Date.now(), { cache: 'no-store' });
         if (!res.ok) throw new Error();
@@ -889,15 +414,17 @@
         localStorage.setItem(CATALOG_KEY, newStr);
         renderDrawer();
 
-        if (!oldStr || oldStr !== newStr) {
-          showHome();
-          if (manual) showToast('تم التحديث بنجاح');
-        } else if (manual) {
-          showToast('محدّث لآخر نسخة');
+        if (currentView === 'home') {
+          if (!oldStr || oldStr !== newStr) {
+            showHome();
+            if (manual) showToast('تم التحديث بنجاح');
+          } else if (manual) {
+            showToast('محدّث لآخر نسخة');
+          }
         }
       } catch (e) {
         if (manual) showToast('تعذّر التحديث، تأكد من الاتصال');
-        showHome();
+        if (currentView === 'home') showHome();
       }
     }
 
@@ -931,7 +458,7 @@
           <span class="badge">${(sub.files || []).length}</span>
         </button>`;
         (sub.files || []).forEach(f => {
-          html += `<button class="drawer-item drawer-sub" onclick="openFileExam('${f.file}', '${f.title.replace(/'/g, "\\'")}', '${sub.name.replace(/'/g, "\\'")}'); toggleDrawer();">
+          html += `<button class="drawer-item drawer-sub" onclick="openFileExam('${f.file}', '${f.title.replace(/'/g, "\'")}', '${sub.name.replace(/'/g, "\'")}'); toggleDrawer();">
             <span>📄 ${f.title}</span>
             ${f.count ? `<span style="font-size:11px;color:var(--muted);">${f.count} سؤال</span>` : ''}
           </button>`;
@@ -941,6 +468,8 @@
     }
 
     function showHome() {
+      currentView = 'home';
+      updateRefreshVisibility();
       let html = `
         <div class="narrow-wrap">
           <div class="hero-card">
@@ -970,6 +499,8 @@
     function showSubject(subId) {
       const sub = (catalog.subjects || []).find(s => s.id === subId);
       if (!sub) return;
+      currentView = 'subject';
+      updateRefreshVisibility();
 
       let html = `
         <div class="narrow-wrap">
@@ -985,7 +516,7 @@
 
       (sub.files || []).forEach(f => {
         html += `
-          <div class="card lec-card" onclick="openFileExam('${f.file}', '${f.title.replace(/'/g, "\\'")}', '${sub.name.replace(/'/g, "\\'")}')">
+          <div class="card lec-card" onclick="openFileExam('${f.file}', '${f.title.replace(/'/g, "\'")}', '${sub.name.replace(/'/g, "\'")}')">
             <strong style="font-size:15px;">${f.title}</strong>
             ${f.count ? `<span class="badge">${f.count} سؤال</span>` : ''}
           </div>`;
@@ -1048,14 +579,14 @@
           options: finalOpts,
           correctIndex: targetIdx,
           exp: qObj.explanation || qObj.exp || '',
-          lecTag: qObj.lecTag || currentExamTitle,
-          type: qObj.type || '',
-          difficulty: qObj.difficulty || ''
+          lecTag: qObj.lecTag || currentExamTitle
         };
       });
     }
 
     function startExamEngine() {
+      currentView = 'exam';
+      updateRefreshVisibility();
       userAnswers = {};
       currentFilter = 'all';
       activeQuestions = prepareBalancedQuestions(rawPool);
@@ -1177,10 +708,6 @@
             <div class="card">
               <div class="q-card-head">
                 <span class="q-num">Question #${q.id + 1}</span>
-                <div style="display:flex; gap:6px; flex-wrap:wrap;">
-                  ${q.type === 'clinical' ? `<span class="badge badge-clinical">سريري</span>` : ''}
-                  ${q.difficulty ? `<span class="badge badge-warn">${q.difficulty}</span>` : ''}
-                </div>
               </div>
               <div class="q-text">${q.q}</div>
               <div class="opts-grid">${optsHtml}</div>
@@ -1190,7 +717,6 @@
         }).join('') + `</div>`;
       }
 
-      /* بطاقة النتيجة النهائية وزر مراجعة الأخطاء بالأخير */
       if (answeredKeys.length > 0) {
         const isFinished = answeredKeys.length === total;
         html += `
