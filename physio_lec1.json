@@ -1,670 +1,305 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl" data-theme="light">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="theme-color" content="#fdf8f9" id="metaTheme" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-title" content="Future pharmacist" />
-  <link rel="manifest" href="manifest.json" />
-  <link rel="icon" type="image/jpeg" href="icon.jpg" />
-  <link rel="apple-touch-icon" href="icon.jpg" />
-  <title>Future pharmacist</title>
-  <style>
-    :root {
-      --bg: #fdf8f9;
-      --card: #ffffff;
-      --hero-bg: linear-gradient(180deg, #fff5f7 0%, #fcebf0 100%);
-      --border: #f2dce3;
-      --shadow: 0 4px 16px rgba(219, 112, 147, 0.08);
-      --primary: #e26d97;
-      --primary-soft: #fdebf1;
-      --text: #2b2125;
-      --muted: #8a757d;
-      --success: #229954;
-      --success-bg: #eafaf1;
-      --danger: #d9434e;
-      --danger-bg: #fdedee;
-      --clinical: #0284c7;
-      --clinical-bg: #e0f2fe;
-      --warn: #b7791f;
-      --warn-bg: #fef3c7;
+{
+  "title": "Lec 1: Muscle Physiology",
+  "questions": [
+    {
+      "q": "Which of the following muscle types is characterized by cylindrical, multinucleated cells with peripherally located nuclei?",
+      "options": ["Skeletal muscle", "Cardiac muscle", "Single-unit smooth muscle", "Multi-unit smooth muscle"],
+      "answer": 0,
+      "explanation": "العضلة الهيكلية (Skeletal muscle) خلاياها أسطوانية متعددة النوى وتكون النوى محيطية الموقع."
+    },
+    {
+      "q": "During embryonic development, skeletal muscle fibers are formed by the fusion of undifferentiated mononucleated cells called:",
+      "options": ["Myoblasts", "Myofibrils", "Satellite cells", "Fibroblasts"],
+      "answer": 0,
+      "explanation": "الألياف العضلية الهيكلية تتكون من اندماج خلايا جنينية أحادية النواة تسمى Myoblasts."
+    },
+    {
+      "q": "Which connective tissue layer surrounds each individual muscle fiber and is composed of areolar connective tissue?",
+      "options": ["Epimysium", "Perimysium", "Endomysium", "Sarcolemma"],
+      "answer": 2,
+      "explanation": "الـ Endomysium يغلف كل ليف عضلي منفرد ويتكون من نسيج ضام فجوي (Areolar CT)، بينما Epimysium و Perimysium من نسيج ضام كثيف غير منتظم."
+    },
+    {
+      "q": "The middle connective tissue layer that divides a skeletal muscle into bundles called fascicles is the:",
+      "options": ["Epimysium", "Perimysium", "Endomysium", "Tendon"],
+      "answer": 1,
+      "explanation": "الـ Perimysium يحيط بمجاميع الألياف العضلية مكوناً الحزم العضلية (Fascicles)."
+    },
+    {
+      "q": "The outermost dense irregular connective tissue layer wrapping the entire skeletal muscle is the:",
+      "options": ["Endomysium", "Perimysium", "Epimysium", "Sarcolemma"],
+      "answer": 2,
+      "explanation": "الـ Epimysium هي الطبقة الخارجية الكثيفة التي تغلف العضلة بالكامل."
+    },
+    {
+      "q": "The functional contractile unit of a striated muscle fiber extending from one Z-disc to the next Z-disc is the:",
+      "options": ["Myofibril", "Sarcomere", "A-band", "Triad"],
+      "answer": 1,
+      "explanation": "الساركومير (Sarcomere) هو الوحدة الوظيفية للانقباض ويمتد بين خطي Z متجاورين."
+    },
+    {
+      "q": "Which region of the sarcomere contains ONLY thin (actin) filaments and appears as a light band under the microscope?",
+      "options": ["A-band", "H-zone", "I-band", "M-line"],
+      "answer": 2,
+      "explanation": "الـ I-band هي المنطقة الفاتحة وتحتوي فقط على خيوط الأكتين الرقيقة، ويتوسطها الـ Z-disc."
+    },
+    {
+      "q": "What is the central region of the A-band that contains only thick (myosin) filaments with no overlapping actin in a relaxed sarcomere?",
+      "options": ["I-band", "H-zone", "Z-disc", "Triad"],
+      "answer": 1,
+      "explanation": "الـ H-zone تقع في منتصف الـ A-band وتحتوي على خيوط المايوسين السميكة فقط بدون تداخل مع الأكتين."
+    },
+    {
+      "q": "Which structure is located at the center of the H-zone and holds the thick myosin filaments in place?",
+      "options": ["Z-disc", "M-line", "I-band", "T-tubule"],
+      "answer": 1,
+      "explanation": "خط M (M-line) يقع في منتصف منطقة H ويثبت خيوط المايوسين السميكة بمكانها."
+    },
+    {
+      "q": "Which elastic protein runs from the M-line to the Z-disc, anchoring myosin filaments and preventing overstretching?",
+      "options": ["Nebulin", "Tropomyosin", "Titin", "Dystrophin"],
+      "answer": 2,
+      "explanation": "بروتين Titin هو بروتين مرن يثبت خيوط المايوسين بالـ Z-disc ويمنع التمدد المفرط ويساهم في الارتداد المرن."
+    },
+    {
+      "q": "In skeletal muscle, a 'Triad' consists of:",
+      "options": ["One T-tubule flanked by two terminal cisternae of the SR", "Two T-tubules and one terminal cisterna", "Actin, troponin, and tropomyosin", "Epimysium, perimysium, and endomysium"],
+      "answer": 0,
+      "explanation": "الـ Triad يتكون من أنبوب مستعرض واحد (T-tubule) محاط بصهريجين طرفيين (Two terminal cisternae) من الشبكة الساركوبلازمية."
+    },
+    {
+      "q": "Which special property of muscle tissue describes its ability to recoil to its original resting length after being stretched?",
+      "options": ["Extensibility", "Contractility", "Elasticity", "Excitability"],
+      "answer": 2,
+      "explanation": "الـ Elasticity (المرونة) هي قدرة العضلة على العودة لطولها الأصلي بعد التمدد أو الانقباض، بينما Extensibility هي القدرة على التمدد بدون تلف."
+    },
+    {
+      "q": "Which special property of muscle tissue allows it to stretch without being damaged?",
+      "options": ["Elasticity", "Extensibility", "Contractility", "Excitability"],
+      "answer": 1,
+      "explanation": "الـ Extensibility هي قدرة النسيج العضلي على التمدد دون أن يتلف."
+    },
+    {
+      "q": "At the neuromuscular junction (NMJ), what directly triggers the exocytosis of acetylcholine (ACh) vesicles from the axon terminal?",
+      "options": ["Na+ efflux", "Ca2+ influx through voltage-gated channels", "K+ influx", "Direct binding of ATP to SNAREs"],
+      "answer": 1,
+      "explanation": "وصول جهد الفعل يفتح قنوات الكالسيوم المبوبة بالفولتية، فدخول Ca2+ يحفز اندماج الحويصلات وتحرير الـ ACh."
+    },
+    {
+      "q": "During synaptic transmission at the NMJ, Ca2+ activates calmodulin, which activates protein kinase II (PK II) to phosphorylate which motor protein?",
+      "options": ["Troponin", "Synapsin", "Calponin", "Myosin light chain"],
+      "answer": 1,
+      "explanation": "إنزيم PK II يفسفر بروتين Synapsin حتى تتحرر حويصلات الـ ACh وترتبط ببروتينات الغشاء (SNAREs)."
+    },
+    {
+      "q": "Acetylcholine released into the synaptic cleft of the NMJ binds to which receptors on the motor end plate to generate an End Plate Potential (EPP)?",
+      "options": ["Muscarinic receptors", "Nicotinic receptors", "Beta-2 adrenergic receptors", "Ryanodine receptors"],
+      "answer": 1,
+      "explanation": "يرتبط الـ ACh بمستقبلات Nicotinic على الصفيحة الحركية النهائية، مما يسبب دخول Na+ وتكوين جهد الصفيحة النهائية (EPP)."
+    },
+    {
+      "q": "In skeletal muscle excitation-contraction coupling, depolarization of the T-tubule membrane directly alters the conformation of which voltage-sensing protein?",
+      "options": ["Ryanodine receptor (RyR)", "Dihydropyridine receptor (DHPR)", "SERCA pump", "Nicotinic receptor"],
+      "answer": 1,
+      "explanation": "جهد الفعل في الـ T-tubule يغيّر شكل مستقبلات DHPR الحساسة للفولتية والمرتبطة ميكانيكياً بقنوات RyR على الشبكة الساركوبلازمية."
+    },
+    {
+      "q": "Which channel on the terminal cisternae of the sarcoplasmic reticulum opens to release Ca2+ into the sarcoplasm during skeletal muscle contraction?",
+      "options": ["Voltage-gated Na+ channel", "Ryanodine receptor (RyR) channel", "Nicotinic ACh channel", "Na+/Ca2+ exchanger"],
+      "answer": 1,
+      "explanation": "قنوات Ryanodine (RyR) الموجودة على الـ SR هي التي تفتح لتطلق أيونات الكالسيوم إلى الساركوبلازم."
+    },
+    {
+      "q": "In a relaxed skeletal muscle, which protein physically covers the myosin-binding sites on the actin filament?",
+      "options": ["Troponin C", "Tropomyosin", "Titin", "Caldesmon"],
+      "answer": 1,
+      "explanation": "في حالة الراحة يغطي بروتين Tropomyosin مواقع ارتباط المايوسين على الأكتين، وعند ارتباط Ca2+ بـ Troponin ينزاح Tropomyosin لتنكشف المواقع."
+    },
+    {
+      "q": "During the cross-bridge cycle, what specific event is required to DETACH the myosin head from the actin filament after the power stroke?",
+      "options": ["Hydrolysis of ATP to ADP + Pi", "Release of Ca2+ from troponin", "Binding of a new ATP molecule to the myosin head", "Release of inorganic phosphate (Pi)"],
+      "answer": 2,
+      "explanation": "ارتباط جزيء ATP جديد برأس المايوسين هو الذي يفصل الجسر العرضي عن الأكتين؛ وبدون ATP يبقى المايوسين ملتصقاً بالأكتين (حالة Rigor state)."
+    },
+    {
+      "q": "According to the sliding filament theory, during skeletal muscle contraction:",
+      "options": ["Both actin and myosin filaments shorten", "Only thick myosin filaments shorten", "Sarcomeres shorten while the lengths of actin and myosin filaments remain unchanged", "The A-band widens significantly"],
+      "answer": 2,
+      "explanation": "في نظرية الخيوط المنزلقة، يقصر الساركومير نتيجة انزلاق الأكتين نحو مركز الساركومير، بينما يبقى طول خيوط الأكتين والمايوسين ثابتاً لا يتغير."
+    },
+    {
+      "q": "Which enzyme in the synaptic cleft terminates neuromuscular transmission so that muscle relaxation can begin?",
+      "options": ["Myosin ATPase", "Acetylcholinesterase (AChE)", "Protein kinase II", "Myosin light chain phosphatase"],
+      "answer": 1,
+      "explanation": "إنزيم Acetylcholinesterase يحطم الـ ACh في الشق التشابكي فتتوقف إثارة الغشاء العضلي."
+    },
+    {
+      "q": "How is Ca2+ removed from the sarcoplasm to allow skeletal muscle relaxation?",
+      "options": ["Passive diffusion back into the SR", "Active transport back into the SR via Ca2+-ATPase", "Binding permanently to tropomyosin", "Diffusion out through nicotinic receptors"],
+      "answer": 1,
+      "explanation": "يتم ضخ الكالسيوم بشكل فعال (باستهلاك ATP) عائداً إلى الشبكة الساركوبلازمية بواسطة مضخة Ca2+-ATPase."
+    },
+    {
+      "q": "What type of contraction occurs when a muscle generates tension without changing its length (e.g., trying to lift a load heavier than maximum tension)?",
+      "options": ["Isotonic contraction", "Isometric contraction", "Treppe", "Incomplete tetanus"],
+      "answer": 1,
+      "explanation": "في الانقباض المتساوي الطول (Isometric)، يتولد شد عضلي بدون تغير في طول العضلة."
+    },
+    {
+      "q": "What type of contraction occurs when a muscle shortens to move a constant load?",
+      "options": ["Isotonic contraction", "Isometric contraction", "Rigor state", "Refractory contraction"],
+      "answer": 0,
+      "explanation": "في الانقباض المتساوي التوتر (Isotonic)، تقصر العضلة وترفع الحمل مع بقاء التوتر ثابتاً."
+    },
+    {
+      "q": "In the load-velocity relationship of a skeletal muscle fiber, the velocity of shortening is maximal when:",
+      "options": ["The load equals maximum isometric tension", "The load is zero", "The muscle is overstretched", "Complete tetanus is reached"],
+      "answer": 1,
+      "explanation": "سرعة التقصير تكون بأقصاها عندما يكون الحمل صفراً (Zero load)، وتنخفض للصفر عندما يساوي الحمل أقصى شد متساوي الطول."
+    },
+    {
+      "q": "When electrical shocks of maximum voltage are applied to a muscle at short intervals, producing progressively stronger separate twitches ('warm-up' effect) due to increased intracellular Ca2+, this phenomenon is called:",
+      "options": ["Complete tetanus", "Treppe (staircase effect)", "Spatial summation", "All-or-none law"],
+      "answer": 1,
+      "explanation": "ظاهرة السلم (Treppe / Staircase effect) تعبر عن الإحماء العضلي حيث يزداد ارتفاع كل نفضة تدريجياً بسبب تراكم Ca2+ داخل الخلية."
+    },
+    {
+      "q": "When stimulation frequency reaches fusion frequency (e.g., 60 shocks/sec) so that there is no visible relaxation between twitches, the resulting smooth sustained contraction is:",
+      "options": ["Simple twitch", "Treppe", "Incomplete tetanus", "Complete tetanus"],
+      "answer": 3,
+      "explanation": "الكزاز الكامل (Complete tetanus) يحدث عند تردد الدمج فلا يظهر أي استرخاء بين النفضات ويكون الانقباض مستمراً وسلساً."
+    },
+    {
+      "q": "Which ATP regeneration pathway provides immediate energy for short bursts of intense skeletal muscle activity lasting about 15 seconds?",
+      "options": ["Oxidative phosphorylation", "Anaerobic glycolysis", "Creatine phosphate (CP)", "Beta-oxidation of fatty acids"],
+      "answer": 2,
+      "explanation": "فوسفات الكرياتين (Creatine Phosphate) يمنح مجموعة فوسفات بسرعة لـ ADP لتكوين ATP ويكفي لحوالي 15 ثانية من الجهد الفوري."
+    },
+    {
+      "q": "Anaerobic glycolysis in skeletal muscle produces how many net ATP molecules per molecule of glucose, along with lactic acid?",
+      "options": ["2 ATP", "17 ATP", "32 ATP", "38 ATP"],
+      "answer": 0,
+      "explanation": "التحلل السكري اللاهوائي سريع لكنه غير كفوء وينتج فقط 2 ATP لكل جزيء كلوكوز، ويحول البايروفيت إلى حامض اللاكتيك الذي يخفض الـ pH."
+    },
+    {
+      "q": "Which of the following is the primary cause of muscle fatigue during HIGH-intensity, SHORT-duration exercise?",
+      "options": ["Depletion of glycogen stores only", "Accumulation of Pi, ADP, and lactic acid inhibiting cross-bridge cycling", "Central nervous system failure exclusively", "Loss of myoglobin"],
+      "answer": 1,
+      "explanation": "في التمرين عالي الشدة وقصير المدة، السبب الرئيسي للتعب هو تراكم Pi و ADP وحامض اللاكتيك مما يثبط دورة الجسور العرضية."
+    },
+    {
+      "q": "Which of the following is a primary cause of muscle fatigue during LOW-intensity, LONG-duration exercise?",
+      "options": ["Depletion of glycogen stores, disrupted Ca2+ regulation, and central fatigue", "Accumulation of creatine phosphate", "Hypercalcemia", "Excessive myoglobin"],
+      "answer": 0,
+      "explanation": "في التمرين طويل المدة ومنخفض الشدة، التعب ينتج عن استنفاد مخازن الكلايكوجين واضطراب تنظيم الكالسيوم والتعب المركزي."
+    },
+    {
+      "q": "Which type of skeletal muscle fiber has high mitochondrial density, high capillary density, massive myoglobin (dark red), and high resistance to fatigue?",
+      "options": ["Type I (Slow-Oxidative / Red) fibers", "Type IIb (Fast-Glycolytic / White) fibers", "Type IIx fibers", "Multi-unit smooth fibers"],
+      "answer": 0,
+      "explanation": "ألياف النوع الأول (Type I الحمراء) غنية بالميتوكوندريا والمايوغلوبين والشعيرات الدموية ومقاومة جداً للتعب."
+    },
+    {
+      "q": "Which skeletal muscle fiber type has very high myosin ATPase activity, high glycogen content, low myoglobin, and fatigues very rapidly (ideal for sprinting and weightlifting)?",
+      "options": ["Type I (Slow-Oxidative)", "Type IIa (Fast-Oxidative-Glycolytic)", "Type IIb / IIx (Fast-Glycolytic / White)", "Cardiac autorhythmic fibers"],
+      "answer": 2,
+      "explanation": "الألياف البيضاء (Type IIb/IIx) تعتمد على التحلل اللاهوائي، نشاط Myosin ATPase فيها عالٍ جداً وقوتها سريعة لكنها تتعب بسرعة."
+    },
+    {
+      "q": "According to the Size Principle of motor unit recruitment, which motor units are recruited FIRST when a muscle begins to generate force?",
+      "options": ["Largest Type IIb motor units", "Smaller, fatigue-resistant Type I motor units", "Type IIa motor units only", "All motor units simultaneously"],
+      "answer": 1,
+      "explanation": "حسب مبدأ الحجم (Size Principle)، يتم تجنيد الوحدات الحركية الأصغر والمقاومة للتعب (Type I) أولاً، ثم الوحدات الأكبر (Type II) عند الحاجة لقوة أكبر."
+    },
+    {
+      "q": "Resistance training (high load, low repetitions) increases skeletal muscle size primarily through:",
+      "options": ["Hyperplasia (formation of new muscle cells)", "Hypertrophy (increase in fiber cross-sectional area by adding more myofibrils)", "Conversion of smooth muscle to skeletal muscle", "Increased extracellular fluid only"],
+      "answer": 1,
+      "explanation": "تمارين المقاومة تسبب تضخماً (Hypertrophy) بزيادة عدد اللييفات والخيوط داخل الليف العضلي، وليس زيادة في عدد الخلايا (Hyperplasia)."
+    },
+    {
+      "q": "Endurance training (low load, high repetitions) primarily induces which adaptation in skeletal muscle?",
+      "options": ["Increased mitochondrial count, capillary density (angiogenesis), and myoglobin content", "Massive hypertrophy of white fibers", "Loss of mitochondria", "Conversion of Type I fibers into smooth muscle"],
+      "answer": 0,
+      "explanation": "تمارين التحمل تزيد عدد الميتوكوندريا وكثافة الشعيرات الدموية (Angiogenesis) ومحتوى المايوغلوبين بدون تغيير كبير بحجم العضلة."
+    },
+    {
+      "q": "Most skeletal muscles in the human body operate as which class of lever system, prioritizing speed and range of motion?",
+      "options": ["First-class levers", "Second-class levers", "Third-class levers", "Fourth-class levers"],
+      "answer": 2,
+      "explanation": "معظم العضلات الهيكلية تعمل كعتلات من النوع الثالث (الجهد بين المرتكز والحمل)، مما يعطي سرعة ومدى حركة أوسع."
+    },
+    {
+      "q": "Why can cardiac muscle NOT undergo tetanic contractions (cramping) like skeletal muscle?",
+      "options": ["It lacks actin and myosin", "It has a long plateau phase creating an extended absolute refractory period", "It has no sarcoplasmic reticulum", "It is under voluntary control"],
+      "answer": 1,
+      "explanation": "جهد الفعل القلبي طويل (200–300 ms) بسبب طور الهضبة (Plateau) مما يخلق فترة عصيان مطلقة طويلة تمنع حدوث الكزاز (Tetanus)."
+    },
+    {
+      "q": "During the plateau phase of the cardiac muscle action potential, which ionic events occur?",
+      "options": ["Fast Na+ channels remain wide open", "Slow Ca2+ channels open allowing Ca2+ influx while K+ exits", "Only Cl- enters the cell", "Both Ca2+ and K+ channels are closed"],
+      "answer": 1,
+      "explanation": "في طور الهضبة (Plateau) تفتح قنوات الكالسيوم البطيئة لدخول Ca2+ بالتزامن مع خروج K+ مما يطيل مدة الانقباض."
+    },
+    {
+      "q": "Intercalated discs in cardiac muscle contain gap junctions that allow action potentials to spread rapidly from cell to cell so the heart contracts as a:",
+      "options": ["Multi-unit muscle", "Functional syncytium", "Third-class lever", "Motor unit"],
+      "answer": 1,
+      "explanation": "الأقراص البينية تحوي وصلات فجوية (Gap junctions) تنقل الإشارة الكهربائية بسرعة فتعمل عضلة القلب كوحدة وظيفية متناسقة (Functional syncytium)."
+    },
+    {
+      "q": "Cardiac muscle cells rely almost exclusively on aerobic metabolism, with mitochondria occupying up to what percentage of their cell volume?",
+      "options": ["5%", "10%", "40%", "85%"],
+      "answer": 2,
+      "explanation": "خلايا عضلة القلب غنية جداً بالميتوكوندريا (تصل إلى 40% من حجم الخلية) وتعتمد بشكل أساسي على الأيض الهوائي."
+    },
+    {
+      "q": "Which of the following organs contains MULTI-UNIT smooth muscle that requires independent innervation for fine control?",
+      "options": ["Gastrointestinal tract", "Urinary bladder", "Uterus", "Iris and ciliary muscle of the eye"],
+      "answer": 3,
+      "explanation": "العضلات الملساء متعددة الوحدات (Multi-unit) توجد في القزحية والعضلة الهدبية والشرايين والممرات الهوائية الكبيرة، وتتميز بتحكم دقيق ونشاط تلقائي قليل."
+    },
+    {
+      "q": "In smooth muscle cells, which structures are analogous to the Z-discs of striated muscle and anchor the actin filaments?",
+      "options": ["Intercalated discs", "Dense bodies", "Caveolae", "Terminal cisternae"],
+      "answer": 1,
+      "explanation": "الأجسام الكثيفة (Dense bodies) في العضلة الملساء تؤدي وظيفة مشابهة لـ Z-discs حيث تثبت خيوط الأكتين."
+    },
+    {
+      "q": "Smooth muscle lacks T-tubules; instead, it has small invaginations of the sarcolemma that serve as Ca2+ entry sites and signaling hubs called:",
+      "options": ["Triads", "Caveolae", "Desmosomes", "Myoblasts"],
+      "answer": 1,
+      "explanation": "الـ Caveolae هي انغلافات في غشاء العضلة الملساء تعمل كمواقع لدخول الكالسيوم ومراكز إشارة بدلاً من الـ T-tubules."
+    },
+    {
+      "q": "In smooth muscle contraction, intracellular Ca2+ does NOT bind to troponin; instead, it binds to which primary Ca2+ sensor protein?",
+      "options": ["Tropomyosin", "Calmodulin (CaM)", "Dystrophin", "Titin"],
+      "answer": 1,
+      "explanation": "العضلة الملساء لا تحتوي على Troponin؛ يرتبط الكالسيوم ببروتين Calmodulin لتكوين معقد Ca2+-CaM الذي ينشط MLCK."
+    },
+    {
+      "q": "Which enzyme in smooth muscle is activated by the Ca2+-calmodulin complex to phosphorylate myosin light chain (MLC20) and initiate cross-bridge cycling?",
+      "options": ["Myosin light chain phosphatase (MLCP)", "Myosin light chain kinase (MLCK)", "Acetylcholinesterase", "Protein kinase II"],
+      "answer": 1,
+      "explanation": "معقد Ca2+-Calmodulin ينشط إنزيم MLCK الذي يفسفر السلسلة الخفيفة للمايوسين (MLC20) فيزيد نشاط Myosin ATPase بمقدار 100 ضعف."
+    },
+    {
+      "q": "What is the role of Myosin Light Chain Phosphatase (MLCP) in smooth muscle physiology?",
+      "options": ["Phosphorylates MLC20 to trigger contraction", "Dephosphorylates MLC20 to cause relaxation", "Opens voltage-gated L-type Ca2+ channels", "Synthesizes ATP anaerobically"],
+      "answer": 1,
+      "explanation": "إنزيم MLCP يزيل الفوسفات من MLC20 فيؤدي إلى استرخاء العضلة الملساء."
+    },
+    {
+      "q": "The 'Latch Mechanism' in smooth muscle allows vascular walls and sphincters to maintain sustained tonic contraction with:",
+      "options": ["Very high ATP consumption", "Very low ATP consumption", "Complete absence of actin", "Rapid muscle fatigue"],
+      "answer": 1,
+      "explanation": "آلية المزلاج (Latch mechanism) تبقي الجسور العرضية منزوعة الفوسفات مرتبطة فتولّد قوة مستمرة باستهلاك منخفض جداً للـ ATP."
+    },
+    {
+      "q": "Which regulatory protein in smooth muscle inhibits MLCP, thereby INCREASING contractile force (Ca2+ sensitization)?",
+      "options": ["Calponin", "Caldesmon", "CPI-17", "Troponin I"],
+      "answer": 2,
+      "explanation": "بروتين CPI-17 يثبط إنزيم MLCP فيزيد من قوة الانقباض، بينما Calponin يثبط ATPase و Caldesmon يمنع تفاعل الأكتين مع المايوسين."
     }
-
-    [data-theme="dark"] {
-      --bg: #0f0c0e;
-      --card: #1a1518;
-      --hero-bg: linear-gradient(180deg, #1f171c 0%, #171215 100%);
-      --border: #2e242a;
-      --shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
-      --primary: #f472b6;
-      --primary-soft: rgba(244, 114, 182, 0.14);
-      --text: #f4eef1;
-      --muted: #9e8d95;
-      --success: #34d399;
-      --success-bg: rgba(52, 211, 153, 0.14);
-      --danger: #f87171;
-      --danger-bg: rgba(248, 113, 113, 0.14);
-      --clinical: #38bdf8;
-      --clinical-bg: rgba(56, 189, 248, 0.15);
-      --warn: #fbbf24;
-      --warn-bg: rgba(251, 191, 36, 0.15);
-    }
-
-    * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, system-ui, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-      transition: background 0.25s ease, color 0.25s ease;
-    }
-
-    .topbar {
-      position: sticky;
-      top: 0;
-      z-index: 50;
-      background: var(--bg);
-      padding: 12px 16px 8px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .top-actions { display: flex; gap: 8px; align-items: center; }
-    .icon-btn {
-      background: var(--card);
-      border: 1px solid var(--border);
-      color: var(--text);
-      width: 40px;
-      height: 40px;
-      border-radius: 12px;
-      font-size: 17px;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: var(--shadow);
-    }
-    .icon-btn:active { transform: scale(0.94); }
-
-    .overlay {
-      position: fixed; inset: 0; background: rgba(0,0,0,0.45);
-      z-index: 90; display: none;
-    }
-    .overlay.show { display: block; }
-    .drawer {
-      position: fixed; top: 0; right: -300px; width: 280px; height: 100vh;
-      background: var(--card); border-left: 1px solid var(--border);
-      z-index: 100; transition: right 0.25s ease;
-      display: flex; flex-direction: column; padding: 18px 14px; overflow-y: auto;
-    }
-    .drawer.open { right: 0; }
-    .drawer-head {
-      display: flex; justify-content: space-between; align-items: center;
-      padding-bottom: 12px; border-bottom: 1px solid var(--border); margin-bottom: 12px;
-    }
-    .drawer-brand { display: flex; align-items: center; gap: 10px; font-weight: 700; }
-    .drawer-brand img { width: 34px; height: 34px; border-radius: 10px; object-fit: cover; }
-    .drawer-item {
-      width: 100%; text-align: right; background: transparent; border: none;
-      color: var(--text); padding: 11px 12px; border-radius: 12px; margin-bottom: 4px;
-      cursor: pointer; font-size: 14px; font-weight: 600;
-      display: flex; justify-content: space-between; align-items: center;
-    }
-    .drawer-item:hover { background: var(--primary-soft); color: var(--primary); }
-    .drawer-sub { padding-right: 24px; font-size: 13px; color: var(--muted); font-weight: 500; }
-    .drawer-section { font-size: 12px; color: var(--muted); margin: 12px 10px 6px; font-weight: 700; }
-
-    main { max-width: 640px; margin: 0 auto; padding: 8px 16px 40px; }
-
-    .hero-card {
-      background: var(--hero-bg);
-      border: 1px solid var(--border);
-      border-radius: 22px;
-      padding: 24px 16px;
-      text-align: center;
-      margin-bottom: 22px;
-      box-shadow: var(--shadow);
-    }
-    .hero-logo {
-      width: 78px; height: 78px; border-radius: 50%; object-fit: cover;
-      background: #fff; padding: 5px; margin-bottom: 10px;
-      box-shadow: 0 4px 14px rgba(226, 109, 151, 0.22);
-    }
-    .hero-title {
-      margin: 0; font-size: 20px; font-weight: 800; color: var(--text);
-      letter-spacing: 0.2px;
-    }
-
-    .section-title {
-      font-size: 16px; font-weight: 800; margin: 0 4px 12px; color: var(--text);
-    }
-
-    .subjects-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 14px;
-    }
-    .subject-tile {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 22px 14px;
-      text-align: center;
-      cursor: pointer;
-      box-shadow: var(--shadow);
-      transition: transform 0.15s, border-color 0.15s;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      min-height: 138px;
-    }
-    .subject-tile:active { transform: scale(0.96); }
-    .subject-tile:hover { border-color: var(--primary); }
-    .tile-icon {
-      width: 52px; height: 52px; border-radius: 16px;
-      background: var(--primary-soft); color: var(--primary);
-      display: flex; align-items: center; justify-content: center;
-      font-size: 26px;
-    }
-    .tile-name { font-size: 15px; font-weight: 700; color: var(--text); line-height: 1.4; }
-
-    .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 18px;
-      margin-bottom: 12px;
-      box-shadow: var(--shadow);
-    }
-    .lec-card {
-      cursor: pointer;
-      display: flex; justify-content: space-between; align-items: center; gap: 10px;
-      transition: transform 0.15s, border-color 0.15s;
-    }
-    .lec-card:active { transform: scale(0.98); }
-    .lec-card:hover { border-color: var(--primary); }
-
-    .badge {
-      display: inline-block; font-size: 11.5px; padding: 4px 10px;
-      border-radius: 999px; background: var(--primary-soft);
-      color: var(--primary); font-weight: 700; white-space: nowrap;
-    }
-    .badge-clinical { background: var(--clinical-bg); color: var(--clinical); }
-    .badge-warn { background: var(--warn-bg); color: var(--warn); }
-
-    .btn {
-      width: 100%; padding: 13px 16px; border-radius: 14px; border: none;
-      font-size: 15px; font-weight: 700; cursor: pointer; transition: transform 0.1s;
-    }
-    .btn:active { transform: scale(0.98); }
-    .btn-primary { background: var(--primary); color: #ffffff; }
-    .btn-outline {
-      background: var(--card); border: 1px solid var(--border);
-      color: var(--text); margin-top: 8px;
-    }
-
-    .form-label { display: block; font-size: 13px; color: var(--muted); margin-bottom: 6px; font-weight: 600; }
-    .range-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 12px; }
-    .input-box {
-      width: 100%; padding: 11px 12px; border-radius: 12px;
-      background: var(--bg); border: 1px solid var(--border);
-      color: var(--text); font-size: 15px; font-weight: 600;
-    }
-    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
-    .chip {
-      background: var(--bg); border: 1px solid var(--border); color: var(--text);
-      padding: 7px 12px; border-radius: 999px; font-size: 12px; cursor: pointer; font-weight: 600;
-    }
-    .chip.active { border-color: var(--primary); color: var(--primary); background: var(--primary-soft); }
-
-    .progress-wrap {
-      width: 100%; height: 7px; background: var(--border);
-      border-radius: 999px; overflow: hidden; margin-bottom: 14px;
-    }
-    .progress-fill { height: 100%; background: var(--primary); transition: width 0.25s ease; }
-    .q-meta {
-      display: flex; justify-content: space-between; align-items: center;
-      margin-bottom: 10px; font-size: 12.5px; color: var(--muted);
-    }
-    .q-text {
-      font-size: 16.5px; line-height: 1.7; font-weight: 700;
-      margin: 10px 0 18px; direction: auto; text-align: start;
-    }
-    .opt-btn {
-      width: 100%; text-align: start; direction: auto;
-      background: var(--bg); border: 1px solid var(--border); color: var(--text);
-      padding: 13px 15px; border-radius: 14px; margin-bottom: 10px;
-      font-size: 15px; cursor: pointer; line-height: 1.5; transition: all 0.15s;
-    }
-    .opt-btn:hover:not(:disabled) { border-color: var(--primary); }
-    .opt-btn.correct { background: var(--success-bg); border-color: var(--success); color: var(--success); font-weight: 700; }
-    .opt-btn.wrong { background: var(--danger-bg); border-color: var(--danger); color: var(--danger); }
-    .opt-btn:disabled { cursor: default; }
-
-    .explain-box {
-      margin-top: 14px; padding: 14px; border-radius: 14px;
-      background: var(--primary-soft); border-right: 4px solid var(--primary);
-      font-size: 14px; line-height: 1.7; display: none;
-    }
-    .explain-box.show { display: block; }
-
-    .toast {
-      position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
-      background: var(--primary); color: #fff; padding: 10px 18px; border-radius: 999px;
-      font-size: 13px; font-weight: 700; z-index: 200; display: none;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.25);
-    }
-    .toast.show { display: block; }
-  </style>
-</head>
-<body>
-
-  <div class="topbar">
-    <button class="icon-btn" onclick="toggleDrawer()" aria-label="القائمة">☰</button>
-    <div class="top-actions">
-      <button class="icon-btn" id="themeBtn" onclick="toggleTheme()" aria-label="تغيير المظهر">🌙</button>
-      <button class="icon-btn" onclick="syncCatalog(true)" aria-label="تحديث">↻</button>
-    </div>
-  </div>
-
-  <div class="overlay" id="overlay" onclick="toggleDrawer()"></div>
-  <aside class="drawer" id="drawer">
-    <div class="drawer-head">
-      <div class="drawer-brand">
-        <img src="icon.jpg" alt="Logo" />
-        <span>Future pharmacist</span>
-      </div>
-      <button class="icon-btn" style="width:34px;height:34px;" onclick="toggleDrawer()">✕</button>
-    </div>
-    <button class="drawer-item" onclick="showHome(); toggleDrawer();">🏠 الرئيسية</button>
-    <div class="drawer-section">المواد الدراسية</div>
-    <div id="drawerMenu"></div>
-  </aside>
-
-  <main id="app"></main>
-  <div class="toast" id="toast"></div>
-
-  <script>
-    const CATALOG_KEY = 'fp_catalog_v3';
-    const FILE_PREFIX = 'fp_file_v3_';
-    const THEME_KEY = 'fp_theme_v3';
-
-    let catalog = { appTitle: 'Future pharmacist', subjects: [] };
-    let loadedPool = [];
-    let loadedTitle = '';
-    let activeQuestions = [];
-    let qIndex = 0;
-    let score = 0;
-    let wrongList = [];
-
-    function applyTheme(theme) {
-      document.documentElement.setAttribute('data-theme', theme);
-      localStorage.setItem(THEME_KEY, theme);
-      document.getElementById('themeBtn').textContent = theme === 'dark' ? '☀️' : '🌙';
-      document.getElementById('metaTheme').setAttribute('content', theme === 'dark' ? '#0f0c0e' : '#fdf8f9');
-    }
-
-    function toggleTheme() {
-      const current = document.documentElement.getAttribute('data-theme') || 'light';
-      applyTheme(current === 'light' ? 'dark' : 'light');
-    }
-
-    function shuffle(arr) {
-      const a = [...arr];
-      for (let i = a.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [a[i], a[j]] = [a[j], a[i]];
-      }
-      return a;
-    }
-
-    function showToast(msg) {
-      const t = document.getElementById('toast');
-      t.textContent = msg;
-      t.classList.add('show');
-      setTimeout(() => t.classList.remove('show'), 2200);
-    }
-
-    function toggleDrawer() {
-      document.getElementById('drawer').classList.toggle('open');
-      document.getElementById('overlay').classList.toggle('show');
-    }
-
-    async function initApp() {
-      const cached = localStorage.getItem(CATALOG_KEY);
-      if (cached) {
-        try {
-          catalog = JSON.parse(cached);
-          renderDrawer();
-          showHome();
-        } catch (e) {}
-      }
-      await syncCatalog(false);
-    }
-
-    async function syncCatalog(manual = false) {
-      try {
-        const res = await fetch('./catalog.json?t=' + Date.now(), { cache: 'no-store' });
-        if (!res.ok) throw new Error();
-        const fresh = await res.json();
-        const oldStr = localStorage.getItem(CATALOG_KEY);
-        const newStr = JSON.stringify(fresh);
-
-        catalog = fresh;
-        localStorage.setItem(CATALOG_KEY, newStr);
-        renderDrawer();
-
-        if (!oldStr || oldStr !== newStr) {
-          showHome();
-          if (manual) showToast('تم التحديث');
-        } else if (manual) {
-          showToast('محدّث لآخر نسخة');
-        }
-      } catch (e) {
-        if (manual) showToast('لا يوجد اتصال بالإنترنت');
-        showHome();
-      }
-    }
-
-    async function fetchQuizFile(fileName) {
-      const key = FILE_PREFIX + fileName;
-      try {
-        const res = await fetch('./' + fileName + '?t=' + Date.now(), { cache: 'no-store' });
-        if (!res.ok) throw new Error();
-        const data = await res.json();
-        localStorage.setItem(key, JSON.stringify(data));
-        return data;
-      } catch (e) {
-        const cached = localStorage.getItem(key);
-        if (cached) return JSON.parse(cached);
-        throw e;
-      }
-    }
-
-    function renderDrawer() {
-      if (!catalog) return;
-      let html = '';
-      (catalog.subjects || []).forEach(sub => {
-        html += `<button class="drawer-item" onclick="showSubject('${sub.id}'); toggleDrawer();">
-          <span>${sub.icon || '💊'} ${sub.name}</span>
-        </button>`;
-        (sub.files || []).forEach(f => {
-          html += `<button class="drawer-item drawer-sub" onclick="openFileSetup('${f.file}', '${f.title.replace(/'/g, "\\'")}'); toggleDrawer();">
-            <span>${f.title}</span>
-          </button>`;
-        });
-      });
-      document.getElementById('drawerMenu').innerHTML = html;
-    }
-
-    function showHome() {
-      let html = `
-        <div class="hero-card">
-          <img src="icon.jpg" alt="Future pharmacist" class="hero-logo" />
-          <h1 class="hero-title">${catalog.appTitle || 'Future pharmacist'}</h1>
-        </div>
-        <h2 class="section-title">المواد الدراسية</h2>
-      `;
-
-      const subs = catalog.subjects || [];
-      if (subs.length > 0) {
-        html += `<div class="subjects-grid">`;
-        subs.forEach(sub => {
-          html += `
-            <div class="subject-tile" onclick="showSubject('${sub.id}')">
-              <div class="tile-icon">${sub.icon || '💊'}</div>
-              <div class="tile-name">${sub.name}</div>
-            </div>`;
-        });
-        html += `</div>`;
-      }
-      document.getElementById('app').innerHTML = html;
-    }
-
-    function showSubject(subId) {
-      const sub = (catalog.subjects || []).find(s => s.id === subId);
-      if (!sub) return;
-
-      let html = `
-        <button class="btn btn-outline" style="margin:0 0 14px;" onclick="showHome()">→ المواد الدراسية</button>
-        <div class="card" style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
-          <div style="display:flex; align-items:center; gap:12px;">
-            <div class="tile-icon" style="width:46px;height:46px;font-size:22px;">${sub.icon || '💊'}</div>
-            <h2 style="margin:0; font-size:18px;">${sub.name}</h2>
-          </div>
-          ${sub.files.length > 1 ? `<button class="badge" style="border:none;cursor:pointer;padding:7px 12px;" onclick="openSubjectCombined('${sub.id}')">شامل</button>` : ''}
-        </div>
-      `;
-
-      (sub.files || []).forEach(f => {
-        html += `
-          <div class="card lec-card" onclick="openFileSetup('${f.file}', '${f.title.replace(/'/g, "\\'")}')">
-            <strong style="font-size:15px;">${f.title}</strong>
-            ${f.count ? `<span class="badge">${f.count} سؤال</span>` : ''}
-          </div>`;
-      });
-
-      document.getElementById('app').innerHTML = html;
-    }
-
-    async function openFileSetup(fileName, title) {
-      try {
-        const data = await fetchQuizFile(fileName);
-        loadedPool = data.questions || [];
-        loadedTitle = data.title || title;
-        renderSetupScreen();
-      } catch (e) {
-        showToast('تأكد من الاتصال بالإنترنت');
-      }
-    }
-
-    async function openSubjectCombined(subId) {
-      const sub = catalog.subjects.find(s => s.id === subId);
-      if (!sub) return;
-      try {
-        let combined = [];
-        for (const f of sub.files) {
-          const d = await fetchQuizFile(f.file);
-          combined = combined.concat(d.questions || []);
-        }
-        loadedPool = combined;
-        loadedTitle = sub.name;
-        renderSetupScreen();
-      } catch (e) {
-        showToast('تأكد من الاتصال بالإنترنت');
-      }
-    }
-
-    function renderSetupScreen() {
-      const total = loadedPool.length;
-      if (total === 0) return showHome();
-
-      const clinicalCount = loadedPool.filter(q => q.type === 'clinical').length;
-      const hardCount = loadedPool.filter(q => q.difficulty === 'صعب').length;
-
-      let presets = `<button class="chip active" onclick="setRange(1, ${total}, this)">الكل (1 - ${total})</button>`;
-      if (total > 50) {
-        for (let i = 1; i <= total; i += 50) {
-          const end = Math.min(i + 49, total);
-          presets += `<button class="chip" onclick="setRange(${i}, ${end}, this)">${i} - ${end}</button>`;
-        }
-      }
-
-      document.getElementById('app').innerHTML = `
-        <button class="btn btn-outline" style="margin:0 0 14px;" onclick="showHome()">→ رجوع</button>
-        <div class="card">
-          <h2 style="margin:0 0 6px; font-size:18px;">${loadedTitle}</h2>
-          <p style="margin:0 0 16px; color:var(--muted); font-size:13px;">
-            ${total} سؤال
-            ${clinicalCount ? ` • ${clinicalCount} سريري` : ''}
-          </p>
-
-          <label class="form-label">نطاق الأسئلة:</label>
-          <div class="chips">${presets}</div>
-
-          <div class="range-grid">
-            <div>
-              <label class="form-label">من سؤال:</label>
-              <input type="number" id="fromQ" class="input-box" min="1" max="${total}" value="1" />
-            </div>
-            <div>
-              <label class="form-label">إلى سؤال:</label>
-              <input type="number" id="toQ" class="input-box" min="1" max="${total}" value="${total}" />
-            </div>
-          </div>
-
-          <div class="range-grid">
-            <div>
-              <label class="form-label">النوع:</label>
-              <select id="filterType" class="input-box">
-                <option value="all">الكل</option>
-                ${clinicalCount ? `<option value="clinical">سريرية فقط (${clinicalCount})</option>` : ''}
-                ${hardCount ? `<option value="hard">صعبة فقط (${hardCount})</option>` : ''}
-              </select>
-            </div>
-            <div>
-              <label class="form-label">الترتيب:</label>
-              <select id="orderType" class="input-box">
-                <option value="shuffle">عشوائي</option>
-                <option value="seq">بالترتيب</option>
-              </select>
-            </div>
-          </div>
-
-          <button class="btn btn-primary" onclick="launchCustomQuiz()">ابدأ الاختبار</button>
-        </div>
-      `;
-    }
-
-    function setRange(from, to, btn) {
-      document.getElementById('fromQ').value = from;
-      document.getElementById('toQ').value = to;
-      document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
-      if (btn) btn.classList.add('active');
-    }
-
-    function launchCustomQuiz() {
-      const total = loadedPool.length;
-      let from = parseInt(document.getElementById('fromQ').value) || 1;
-      let to = parseInt(document.getElementById('toQ').value) || total;
-      if (from < 1) from = 1;
-      if (to > total) to = total;
-      if (from > to) [from, to] = [to, from];
-
-      let list = loadedPool.slice(from - 1, to);
-      const filter = document.getElementById('filterType').value;
-      if (filter === 'clinical') list = list.filter(q => q.type === 'clinical');
-      if (filter === 'hard') list = list.filter(q => q.difficulty === 'صعب');
-
-      if (list.length === 0) {
-        showToast('لا توجد أسئلة مطابقة بهذا النطاق');
-        return;
-      }
-
-      const order = document.getElementById('orderType').value;
-      activeQuestions = order === 'shuffle' ? shuffle(list) : list;
-      qIndex = 0;
-      score = 0;
-      wrongList = [];
-      renderQuestion();
-    }
-
-    function renderQuestion() {
-      if (qIndex >= activeQuestions.length) {
-        renderResult();
-        return;
-      }
-      const item = activeQuestions[qIndex];
-      const pct = Math.round((qIndex / activeQuestions.length) * 100);
-
-      const mapped = item.options.map((text, idx) => ({ text, isCorrect: idx === item.answer }));
-      const shuffledOpts = shuffle(mapped);
-      const letters = ['A', 'B', 'C', 'D'];
-
-      const optsHtml = shuffledOpts.map((opt, idx) => `
-        <button class="opt-btn" data-correct="${opt.isCorrect}" onclick="selectOption(this)">
-          <strong>${letters[idx] || (idx + 1)}.</strong> ${opt.text}
-        </button>
-      `).join('');
-
-      document.getElementById('app').innerHTML = `
-        <div class="progress-wrap"><div class="progress-fill" style="width:${pct}%"></div></div>
-        <div class="card">
-          <div class="q-meta">
-            <span>${loadedTitle}</span>
-            <span>${qIndex + 1} / ${activeQuestions.length}</span>
-          </div>
-          <div style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom:8px;">
-            ${item.type === 'clinical' ? `<span class="badge badge-clinical">سريري</span>` : ''}
-            ${item.difficulty ? `<span class="badge badge-warn">${item.difficulty}</span>` : ''}
-          </div>
-          <div class="q-text">${item.q}</div>
-          <div>${optsHtml}</div>
-          <div class="explain-box" id="explainBox">${item.explanation || ''}</div>
-          <button class="btn btn-primary" id="nextBtn" style="display:none; margin-top:14px;" onclick="nextQuestion()">
-            ${qIndex + 1 === activeQuestions.length ? 'النتيجة' : 'التالي ←'}
-          </button>
-        </div>
-        <button class="btn btn-outline" onclick="renderSetupScreen()">إنهاء</button>
-      `;
-    }
-
-    function selectOption(btn) {
-      const allBtns = document.querySelectorAll('.opt-btn');
-      allBtns.forEach(b => b.disabled = true);
-
-      if (btn.getAttribute('data-correct') === 'true') {
-        btn.classList.add('correct');
-        score++;
-      } else {
-        btn.classList.add('wrong');
-        wrongList.push(activeQuestions[qIndex]);
-        allBtns.forEach(b => {
-          if (b.getAttribute('data-correct') === 'true') b.classList.add('correct');
-        });
-      }
-      const exp = document.getElementById('explainBox');
-      if (exp.textContent.trim()) exp.classList.add('show');
-      document.getElementById('nextBtn').style.display = 'block';
-    }
-
-    function nextQuestion() {
-      qIndex++;
-      renderQuestion();
-    }
-
-    function renderResult() {
-      const total = activeQuestions.length;
-      const pct = Math.round((score / total) * 100);
-      document.getElementById('app').innerHTML = `
-        <div class="card" style="text-align:center; padding:28px 18px;">
-          <div style="font-size:42px; font-weight:800; color:var(--primary); margin-bottom:6px;">${pct}%</div>
-          <p style="margin:0 0 20px; color:var(--muted);">${score} من ${total}</p>
-          ${wrongList.length > 0 ? `<button class="btn btn-primary" style="margin-bottom:8px;" onclick="retryWrong()">إعادة الأخطاء (${wrongList.length})</button>` : ''}
-          <button class="btn btn-outline" onclick="renderSetupScreen()">نطاق آخر</button>
-          <button class="btn btn-outline" onclick="showHome()">الرئيسية</button>
-        </div>
-      `;
-    }
-
-    function retryWrong() {
-      activeQuestions = shuffle(wrongList);
-      qIndex = 0;
-      score = 0;
-      wrongList = [];
-      renderQuestion();
-    }
-
-    applyTheme(localStorage.getItem(THEME_KEY) || 'light');
-    showHome();
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('./sw.js');
-    }
-    initApp();
-  </script>
-</body>
-</html>
+  ]
+}
