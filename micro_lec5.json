@@ -1,0 +1,841 @@
+{
+  "title": "Lec 5: rDNA Technology & Transduction",
+  "questions": [
+    {
+      "q": "What is the main difference between generalized transduction and specialized transduction?",
+      "options": [
+        "In generalized transduction the virus destroys the cell and viral DNA does NOT integrate, whereas in specialized transduction viral DNA integrates as a prophage",
+        "Generalized transduction transfers only specific adjacent genes, while specialized transduction transfers any random gene",
+        "Specialized transduction occurs only during the lytic cycle without chromosome integration",
+        "Generalized transduction requires a sex pilus"
+      ],
+      "answer": 0,
+      "explanation": "في النقل العام (Generalized) يحلل الفيروس الخلية ولا يندمج في الكروموسوم وينقل أي قطعة عشوائية، بينما في المتخصص (Specialized) يندمج الفيروس كـ Prophage وعند انفصاله الخاطئ يأخذ الجينات المجاورة."
+    },
+    {
+      "q": "During specialized transduction, when viral DNA integrates into the bacterial chromosome and remains for several generations, this stage is called:",
+      "options": [
+        "The prophage stage",
+        "The competent stage",
+        "The transconjugant stage",
+        "The endospore stage"
+      ],
+      "answer": 0,
+      "explanation": "عندما يندمج الـ DNA الفيروسي داخل كروموسوم البكتيريا في النقل المتخصص يسمى بالـ Prophage stage."
+    },
+    {
+      "q": "Why is Escherichia coli widely used as a prokaryotic host system for the expression of recombinant DNA (rDNA) products?",
+      "options": [
+        "High level of recombinant protein expression, rapid cell growth, and simple media requirements",
+        "It is a eukaryotic organism that never produces endotoxin",
+        "It performs complex human glycosylation identical to CHO cells",
+        "It lacks a cell wall and plasmids"
+      ],
+      "answer": 0,
+      "explanation": "تستخدم E. coli بكثرة بسبب مستوى التعبير البروتيني العالي، سرعة النمو، وبساطة متطلبات الوسط الزرعي."
+    },
+    {
+      "q": "Which of the following is a major advantage of using yeast systems (such as Saccharomyces cerevisiae, Pichia pastoris, and Hansenula polymorpha) for rDNA production?",
+      "options": [
+        "They are simple eukaryotes that grow quickly, adapt to large-scale production, and do NOT produce endotoxin",
+        "They are prokaryotic cells that contain LPS in their outer membrane",
+        "They are mammalian kidney cells",
+        "They cannot replicate plasmids"
+      ],
+      "answer": 0,
+      "explanation": "الخمائر (S. cerevisiae, Pichia pastoris, Hansenula polymorpha) هي حقيقيات نواة بسيطة سريعة النمو ولا تنتج الذيفان الداخلي (do not produce endotoxin)."
+    },
+    {
+      "q": "Which mammalian cell culture systems are often the choice for producing complex human therapeutic proteins?",
+      "options": [
+        "Chinese hamster ovary (CHO) and Baby hamster kidney (BHK) cells",
+        "Escherichia coli and Bacillus subtilis",
+        "Saccharomyces cerevisiae and Pichia pastoris",
+        "Chlamydia and Rickettsia cells"
+      ],
+      "answer": 0,
+      "explanation": "تستخدم خلايا الثدييات مثل CHO (Chinese hamster ovary) و BHK (Baby hamster kidney) لإنتاج البروتينات العلاجية البشرية."
+    },
+    {
+      "q": "What genes are commonly included in vectors to confirm successful gene insertion into host cells?",
+      "options": [
+        "Antibiotic resistance genes",
+        "Flagellin genes",
+        "Endospore cortex genes",
+        "Diphtheria toxin genes"
+      ],
+      "answer": 0,
+      "explanation": "تستخدم جينات مقاومة المضادات الحيوية (Antibiotic resistance genes) للتأكد من نجاح إدخال الجين في الخلية المضيفة."
+    },
+    {
+      "q": "What is the correct order of the four basic procedures in making recombinant DNA (rDNA)?",
+      "options": [
+        "Isolating of DNA → Cutting of DNA → Joining of DNA → Amplifying of DNA",
+        "Amplifying of DNA → Joining of DNA → Cutting of DNA → Isolating of DNA",
+        "Cutting of DNA → Isolating of DNA → Amplifying of DNA → Joining of DNA",
+        "Joining of DNA → Cutting of DNA → Isolating of DNA → Amplifying of DNA"
+      ],
+      "answer": 0,
+      "explanation": "الخطوات الأربعة الأساسية لتقنية rDNA بالترتيب: 1. عزل الدنا (Isolating) 2. قطع الدنا (Cutting) 3. ربط الدنا (Joining) 4. تضخيم الدنا (Amplifying)."
+    },
+    {
+      "q": "During DNA extraction (isolation), after lysing cells with detergent and treating with protease and RNase, what reagent is used to precipitate the DNA into viscous strands?",
+      "options": [
+        "Ethanol",
+        "Crystal violet",
+        "Thioglycolate",
+        "Iodine"
+      ],
+      "answer": 0,
+      "explanation": "يتم ترسيب الـ DNA من السائل الطافي (Supernatant) باستخدام الكحول الإيثيلي (Ethanol) حيث يكون خيوطاً لزجة تلف على قضيب زجاجي."
+    },
+    {
+      "q": "Which enzymes are known as the 'scissors of molecular genetics' because they recognize specific palindromic sequences and cleave DNA to produce sticky ends?",
+      "options": [
+        "Restriction endonucleases (e.g., EcoRI)",
+        "DNA Ligases",
+        "Alkaline phosphatases",
+        "Reverse transcriptases"
+      ],
+      "answer": 0,
+      "explanation": "الإنزيمات القاطعة (Restriction endonucleases مثل EcoRI) هي مقصات الوراثة الجزيئية وتقطع الـ DNA في تسلسلات متناظرة (Palindromes) لتكون نهايات لاصقة (Sticky ends)."
+    },
+    {
+      "q": "What is the specific role of DNA Ligase in recombinant DNA technology?",
+      "options": [
+        "Binds (joins) two DNA molecules or fragments together to form a recombinant plasmid",
+        "Cleaves DNA at specific palindromic base sequences",
+        "Makes a DNA polymer from an RNA template",
+        "Removes terminal phosphates from 5' and 3' ends"
+      ],
+      "answer": 0,
+      "explanation": "يقوم إنزيم DNA Ligase بربط قطعتي الـ DNA (الجين المانح والناقل المقطوع) معاً لتكوين البلازميد المؤتلف."
+    },
+    {
+      "q": "Which enzyme used in rDNA technology synthesizes a DNA polymer from an RNA polymer template?",
+      "options": [
+        "Reverse transcriptase",
+        "Restriction endonuclease",
+        "Polynucleotide kinase",
+        "Alkaline phosphatase"
+      ],
+      "answer": 0,
+      "explanation": "إنزيم النسخ العكسي (Reverse transcriptase) يصنع شريط DNA من قالب RNA."
+    },
+    {
+      "q": "What is the function of Polynucleotide kinase in rDNA technology?",
+      "options": [
+        "Adds a phosphate group to the 5'-OH end of a polynucleotide to label it or permit ligation",
+        "Removes terminal phosphates from the 5' end, 3' end, or both",
+        "Fills single-stranded gaps by adding nucleotides to 3' ends",
+        "Destroys RNA during DNA extraction"
+      ],
+      "answer": 0,
+      "explanation": "يقوم إنزيم Polynucleotide kinase بإضافة مجموعة فوسفات إلى النهاية 5'-OH لوسمها أو السماح بربطها، بينما Alkaline phosphatase يزيل الفوسفات الطرفية."
+    },
+    {
+      "q": "Which enzyme removes terminal phosphates from the 5' end, the 3' end, or both?",
+      "options": [
+        "Alkaline phosphatase",
+        "Polynucleotide kinase",
+        "DNA Polymerase",
+        "DNA Ligase"
+      ],
+      "answer": 0,
+      "explanation": "إنزيم الفوسفاتيز القلوي (Alkaline phosphatase) يزيل مجموعات الفوسفات الطرفية من النهاية 5' أو 3' أو كليهما."
+    },
+    {
+      "q": "What is the role of DNA Polymerase in rDNA technology?",
+      "options": [
+        "Fills single-stranded gaps in duplex DNA by stepwise addition of nucleotides to 3' ends",
+        "Cuts palindromic DNA sequences to create sticky ends",
+        "Lyses the plasma membrane during DNA extraction",
+        "Packages viral DNA into phage capsids"
+      ],
+      "answer": 0,
+      "explanation": "يقوم DNA Polymerase بملء الفجوات مفردة الشريط في الـ DNA المزدوج عبر إضافة النيوكليوتيدات تدريجياً إلى النهايات 3'."
+    },
+    {
+      "q": "During the amplification step of rDNA, how are bacterial host cells treated to facilitate transformation (uptake of recombinant plasmid)?",
+      "options": [
+        "Treated with calcium chloride (CaCl2) and heat shocked at 42°C",
+        "Boiled at 100°C in 95% ethyl alcohol",
+        "Treated with lysozyme and penicillin at 20°C",
+        "Exposed to UV radiation and nitrous acid"
+      ],
+      "answer": 0,
+      "explanation": "لإدخال الـ rDNA إلى البكتيريا المضيفة، تعامل الخلايا بكلوريد الكالسيوم (CaCl2) ثم تعرض لصدمة حرارية (Heat shock) عند 42°C."
+    },
+    {
+      "q": "Which of the following is NOT one of the 6 types of vectors used in rDNA technology shown in the lecture?",
+      "options": [
+        "Ribosome 70S",
+        "Cosmid",
+        "Lambda (λ) phage",
+        "BACs and YACs"
+      ],
+      "answer": 0,
+      "explanation": "النواقل الـ 6 المذكورة في الملزمة هي: Plasmid, Lambda phage, Cosmid, BACs, YACs, و Expression vectors. الرايبوسوم ليس ناقلاً جينياً."
+    },
+    {
+      "q": "What is the study of how genetic inheritance affects an individual human body's response to drugs?",
+      "options": [
+        "Pharmacogenomics",
+        "Mycology",
+        "Serotyping",
+        "Lyophilization"
+      ],
+      "answer": 0,
+      "explanation": "علم الجينوم الدوائي (Pharmacogenomics) المشتق من علم الأدوية والجينوم يدرس كيف تؤثر الوراثة الجينية على استجابة جسم الفرد للأدوية."
+    },
+    {
+      "q": "Which recombinant DNA product is used to treat males suffering from Haemophilia A?",
+      "options": [
+        "Factor VIII",
+        "Factor IX",
+        "Erythropoietin (EPO)",
+        "Tissue Plasminogen Activator (tPA)"
+      ],
+      "answer": 0,
+      "explanation": "يستخدم العامل الثامن (Factor VIII) لعلاج نزف الدم الوراثي نوع A (Haemophilia A)، بينما العامل التاسع (Factor IX) لعلاج Haemophilia B."
+    },
+    {
+      "q": "Which recombinant DNA therapeutic protein is used to treat Haemophilia B?",
+      "options": [
+        "Factor IX",
+        "Factor VIII",
+        "Interleukin-2",
+        "Insulin"
+      ],
+      "answer": 0,
+      "explanation": "يستخدم Factor IX لعلاج Haemophilia B."
+    },
+    {
+      "q": "What is the clinical application of recombinant Erythropoietin (EPO)?",
+      "options": [
+        "Treatment of anemia",
+        "Treatment of thrombosis",
+        "Vaccination against hepatitis B",
+        "Treatment of diabetes"
+      ],
+      "answer": 0,
+      "explanation": "يستخدم الإريثروبويتين المؤتلف (Erythropoietin - EPO) في علاج فقر الدم (Anemia)."
+    },
+    {
+      "q": "According to the rDNA applications table, what is the clinical application of Tissue Plasminogen Activator (tPA)?",
+      "options": [
+        "Treatment of thrombosis",
+        "Treatment of cancer",
+        "Stimulating bone marrow after transplant",
+        "Treatment of haemophilia A"
+      ],
+      "answer": 0,
+      "explanation": "يستخدم منشط البلازمينوجين النسيجي (Tissue Plasminogen Activator) في علاج الخثار/الجلطات الدموية (Thrombosis)."
+    },
+    {
+      "q": "What is the clinical application of recombinant Interleukin-2 (IL-2)?",
+      "options": [
+        "Treatment of cancer",
+        "Treatment of anemia",
+        "Vaccination against viral hepatitis",
+        "Treatment of diabetes"
+      ],
+      "answer": 0,
+      "explanation": "يستخدم الإنترلوكين-2 (Interleukin-2) في علاج السرطان (Treatment of cancer)."
+    },
+    {
+      "q": "Which recombinant product is used to stimulate the bone marrow after a bone marrow transplant?",
+      "options": [
+        "Granulocyte-macrophage colony-stimulating factor (GM-CSF)",
+        "Hepatitis B surface antigen",
+        "Factor VIII",
+        "EcoRI endonuclease"
+      ],
+      "answer": 0,
+      "explanation": "يستخدم GM-CSF لتحفيز نخاع العظم بعد عمليات زراعة نخاع العظم."
+    },
+    {
+      "q": "Recombinant Hepatitis B surface antigen (HBsAg) is currently on the market for:",
+      "options": [
+        "Vaccination",
+        "Treatment of thrombosis",
+        "Treatment of anemia",
+        "Gene therapy for cystic fibrosis"
+      ],
+      "answer": 0,
+      "explanation": "المستضد السطحي لالتهاب الكبد الفيروسي B المنتج بتقنية الدنا المؤتلف يستخدم كلقاح (Vaccination)."
+    },
+    {
+      "q": "During DNA extraction, why are protease and RNase added to the lysed cell contents?",
+      "options": [
+        "Protease destroys proteins and RNase destroys RNA so pure DNA remains in the supernatant",
+        "To cut DNA into sticky ends",
+        "To precipitate DNA out of ethanol",
+        "To synthesize cDNA from mRNA"
+      ],
+      "answer": 0,
+      "explanation": "يضاف إنزيم الـ Protease لتحطيم البروتينات والـ RNase لتحطيم الـ RNA ليبقى الـ DNA نقياً في السائل الطافي."
+    },
+    {
+      "q": "What does the term 'Clone' mean in molecular biology?",
+      "options": [
+        "An exact copy or duplicate of the parent carrying the same genetic signature",
+        "A random point mutation caused by UV radiation",
+        "A bacterial cell that lacks a cell wall",
+        "A virus that destroys its host immediately"
+      ],
+      "answer": 0,
+      "explanation": "كلمة Clone تعني نسخة مطابقة تماماً للأصل تحمل نفس البصمة أو الخريطة الوراثية."
+    },
+    {
+      "q": "When EcoRI restriction endonuclease cleaves donor DNA and plasmid vector DNA, what complementary single-stranded overhangs are formed?",
+      "options": [
+        "Sticky ends (e.g., AATT and TTAA) that hybridize together",
+        "Blunt ends covered by dipicolinic acid",
+        "Introns that cannot be ligated",
+        "Poly-A tails of mRNA"
+      ],
+      "answer": 0,
+      "explanation": "يقطع إنزيم EcoRI الـ DNA بشكل متدرج مكوناً نهايات لاصقة (Sticky ends مثل AATT و TTAA) تتكامل وترتبط معاً."
+    },
+    {
+      "q": "Which of the following is a molecular technique used in recombinant DNA technology?",
+      "options": [
+        "Gel electrophoresis, PCR, Restriction enzyme mapping, and DNA microarrays",
+        "Gram staining, Stab culture, and Hanging drop",
+        "Lyophilization and Pasteurization",
+        "Slide agglutination and Quellung reaction"
+      ],
+      "answer": 0,
+      "explanation": "التقنيات المستخدمة في rDNA تشمل: الترحيل الكهربائي الهلامي (Gel electrophoresis)، تفاعل البلمرة المتسلسل (PCR)، مكتبات الاستنساخ، التهجين، والـ DNA microarrays."
+    },
+    {
+      "q": "Trace the exact 4-step laboratory procedure of DNA EXTRACTION (Isolation) from intact cells to spooled DNA strands (Slide 10):",
+      "options": [
+        "Lyse cells with detergent (disrupts plasma membrane) → Treat with protease (destroys protein) & RNase (destroys RNA) → Centrifuge to pellet cell debris & transfer supernatant to clean tube → Precipitate DNA with ethanol into viscous strands spooled on a glass rod",
+        "Precipitate with ethanol → Treat with EcoRI → Centrifuge → Lyse with detergent",
+        "Heat shock at 42°C → Treat with CaCl₂ → Add DNA ligase → Spool on glass rod",
+        "Centrifuge intact cells → Discard supernatant containing DNA → Keep cell debris pellet → Add RNase"
+      ],
+      "answer": 0,
+      "explanation": "تتبع استخلاص الـ DNA من Slide 10 بالترتيب الدقيق: 1) تحلل الأغشية بالمنظف (Detergent) ← 2) هضم البروتين بالـ Protease والـ RNA بالـ RNase ← 3) الطرد المركزي لترسيب الحطام ونقل السائل الطافي الحاوي على DNA ← 4) الترسيب بالإيثانول كخيوط لزجة تُلف على قضيب زجاجي."
+    },
+    {
+      "q": "Trace the complete molecular cloning pathway of JOINING donor DNA and plasmid vector using EcoRI and DNA Ligase (Slide 13):",
+      "options": [
+        "Cleavage of both plasmid vector and donor DNA by EcoRI endonuclease → Production of complementary sticky ends (AATT / TTAA) → Hybridization of donor fragment with vector → Covalent sealing by DNA ligase → Recombinant plasmid",
+        "DNA ligase cuts plasmid → EcoRI joins sticky ends → Hybridization → Mechanical shearing",
+        "Reverse transcriptase cuts vector → Alkaline phosphatase joins donor DNA → Recombinant plasmid",
+        "Hybridization of intact circular plasmid with uncut donor DNA → Cleavage by EcoRI → Recombinant plasmid"
+      ],
+      "answer": 0,
+      "explanation": "تتبع ربط الـ rDNA في Slide 13: قطع البلازميد والـ DNA المانح بنفس الإنزيم (EcoRI) ← تكوين نهايات لاصقة متكاملة (AATT/TTAA) ← التهجين (Hybridization) ← الربط بإنزيم DNA ligase ← تكوين البلازميد المؤتلف."
+    },
+    {
+      "q": "Trace the exact step-by-step sequence of AMPLIFYING recombinant DNA inside a bacterial host (Slide 14):",
+      "options": [
+        "Treat host bacteria with CaCl₂ → Add recombinant plasmid DNA → Heat shock cells at 42°C → rDNA enters cell & replicates → Cell divides passing rDNA molecules to both daughter cells → Repeated divisions amplify DNA",
+        "Heat shock at 100°C → Add ethanol → DNA exits cell → Cell lyses",
+        "Treat cells with RNase and protease → Add EcoRI → Cell divides → Amplification",
+        "Inject rDNA using sex pilus → Freeze-dry (lyophilize) → Amplification"
+      ],
+      "answer": 0,
+      "explanation": "تتبع تضخيم الـ rDNA (Slide 14): معاملة البكتيريا بـ CaCl₂ ← إضافة الـ DNA ← صدمة حرارية عند 42°C ← دخول الـ rDNA وتضاعفه ← انقسام الخلية وتوزيعه للخلايا البنات فتتضاعف النسخ (Amplification)."
+    },
+    {
+      "q": "Trace the 5-step overall flowchart of Recombinant r-DNA Technology presented on Slide 18:",
+      "options": [
+        "Isolation of gene of interest → Preparation of vector DNA & DNA to be cloned → Insertion of gene to vector & ligation → Introduction of vector DNA into appropriate host cell → Amplification of rDNA in host cell",
+        "Amplification → Introduction into host → Ligation → Isolation of gene → Vector preparation",
+        "Insertion into host → Isolation of gene → Cutting with ligase → Preparation of vector",
+        "PCR → Gel electrophoresis → DNA extraction → Destruction of plasmid"
+      ],
+      "answer": 0,
+      "explanation": "تتبع المخطط الخماسي في Slide 18: 1) عزل الجين المطلوب ← 2) تحضير الناقل والـ DNA المراد استنساخه ← 3) إدخال الجين بالناقل والربط (Ligation) ← 4) إدخال الناقل للخلية المضيفة المناسبة ← 5) التضخيم داخل الخلية المضيفة."
+    },
+    {
+      "q": "Trace the genotypes in the Specialized Transduction diagram (Slide 4b) starting from Donor (`A⁺ B⁺`) with a prophage integrated between genes A and B, infecting a Recipient (`A⁻ B⁻`):",
+      "options": [
+        "Prophage between A⁺ and B⁺ exits incorrectly taking adjoining gene A⁺ with phage DNA → Phage infects A⁻ B⁻ recipient → Crossing over (recombination) occurs → Recombinant bacterium has genotype `A⁺ B⁻` (different from both donor A⁺B⁺ and recipient A⁻B⁻)",
+        "Prophage exits cleanly without bacterial DNA → Recipient remains `A⁻ B⁻`",
+        "Host DNA is hydrolyzed randomly → Recipient becomes `A⁺ B⁺` identical to donor",
+        "Prophage stays permanently in donor → Recipient becomes `A⁻ B⁺` via conjugation"
+      ],
+      "answer": 0,
+      "explanation": "تتبع عبقري من مخطط Slide 4b: الواهب A⁺B⁺ والمستلم A⁻B⁻؛ ينفصل الـ Prophage بالخطأ آخذاً الجين المجاور A⁺ فقط مع الـ DNA الفيروسي، وعند إصابة المستلم وحدوث Crossing over ينتج تركيب وراثي جديد A⁺B⁻ يختلف عن الواهب والمستلم!"
+    },
+    {
+      "q": "Trace the Generalized Transduction diagram (Slide 4a) from phage infection of an `A⁺ B⁺` donor cell to the recombinant `A⁺ B⁻` bacterium:",
+      "options": [
+        "Phage infects A⁺ B⁺ cell → Host DNA hydrolyzed into pieces while phage DNA/proteins made → Occasionally a bacterial DNA fragment (A⁺) is packaged in a phage capsid → Transducing phage infects A⁻ B⁻ cell → Crossing over yields recombinant `A⁺ B⁻`",
+        "Phage integrates between A⁺ and B⁺ for several generations → Spontaneous induction → Recombinant `A⁺ B⁺`",
+        "Donor cell releases naked A⁺ DNA → Recipient absorbs it via CaCl₂",
+        "Host DNA remains intact and replicates alongside viral DNA without hydrolysis"
+      ],
+      "answer": 0,
+      "explanation": "تتبع مخطط Slide 4a للنقل العام: إصابة الخلية A⁺B⁺ ← تحلل الـ DNA المضيف لقطع وتصنيع مكونات الفيروس ← تعبئة قطعة A⁺ بالخطأ داخل غلاف العاثي ← إصابة A⁻B⁻ وحدوث Crossing over ← بكتيريا مؤتلفة A⁺B⁻."
+    },
+    {
+      "q": "Trace what happens during DNA extraction (Slide 10) if a student accidentally DISCARDS the supernatant after centrifugation and tries to precipitate the pellet with ethanol:",
+      "options": [
+        "They will fail to obtain pure DNA because the cell debris is in the pellet, whereas the dissolved DNA is located in the supernatant (liquid)",
+        "They will get double the amount of pure DNA",
+        "The ethanol will convert cell debris proteins into DNA",
+        "RNase will reverse-transcribe the pellet into DNA"
+      ],
+      "answer": 0,
+      "explanation": "سؤال تتبع وفهم مختبري من Slide 10: بعد الطرد المركزي، يترسب حطام الخلايا في الأسفل (Pellet) بينما يبقى الـ DNA في السائل الطافي (Supernatant) الذي يُنقل لأنبوب نظيف ويُرسب بالإيثانول."
+    },
+    {
+      "q": "Trace the enzymatic step needed if you start with human mRNA for insulin and want to insert it as DNA into a bacterial plasmid vector:",
+      "options": [
+        "Use Reverse transcriptase (makes a DNA polymer from the RNA template) → Cut & insert into vector with Restriction endonuclease → Seal with DNA ligase → Transform into host cell",
+        "Use RNase to convert mRNA directly into plasmid DNA",
+        "Use Alkaline phosphatase to synthesize DNA from RNA",
+        "Use Protease to transcribe mRNA into DNA"
+      ],
+      "answer": 0,
+      "explanation": "ربط فهمي دقيق بوظيفة Reverse transcriptase (Slide 12): يصنع بوليمر DNA من قالب RNA، ثم يُقطع ويُربط بالناقل بواسطة DNA ligase ويُدخل للخلية المضيفة."
+    },
+    {
+      "q": "Trace the exact enzymatic troubleshooting sequence if a cut plasmid vector keeps re-closing onto itself (self-ligation) before the donor gene can insert:",
+      "options": [
+        "Treat the cut vector with Alkaline phosphatase to remove terminal 5' phosphates → Prevents vector self-ligation → Donor gene (with intact 5' phosphates) is then ligated by DNA ligase",
+        "Treat the vector with Polynucleotide kinase to add more 5' phosphates so it cannot ligate",
+        "Treat the vector with RNase to prevent self-ligation",
+        "Heat the vector to 42°C before cutting with EcoRI"
+      ],
+      "answer": 0,
+      "explanation": "سؤال فهم عالي المستوى من Slide 12: إنزيم Alkaline phosphatase يزيل الفوسفات الطرفية من 5' أو 3' لمنع التئام الناقل على نفسه، بينما Polynucleotide kinase يضيف فوسفات إلى 5'-OH للسماح بالربط أو الوسم."
+    },
+    {
+      "q": "Trace what happens during the Joining step (Slide 13) if the donor DNA is cut with EcoRI, while the plasmid vector is cut with a DIFFERENT restriction enzyme that produces incompatible ends:",
+      "options": [
+        "The sticky ends will NOT be complementary → Hybridization will fail → DNA ligase will be unable to form the recombinant plasmid",
+        "EcoRI will automatically convert all ends into identical AATT overhangs",
+        "DNA polymerase will fuse the incompatible ends without hybridization",
+        "Heat shock at 42°C will force the incompatible ends to hybridize"
+      ],
+      "answer": 0,
+      "explanation": "فهم آلية الـ Sticky ends (Slides 11 & 13): يجب قطع البلازميد والـ DNA المانح بنفس الإنزيم القاطع (مثل EcoRI) لإنتاج نهايات لاصقة متكاملة (AATT/TTAA) قابلة للتهجين ثم الربط."
+    },
+    {
+      "q": "Trace the steps of using a Bacteriophage as a cloning vector (Slide 16):",
+      "options": [
+        "Insert DNA fragment of interest into bacteriophage vector → Transfect bacteria using the phage → Phage replicates multiple times inside bacteria → Produces numerous copies of the DNA fragment",
+        "Phage destroys the DNA fragment with protease → No copies are made",
+        "Phage converts bacteria into mammalian CHO cells",
+        "Phage transfers the gene directly into a glass rod"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 16: يمكن استخدام العاثيات (Bacteriophages) كنواقل لإجراء الـ Transfection وإنتاج نسخ متعددة من قطعة الـ DNA المطلوبة عبر تضاعفها عدة مرات داخل البكتيريا."
+    },
+    {
+      "q": "Trace how a scientist confirms that host bacterial cells actually took up the recombinant vector containing the gene of interest (Slide 8):",
+      "options": [
+        "Include antibiotic resistance genes on the vector → Grow transformed bacteria on antibiotic-containing medium → Survival confirms successful gene/vector insertion",
+        "Stain the cells with crystal violet → Purple cells confirm rDNA uptake",
+        "Add detergent to all cells → Surviving cells contain rDNA",
+        "Check for endospore formation under a light microscope"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 8: تُستخدم جينات مقاومة المضادات الحيوية (Antibiotic resistance genes) كعلامات تأكيد لنجاح إدخال الجين داخل الخلية المضيفة."
+    },
+    {
+      "q": "A pharmaceutical company is producing an injectable therapeutic protein via rDNA technology and wants to AVOID any risk of bacterial endotoxin (LPS) contamination while still keeping rapid growth and large-scale adaptability. Which host system should they choose?",
+      "options": [
+        "Yeast systems (Saccharomyces cerevisiae, Hansenula polymorpha, or Pichia pastoris)",
+        "Escherichia coli (Gram-negative bacterium)",
+        "Pseudomonas aeruginosa",
+        "Neisseria meningitidis"
+      ],
+      "answer": 0,
+      "explanation": "ربط عبقري بين Lec 2 و Lec 5 (Slide 7): بكتيريا E. coli سالبة لغرام فتحتوي على Endotoxin (LPS)، أما الخمائر (S. cerevisiae, H. polymorpha, P. pastoris) فهي حقيقيات نواة بسيطة سريعة النمو ولا تنتج الذيفان الداخلي (Do not produce endotoxin)."
+    },
+    {
+      "q": "Which THREE yeast species are explicitly named in Slide 7 of Lecture 5 as eukaryotic hosts for FDA-approved rDNA products?",
+      "options": [
+        "Saccharomyces cerevisiae, Hansenula polymorpha, and Pichia pastoris",
+        "Candida albicans, Aspergillus niger, and Cryptococcus neoformans",
+        "Bacillus subtilis, Escherichia coli, and Salmonella typhi",
+        "CHO, BHK, and HeLa cells"
+      ],
+      "answer": 0,
+      "explanation": "أسماء الخمائر الثلاثة المذكورة نصاً في Slide 7: Saccharomyces cerevisiae و Hansenula polymorpha و Pichia pastoris."
+    },
+    {
+      "q": "Why are mammalian cell culture systems (CHO and BHK) often preferred over bacteria for producing certain human therapeutic proteins (Slide 7 & 19)?",
+      "options": [
+        "Because different host organisms modify or fold proteins differently, making mammalian CHO/BHK systems the choice for complex human therapeutic proteins",
+        "Because mammalian cells grow faster than E. coli in simple salt media",
+        "Because mammalian cells lack DNA and only contain RNA",
+        "Because mammalian cells are prokaryotic systems"
+      ],
+      "answer": 0,
+      "explanation": "من Slides 7 و 19: أنظمة الثدييات (CHO و BHK) هي الخيار المفضل للبروتينات العلاجية البشرية المعقدة لأن المضيفين المختلفين يعدلون ويطوون البروتين بشكل مختلف (Modify or fold protein differently)."
+    },
+    {
+      "q": "What is the MAIN difference between generalized transduction and specialized transduction regarding BOTH host cell destruction and viral DNA integration (Slide 5)?",
+      "options": [
+        "Generalized: virus quickly destroys cell & integration does NOT occur | Specialized: cell is NOT quickly destroyed unless induction occurs & viral DNA integrates into bacterial chromosome",
+        "Generalized: viral DNA integrates & cell is not destroyed | Specialized: viral DNA does not integrate & cell is destroyed immediately",
+        "Both involve viral DNA integration into the chromosome",
+        "Neither involves lysis of the bacterial cell at any point"
+      ],
+      "answer": 0,
+      "explanation": "النص المحوري في Slide 5: الفرق الأساسي أن النقل العام يدمر الخلية سريعاً ولا يحدث اندماج، أما المتخصص فلا يدمر الخلية سريعاً إلا بحدوث تحفيز (Induction) ويحدث فيه اندماج للـ DNA الفيروسي في كروموسوم البكتيريا."
+    },
+    {
+      "q": "In Slide 11, besides Restriction endonucleases, what NON-enzymatic physical method can cut DNA into large fragments?",
+      "options": [
+        "Mechanical shearing",
+        "Ethanol precipitation",
+        "Heat shock at 42°C",
+        "Lyophilization"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 11: يمكن قطع الـ DNA إلى قطع كبيرة بالقص الميكانيكي (Mechanical shearing)، بينما الإنزيمات القاطعة (Restriction enzymes) تقطع بدقة في مواقع متناظرة محددة (Palindromes)."
+    },
+    {
+      "q": "What is a 'palindromic sequence' recognized by restriction endonucleases (REases) in Slide 11?",
+      "options": [
+        "A specific DNA base sequence that reads the same on complementary strands, where REases make staggered cuts with complementary overhangs for circularization",
+        "A random sequence of introns found only in yeast",
+        "A stop codon that terminates translation",
+        "A sequence of amino acids in flagellin"
+      ],
+      "answer": 0,
+      "explanation": "الإنزيمات القاطعة (توجد طبيعياً في البكتيريا) تتعرف على تسلسلات متناظرة (Palindromes) وتقطعها بشكل متدرج (Staggered cuts) لتكوين نهايات متكاملة لاصقة تسهل التحلق والربط."
+    },
+    {
+      "q": "From which organisms are Restriction endonucleases naturally isolated (Slide 11)?",
+      "options": [
+        "Bacteria",
+        "Mammalian CHO cells",
+        "Human plasma",
+        "Fungal spores"
+      ],
+      "answer": 0,
+      "explanation": "نص صريح في Slide 11: Restriction enzymes are a special class of sequence-specific enzymes found in bacteria."
+    },
+    {
+      "q": "According to Slide 12, in addition to filling single-stranded gaps by adding nucleotides to 3' ends, what secondary activity is mentioned in parentheses for DNA Polymerase?",
+      "options": [
+        "Removes RNA polymer",
+        "Adds a phosphate to the 5'-OH end",
+        "Destroys cellular proteins",
+        "Cleaves palindromic DNA sequences"
+      ],
+      "answer": 0,
+      "explanation": "تفصيلة سطرية دقيقة من Slide 12: DNA Polymerase fills single-stranded gaps in duplex DNA by stepwise addition of nucleotides to 3' ends (removes RNA polymer)."
+    },
+    {
+      "q": "Compare Polynucleotide kinase and Alkaline phosphatase directly (Slide 12):",
+      "options": [
+        "Polynucleotide kinase ADDS a phosphate to the 5'-OH end (to label or permit ligation); Alkaline phosphatase REMOVES terminal phosphates from the 5' end, 3' end, or both",
+        "Polynucleotide kinase REMOVES phosphates; Alkaline phosphatase ADDS phosphates",
+        "Polynucleotide kinase cuts DNA; Alkaline phosphatase seals DNA",
+        "Both enzymes synthesize DNA from an RNA template"
+      ],
+      "answer": 0,
+      "explanation": "مقارنة معاكسة مهمة جداً في الامتحانات (Slide 12): الـ Kinase يضيف فوسفات عند 5'-OH، والـ Alkaline phosphatase يزيل الفوسفات الطرفية من 5' أو 3' أو كليهما."
+    },
+    {
+      "q": "What are the TWO specific reasons Polynucleotide kinase adds a phosphate to the 5'-OH end of a polynucleotide (Slide 12)?",
+      "options": [
+        "To label it OR to permit ligation",
+        "To destroy RNA OR to precipitate DNA in ethanol",
+        "To cleave palindromes OR to disrupt the plasma membrane",
+        "To trigger heat shock OR to induce prophage excision"
+      ],
+      "answer": 0,
+      "explanation": "نص صريح من Slide 12: Adds a phosphate to the 5' OH end of a polynucleotide, to label it or permit ligation."
+    },
+    {
+      "q": "What is the PRIMARY goal of Recombinant DNA Technology as stated on Slide 8?",
+      "options": [
+        "To produce pharmaceutical products such as insulin, growth hormone, and vaccines",
+        "To cause spontaneous mutations in hospitals",
+        "To eliminate all plasmids from E. coli",
+        "To replace Gram staining with PCR"
+      ],
+      "answer": 0,
+      "explanation": "الهدف الرئيسي (Primary goal) المذكور في Slide 8: إنتاج المستحضرات الصيدلانية مثل الأنسولين وهرمون النمو واللقاحات، بالإضافة لعزل وتعديل وتصنيع الجينات وفهم وعلاج الأمراض الوراثية."
+    },
+    {
+      "q": "Where is Molecular Cloning carried out, and what are the three core components involved (Slide 15)?",
+      "options": [
+        "Carried out in-vitro: a specific DNA fragment from a 'donor' organism is introduced into a 'plasmid' that replicates inside a 'host cell'",
+        "Carried out only inside human bone marrow without any plasmid",
+        "Carried out inside a centrifuge using only ethanol and detergent",
+        "Carried out exclusively by binary fission without a vector"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 15: يتم الاستنساخ الجزيئي مخبرياً (in-vitro) بعزل قطعة DNA من كائن واهب (donor) وإدخالها في بلازميد (plasmid) يتضاعف في خلية مضيفة (host cell)."
+    },
+    {
+      "q": "What do the acronyms BACs and YACs stand for among the 6 vectors used in rDNA technology (Slide 17)?",
+      "options": [
+        "Bacterial Artificial Chromosomes (BACs) and Yeast Artificial Chromosomes (YACs)",
+        "Bacteriophage Active Capsids and Yeast Amino Complexes",
+        "Bacterial Antibiotic Carriers and Yield Amplification Clones",
+        "Basic Agar Cultures and Yellow Agar Colonies"
+      ],
+      "answer": 0,
+      "explanation": "النواقل الستة في Slide 17: Plasmid, Lambda phage, Cosmid, BACs (كروموسومات بكتيرية اصطناعية), YACs (كروموسومات خميرة اصطناعية), و Expression vectors."
+    },
+    {
+      "q": "A 62-year-old patient suffers an acute blood clot (thrombosis). Which recombinant DNA therapeutic drug listed in Slide 22 is specifically indicated for treating thrombosis?",
+      "options": [
+        "Tissue Plasminogen Activator (tPA)",
+        "Erythropoietin (EPO)",
+        "Interleukin-2 (IL-2)",
+        "Hepatitis B surface antigen (HBsAg)"
+      ],
+      "answer": 0,
+      "explanation": "من جدول الأدوية في Slide 22: يُستخدم منشط البلازمينوجين النسيجي (Tissue Plasminogen Activator) لعلاج الجلطات/الخثار (Thrombosis)."
+    },
+    {
+      "q": "A patient with chronic kidney failure develops severe anemia. Which recombinant DNA drug is prescribed to treat anemia?",
+      "options": [
+        "Erythropoietin (EPO)",
+        "Factor VIII",
+        "GM-CSF",
+        "Interleukin-2"
+      ],
+      "answer": 0,
+      "explanation": "يُستخدم Erythropoietin (EPO) في علاج فقر الدم (Anemia) كما ورد في Slides 21 و 22."
+    },
+    {
+      "q": "A patient who just underwent a bone marrow transplant needs a recombinant medication to stimulate bone marrow recovery. Which drug from Slide 21 is used?",
+      "options": [
+        "Granulocyte-macrophage colony-stimulating factor (GM-CSF)",
+        "Tissue Plasminogen Activator (tPA)",
+        "Factor IX",
+        "Human Growth Hormone (HGH)"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 21: يُستخدم GM-CSF لتحفيز نخاع العظم بعد عمليات زراعة نخاع العظم."
+    },
+    {
+      "q": "Compare the clinical indications of recombinant Factor VIII vs. Factor IX (Slide 21):",
+      "options": [
+        "Factor VIII is used for males suffering from Haemophilia A; Factor IX is used for Haemophilia B",
+        "Factor VIII is used for Haemophilia B; Factor IX is used for Haemophilia A",
+        "Factor VIII is used for thrombosis; Factor IX is used for anemia",
+        "Both Factor VIII and Factor IX are used for cancer immunotherapy"
+      ],
+      "answer": 0,
+      "explanation": "تمييز مهم جداً في Slide 21: العامل الثامن (Factor VIII) للهيموفيليا A (في الذكور)، والعامل التاسع (Factor IX) للهيموفيليا B."
+    },
+    {
+      "q": "Which recombinant DNA therapeutic products are listed in Slide 21 in addition to insulin, clotting factors, EPO, HGH, and GM-CSF?",
+      "options": [
+        "Several types of interferons, many monoclonal antibodies, gene therapy, medical diagnosis, and xenotransplants",
+        "Lysozyme, crystal violet, and safranin",
+        "Colicins, dipicolinic acid, and teichoic acid",
+        "Thioglycolate, bismuth sulfite, and peptone"
+      ],
+      "answer": 0,
+      "explanation": "من قائمة Slide 21: أنواع متعددة من الإنترفيرونات، الأجسام المضادة وحيدة النسيلة (Monoclonal antibodies)، العلاج الجيني، التشخيص الطبي، وزراعة الأعضاء بين الأنواع (Xenotransplants)."
+    },
+    {
+      "q": "Which agricultural and novelty applications of rDNA technology are explicitly mentioned on Slide 19?",
+      "options": [
+        "GM food (pesticide-resistant crops, fruits with attractive colors) and other uses like fluorescent fishes and glowing plants",
+        "Only insulin production and nothing in agriculture",
+        "Creating Gram-positive bacteria without ribosomes",
+        "Replacing all yeast with bacteriophages"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 19: الزراعة (الأغذية المعدلة وراثياً GM Food، محاصيل مقاومة للمبيدات، فواكه بألوان جذابة) واستخدامات أخرى مثل الأسماك الفلورية والنباتات المتوهجة."
+    },
+    {
+      "q": "In Slide 19, how are microorganisms described when combined with DNA from different sources on an industrial scale?",
+      "options": [
+        "As living 'factories' that produce interferons, hormones, enzymes, drugs, and vaccines",
+        "As obligate parasites incapable of replication",
+        "As non-cellular viruses",
+        "As spontaneous mutagens"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 19: تحويل الأحياء المجهرية إلى مصانع (factories) تنتج الإنترفيرونات والهرمونات والإنزيمات والأدوية واللقاحات على نطاق صناعي."
+    },
+    {
+      "q": "What two disciplines combine to form 'Pharmacogenomics', and what does it study (Slide 20)?",
+      "options": [
+        "Derived from 'pharmacology' and 'genomics'; studies how genetic inheritance affects an individual human body's response to drugs",
+        "Derived from 'pharmacy' and 'mycology'; studies fungal antibiotics",
+        "Derived from 'phage' and 'genomics'; studies lytic transduction",
+        "Derived from 'pharmacology' and 'immunology'; studies vaccine storage"
+      ],
+      "answer": 0,
+      "explanation": "تعريف Slide 20: علم الجينوم الدوائي (Pharmacogenomics) مشتق من علم الأدوية والجينوم ويدرس تأثير الوراثة الجينية على استجابة جسم الفرد للأدوية."
+    },
+    {
+      "q": "According to Slide 20, what THREE biological sources have become sources for producing pharmaceuticals in Pharmaceutical Biotechnology?",
+      "options": [
+        "Plants, animals, and microorganisms",
+        "Only E. coli and no eukaryotes",
+        "Minerals, salts, and ethanol",
+        "Only bacteriophages and cosmids"
+      ],
+      "answer": 0,
+      "explanation": "السطر الأول في Slide 20: أصبحت النباتات والحيوانات والأحياء المجهرية مصادر لإنتاج المستحضرات الصيدلانية."
+    },
+    {
+      "q": "Which of the following is a FALSE statement about the concept of rDNA (Slide 6 & 8)?",
+      "options": [
+        "rDNA molecules are constructed exclusively inside intact living human cells without using any vectors",
+        "rDNA molecules are constructed outside living cells by joining natural or synthetic DNA segments to a vector",
+        "rDNA can combine DNA from different sources (e.g., an animal gene with bacterial DNA)",
+        "Once introduced into a host cell, the recombinant vector replicates itself and produces the gene product"
+      ],
+      "answer": 0,
+      "explanation": "جزيئات rDNA تُبنى خارج الخلايا الحية (outside of living cells) بربط قطع DNA طبيعية أو صناعية بناقل (Vector) ثم إدخالها للخلية المضيفة للتضاعف."
+    },
+    {
+      "q": "In the DNA Extraction diagram (Slide 10), what is the specific function of the DETERGENT added in step 1?",
+      "options": [
+        "It lyses the cells by disrupting the plasma membrane",
+        "It precipitates DNA into viscous strands",
+        "It digests cellular proteins into amino acids",
+        "It cleaves DNA at palindromic sequences"
+      ],
+      "answer": 0,
+      "explanation": "في الخطوة الأولى لاستخلاص الـ DNA (Slide 10)، يُستخدم المنظف (Detergent) لتحليل الخلايا عبر تمزيق الغشاء البلازمي."
+    },
+    {
+      "q": "Why are commercial plasmids widely used in genetic engineering today (Slide 16)?",
+      "options": [
+        "They are commercially available, ready to use, and provide specific fragment insertion sites",
+        "They are single-stranded RNA molecules that never replicate",
+        "They automatically kill E. coli upon entry",
+        "They do not require any restriction enzymes or ligase"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 16: معظم البلازميدات متوفرة تجارياً وجاهزة للاستخدام وتوفر مواقع محددة لإدخال قطع الـ DNA."
+    },
+    {
+      "q": "Which of the following rDNA techniques listed on Slide 23 is used to separate DNA fragments by size in a gel matrix using an electric current?",
+      "options": [
+        "Gel electrophoresis",
+        "DNA microarrays",
+        "Cloning libraries",
+        "Heat shock at 42°C"
+      ],
+      "answer": 0,
+      "explanation": "التقنيات الست المذكورة في Slide 23: Gel electrophoresis، Cloning libraries، Restriction enzyme mapping، PCR، Nucleic acid hybridization، و DNA microarrays."
+    },
+    {
+      "q": "Which regulatory agency is mentioned on Slide 7 as having approved most rDNA products produced in bacterial, yeast, and mammalian host systems?",
+      "options": [
+        "FDA (Food and Drug Administration)",
+        "CDC only",
+        "UNESCO",
+        "ISO"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 7: معظم منتجات الـ rDNA المعتمدة من قبل هيئة الغذاء والدواء (FDA) تُنتج باستخدام أنظمة البكتيريا والخمائر وخلايا الثدييات."
+    },
+    {
+      "q": "In Slide 14 (Amplifying of DNA), how does the rDNA enter the CaCl₂-treated, heat-shocked (42°C) bacterial host cell?",
+      "options": [
+        "By a somewhat unknown mechanism during transformation, after which the rDNA replicates and passes to both daughter cells upon cell division",
+        "By injection through a bacteriophage tail fiber",
+        "By active pumping through the bacterial flagellum",
+        "By conjugation through a sex pilus from another donor cell"
+      ],
+      "answer": 0,
+      "explanation": "تفصيلة نصية من Slide 14: بعد المعاملة بـ CaCl₂ والصدمة الحرارية 42°C، يدخل الـ DNA للخلية بآلية غير معروفة تماماً ثم يتضاعف ويتوزع للخليتين البنتين عند الانقسام."
+    },
+    {
+      "q": "Which pairing of rDNA medical application and category from Slide 19 is CORRECT?",
+      "options": [
+        "Pharmacology: artificial insulin production & drug delivery to target sites | Medicine: gene therapy, antiviral therapy, vaccination, synthesizing clotting factors",
+        "Pharmacology: glowing plants | Medicine: pesticide-resistant crops",
+        "Agriculture: Factor VIII synthesis | Pharmacology: fluorescent fishes",
+        "Medicine: mechanical shearing | Agriculture: heat shock at 42°C"
+      ],
+      "answer": 0,
+      "explanation": "تصنيف تطبيقات Slide 19: في علم الأدوية (إنتاج الأنسولين الصناعي وإيصال الدواء للمواقع المستهدفة)، وفي الطب (العلاج الجيني، مضادات الفيروسات، اللقاحات، وتصنيع عوامل التخثر)."
+    },
+    {
+      "q": "Why does Specialized Transduction transfer ONLY specific bacterial genes (like gene A) rather than any random gene from the bacterial chromosome?",
+      "options": [
+        "Because the prophage integrates at a specific site (e.g., between genes A and B) and only takes adjoining genes next to its integration site when it excises imprecisely",
+        "Because specialized transduction never involves a bacteriophage",
+        "Because host DNA is completely hydrolyzed into random fragments in specialized transduction",
+        "Because EcoRI cuts only gene A inside the bacterium"
+      ],
+      "answer": 0,
+      "explanation": "جوهر الفهم في النقل المتخصص (Slides 4 & 24): يندمج الـ Prophage في موقع محدد بين جينات معينة، وعند انفصاله الخاطئ لا يستطيع حمل سوى الجينات المجاورة لموقع اندماجه فقط."
+    },
+    {
+      "q": "In Generalized Transduction, why can ANY bacterial gene be transferred to a recipient cell?",
+      "options": [
+        "Because during the lytic cycle the host bacterial chromosome is hydrolyzed into random pieces, and any random fragment may be accidentally packaged into a phage capsid",
+        "Because the phage integrates into every gene simultaneously",
+        "Because the recipient cell selects which gene it wants via competence factors",
+        "Because DNA ligase fuses the entire bacterial chromosome into one phage head"
+      ],
+      "answer": 0,
+      "explanation": "في النقل العام يتحلل كروموسوم المضيف إلى قطع عشوائية أثناء الدورة التحللية، فيمكن تعبئة أي قطعة عشوائية بالخطأ داخل غلاف العاثي ونقلها."
+    },
+    {
+      "q": "Which of the following is a goal of rDNA technology listed on Slide 8 that relates directly to genetic disorders?",
+      "options": [
+        "Understanding hereditary diseases and their cure, and improving the human genome",
+        "Preventing bacterial binary fission in dairy factories",
+        "Measuring turbidity with a spectrophotometer",
+        "Replacing all antibiotics with colicins"
+      ],
+      "answer": 0,
+      "explanation": "من أهداف تقنية rDNA في Slide 8: فهم الأمراض الوراثية وعلاجها (Understanding the hereditary diseases and their cure) وتحسين الجينوم البشري."
+    },
+    {
+      "q": "If a recombinant plasmid contains a human gene inserted into a bacterial plasmid vector and is amplified in E. coli, what happens to the recombinant molecules when the host E. coli divides?",
+      "options": [
+        "The replicated recombinant DNA molecules are distributed into BOTH daughter cells, which divide further to amplify the DNA",
+        "Only one daughter cell receives the plasmid while the other dies",
+        "The plasmid is destroyed before septum formation",
+        "The human gene is spliced out as an intron and excreted"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 14: عند انقسام الخلية البكتيرية، تنتقل جزيئات الـ rDNA المتضاعفة إلى كلتا الخليتين البنتين اللتين تنقسمان لاحقاً فتتضخم كمية الـ DNA."
+    },
+    {
+      "q": "Which enzyme from Slide 12 would be essential to fill in single-stranded overhangs (gaps) in duplex DNA by stepwise addition of nucleotides to 3' ends?",
+      "options": [
+        "DNA Polymerase",
+        "Restriction endonuclease",
+        "Alkaline phosphatase",
+        "Polynucleotide kinase"
+      ],
+      "answer": 0,
+      "explanation": "وظيفة DNA Polymerase في Slide 12: ملء الفجوات أحادية الشريط في الـ DNA المزدوج عبر إضافة النيوكليوتيدات تدريجياً للنهايات 3'."
+    },
+    {
+      "q": "Which recombinant drug from Slide 22 is currently on the market for VACCINATION, and which is used for CANCER treatment?",
+      "options": [
+        "Vaccination = Hepatitis B surface antigen; Cancer = Interleukin-2",
+        "Vaccination = Interleukin-2; Cancer = Erythropoietin",
+        "Vaccination = Tissue Plasminogen Activator; Cancer = Factor VIII",
+        "Vaccination = Insulin; Cancer = GM-CSF"
+      ],
+      "answer": 0,
+      "explanation": "من جدول Slide 22: Hepatitis B surface antigen للقاح (Vaccination)، و Interleukin-2 لعلاج السرطان (Treatment of cancer)."
+    },
+    {
+      "q": "Which statement accurately describes the physical appearance of DNA when precipitated with ethanol in the final step of DNA Extraction (Slide 10)?",
+      "options": [
+        "It forms viscous strands that can be spooled on a glass rod",
+        "It forms purple crystals stained by crystal violet",
+        "It evaporates completely as a gas",
+        "It forms spherical terminal spores"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 10: يترسب الـ DNA بالإيثانول مكوناً خيوطاً لزجة (Viscous strands) يمكن لفها على قضيب زجاجي (Spooled on a glass rod)."
+    }
+  ]
+}

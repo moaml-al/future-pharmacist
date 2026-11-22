@@ -91,6 +91,33 @@
           "count": 10
         }
       ]
+    },
+    {
+      "id": "microbiology",
+      "name": "الميكروبيولوجيا الطبية",
+      "icon": "🦠",
+      "files": [
+        {
+          "file": "micro_lec2.json",
+          "title": "Lec 2: Bacterial Structure & Cell Wall",
+          "count": 76
+        },
+        {
+          "file": "micro_lec3.json",
+          "title": "Lec 3: Bacterial Physiology & Growth",
+          "count": 75
+        },
+        {
+          "file": "micro_lec4.json",
+          "title": "Lec 4: Bacterial Genetics & Mutation",
+          "count": 76
+        },
+        {
+          "file": "micro_lec5.json",
+          "title": "Lec 5: rDNA Technology & Transduction",
+          "count": 76
+        }
+      ]
     }
   ]
 }

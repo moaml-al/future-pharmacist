@@ -1,0 +1,841 @@
+{
+  "title": "Lec 4: Bacterial Genetics & Mutation",
+  "questions": [
+    {
+      "q": "What term describes the phenomenon where more than one codon (triplet of bases) codes for the same single amino acid?",
+      "options": [
+        "Degenerative codons",
+        "Stop codons",
+        "Frameshift codons",
+        "Anticodons"
+      ],
+      "answer": 0,
+      "explanation": "تسمى الشفرة الوراثية بأنها Degenerative عندما يقوم أكثر من كودون واحد بتشفير نفس الحامض الأميني."
+    },
+    {
+      "q": "The Escherichia coli chromosome consists of a circular double-stranded DNA molecule containing approximately:",
+      "options": [
+        "4.63 × 10⁶ base pairs (bp) coding for 4288 proteins",
+        "100 base pairs coding for 10 proteins",
+        "3 × 10³ base pairs coding for 50 proteins",
+        "9.8 × 10⁹ base pairs with multiple linear chromosomes"
+      ],
+      "answer": 0,
+      "explanation": "يتكون كروموسوم E. coli من 4.63 مليون زوج قاعدي (bp) ويشفر لـ 4288 بروتيناً، وطوله عند فرده حوالي 1000 مايكرومتر (4000 kb)."
+    },
+    {
+      "q": "Production of the enzyme β-galactosidase by E. coli ONLY when grown in a medium containing lactose (and not in glucose alone) is an example of:",
+      "options": [
+        "Phenotypic variation (reversible, temporary, environmental)",
+        "Genotypic variation (heritable, permanent mutation)",
+        "Specialized transduction",
+        "Frameshift mutation"
+      ],
+      "answer": 0,
+      "explanation": "إنتاج إنزيم β-galactosidase بوجود اللاكتوز فقط هو تباين مظهري (Phenotypic variation) مؤقت وقابل للعكس ويتأثر بالبيئة ولا يورث."
+    },
+    {
+      "q": "Which of the following is a chemical mutagen used to induce mutations in bacteria?",
+      "options": [
+        "Alkylating agents, Acridine dyes, and Nitrous acid",
+        "Ultraviolet (UV) rays and X-rays",
+        "Lysozyme and Penicillin",
+        "Thioglycolate and Agar"
+      ],
+      "answer": 0,
+      "explanation": "العوامل الكيميائية المطفرة تشمل العوامل المؤلكلة (Alkylating agents) وصبغات الأكريدين (Acridine dyes) وحامض النتروز (Nitrous acid)، بينما الأشعة فوق البنفسجية والسينية هي عوامل فيزيائية."
+    },
+    {
+      "q": "Temperature-sensitive ('ts') conditional lethal mutants are medically important because they are used in:",
+      "options": [
+        "Vaccine production",
+        "Gram staining",
+        "Preparing selective media",
+        "Destroying plasmids"
+      ],
+      "answer": 0,
+      "explanation": "الطفرات الحساسة للحرارة ('ts' mutants) تستخدم طبياً في إنتاج اللقاحات (Vaccine production)."
+    },
+    {
+      "q": "A point mutation (base pair substitution) that changes a codon into a STOP codon, prematurely terminating protein synthesis, is called a:",
+      "options": [
+        "Nonsense mutation",
+        "Silent mutation",
+        "Missense mutation",
+        "Frameshift insertion"
+      ],
+      "answer": 0,
+      "explanation": "طفرة الـ Nonsense تحول الكودون إلى كودون إيقاف (Stop codon) فتوقف تصنيع البروتين مبكراً، بينما الـ Silent لا تغير الحامض الأميني والـ Missense تضع حامضاً أمينياً خاطئاً."
+    },
+    {
+      "q": "In the lecture diagram, changing the DNA triplet from AGG (Ser) to AGA (Ser) without changing the resulting amino acid is a:",
+      "options": [
+        "Silent mutation",
+        "Missense mutation",
+        "Nonsense mutation",
+        "Deletion frameshift"
+      ],
+      "answer": 0,
+      "explanation": "تغير القاعدة من AGG إلى AGA مع بقاء نفس الحامض الأميني (Serine) يسمى طفرة صامتة (Silent mutation)."
+    },
+    {
+      "q": "What happens when a number of DNA bases NOT divisible by three is inserted or deleted in a gene?",
+      "options": [
+        "A frameshift mutation occurs, shifting the reading frame and producing incorrect amino acids or a truncated protein",
+        "A silent mutation occurs with no effect on the protein",
+        "The bacterium converts from Gram-negative to Gram-positive",
+        "Introns are spliced out automatically"
+      ],
+      "answer": 0,
+      "explanation": "إضافة أو حذف قواعد بعدد لا يقبل القسمة على 3 يسبب إزاحة إطار القراءة (Frameshift mutation) مما يغير جميع الكودونات اللاحقة."
+    },
+    {
+      "q": "Which statement accurately compares Exons and Introns?",
+      "options": [
+        "Exons are coding sequences present in both prokaryotes and eukaryotes, while introns are non-coding sequences rare in prokaryotes",
+        "Introns code for proteins and are retained in mature mRNA",
+        "Exons are removed during RNA splicing and are thousands of nucleotides long",
+        "Prokaryotes consist predominantly of introns"
+      ],
+      "answer": 0,
+      "explanation": "الإكسونات (Exons) هي تسلسلات مشفرة للبروتين موجودة في البدائيات والحقيقيات وتبقى في الـ mRNA الناضج، بينما الإنترونات (Introns) غير مشفرة ونادرة في بدائيات النواة وتحذف أثناء الـ RNA splicing."
+    },
+    {
+      "q": "Which nitrogenous base is present in RNA instead of Thymine (T) found in DNA?",
+      "options": [
+        "Uracil (U)",
+        "Adenine (A)",
+        "Cytosine (C)",
+        "Guanine (G)"
+      ],
+      "answer": 0,
+      "explanation": "يحتوي الـ RNA على قاعدة اليوراسيل (Uracil) بدلاً من الثايمين (Thymine) الموجود في الـ DNA."
+    },
+    {
+      "q": "Regarding bacterial plasmid copy numbers and sizes (3 × 10³ to 4.5 × 10⁵ bp):",
+      "options": [
+        "Large plasmids are usually present in 1–2 copies per cell, whereas small ones may be present in 10 to 100 copies",
+        "Plasmids are essential for bacterial survival under all conditions",
+        "Small plasmids are present in only 1 copy per cell",
+        "Plasmids are linear single-stranded RNA molecules"
+      ],
+      "answer": 0,
+      "explanation": "البلازميدات الكبيرة توجد بنسخة أو نسختين في الخلية، بينما البلازميدات الصغيرة قد توجد بـ 10 أو 40 أو 100 نسخة في الخلية."
+    },
+    {
+      "q": "Which cause of spontaneous mutation involves the spontaneous breaking of the linkage between purines and deoxyribose sugar?",
+      "options": [
+        "Depurination",
+        "Deamination",
+        "Tautomeric shift",
+        "Transposable elements"
+      ],
+      "answer": 0,
+      "explanation": "فقدان البيورين (Depurination) هو انكسار تلقائي للرابطة بين قواعد البيورين وسكر الديوكسي رايبوز، بينما Deamination هو تحول السايتوسين إلى يوراسيل."
+    },
+    {
+      "q": "During bacterial conjugation between an F+ (donor) cell and an F- (recipient) cell, what is the final outcome?",
+      "options": [
+        "One strand of the F plasmid transfers, both cells synthesize complementary strands, and the recipient becomes an F+ cell (transconjugant)",
+        "The donor loses its plasmid and becomes F-",
+        "A bacteriophage lyses both cells",
+        "Naked DNA is taken up from dead lysed bacteria"
+      ],
+      "answer": 0,
+      "explanation": "ينتقل شريط واحد من بلازميد الخصوبة F عبر أنبوب الاقتران، وتبني كل خلية الشريط المكمل فتتحول الخلية المستلمة F- إلى F+ (Transconjugant)."
+    },
+    {
+      "q": "How is an Hfr (high frequency recombination) donor cell formed?",
+      "options": [
+        "When the F plasmid (fertility factor) integrates into the host bacterial chromosome",
+        "When a resistance plasmid loses its RTF gene",
+        "When a bacterium is infected by a lytic bacteriophage",
+        "When a cell is treated with calcium chloride"
+      ],
+      "answer": 0,
+      "explanation": "تتكون خلية الـ Hfr عندما يندمج عامل الخصوبة (F factor) داخل كروموسوم الخلية البكتيرية المضيفة، مما يسمح بنقل جينات كروموسومية بتردد عالٍ."
+    },
+    {
+      "q": "What are Colicins (encoded by the Colicinogenic / Col factor plasmid)?",
+      "options": [
+        "Antibiotic-like substances produced by coliform bacteria that are selectively lethal to other enterobacteria",
+        "Enzymes that repair UV-damaged DNA",
+        "Sugars that form the bacterial capsule",
+        "Pigments produced in the presence of light"
+      ],
+      "answer": 0,
+      "explanation": "الكوليسينات (Colicins) هي مواد شبيهة بالمضادات الحيوية تنتجها بعض بكتيريا القولون وتكون قاتلة لبكتيريا الأمعاء الأخرى، ويشفرها بلازميد Col factor."
+    },
+    {
+      "q": "A complete Resistance Factor (R plasmid) consists of which two components, capable of transferring resistance to 8 or more drugs simultaneously?",
+      "options": [
+        "Resistance Transfer Factor (RTF) + resistance determinants (r)",
+        "Lipid A + O-antigen",
+        "50S subunit + 30S subunit",
+        "Exon + Intron"
+      ],
+      "answer": 0,
+      "explanation": "يتكون بلازميد المقاومة (R factor) من جزأين: RTF المسؤول عن النقل الاقتراني + محددات المقاومة (r determinants) التي تشفر لمقاومة الأدوية."
+    },
+    {
+      "q": "How do Corynebacterium diphtheriae bacilli acquire the ability to produce diphtheria toxin (toxigenicity)?",
+      "options": [
+        "By lysogenic conversion with bacteriophage beta (β)",
+        "By uptake of naked DNA from Streptococcus pneumoniae",
+        "By point mutation in the 30S ribosome",
+        "By losing their cell wall"
+      ],
+      "answer": 0,
+      "explanation": "تكتسب عصيات الخناق (Diphtheria bacilli) القدرة على إنتاج السم (Toxigenicity) عن طريق التحول الليزوجيني (Lysogenic conversion) بواسطة العاثي بيتا (Phage beta)."
+    },
+    {
+      "q": "What is the key difference between transduction and lysogenic conversion?",
+      "options": [
+        "In transduction the phage acts only as a vehicle carrying bacterial genes, whereas in lysogenic conversion the phage DNA itself is the new genetic element",
+        "Transduction requires a sex pilus while lysogenic conversion requires competence factors",
+        "Lysogenic conversion only transfers R plasmids",
+        "Transduction only occurs in Mycoplasma"
+      ],
+      "answer": 0,
+      "explanation": "في الـ Transduction يعمل الفيروس كناقل فقط للجينات البكتيرية، أما في الـ Lysogenic conversion فإن الـ DNA الفيروسي نفسه هو العنصر الوراثي الجديد الذي يعطي الصفة (مثل سم الدفتيريا)."
+    },
+    {
+      "q": "What is bacterial Transformation?",
+      "options": [
+        "The uptake of naked exogenous DNA from the surrounding environment by living competent bacterial cells",
+        "Transfer of plasmid DNA via direct cell-to-cell contact using a sex pilus",
+        "Transfer of bacterial DNA packaged inside a bacteriophage capsid",
+        "Synthesis of RNA from a DNA template"
+      ],
+      "answer": 0,
+      "explanation": "التحول الوراثي (Transformation) هو التقاط الـ DNA الحر من البيئة المحيطة (بعد تحلل خلية واهبة ميتة) بواسطة خلايا بكتيرية مؤهلة (Competent cells)."
+    },
+    {
+      "q": "Which group lists bacterial species known to be NATURALLY competent for transformation?",
+      "options": [
+        "Streptococcus pneumoniae, Haemophilus influenzae, Neisseria gonorrhoeae, Neisseria meningitidis, and Bacillus subtilis",
+        "Chlamydia trachomatis and Rickettsia prowazekii",
+        "Mycoplasma pneumoniae and Treponema pallidum",
+        "Clostridium tetani and Bacteroides fragilis"
+      ],
+      "answer": 0,
+      "explanation": "الأجناس المؤهلة طبيعياً للتحول الوراثي المذكورة في الملزمة هي: Bacillus subtilis, H. influenzae, Neisseria (gonorrhoeae & meningitidis), و S. pneumoniae."
+    },
+    {
+      "q": "During step C of bacterial transformation, what happens to the double-stranded donor DNA fragment bound at the cell pole?",
+      "options": [
+        "A nuclease digests one DNA strand, permitting the other single strand to enter the recipient cell and recombine",
+        "Both strands are degraded into free nucleotides and destroyed",
+        "The DNA fragment is packaged into a phage tail",
+        "DNA ligase converts it into a circular chromosome outside the cell"
+      ],
+      "answer": 0,
+      "explanation": "يقوم إنزيم الـ Nuclease بهضم أحد شريطي الـ DNA ليسمح للشريط المفرد الآخر بالدخول إلى الخلية المستلمة والاندماج مع الكروموسوم."
+    },
+    {
+      "q": "Spontaneous deamination of cytosine and 5-methylcytosine in DNA converts them into:",
+      "options": [
+        "Uracil and Thymine",
+        "Adenine and Guanine",
+        "Ribose and Deoxyribose",
+        "Alanine and Glycine"
+      ],
+      "answer": 0,
+      "explanation": "إزالة الأمين التلقائية (Deamination) للسايتوسين و 5-مثيل سايتوسين تحولهما إلى Uracil و Thymine."
+    },
+    {
+      "q": "In conjugation, what enzyme cleaves one strand of the circular plasmid DNA double helix at a specific point (oriT) so the leader region enters the recipient cell?",
+      "options": [
+        "Endonuclease",
+        "Reverse transcriptase",
+        "RNAase",
+        "Lysozyme"
+      ],
+      "answer": 0,
+      "explanation": "يقوم إنزيم Endonuclease بقطع شريط واحد من البلازميد الحلقي في موقع محدد (oriT) ليعبر الشريط المفرد إلى الخلية المستلمة."
+    },
+    {
+      "q": "Which of the following is TRUE regarding genotypic variation in bacteria?",
+      "options": [
+        "It is heritable, stable, and not affected by the environment",
+        "It is temporary, reversible, and non-inheritable",
+        "It only affects flagellar movement in a single generation",
+        "It disappears when the nutrient medium changes"
+      ],
+      "answer": 0,
+      "explanation": "التباين الوراثي (Genotypic variation) هو تغير في المادة الوراثية ينتقل للنسل ويكون ثابتاً ومستقراً ولا يتأثر بالبيئة."
+    },
+    {
+      "q": "What are the two parts of a bacteriophage particle?",
+      "options": [
+        "A nucleic acid core and a protein coat (capsid)",
+        "A peptidoglycan wall and a lipid bilayer",
+        "50S and 30S ribosomal subunits",
+        "An exon and an intron"
+      ],
+      "answer": 0,
+      "explanation": "تتكون العاثيات البكتيرية (Bacteriophages) من لب من الحامض النووي (Nucleic acid core) وغلاف بروتيني (Protein coat)."
+    },
+    {
+      "q": "Which type of plasmid carries determinants of bacterial pathogenicity such as enterotoxin genes or hemolysin genes?",
+      "options": [
+        "Virulence plasmids",
+        "Resistance (R) plasmids",
+        "F (Fertility) factors",
+        "Non-coding introns"
+      ],
+      "answer": 0,
+      "explanation": "بلازميدات الضراوة (Virulence plasmids) تحمل جينات السموم المعوية (Enterotoxins) أو المحللات الدموية (Hemolysins)."
+    },
+    {
+      "q": "Horizontal gene transfer differs from vertical inheritance in that horizontal gene transfer:",
+      "options": [
+        "Transfers DNA from one donor organism to another recipient cell, permanently changing its genetic composition",
+        "Transfers genes strictly from parent cell to daughter cells during binary fission",
+        "Occurs only in eukaryotic mammalian cells",
+        "Does not involve conjugation, transduction, or transformation"
+      ],
+      "answer": 0,
+      "explanation": "النقل الجيني الأفقي (Horizontal gene transfer) ينقل الـ DNA من كائن لآخر (عبر الاقتران أو التحول أو العاثيات) بخلاف الوراثة العمودية من الخلية الأم للبنات."
+    },
+    {
+      "q": "In the point mutation diagram, changing the DNA triplet AGG (Ser) to GGG results in the insertion of Proline (Pro) instead of Serine. This is a:",
+      "options": [
+        "Missense mutation",
+        "Silent mutation",
+        "Nonsense mutation",
+        "Chromosomal inversion"
+      ],
+      "answer": 0,
+      "explanation": "عندما يؤدي استبدال قاعدة واحدة إلى إدخال حامض أميني خاطئ (مثل Proline بدلاً من Serine) تسمى الطفرة Missense mutation."
+    },
+    {
+      "q": "Trace the exact step-by-step mechanism of F plasmid transfer during bacterial CONJUGATION from initial contact to final outcome (Slides 31–32):",
+      "options": [
+        "F+ donor attaches to F- recipient via sex pilus → Pilus draws cells together forming conjugal bridge → Endonuclease cleaves 1 strand of circular F plasmid at specific point → Single strand with leader region enters recipient → Both cells synthesize complementary strands → Recipient becomes F+ (transconjugant)",
+        "F- recipient injects DNA into F+ donor → Both strands of plasmid transfer intact → Donor becomes F- and loses plasmid",
+        "Endonuclease cleaves donor DNA into fragments → Recipient absorbs naked DNA → Sex pilus dissolves before transfer",
+        "Bacteriophage attaches to F+ cell → Packages F plasmid → Injects into F- cell causing lysis"
+      ],
+      "answer": 0,
+      "explanation": "تتبع الاقتران البلازميدي خطوة بخطوة (Slides 31-32): ارتباط F+ مع F- بالـ Sex pilus ← تقارب وتكوين جسر الاقتران ← قطع شريط واحد بواسطة Endonuclease ← انتقال الشريط المفرد مع منطقة القائد (Leader region) ← بناء الشريط المكمل في الخليتين ← تحول المستلمة إلى F+ (Transconjugant)."
+    },
+    {
+      "q": "Trace the exact sequence of Hfr (High Frequency Recombination) chromosomal transfer from start to finish (Slide 33):",
+      "options": [
+        "F plasmid integrates into host chromosome (forming Hfr) → F plasmid encodes tra functions/pili → Nick at oriT initiates transfer → Replication occurs in donor as one chromosomal strand transfers → Transferred fragment undergoes recombination in recipient → Recipient remains F-",
+        "F plasmid stays separate in cytoplasm → Transfers complete plasmid → Recipient becomes Hfr immediately",
+        "Donor cell lyses → Releases chromosomal DNA → Recipient takes it up via type IV pili",
+        "Nick at oriT occurs in recipient → Transfers DNA backward from F- to Hfr"
+      ],
+      "answer": 0,
+      "explanation": "تتبع نقل الكروموسوم في Hfr (Slide 33): اندماج F بالكروموسوم ← تشفير tra و pili ← قطع (Nick) عند oriT ← تضاعف بالواهب مع انتقال شريط واحد ← إعادة تركيب (Recombination) بالمسـتلم ← يبقى المستلم F-!"
+    },
+    {
+      "q": "Trace the 5 chronological stages of Bacterial TRANSFORMATION from a dead donor cell to a genetically transformed recipient (Slide 41):",
+      "options": [
+        "Donor bacterium disintegrates liberating DNA fragments → DNA fragment binds competent recipient at cell pole → Nuclease digests one strand permitting single strand entry → Single strand recombines with homologous chromosomal region → Recipient cell is transformed (Transformant)",
+        "Living donor attaches via sex pilus → Double-stranded DNA enters intact → Replaces entire recipient chromosome → Donor dies",
+        "DNA fragment binds recipient → Recombination occurs outside the cell → Nuclease digests both strands",
+        "Bacteriophage lyses donor → Packages DNA into capsid → Injects double-stranded DNA into recipient"
+      ],
+      "answer": 0,
+      "explanation": "تتبع التحول الوراثي (Slide 41): A) تحلل الواهب الميت وتحرر قطع DNA ← B) ارتباط القطعة بقطب الخلية المستلمة المؤهلة ← C) هضم شريط واحد بالـ Nuclease لدخول الشريط المفرد ← D) إعادة التركيب مع المنطقة المتماثلة بالكروموسوم ← E) تحول الخلية (Transformant)."
+    },
+    {
+      "q": "Trace the 5 keyword steps of bacterial transformation summarized on the left flowchart of Slide 41 (Transforming DNA + Competent cells → Transformant):",
+      "options": [
+        "Binding → Resistance to exogenous DNase → Fragmentation and uptake → Integration → Expression",
+        "Expression → Integration → Binding → Fragmentation → Resistance to DNase",
+        "Fragmentation → Binding → Expression → Integration → Resistance to DNase",
+        "Uptake → Conjugal bridge → Nick at oriT → Complementary synthesis → Expression"
+      ],
+      "answer": 0,
+      "explanation": "التسلسل المختصر الموجود يسار Slide 41: Binding ← Resistance to exogenous DNase ← Fragmentation and uptake ← Integration ← Expression ← Transformant."
+    },
+    {
+      "q": "Trace the exact nucleotide-to-protein change shown in the Nonsense Mutation diagram (Slide 12): Normal DNA `TAC CCG AGG ACC CCG CGT CGT` mutates at the 4th triplet from `ACC` to `ACA`. What happens to the polypeptide?",
+      "options": [
+        "Normal `Met-Gly-Ser-Trp-Gly-Ala-Ala` is prematurely terminated after Ser (`Met-Gly-Ser-Stop`) because `ACA` generates a stop codon",
+        "Trp is replaced by Proline (`Met-Gly-Ser-Pro-Gly-Ala-Ala`)",
+        "The protein remains completely identical (`Met-Gly-Ser-Trp-Gly-Ala-Ala`)",
+        "All amino acids after the 4th triplet shift frame into Lys-Leu-Gly-Arg-Ser"
+      ],
+      "answer": 0,
+      "explanation": "تتبع مباشر لمخطط Slide 12: تغير الثلاثية الرابعة من ACC (Trp) إلى ACA يولد Stop codon فينقطع تصنيع البروتين عند Met-Gly-Ser-Stop (طفرة Nonsense)."
+    },
+    {
+      "q": "Trace the Frameshift Insertion diagram (Slide 13): Inserting a single Adenine (`A`) into DNA `TAC CCG AGG ACC CCG CGT CGT` creates `TAC CCG AAG GAC CCC GCG TCG T`. What is the resulting mRNA and shifted amino acid sequence?",
+      "options": [
+        "mRNA `AUG GGC UUC CUG GGG CGC AGC A` → Protein `Met-Gly-Lys-Leu-Gly-Arg-Ser` (completely altered downstream from the insertion)",
+        "mRNA `AUG GGC UCC UGG GGC GCA GCA` → Protein `Met-Gly-Ser-Trp-Gly-Ala-Ala` (unchanged)",
+        "Only Ser changes to Pro while Trp-Gly-Ala-Ala remain normal",
+        "Translation stops immediately at the first codon Met"
+      ],
+      "answer": 0,
+      "explanation": "تتبع مباشر لمخطط Slide 13: إضافة قاعدة A واحدة أزاحت إطار القراءة بالكامل فتغيرت كل الكودونات والأحماض الأمينية بعدها إلى Met-Gly-Lys-Leu-Gly-Arg-Ser."
+    },
+    {
+      "q": "Trace the 4 sequential steps of Generalized Transduction as listed in Slide 42 of Lecture 4:",
+      "options": [
+        "Phage attaches & inserts genome → Viral genome/components replicate & assemble → New phages lyse host (some host bacterial DNA accidentally encased in capsid) → Transducing phage infects new bacterium & inserts donor bacterial DNA",
+        "Viral DNA integrates as prophage → Remains for generations → Spontaneous induction excises adjacent gene → Infects new host",
+        "Dead donor releases DNA → Competent cell binds DNA → Nuclease digests one strand → Recombination",
+        "F+ forms sex pilus → Endonuclease nicks oriT → Single strand enters F- → Transconjugant"
+      ],
+      "answer": 0,
+      "explanation": "تتبع الخطوات الأربعة للنقل العام (Generalized transduction) من Slide 42: دخول الجينوم الفيروسي ← تضاعف وتجميع ← تحلل الخلية وتعبئة قطعة DNA بكتيرية بالخطأ ← إصابة بكتيريا جديدة وحقن القطعة البكتيرية فيها."
+    },
+    {
+      "q": "Trace the 8 sequential steps of Specialized Transduction in Lecture 4 (Slide 43), specifically what triggers detachment after several generations:",
+      "options": [
+        "Phage infects → Integrates as prophage → Remains several generations → Spontaneous induction detaches viral DNA + adjacent bacterial DNA → Replicates & packages into new capsids → Lysis → Infects new bacteria",
+        "Phage infects → Immediate lysis without integration → Random host DNA packaged → Infects new bacteria",
+        "Phage integrates → Never detaches → Transfers via sex pilus during conjugation",
+        "Phage attaches → Nuclease digests one viral strand → Enters through type IV pili"
+      ],
+      "answer": 0,
+      "explanation": "تتبع خطوات النقل المتخصص الثمانية (Slide 43): إصابة ← اندماج كـ Prophage ← بقاء لأجيال ← تحفيز تلقائي (Spontaneous induction) ← انفصال الـ DNA الفيروسي مع قطع بكتيرية مجاورة ← تضاعف وتعبئة ← تحلل الخلية ← إصابة بكتيريا جديدة."
+    },
+    {
+      "q": "Trace how a lac⁻ E. coli cell becomes lac⁺ in the transduction diagram (Slide 37):",
+      "options": [
+        "Phage infects lac⁺ E. coli → Packaging error puts lac⁺ chromosomal segment inside phage → lac⁺ transducing phage attaches to lac⁻ E. coli → Insertion of lac⁺ region into recipient chromosome",
+        "lac⁺ E. coli sends F plasmid via sex pilus to lac⁻ cell",
+        "lac⁻ E. coli grows on glucose only → Phenotypically converts to lac⁺ permanently",
+        "UV radiation mutates lac⁻ directly into a bacteriophage"
+      ],
+      "answer": 0,
+      "explanation": "تتبع مخطط Slide 37: يصيب العاثي بكتيريا lac⁺، وأثناء التجميع يحدث خطأ تعبئة (Packaging error) فيحمل جين lac⁺، ثم يصيب بكتيريا lac⁻ فيدمج الجين بكروموسومها فتصبح lac⁺."
+    },
+    {
+      "q": "Trace the flow of eukaryotic/prokaryotic gene expression from a gene containing exons and introns to the final amino acid sequence (Slide 15–16):",
+      "options": [
+        "Gene (Exons + Introns) → Pre-mRNA → RNA splicing removes Introns while retaining Exons → Mature mRNA → Translated into Amino Acid Sequence (Protein)",
+        "Gene → RNA splicing removes Exons while retaining Introns → Mature mRNA → Protein",
+        "Gene → Introns translated directly into protein → Exons degraded by RNase",
+        "Pre-mRNA → Converted into circular plasmid → Translated into Lipopolysaccharide"
+      ],
+      "answer": 0,
+      "explanation": "تتبع التعبير الجيني (Slide 15-16): الجين يحوي إكسونات وإنترونات ← ينسخ لـ pre-mRNA ← أثناء RNA splicing تُزال الإنترونات وتُحتفظ بالإكسونات في mRNA الناضج ← يُترجم لسلسلة أحماض أمينية."
+    },
+    {
+      "q": "Trace the virulent (lytic) bacteriophage life cycle from attachment to release (Slide 36):",
+      "options": [
+        "Tail fibers attach to bacterial surface receptor → Phage injects DNA inside cell → Phage DNA takes control of host cell activity to synthesize phage particles → Large numbers of progeny phages build up → Host bacterium ruptures (lyses) releasing progeny",
+        "Phage injects DNA → DNA integrates silently into chromosome for 100 generations → No lysis occurs",
+        "Entire phage protein coat enters cytoplasm → Divides by binary fission inside nucleoid",
+        "Phage attaches to sex pilus → Transfers R plasmid → Cell survives intact"
+      ],
+      "answer": 0,
+      "explanation": "الدورة التحللية (Virulent / Lytic cycle) من Slide 36: التصاق بالسطح ← حقن الـ DNA الفيروسي ← السيطرة على نشاط الخلية لتصنيع مكونات العاثي ← تراكم أعداد كبيرة ← انفجار الخلية وتحرر العاثيات الجديدة."
+    },
+    {
+      "q": "Trace how non-competent bacterial cells in a population become naturally competent for transformation (Slide 40):",
+      "options": [
+        "Competent cells release competence factors (activating proteins) at a specific point in the growth cycle → Induce non-competent cells to assemble type IV pili and DNA translocase complex at cytoplasmic membrane → Cells become competent",
+        "Cells are heated to 100°C → Cell wall dissolves → DNA enters passively",
+        "Bacteriophage beta injects competence genes → Cells produce diphtheria toxin",
+        "F+ cells transfer competence factors exclusively through a conjugation bridge"
+      ],
+      "answer": 0,
+      "explanation": "تفصيلة فهمية دقيقة جداً من Slide 40: تفرز الخلايا المؤهلة بروتيناً منشطاً (Competence factor) في نقطة محددة من دورة النمو فيحفز الخلايا غير المؤهلة على تجميع أهداب النوع الرابع (Type IV pili) ومعقد DNA translocase في الغشاء السيتوبلازمي."
+    },
+    {
+      "q": "If bacteriophage beta (β) is eliminated from a toxigenic strain of Corynebacterium diphtheriae, what happens to the bacterium's virulence?",
+      "options": [
+        "It becomes NONTOXIGENIC (loses its ability to produce diphtheria toxin and its virulence)",
+        "It becomes permanently hyper-toxigenic because the toxin gene is on an R plasmid",
+        "It immediately transforms into Streptococcus pneumoniae",
+        "It gains resistance to 8 antibiotics simultaneously"
+      ],
+      "answer": 0,
+      "explanation": "نص صريح ومهم جداً في Slide 38: إزالة العاثي بيتا (Phage beta) من سلالة الدفتيريا السامة يحولها إلى غير سامة (Nontoxigenic) لأن الـ DNA الفيروسي نفسه هو العنصر الوراثي المسبب للسمية (Lysogenic conversion)."
+    },
+    {
+      "q": "Besides Corynebacterium diphtheriae, toxin production in which THREE bacterial groups is also dependent upon lysogenic conversion by specific bacteriophages (Slide 38)?",
+      "options": [
+        "Staphylococci, Streptococci, and Clostridia",
+        "Mycoplasma, Chlamydia, and Rickettsia",
+        "Pseudomonas, Flavobacterium, and Nocardia",
+        "Sarcina, Vibrio, and Brucella"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 38: إنتاج العديد من سموم Staphylococci و Streptococci و Clostridia يعتمد أيضاً على التحول الليزوجيني (Lysogenic conversion) بواسطة عاثيات نوعية."
+    },
+    {
+      "q": "Why are EXONS highly conserved with very few mutations, whereas INTRONS are less conserved and tolerate many mutations (Slide 16)?",
+      "options": [
+        "Exons directly code for specific proteins (mutations alter protein structure/function), whereas mutations in non-coding introns do not affect the protein sequence",
+        "Exons are thousands of nucleotides long while introns are <100 nucleotides",
+        "Introns are retained in mature mRNA while exons are removed",
+        "Prokaryotes have only introns and no exons"
+      ],
+      "answer": 0,
+      "explanation": "من جدول المقارنة في Slide 16: الإكسونات محفوظة بشدة بقلة طفرات لأنها تشفر لبروتين محدد، أما الإنترونات فأقل حفظاً وتتحمل طفرات كثيرة لأنها لا تغير تسلسل البروتين."
+    },
+    {
+      "q": "Although introns do not code for proteins, what TWO biological roles are they thought to play according to the comparison table in Slide 16?",
+      "options": [
+        "Regulating gene expression by alternative splicing and maintaining the integrity of the genome",
+        "Synthesizing sex pili and forming the bacterial capsule",
+        "Transferring R factors and producing colicins",
+        "Cleaving DNA at oriT and preventing depurination"
+      ],
+      "answer": 0,
+      "explanation": "من جدول Slide 16: يُعتقد أن للإنترونات دوراً في تنظيم التعبير الجيني عبر الـ Alternative splicing والحفاظ على سلامة الجينوم (Maintaining integrity of the genome)."
+    },
+    {
+      "q": "Compare the typical nucleotide length of Exons vs. Introns according to Slide 16:",
+      "options": [
+        "Exons are typically <100 nucleotides long, whereas Introns are larger and can be thousands of nucleotides long",
+        "Exons are thousands of nucleotides long, whereas Introns are <10 nucleotides",
+        "Both Exons and Introns are always exactly 3 nucleotides long",
+        "Introns are <100 nucleotides and present exclusively in bacteria"
+      ],
+      "answer": 0,
+      "explanation": "من جدول Slide 16: طول الإكسونات عادة أقل من 100 نيوكليوتيدة، بينما الإنترونات أكبر بكثير وقد تصل لآلاف النيوكليوتيدات."
+    },
+    {
+      "q": "Which of the following is a classic example of PHENOTYPIC variation (besides E. coli β-galactosidase) explicitly listed in the Slide 8 comparison table?",
+      "options": [
+        "Flagella synthesis in Salmonella typhi",
+        "Diphtheria toxin acquisition via phage beta",
+        "R-plasmid transfer of resistance to 8 antibiotics",
+        "Nonsense mutation creating a stop codon"
+      ],
+      "answer": 0,
+      "explanation": "انتبه لجدول Slide 8! ذكر مثالين للتباين المظهري (Phenotypic variation): تصنيع الأسواط في S. typhi وإنتاج إنزيم β-galactosidase في E. coli."
+    },
+    {
+      "q": "Why does a bacterium growing in glucose-only medium NOT synthesize β-galactosidase, yet immediately produces it when moved to a lactose medium?",
+      "options": [
+        "Because this is a reversible, temporary, non-inheritable phenotypic variation determined by both genome and environment",
+        "Because glucose causes a permanent frameshift deletion in the chromosome",
+        "Because lactose acts as a physical mutagen like UV rays",
+        "Because the bacterium acquires a new plasmid from glucose"
+      ],
+      "answer": 0,
+      "explanation": "تباين مظهري (Phenotypic variation): مؤقت، قابل للعكس، غير وراثي، تحكمه البيئة مع الجينوم (Slide 7)."
+    },
+    {
+      "q": "In Hfr chromosomal transfer, what determines the EXACT DIRECTION in which chromosomal genes are transferred from the Hfr donor to the F- recipient (Slide 33)?",
+      "options": [
+        "The orientation of insertion of the F factor into the host chromosome",
+        "The temperature of the culture medium",
+        "The number of 70S ribosomes in the recipient",
+        "The presence of colicins in the medium"
+      ],
+      "answer": 0,
+      "explanation": "سؤال فهم دقيق من Slide 33: تنتقل الجينات الكروموسومية من موقع الاندماج وباتجاه يحدده اتجاه اندماج عامل الخصوبة (Orientation of insertion) داخل الكروموسوم."
+    },
+    {
+      "q": "Which statement about the direction of DNA transfer during F+ × F- conjugation is TRUE?",
+      "options": [
+        "DNA is transferred ONLY in one direction—from F+ (donor/male) to F- (recipient/female)",
+        "DNA is transferred bidirectionally from both F+ and F- simultaneously",
+        "Two F- cells can conjugate with each other by forming a sex pilus",
+        "Only chromosomal DNA transfers in F+ × F-, never the F plasmid"
+      ],
+      "answer": 0,
+      "explanation": "من Slides 29-30: الخلايا الحاوية على بلازميد الخصوبة فقط تعمل كواهب (F+ / male) والتي تفقده تعمل كمستلم (F- / female)، والنقل أحادي الاتجاه من F+ إلى F- فقط."
+    },
+    {
+      "q": "What is a 'self-transmissible plasmid' (transfer factor / sex factor), and what else can it mobilize besides itself (Slide 29)?",
+      "options": [
+        "A plasmid carrying genetic information for conjugation (sex pilus) that can also mobilize other plasmids or portions of the chromosome for transfer",
+        "A small plasmid with 100 copies that cannot transfer by conjugation",
+        "A bacteriophage that lyses Gram-positive bacteria",
+        "A non-coding intron sequence removed during RNA splicing"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 29: البلازميدات ذاتية الانتقال (Self-transmissible plasmids / Transfer factors) تحمل جينات الاقتران والـ Sex pilus ويمكنها أيضاً تحريك ونقل بلازميدات أخرى أو أجزاء من الكروموسوم."
+    },
+    {
+      "q": "How does the Colicinogenic (Col) factor resemble the F factor (Slide 34)?",
+      "options": [
+        "It promotes conjugation leading to self-transfer and occasionally transfer of chromosomal segments, while encoding colicins lethal to other enterobacteria",
+        "It encodes resistance to 8 beta-lactam antibiotics simultaneously",
+        "It acts as a bacteriophage in lysogenic conversion",
+        "It is an RNA molecule found only in eukaryotes"
+      ],
+      "answer": 0,
+      "explanation": "بلازميد Col factor يشبه عامل الخصوبة F في تحفيز الاقتران والانتقال الذاتي وأحياناً نقل قطع كروموسومية، فضلاً عن تشفيره للكوليسينات القاتلة لبكتيريا الأمعاء الأخرى."
+    },
+    {
+      "q": "If an R plasmid loses its RTF (Resistance Transfer Factor) component while keeping its 'r determinants', what is the functional consequence?",
+      "options": [
+        "The bacterium remains resistant to the drugs, but can NO LONGER transfer that resistance to other bacteria by conjugation",
+        "The bacterium immediately loses drug resistance but transfers empty DNA via sex pilus",
+        "The bacterium converts into an Hfr donor cell",
+        "The bacterium undergoes spontaneous lysis"
+      ],
+      "answer": 0,
+      "explanation": "سؤال فهمي رائع من Slide 34: الـ RTF مسؤول عن النقل الاقتراني والـ r determinants مسؤولة عن تشفير مقاومة الأدوية؛ لذا فقدان RTF يمنع النقل الاقتراني لكن المقاومة تبقى بالخلية."
+    },
+    {
+      "q": "Can a single bacterial plasmid carry BOTH virulence genes AND antibiotic resistance genes simultaneously (Slide 23)?",
+      "options": [
+        "Yes, some medically important plasmids carry both virulence and resistance genes together",
+        "No, virulence plasmids and resistance plasmids can never coexist on the same DNA molecule",
+        "Only if the bacterium is infected by phage beta",
+        "Only in eukaryotes, never in prokaryotes"
+      ],
+      "answer": 0,
+      "explanation": "نص صريح في Slide 23: Some plasmids carry both virulence and resistance genes."
+    },
+    {
+      "q": "What are the physical dimensions of a straightened bacterial chromosome and its approximate size in kilobases (Slide 6)?",
+      "options": [
+        "1000 μm long when straightened, and approximately 4000 kb",
+        "10 μm long and 40 kb",
+        "5000 μm long and 100 kb",
+        "100 μm long and 4.5 × 10⁵ bp"
+      ],
+      "answer": 0,
+      "explanation": "أرقام دقيقة من Slide 6: طول الكروموسوم البكتيري عند فرده 1000 مايكرومتر وحجمه حوالي 4000 kb (وفي E. coli تحديداً 4.63×10⁶ bp ويشفر لـ 4288 بروتيناً)."
+    },
+    {
+      "q": "What does it mean that the bacterial gene sequence in the E. coli chromosome is 'colinear' with expressed genetic products (Slide 6 & 20)?",
+      "options": [
+        "The linear sequence of nucleotides in the bacterial gene corresponds directly to the linear sequence of amino acids in the polypeptide (rarely interrupted by introns)",
+        "The bacterial chromosome is linear rather than circular",
+        "All bacterial genes are read backward from 3' to 5'",
+        "Two identical chromosomes lie parallel to each other"
+      ],
+      "answer": 0,
+      "explanation": "التسلسل الجيني متوافق خطياً (Colinear) مع الناتج البروتيني لأن الإنترونات نادرة جداً في البكتيريا."
+    },
+    {
+      "q": "Which spontaneous mutation mechanism is caused by chemically reactive metabolic byproducts that alter DNA structure (Slide 25)?",
+      "options": [
+        "Toxic metabolic products — specifically Reactive Oxygen Species (ROS)",
+        "Tautomeric shift",
+        "Depurination",
+        "Acridine dyes"
+      ],
+      "answer": 0,
+      "explanation": "من جدول الطفرات التلقائية (Slide 25): النواتج الأيضية السامة هي مركبات الأوكسجين التفاعلية (Reactive oxygen species - ROS) التي تغير بنية الـ DNA."
+    },
+    {
+      "q": "How do Transposable elements cause spontaneous mutations according to Slide 25?",
+      "options": [
+        "By inserting themselves directly into the sequence of a gene",
+        "By deaminating cytosine into uracil",
+        "By breaking the linkage between purines and deoxyribose",
+        "By acting as UV radiation"
+      ],
+      "answer": 0,
+      "explanation": "العناصر القافزة (Transposable elements) تسبب طفرات تلقائية عبر إدخال نفسها داخل تسلسل الجين (Slide 25)."
+    },
+    {
+      "q": "When does a 'Tautomeric shift' cause a spontaneous mutation (Slide 25)?",
+      "options": [
+        "When a spontaneous change in base structure occurs immediately PRIOR to DNA replication",
+        "Only after translation is completed at the 70S ribosome",
+        "Only when cells are exposed to X-rays",
+        "Only during RNA splicing of introns"
+      ],
+      "answer": 0,
+      "explanation": "التغير التوتوميري (Tautomeric shift) هو تغير تلقائي ببنية القاعدة يسبب طفرة إذا حدث مباشرة قبيل تضاعف الـ DNA (immediately prior to DNA replication)."
+    },
+    {
+      "q": "In Slide 9, what specific base-pairing replication error is given as an example of a mutation?",
+      "options": [
+        "Instead of Thymine bonding to Adenine, it binds to Guanine",
+        "Instead of Uracil bonding to Cytosine, it binds to Ribose",
+        "Peptidoglycan binds to Lipid A",
+        "Exon binds to Intron"
+      ],
+      "answer": 0,
+      "explanation": "مثال نصي في Slide 9: بدلاً من ارتباط الثايمين (Thymine) بالأدينين (Adenine)، يرتبط بالغوانين (Guanine)."
+    },
+    {
+      "q": "Are point mutations generally reversible or irreversible, and what are their two classes (Slide 11)?",
+      "options": [
+        "Generally REVERSIBLE; two classes: (1) Base pair substitution and (2) Frameshift mutations (insertion or deletion)",
+        "Strictly IRREVERSIBLE; two classes: Conjugation and Transduction",
+        "Generally REVERSIBLE; two classes: Exons and Introns",
+        "Strictly IRREVERSIBLE; two classes: Phenotypic and Genotypic"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 11: الطفرات النقطية (Point mutations) تكون عموماً قابلة للعكس (Reversible) وتقسم لفئتين: استبدال زوج قاعدي، وطفرات الإزاحة (Frameshift)."
+    },
+    {
+      "q": "Which of the following is NOT listed among the 'Techniques in Bacterial Genetics' on Slide 5 of Lecture 4?",
+      "options": [
+        "Gram staining with safranin",
+        "Replica plating and Culture in defined media",
+        "Mutagenesis",
+        "Transformation, Conjugation, and Transduction"
+      ],
+      "answer": 0,
+      "explanation": "تقنيات الوراثة البكتيرية المذكورة في Slide 5: الزرع بأوساط محددة، Replica plating، التطفير (Mutagenesis)، التحول، الاقتران، والنقل بالعاثيات."
+    },
+    {
+      "q": "What are the FOUR genetic elements studied in Bacterial Genetics according to Slide 5?",
+      "options": [
+        "Chromosomes, Plasmids, Transposons, and Bacteriophages (phages)",
+        "Ribosomes, Capsules, Flagella, and Spores",
+        "Exons, Introns, Liposomes, and Mesosomes",
+        "Peptidoglycan, Teichoic acid, LPS, and Pili"
+      ],
+      "answer": 0,
+      "explanation": "عناصر دراسة الوراثة البكتيرية الأربعة (Slide 5): الكروموسومات، البلازميدات، العناصر القافزة (Transposons)، والعاثيات البكتيرية (Bacteriophages)."
+    },
+    {
+      "q": "What is the exact definition of 'Genetic Recombination' given in Slide 27?",
+      "options": [
+        "The rearrangement of DNA sequences by transfer of a portion of genetic material (DNA) from a donor cell to a recipient cell (via Conjugation, Transformation, or Transduction)",
+        "The spontaneous deamination of cytosine into uracil",
+        "The binary fission of a single cell into two identical daughters",
+        "The removal of introns from pre-mRNA"
+      ],
+      "answer": 0,
+      "explanation": "تعريف إعادة التركيب الوراثي (Genetic recombination) في Slide 27: إعادة ترتيب تسلسلات الـ DNA بنقل جزء من المادة الوراثية من خلية واهبة لمستلمة عبر الاقتران أو التحول أو العاثيات."
+    },
+    {
+      "q": "Why does a bacterium NOT die if it loses all of its plasmids under normal laboratory conditions (Slide 18–19)?",
+      "options": [
+        "Because plasmids are extra-chromosomal DNA molecules that are NOT essential to a cell's survival, whereas the chromosome is essential for survival",
+        "Because plasmids are converted into 70S ribosomes upon loss",
+        "Because bacteria can survive without any DNA at all",
+        "Because plasmids are located outside the cell wall"
+      ],
+      "answer": 0,
+      "explanation": "الكروموسوم أساسي للبقاء (Essential for survival)، أما البلازميدات فغير أساسية للبقاء لكنها تحمل صفات مظهرية مفيدة كالمقاومة والضراوة."
+    },
+    {
+      "q": "Compare the core function of DNA versus RNA as stated in Slide 21:",
+      "options": [
+        "DNA stores information for protein synthesis; RNA performs transcription & translation of information for protein synthesis (via mRNA, tRNA, rRNA)",
+        "RNA stores hereditary information in the chromosome; DNA performs translation",
+        "DNA uses Uracil; RNA uses Thymine",
+        "Both DNA and RNA have only one structural type"
+      ],
+      "answer": 0,
+      "explanation": "من Slides 21-22: يخزن DNA معلومات تصنيع البروتين (بقواعد A,T,C,G)، ويقوم RNA (بأنواعه mRNA, tRNA, rRNA وقواعد A,U,C,G) بالنسخ والترجمة."
+    },
+    {
+      "q": "What are the approximate dimensions of the bacteriophage head (coat) and tail shown in the Slide 36 diagram?",
+      "options": [
+        "Head (coat) ca. 950 nm; Tail fibers/sheath ca. 800 nm",
+        "Head 10 μm; Tail 50 μm",
+        "Head 1 nm; Tail 2 nm",
+        "Head 4000 kb; Tail 1000 μm"
+      ],
+      "answer": 0,
+      "explanation": "تفصيلة دقيقة من رسم العاثي في Slide 36: الجزء العلوي (Coat/Head) حوالي 950 nm والذيل (Tail fibers) حوالي 800 nm."
+    },
+    {
+      "q": "Which of the following is a 'Stop codon' definition from the Slide 5 table?",
+      "options": [
+        "Codons that terminate the message for amino acid synthesis",
+        "Triplets that code for the same amino acid",
+        "The sum total of all genes in a cell",
+        "A segment of DNA specifying a polypeptide"
+      ],
+      "answer": 0,
+      "explanation": "تعريف Stop codons من جدول Slide 5: الكودونات التي تنهي رسالة تصنيع الأحماض الأمينية."
+    },
+    {
+      "q": "Which two broad categories of bacteriophage life cycles are listed in Slide 36?",
+      "options": [
+        "(1) Virulent or lytic cycle, and (2) Temperate or nonlytic cycle",
+        "(1) Aerobic cycle, and (2) Anaerobic cycle",
+        "(1) Silent cycle, and (2) Missense cycle",
+        "(1) Exon cycle, and (2) Intron cycle"
+      ],
+      "answer": 0,
+      "explanation": "دورتا حياة العاثيات (Slide 36): الدورة الضارية/التحللية (Virulent/Lytic) والدورة المعتدلة/غير التحللية (Temperate/Nonlytic)."
+    },
+    {
+      "q": "During bacterial transformation (Slide 41), what prevents the single-stranded donor DNA from being degraded inside the recipient cell before recombination?",
+      "options": [
+        "Competence-specific single-stranded DNA binding proteins (and recombination proteins guide it to the homologous region)",
+        "Lysozyme coating the DNA",
+        "Dipicolinic acid from the cortex",
+        "Alkaline phosphatase removing its phosphate groups"
+      ],
+      "answer": 0,
+      "explanation": "من مخطط Slide 41: تحمي بروتينات ربط الـ DNA أحادي الشريط الخاصة بالتأهيل (Competence-specific single-stranded DNA binding proteins) الشريط الداخل وتقوم بروتينات إعادة التركيب بدمجه بالكروموسوم."
+    },
+    {
+      "q": "What are the 4 possible biological outcomes of mutations listed in Slide 10?",
+      "options": [
+        "Harmful, lethal, helpful, or silent (including conditional lethal 'ts' mutants and drug resistance)",
+        "Always 100% lethal to the bacterium",
+        "Always helpful by creating new plasmids",
+        "Only silent in bacteria and only harmful in humans"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 10: يمكن أن تكون الطفرات ضارة (Harmful) أو قاتلة (Lethal) أو مفيدة (Helpful) أو صامتة (Silent)، وتشمل الطفرات القاتلة الشرطية ('ts' للقاحات) ومقاومة الأدوية."
+    },
+    {
+      "q": "How is a frameshift mutation AVOIDED if DNA bases are inserted or deleted in a gene (Slide 13)?",
+      "options": [
+        "If the number of bases inserted or deleted IS an exact multiple of three (e.g., 3, 6, 9 bases), the downstream reading frame does not shift",
+        "If only 1 base is inserted",
+        "If 2 bases are deleted",
+        "If the mutation occurs in an exon instead of an intron"
+      ],
+      "answer": 0,
+      "explanation": "سؤال فهم ذكي من Slide 13: تحدث طفرة الإزاحة (Frameshift) تحديداً عندما يكون عدد القواعد المضافة أو المحذوفة ليس من مضاعفات العدد 3؛ أما إذا كان من مضاعفات 3 فلا ينزاح إطار القراءة."
+    },
+    {
+      "q": "What is the structural shape of BOTH the bacterial chromosome and bacterial plasmids (Slide 17)?",
+      "options": [
+        "Circular double-stranded DNA molecules twisted about their helical axis",
+        "Linear single-stranded RNA molecules",
+        "Linear double-stranded DNA enclosed in a nuclear membrane",
+        "Triple-stranded protein-lipid hybrids"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 17: كلا التركيبين الوراثيين في البكتيريا (الكروموسوم والبلازميد) يتكونان من جزيء DNA حلقي مزدوج الشريط ملتف حول محوره الحلزوني."
+    },
+    {
+      "q": "According to Slide 14, what forms the 'backbone' of each DNA chain?",
+      "options": [
+        "Deoxyribose sugar and phosphate residues (with 4 nitrogenous bases: A, G, T, C)",
+        "Ribose sugar and amino acid residues",
+        "N-acetylglucosamine and N-acetylmuramic acid",
+        "Glycerol phosphate and Lipid A"
+      ],
+      "answer": 0,
+      "explanation": "العمود الفقري لسلسلة الـ DNA يتكون من سكر الديوكسي رايبوز ومجاميع الفوسفات المرتبطة بالقواعد النيتروجينية الأربعة A, G, T, C."
+    },
+    {
+      "q": "Which of the following bacterial species is NOT naturally competent for transformation according to Slide 40?",
+      "options": [
+        "Escherichia coli (requires artificial CaCl₂/heat shock)",
+        "Bacillus subtilis",
+        "Haemophilus influenzae",
+        "Streptococcus pneumoniae"
+      ],
+      "answer": 0,
+      "explanation": "ربط عبقري بين Lec 4 و Lec 5! الأنواع المؤهلة طبيعياً في Slide 40 هي B. subtilis, H. influenzae, N. gonorrhoeae, N. meningitidis, S. pneumoniae. أما E. coli فتحتاج تأهيلاً صناعياً بـ CaCl₂ وصدمة 42°C (كما في Lec 5)."
+    },
+    {
+      "q": "In Slide 28, how is the donor DNA released into the medium before Transformation occurs?",
+      "options": [
+        "By lysis (disintegration) of the donor cell releasing DNA into the medium",
+        "By active injection through a bacteriophage tail",
+        "By direct cell-to-cell contact through a conjugation pilus",
+        "By exocytosis from Golgi vesicles"
+      ],
+      "answer": 0,
+      "explanation": "من مخطط Slide 28 و Slide 41: في التحول (Transformation) تتحلل الخلية الواهبة الميتة فتحرر قطع الـ DNA للوسط لتلتقطها الخلية المستلمة."
+    },
+    {
+      "q": "Why is the bacterial recipient cell after F+ plasmid conjugation specifically termed a 'transconjugant cell' (Slide 32)?",
+      "options": [
+        "Because it has received the single plasmid strand, synthesized the complementary strand, and is now plasmid-positive (F+)",
+        "Because it was infected by a temperate bacteriophage",
+        "Because it absorbed naked DNA from a lysed donor",
+        "Because it lost its original chromosome"
+      ],
+      "answer": 0,
+      "explanation": "الخلية المستلمة بعد اكتمال نقل البلازميد وبناء الشريط المكمل تصبح موجبة للبلازميد وتسمى Transconjugant cell (Slide 32)."
+    }
+  ]
+}

@@ -1,0 +1,841 @@
+{
+  "title": "Lec 2: Bacterial Structure & Cell Wall",
+  "questions": [
+    {
+      "q": "Which branch of medical microbiology deals with the study of non-cellular living systems capable of causing infectious diseases in humans?",
+      "options": [
+        "Virology",
+        "Bacteriology",
+        "Mycology",
+        "Parasitology"
+      ],
+      "answer": 0,
+      "explanation": "Virology هو العلم الذي يدرس الفيروسات (non-cellular living systems)، بينما Bacteriology للبكتيريا و Mycology للفطريات."
+    },
+    {
+      "q": "Bacteria are prokaryotic unicellular organisms that reproduce asexually by:",
+      "options": [
+        "Binary fission",
+        "Mitosis",
+        "Meiosis",
+        "Sexual conjugation"
+      ],
+      "answer": 0,
+      "explanation": "تتكاثر البكتيريا (Prokaryotes) بالانشطار الثنائي (Binary fission)، بينما الخلايا حقيقية النواة (Eukaryotes) تنقسم بالـ Mitosis."
+    },
+    {
+      "q": "What is the typical size range of bacteria, making them visible with a light microscope?",
+      "options": [
+        "0.3 μm to 5 μm",
+        "10 μm to 100 μm",
+        "0.001 μm to 0.05 μm",
+        "50 μm to 200 μm"
+      ],
+      "answer": 0,
+      "explanation": "يتراوح حجم البكتيريا بين 0.3 إلى 5 مايكرومتر، وأصغر بكتيريا (Mycoplasma) تقارب حجم أكبر الفيروسات (Poxviruses)."
+    },
+    {
+      "q": "Which of the following bacterial genera can ONLY survive as obligate intracellular organisms?",
+      "options": [
+        "Chlamydia and Rickettsia",
+        "Staphylococcus and Streptococcus",
+        "Bacillus and Clostridium",
+        "Escherichia and Salmonella"
+      ],
+      "answer": 0,
+      "explanation": "أغلب البكتيريا تعيش بصورة مستقلة ما عدا Chlamydia و Rickettsia فهي إجبارية التطفل داخل الخلايا (intracellular organisms)."
+    },
+    {
+      "q": "Which bacterial arrangement describes cocci arranged in grapelike clusters?",
+      "options": [
+        "Staphylococci",
+        "Streptococci",
+        "Diplococci",
+        "Sarcina"
+      ],
+      "answer": 0,
+      "explanation": "المكورات العنقودية (Staphylococci) تترتب بشكل عناقيد العنب (grapelike clusters)، بينما Streptococci سلاسل و Diplococci أزواج."
+    },
+    {
+      "q": "Slightly curved rods or comma-shaped bacteria are classified as:",
+      "options": [
+        "Vibrios",
+        "Spirochetes",
+        "Cocci",
+        "Sarcina"
+      ],
+      "answer": 0,
+      "explanation": "البكتيريا العصوية المنحنية قليلاً أو التي تشبه الفارزة (comma-shaped) تسمى Vibrios مثل Vibrio cholerae."
+    },
+    {
+      "q": "Which of the following is an ESSENTIAL component present in bacterial cells?",
+      "options": [
+        "Ribosome and Nucleoid",
+        "Capsule and Flagella",
+        "Plasmid and Spores",
+        "Pili and Transposons"
+      ],
+      "answer": 0,
+      "explanation": "التراكيب الأساسية (Essential) هي: الجدار الخلوي، الغشاء السيتوبلازمي، الرايبوسوم، والـ Nucleoid. أما المحفظة والأسواط والأبواغ والبلازميد فهي ثانوية (Accessory)."
+    },
+    {
+      "q": "All bacteria possess a rigid cell wall EXCEPT:",
+      "options": [
+        "Mycoplasma species and Halobacterium halobium",
+        "Staphylococcus aureus and Streptococcus pyogenes",
+        "Bacillus anthracis and Clostridium tetani",
+        "Escherichia coli and Salmonella typhi"
+      ],
+      "answer": 0,
+      "explanation": "جميع البكتيريا تمتلك جداراً خلوياً باستثناء Mycoplasma و Halobacterium halobium حيث تحاط بغشاء خلوي فقط."
+    },
+    {
+      "q": "The peptidoglycan layer is formed from linear chains of two alternating amino sugars connected by a β-(1,4)-glycosidic bond:",
+      "options": [
+        "N-acetylglucosamine (GlcNAc) and N-acetylmuramic acid (Mur2Ac)",
+        "Glucose and Galactose",
+        "Glycerol phosphate and Ribitol phosphate",
+        "Lipid A and O-polysaccharide"
+      ],
+      "answer": 0,
+      "explanation": "يتكون الببتيدوغلايكان من تعاقب سكريات أمينية هي N-acetylglucosamine و N-acetylmuramic acid مرتبطة بآصرة β-(1,4)."
+    },
+    {
+      "q": "Lysozyme, found in tears, saliva, and milk, kills bacteria by cleaving which bond in peptidoglycan?",
+      "options": [
+        "β-(1,4)-glycosidic bond between GlcNAc and Mur2Ac",
+        "Peptide bond in flagellin",
+        "Phosphodiester bond in bacterial DNA",
+        "Lipid A bond in outer membrane"
+      ],
+      "answer": 0,
+      "explanation": "يحطم إنزيم اللايسوزايم (Lysozyme) الآصرة β-(1,4)-glycosidic بين NAG و NAM مما يؤدي لفقدان الجدار وموت الخلية."
+    },
+    {
+      "q": "In the Gram stain procedure developed by Christian Gram (1884), what is the correct chronological order of reagents?",
+      "options": [
+        "Crystal Violet → Iodine → 95% Ethyl Alcohol → Safranin",
+        "Safranin → Iodine → Ethyl Alcohol → Crystal Violet",
+        "Crystal Violet → Safranin → Iodine → Ethyl Alcohol",
+        "Iodine → Crystal Violet → Safranin → Ethyl Alcohol"
+      ],
+      "answer": 0,
+      "explanation": "الترتيب الصحيح لصبغة غرام: الصبغة الأولية Crystal Violet (60 ثانية) ثم المثبت Iodine (60 ثانية) ثم القاصر الكحول (5-10 ثوانٍ) ثم الصبغة المضادة Safranin (45 ثانية)."
+    },
+    {
+      "q": "Why do Gram-positive bacteria stain purple while Gram-negative bacteria stain red/pink?",
+      "options": [
+        "Gram-positive bacteria have a thick peptidoglycan layer (50–90%) that retains crystal violet",
+        "Gram-positive bacteria have an outer LPS membrane that binds safranin",
+        "Gram-negative bacteria have 90% peptidoglycan in their cell wall",
+        "Gram-positive bacteria lack teichoic acid"
+      ],
+      "answer": 0,
+      "explanation": "تمتلك البكتيريا الموجبة لصبغة غرام طبقة سميكة من الببتيدوغلايكان (50-90%) تحتفظ بصبغة الـ Crystal violet البنفسجية، بينما السالبة طبقتها رقيقة (10%) فتصطبغ بالـ Safranin الأحمر."
+    },
+    {
+      "q": "Where are β-lactamase enzymes (which degrade penicillins and cephalosporins) located in Gram-negative bacteria?",
+      "options": [
+        "Periplasmic space",
+        "Nucleoid region",
+        "Capsule",
+        "70S Ribosome"
+      ],
+      "answer": 0,
+      "explanation": "تقع إنزيمات البيتالاكتاميز (β-lactamases) في الفسحة المحيطة بالجبلة (Periplasmic space) الموجودة بين الغشاء الداخلي والخارجي في البكتيريا السالبة."
+    },
+    {
+      "q": "Which component of Lipopolysaccharide (LPS / Endotoxin) in Gram-negative bacteria is the toxic moiety responsible for fever, hypotension, and septic shock?",
+      "options": [
+        "Lipid A",
+        "O-antigen (O-polysaccharide)",
+        "Core polysaccharide",
+        "Teichoic acid"
+      ],
+      "answer": 0,
+      "explanation": "يتكون الـ LPS من 3 أجزاء، والجزء السام المسؤول عن الحمى والصدمة الإنتانية وانخفاض الضغط والـ DIC هو Lipid A."
+    },
+    {
+      "q": "Members of which bacterial genus have an outer lipooligosaccharide (LOS) containing very few repeating units of sugars instead of long O-antigen chains?",
+      "options": [
+        "Neisseria",
+        "Bacillus",
+        "Staphylococcus",
+        "Clostridium"
+      ],
+      "answer": 0,
+      "explanation": "بكتيريا Neisseria تمتلك Lipooligosaccharide (LOS) يحتوي على وحدات قليلة جداً من السكريات المتكررة."
+    },
+    {
+      "q": "Teichoic acids and lipoteichoic acids are exclusively found in the cell wall of:",
+      "options": [
+        "Gram-positive bacteria",
+        "Gram-negative bacteria",
+        "Mycoplasma species",
+        "Chlamydia species"
+      ],
+      "answer": 0,
+      "explanation": "الأحماض التيكويكية (Teichoic acids) توجد في الجدار الخلوي للبكتيريا الموجبة لصبغة غرام فقط، وتعطي الشحنة السالبة وتساعد بالتصاق Staphylococci."
+    },
+    {
+      "q": "What is the sedimentation value of bacterial ribosomes and their two subunits?",
+      "options": [
+        "70S (composed of 50S and 30S subunits)",
+        "80S (composed of 60S and 40S subunits)",
+        "70S (composed of 40S and 30S subunits)",
+        "100S (composed of 50S and 50S subunits)"
+      ],
+      "answer": 0,
+      "explanation": "الرايبوسوم البكتيري هو 70S ويتكون من وحدتين: الكبيرة 50S والصغيرة 30S، بينما في حقيقيات النواة يكون 80S (60S + 40S)."
+    },
+    {
+      "q": "Metachromatic granules (inclusion bodies used for energy storage) are a characteristic diagnostic feature of:",
+      "options": [
+        "Corynebacterium diphtheriae",
+        "Streptococcus mutans",
+        "Treponema pallidum",
+        "Vibrio cholerae"
+      ],
+      "answer": 0,
+      "explanation": "الحبيبات المتبدلة اللون (Metachromatic granules) هي صفة مميزة لبكتيريا الخناق Corynebacterium diphtheriae."
+    },
+    {
+      "q": "Bacteria with flagella distributed all over their entire outer surface (such as E. coli) are termed:",
+      "options": [
+        "Peritrichous",
+        "Monotrichous",
+        "Lophotrichous",
+        "Amphitrichous"
+      ],
+      "answer": 0,
+      "explanation": "Peritrichous تعني وجود الأسواط حول كامل سطح الخلية البكتيرية (مثل E. coli)، بينما Monotrichous سوط واحد بقطب واحد و Lophotrichous خصلة بقطب واحد."
+    },
+    {
+      "q": "How do Spirochetes (such as Treponema pallidum) achieve their undulating motility?",
+      "options": [
+        "By using an internal flagellum-like structure called the axial filament (endoflagella)",
+        "By long sex pili",
+        "By pseudopodia",
+        "By a thick D-glutamic acid capsule"
+      ],
+      "answer": 0,
+      "explanation": "تتحرك اللولبيات (Spirochetes) بواسطة الخيط المحوري الداخلي (Axial filament / Endoflagella) الذي يلتف حول الخلية الحلزونية."
+    },
+    {
+      "q": "What is the primary function of short ordinary pili (fimbriae) composed of pilin subunits?",
+      "options": [
+        "Mediate adherence of bacteria to specific receptors on human host cells",
+        "Propel bacteria up the urethra by chemotaxis",
+        "Protect bacteria from boiling and disinfectants",
+        "Synthesize proteins from mRNA"
+      ],
+      "answer": 0,
+      "explanation": "الأهداب القصيرة العادية (Short pili/fimbriae) مسؤولة عن التصاق البكتيريا بمستقبلات خلايا المضيف، بينما الـ Sex pilus الطويل مسؤول عن الاقتران (Conjugation)."
+    },
+    {
+      "q": "All bacterial capsules are composed of polysaccharide EXCEPT in Bacillus anthracis, where the capsule is composed of:",
+      "options": [
+        "Polymerized D-glutamic acid",
+        "Dipicolinic acid with calcium",
+        "Ribitol phosphate",
+        "Lipopolysaccharide (LPS)"
+      ],
+      "answer": 0,
+      "explanation": "تتكون المحفظة في جميع البكتيريا من متعدد السكاريد (Polysaccharide) ما عدا عصيات الجمرة الخبيثة (Bacillus anthracis) فتتكون من Polymerized D-glutamic acid."
+    },
+    {
+      "q": "How does the bacterial capsule act as a major virulence factor?",
+      "options": [
+        "It is antiphagocytic, limiting the ability of phagocytes to engulf the bacteria",
+        "It cleaves host cell walls with lysozyme",
+        "It transfers antibiotic resistance genes via transduction",
+        "It generates ATP via oxidative phosphorylation"
+      ],
+      "answer": 0,
+      "explanation": "تعد المحفظة (Capsule) عامل ضراوة رئيسي لأنها مضادة للبلعمة (Antiphagocytic) وتمنع خلايا المناعة من التهام البكتيريا."
+    },
+    {
+      "q": "Which bacterium produces a loose slime layer (glycocalyx) that enables it to stick firmly to medical devices such as catheters and prosthetic heart valves?",
+      "options": [
+        "Staphylococcus epidermidis",
+        "Streptococcus pyogenes",
+        "Corynebacterium diphtheriae",
+        "Clostridium botulinum"
+      ],
+      "answer": 0,
+      "explanation": "بكتيريا Staphylococcus epidermidis تفرز طبقة لزجة (Slime layer) تساعدها على الالتصاق بالقسطرات والصمامات الصناعية، بينما P. aeruginosa في التليف الكيسي و S. mutans على الأسنان."
+    },
+    {
+      "q": "Bacterial endospores are produced in response to starvation by which two Gram-positive rod genera?",
+      "options": [
+        "Bacillus and Clostridium",
+        "Staphylococcus and Streptococcus",
+        "Escherichia and Pseudomonas",
+        "Neisseria and Haemophilus"
+      ],
+      "answer": 0,
+      "explanation": "الأبواغ الداخلية (Endospores) تنتجها مجموعتان فقط من العصيات الموجبة لصبغة غرام وهما Bacillus و Clostridium عند نفاد الغذاء (Starvation)."
+    },
+    {
+      "q": "What chemical substance inside the spore core complexes with calcium and is responsible for the extreme heat resistance of endospores?",
+      "options": [
+        "Dipicolinic acid",
+        "Teichoic acid",
+        "N-acetylmuramic acid",
+        "Hyaluronic acid"
+      ],
+      "answer": 0,
+      "explanation": "يحتوي لب البوغ (Core) على حامض الـ Dipicolinic acid المتحدمع الكالسيوم وهو المسؤول عن المقاومة العالية للحرارة."
+    },
+    {
+      "q": "Which bacterium is characterized by a spherical terminal endospore that gives the cell a classic 'drumstick' appearance?",
+      "options": [
+        "Clostridium tetani",
+        "Bacillus anthracis",
+        "Clostridium botulinum",
+        "Bacillus subtilis"
+      ],
+      "answer": 0,
+      "explanation": "تتميز بكتيريا الكزاز (Clostridium tetani) ببوغ طرفي كروي (Spherical terminal spore) يعطيها مظهر عصا الطبل (Drumstick appearance)."
+    },
+    {
+      "q": "Which layer of the bacterial endospore is composed of a thick layer of peptidoglycan?",
+      "options": [
+        "Cortex",
+        "Spore coat",
+        "Core",
+        "Exosporium"
+      ],
+      "answer": 0,
+      "explanation": "طبقة القشرة (Cortex) في البوغ تتكون من طبقة سميكة من الببتيدوغلايكان، بينما الـ Spore coat يتكون من بروتين يقاوم المواد الكيميائية."
+    },
+    {
+      "q": "Trace the structural layers of a Gram-negative bacterial cell envelope starting from the OUTERMOST layer and moving INWARD toward the cytoplasm:",
+      "options": [
+        "Capsule → Outer membrane (LPS) → Periplasmic space & thin peptidoglycan → Cytoplasmic membrane",
+        "Capsule → Thick peptidoglycan (50–90%) → Teichoic acid → Cytoplasmic membrane",
+        "Cytoplasmic membrane → Periplasmic space → Outer membrane (LPS) → Capsule",
+        "Outer membrane (LPS) → Capsule → Cytoplasmic membrane → Periplasmic space"
+      ],
+      "answer": 0,
+      "explanation": "تتبع طبقات البكتيريا السالبة لصبغة غرام من الخارج للداخل: المحفظة (Capsule) ثم الغشاء الخارجي الحاوي على LPS ثم الفسحة المحيطة بالجبلة مع الببتيدوغلايكان الرقيق (~2 nm) وأخيراً الغشاء السيتوبلازمي."
+    },
+    {
+      "q": "Trace the exact structural arrangement of Lipopolysaccharide (LPS) starting from its anchor inside the outer membrane and extending OUTWARD into the extracellular space:",
+      "options": [
+        "Lipid A → Core polysaccharide → O-antigen (O-polysaccharide repeating sugar chains)",
+        "O-antigen → Core polysaccharide → Lipid A",
+        "Core polysaccharide → Lipid A → Teichoic acid",
+        "Lipid A → O-antigen → Core polysaccharide"
+      ],
+      "answer": 0,
+      "explanation": "يتثبت Lipid A في الغشاء الخارجي، يليه Core polysaccharide الذي يربطه بالجزء الخارجي المتغير الممتد للخارج وهو O-antigen (حوالي 40 وحدة سكرية متكررة)."
+    },
+    {
+      "q": "Trace the exact step-by-step timing and reagent sequence of the Gram stain procedure from start to finish:",
+      "options": [
+        "Crystal Violet (60 sec) → Iodine (60 sec) → 95% Ethyl Alcohol (5–10 sec) → Safranin (45 sec)",
+        "Crystal Violet (45 sec) → 95% Ethyl Alcohol (60 sec) → Iodine (5–10 sec) → Safranin (60 sec)",
+        "Iodine (60 sec) → Crystal Violet (60 sec) → 95% Ethyl Alcohol (45 sec) → Safranin (5–10 sec)",
+        "Crystal Violet (60 sec) → Safranin (45 sec) → Iodine (60 sec) → 95% Ethyl Alcohol (5–10 sec)"
+      ],
+      "answer": 0,
+      "explanation": "التسلسل الزمني الدقيق لصبغة غرام: Crystal Violet لمدة 60 ثانية، ثم Iodine لمدة 60 ثانية، ثم الكحول الإيثيلي 95% لمدة 5–10 ثوانٍ، ثم Safranin لمدة 45 ثانية."
+    },
+    {
+      "q": "Trace the biological sequence of bacterial endospore formation and reactivation leading to clinical toxin-mediated disease (e.g., tetanus or botulism):",
+      "options": [
+        "Depletion of carbon/nitrogen (starvation) → Sporulation (dormant resistant spore) → Exposure to water & nutrients → Germination → Vegetative cell producing toxin",
+        "Exposure to water & nutrients → Sporulation → Starvation → Germination → Vegetative cell producing toxin",
+        "Starvation → Germination → Vegetative cell → Sporulation → Exotoxin release",
+        "Boiling and disinfectants → Germination → Dormant spore → Starvation → Toxin production"
+      ],
+      "answer": 0,
+      "explanation": "تبدأ الدورة بالمجاعة (نفاد الكربون والنيتروجين) فتتبوغ البكتيريا لتصبح خاملة ومقاومة، وعند عودة الماء والغذاء يحدث الإنبات (Germination) فتعود لخلية خضرية منتجة للسموم (مثل سم الكزاز والبوتولينوم)."
+    },
+    {
+      "q": "Trace the anatomical layers of a bacterial endospore from its INNERMOST center to its OUTERMOST covering:",
+      "options": [
+        "Core (DNA + dipicolinic acid/Ca²⁺) → Inner membrane → Cortex (thick peptidoglycan) → Spore coat (protein) → Exosporium",
+        "Exosporium → Spore coat → Cortex → Inner membrane → Core",
+        "Core → Spore coat (peptidoglycan) → Cortex (protein) → Exosporium",
+        "Cortex → Core → Exosporium → Spore coat"
+      ],
+      "answer": 0,
+      "explanation": "ترتيب طبقات البوغ من المركز للخارج: اللب (Core) ثم الغشاء الداخلي ثم القشرة (Cortex من الببتيدوغلايكان السميك) ثم غلاف البوغ البروتيني (Spore coat) وأخيراً الغلاف الخارجي الرخو (Exosporium)."
+    },
+    {
+      "q": "Trace the exact mechanism by which human lysozyme in tears, saliva, or milk leads to bacterial cell death:",
+      "options": [
+        "Lysozyme targets cell wall → Cleaves β-(1,4)-glycosidic bond between GlcNAc and Mur2Ac → Loss of rigid peptidoglycan cell wall → Osmotic lysis and cell death",
+        "Lysozyme penetrates outer membrane → Cleaves Lipid A → Neutralizes endotoxin → Cell death",
+        "Lysozyme binds 30S ribosomal subunit → Blocks protein synthesis → Cell death",
+        "Lysozyme cleaves pentaglycine cross-link only → Inhibits DNA replication → Cell death"
+      ],
+      "answer": 0,
+      "explanation": "يعمل اللايسوزايم على تكسير الآصرة β-(1,4)-glycosidic تحديداً بين سكري N-acetylglucosamine و N-acetylmuramic acid فيفقد الجدار صلابته وتموت الخلية."
+    },
+    {
+      "q": "Trace the pathogenesis pathway of an ascending urinary tract infection (UTI) mediated by flagella in E. coli or Proteus species:",
+      "options": [
+        "Motile bacteria at urethral opening → Flagella propel bacteria upward through the urethra → Colonization and infection of the urinary bladder",
+        "Bacteria enter bloodstream → Axial filaments penetrate renal capsule → Descend down urethra",
+        "Non-motile cocci form spores → Germinate in bladder → Descend into urethra",
+        "Sex pili propel bacteria up the ureters → Adhesion to alveoli"
+      ],
+      "answer": 0,
+      "explanation": "تساعد الأسواط البكتيريا المتحركة مثل E. coli و Proteus في الإمراضية عبر دفع البكتيريا صعوداً عبر الإحليل (Urethra) وصولاً إلى المثانة (Bladder)."
+    },
+    {
+      "q": "Trace the structural path of Lipoteichoic acid in a Gram-positive bacterium:",
+      "options": [
+        "Originates covalently linked to lipid in cytoplasmic membrane → Penetrates upward through the thick peptidoglycan layer → Extends toward the outer cell wall surface",
+        "Originates in the outer LPS membrane → Crosses the periplasmic space → Attaches to the nucleoid",
+        "Originates in the capsule → Penetrates only the outer membrane → Stops before peptidoglycan",
+        "Floats freely inside the cytoplasm → Attaches to 70S ribosomes"
+      ],
+      "answer": 0,
+      "explanation": "يُعد Lipoteichoic acid جسراً يربط الغشاء السيتوبلازمي بالجدار الخلوي في البكتيريا الموجبة، حيث يرتبط تساهمياً بدهون الغشاء ويخترق طبقة الببتيدوغلايكان السميكة."
+    },
+    {
+      "q": "Trace the Gram stain outcome if a laboratory technician accidentally SKIPS the 95% ethyl alcohol decolorization step:",
+      "options": [
+        "Both Gram-positive and Gram-negative bacteria will appear PURPLE because crystal violet is never washed out of the thin peptidoglycan layer",
+        "Both Gram-positive and Gram-negative bacteria will appear RED/PINK",
+        "Gram-positive bacteria will appear red while Gram-negative bacteria will appear purple",
+        "Neither group will take up any stain and both will remain colorless"
+      ],
+      "answer": 0,
+      "explanation": "خطوة الكحول (95% Ethyl alcohol) هي التي تزيل صبغة الـ Crystal violet من البكتيريا السالبة ذات الجدار الرقيق؛ وإذا تم تخطيها ستبقى كلتا المجموعتين باللون البنفسجي."
+    },
+    {
+      "q": "Trace the Gram stain outcome if a technician accidentally SKIPS the Safranin counterstain step at the end:",
+      "options": [
+        "Gram-positive bacteria will remain PURPLE, while Gram-negative bacteria will appear COLORLESS (transparent)",
+        "Both Gram-positive and Gram-negative bacteria will appear red",
+        "Gram-negative bacteria will turn purple while Gram-positive turn colorless",
+        "Both groups will appear purple"
+      ],
+      "answer": 0,
+      "explanation": "بعد قصر اللون بالكحول تصبح البكتيريا السالبة عديمة اللون وتحتاج للـ Safranin لتتلون بالأحمر/الوردي؛ فتخطي الصبغة المضادة يبقي الموجبة بنفسجية والسالبة عديمة اللون."
+    },
+    {
+      "q": "Trace the exact amino acid tetrapeptide stem attached to N-acetylmuramic acid (Mur2Ac) in the peptidoglycan diagram:",
+      "options": [
+        "L-Ala → D-Glu → L-Lys → D-Ala (cross-linked by a pentaglycine bridge)",
+        "D-Glu → L-Ala → D-Ala → L-Lys",
+        "L-Lys → L-Ala → D-Glu → Glycine",
+        "Glycerol phosphate → Ribitol phosphate → L-Ala → D-Ala"
+      ],
+      "answer": 0,
+      "explanation": "بحسب مخطط الببتيدوغلايكان في الملزمة (Slide 11)، تتفرع من Mur2Ac سلسلة رباعية الببتيد بالترتيب: L-Ala ثم D-Glu ثم L-Lys ثم D-Ala وتربطها جسور Pentaglycine cross-link."
+    },
+    {
+      "q": "Trace how a Gram-negative bacterium inactivates a penicillin antibiotic before it can reach its target in the inner membrane:",
+      "options": [
+        "Penicillin crosses outer membrane → Enters periplasmic space → Degraded by β-lactamase enzymes located in the periplasmic space",
+        "Penicillin is degraded by teichoic acids on the outer capsule",
+        "Penicillin is cleaved by lysozyme inside the nucleoid",
+        "Penicillin is neutralized by dipicolinic acid inside the cytoplasm"
+      ],
+      "answer": 0,
+      "explanation": "تقع إنزيمات β-lactamases في الـ Periplasmic space بين الغشاء الخارجي والداخلي للبكتيريا السالبة، فتحطم مضادات البيتا لاكتام (البنسلين والسيفالوسبورين) قبل وصولها لهدفها."
+    },
+    {
+      "q": "A patient with a Gram-positive Staphylococcus bloodstream infection develops fever and septic shock. Since Gram-positive bacteria lack LPS (endotoxin), which cell wall component is responsible for inducing this inflammation and septic shock?",
+      "options": [
+        "Teichoic acids",
+        "Lipid A",
+        "O-polysaccharide",
+        "Periplasmic β-lactamases"
+      ],
+      "answer": 0,
+      "explanation": "سؤال فهم سريري دقيق: البكتيريا الموجبة لا تمتلك LPS، لكن الأحماض التيكويكية (Teichoic acids) لها أهمية طبية في تحفيز الالتهاب والصدمة الإنتانية (Septic shock) إضافة لالتصاق المكورات العنقودية بالخلايا المخاطية."
+    },
+    {
+      "q": "Why would an antibiotic that specifically inhibits peptidoglycan cell wall synthesis (such as penicillin) be COMPLETELY INEFFECTIVE against Mycoplasma species?",
+      "options": [
+        "Mycoplasma species naturally lack a cell wall and are bounded only by a cell membrane",
+        "Mycoplasma species have an extra-thick 90% peptidoglycan layer",
+        "Mycoplasma species produce periplasmic β-lactamase in their outer membrane",
+        "Mycoplasma species are viruses with 80S ribosomes"
+      ],
+      "answer": 0,
+      "explanation": "جميع البكتيريا لها جدار خلوي ما عدا Mycoplasma و Halobacterium halobium، لذا فإن أي مضاد يستهدف الجدار الخلوي (أو اللايسوزايم) لن يؤثر على المايكوبلازما."
+    },
+    {
+      "q": "Which comparison of thickness between Gram-positive and Gram-negative peptidoglycan layers is directly supported by the lecture diagram?",
+      "options": [
+        "Gram-positive peptidoglycan is 15–80 nm (thick, multilayer), whereas Gram-negative peptidoglycan is ~2 nm (thin, single layer)",
+        "Gram-positive peptidoglycan is ~2 nm, whereas Gram-negative is 15–80 nm",
+        "Both Gram-positive and Gram-negative peptidoglycan layers measure ~8 nm",
+        "Gram-negative outer membrane is 15–80 nm thick while cytoplasmic membrane is ~2 nm"
+      ],
+      "answer": 0,
+      "explanation": "بحسب المخطط في Slide 14: سمك الببتيدوغلايكان في الموجبة 15-80 nm وفي السالبة ~2 nm، بينما سمك الغشاء السيتوبلازمي والخارجي ~8 nm."
+    },
+    {
+      "q": "Why is LPS specifically called an 'endotoxin' in contrast to bacterial 'exotoxins'?",
+      "options": [
+        "Because LPS is an integral structural part of the Gram-negative cell wall rather than a secreted protein",
+        "Because LPS is secreted actively through sex pili into host cells",
+        "Because LPS is found only inside endospores of Bacillus and Clostridium",
+        "Because LPS is synthesized exclusively inside the bacterial nucleoid"
+      ],
+      "answer": 0,
+      "explanation": "يُسمى الـ LPS بالذيفان الداخلي (Endotoxin) لأنه جزء بنيوي متكامل من الجدار الخلوي للبكتيريا السالبة (integral part of the cell wall)، بعكس الذيفانات الخارجية (Exotoxins) التي تُفرز."
+    },
+    {
+      "q": "Which part of the LPS molecule is highly variable in structure and specifically helps Gram-negative bacteria evade the host immune system?",
+      "options": [
+        "O-antigen (O-polysaccharide)",
+        "Lipid A",
+        "Core polysaccharide",
+        "Pentaglycine cross-link"
+      ],
+      "answer": 0,
+      "explanation": "السلاسل السكرية الطويلة الممتدة للخارج في الـ O-antigen تكون شديدة التغير (Highly variable) مما يساعد البكتيريا على التهرب من الجهاز المناعي للمضيف."
+    },
+    {
+      "q": "What chemical composition gives the outer surface of Gram-positive bacteria a strong negative charge?",
+      "options": [
+        "Teichoic acids composed of glycerol phosphate or ribitol phosphate",
+        "Lipid A fatty acids in the outer membrane",
+        "Polymerized D-glutamic acid in all Gram-positive cell walls",
+        "Dipicolinic acid in the cytoplasmic membrane"
+      ],
+      "answer": 0,
+      "explanation": "تتكون الأحماض التيكويكية من glycerol phosphate أو ribitol phosphate وتحمل شحنة سالبة قوية تعطي السطح الخارجي للبكتيريا الموجبة شحنته السالبة."
+    },
+    {
+      "q": "A clinical isolate from a cystic fibrosis patient's lungs produces a thick, sticky extracellular loose slime layer (glycocalyx) aiding pulmonary colonization. Which organism is this most likely?",
+      "options": [
+        "Pseudomonas aeruginosa",
+        "Staphylococcus epidermidis",
+        "Streptococcus mutans",
+        "Bacillus anthracis"
+      ],
+      "answer": 0,
+      "explanation": "تفرز Pseudomonas aeruginosa طبقة لزجة (Loose slime) مهمة للاستعمار في رئات مرضى التليف الكيسي (Cystic fibrosis)، بينما S. epidermidis للقسطرات و S. mutans لتسوس الأسنان."
+    },
+    {
+      "q": "Which organism forms a glycocalyx (loose slime layer) on tooth surfaces, acting as a major factor in dental plaque and cavities?",
+      "options": [
+        "Streptococcus mutans",
+        "Streptococcus pyogenes",
+        "Staphylococcus epidermidis",
+        "Pseudomonas aeruginosa"
+      ],
+      "answer": 0,
+      "explanation": "تنتج Streptococcus mutans طبقة لزجة (Slime layer) على الأسنان تعد عاملاً رئيسياً في تكوين طبقة البلاك وتسوس الأسنان (Dental plaque and cavities)."
+    },
+    {
+      "q": "How does a 'loose slime layer (glycocalyx)' structurally differ from a true bacterial 'capsule'?",
+      "options": [
+        "The loose slime layer is secreted extracellularly, and is thinner and less rigid than a capsule",
+        "The loose slime layer is made of D-glutamic acid while capsules are made of Lipid A",
+        "The loose slime layer is located inside the periplasmic space",
+        "Only Gram-negative bacteria can form capsules while only Gram-positive form slime"
+      ],
+      "answer": 0,
+      "explanation": "الطبقة اللزجة (Glycocalyx) تشبه المحفظة بكونها غلافاً سكرياً، لكنها تُفرز خارجياً وتكون أرق وأقل صلابة من المحفظة."
+    },
+    {
+      "q": "Match the endospore position and shape to the correct bacterial species according to the lecture:",
+      "options": [
+        "Oval central = Bacillus anthracis; Oval subterminal = Clostridium botulinum; Oval terminal = Clostridium tertium",
+        "Oval central = Clostridium tetani; Spherical terminal = Bacillus anthracis",
+        "Oval subterminal = Bacillus subtilis; Spherical = Clostridium botulinum",
+        "Spherical terminal = Bacillus anthracis; Oval central = Clostridium tetani"
+      ],
+      "answer": 0,
+      "explanation": "مقارنة دقيقة جداً من سلايد 35: B. anthracis بيضوي مركزي، C. botulinum بيضوي شبه طرفي، C. tertium بيضوي طرفي، C. tetani كروي طرفي (عصا الطبل)، و B. subtilis كروي."
+    },
+    {
+      "q": "Which endospore layer is specifically a PROTEIN layer responsible for resistance to harsh chemicals and enzymes (distinct from the peptidoglycan cortex)?",
+      "options": [
+        "Spore coat",
+        "Cortex",
+        "Core",
+        "Exosporium"
+      ],
+      "answer": 0,
+      "explanation": "يمتاز الـ Spore coat بكونه طبقة بروتينية تقاوم المواد الكيميائية والإنزيمات، بينما الـ Cortex هو ببتيدوغلايكان سميك، والـ Core يحتوي dipicolinic acid + Ca للحرارة."
+    },
+    {
+      "q": "Why are bacterial endospores of critical concern in hospital sterilization protocols?",
+      "options": [
+        "They survive boiling, standard disinfectants, antibiotics, and unfavorable environments, persisting to transmit tetanus, anthrax, and gas gangrene",
+        "They divide rapidly by binary fission at 100°C",
+        "They secrete β-lactamases that dissolve surgical steel",
+        "They convert Gram-negative rods into Gram-positive cocci"
+      ],
+      "answer": 0,
+      "explanation": "الأبواغ تقاوم الغليان والمطهرات والمضادات الحيوية وتلعب دوراً كبيراً في نقل وبقاء أمراض مثل الكزاز والجمرة الخبيثة والغرغرينا الغازية، لذا تتطلب تعقيماً خاصاً في المستشفيات."
+    },
+    {
+      "q": "Which statement about bacterial flagella and bacterial morphology is TRUE?",
+      "options": [
+        "Many bacilli (rods) possess flagella, whereas most cocci lack flagella and are therefore non-motile",
+        "All cocci are peritrichous and highly motile",
+        "Flagella are composed of pilin subunits arranged inside the nucleoid",
+        "Flagella are an essential component present in every bacterial species"
+      ],
+      "answer": 0,
+      "explanation": "الكثير من العصيات (Rods) تمتلك أسواطاً، لكن معظم المكورات (Cocci) لا تمتلك أسواطاً ولذلك فهي غير متحركة (Non-motile)."
+    },
+    {
+      "q": "What is the exact difference between 'Lophotrichous' and 'Amphilophotrichous' flagellar arrangements?",
+      "options": [
+        "Lophotrichous has a tuft of flagella at ONE pole, whereas Amphilophotrichous has a tuft of flagella at BOTH ends",
+        "Lophotrichous has one flagellum at one pole, whereas Amphilophotrichous has flagella all over the cell",
+        "Lophotrichous is internal endoflagella, whereas Amphilophotrichous is external",
+        "Lophotrichous occurs only in cocci, whereas Amphilophotrichous occurs in spirochetes"
+      ],
+      "answer": 0,
+      "explanation": "Lophotrichous تعني خصلة أسواط عند قطب واحد فقط، بينما Amphilophotrichous تعني خصلة أسواط عند كلا القطبين (الطرفين)."
+    },
+    {
+      "q": "How are Salmonella species commonly identified in the clinical microbiology laboratory using their flagella?",
+      "options": [
+        "By using specific antibodies against flagellar proteins",
+        "By staining flagella with safranin alone",
+        "By measuring dipicolinic acid inside the flagella",
+        "By testing resistance to lysozyme"
+      ],
+      "answer": 0,
+      "explanation": "الأهمية الطبية الثانية للأسواط: تُشخص بعض البكتيريا مثل Salmonella في المختبر السريري باستخدام أجسام مضادة نوعية ضد بروتينات الأسواط (Flagellar proteins)."
+    },
+    {
+      "q": "Why is the structural difference between bacterial 70S ribosomes and human 80S ribosomes pharmacologically important?",
+      "options": [
+        "It allows certain antibiotics to selectively target bacterial 70S ribosomes without harming human 80S ribosomes",
+        "It allows human cells to synthesize peptidoglycan",
+        "It makes bacterial ribosomes resistant to all protein synthesis inhibitors",
+        "It causes Gram-negative bacteria to stain purple"
+      ],
+      "answer": 0,
+      "explanation": "اختلاف الرايبوسوم البكتيري (70S = 50S+30S) عن رايبوسوم الإنسان حقيقي النواة (80S = 60S+40S) يجعله هدفاً انتقائياً ممتازاً لبعض المضادات الحيوية."
+    },
+    {
+      "q": "Which of the following bacterial shapes and example pairings from Slide 8 is INCORRECT?",
+      "options": [
+        "Spirilla — Treponema pallidum",
+        "Diplococci — Streptococcus pneumoniae",
+        "Sarcina — Sarcina ventriculi",
+        "Chain of bacilli — Bacillus anthracis"
+      ],
+      "answer": 0,
+      "explanation": "انتبه للفرق الدقيق في Slide 8: بكتيريا Treponema pallidum مثال على Spirochaetes، بينما Helicobacter pylori مثال على Spirilla!"
+    },
+    {
+      "q": "What distinguishes 'Transmissible plasmids' from 'Non-transmissible plasmids'?",
+      "options": [
+        "Transmissible plasmids can be transferred from cell to cell by conjugation, whereas non-transmissible plasmids are small and lack transfer genes",
+        "Non-transmissible plasmids occur only in Gram-negative bacteria",
+        "Transmissible plasmids cannot replicate independently of the chromosome",
+        "Non-transmissible plasmids are made of single-stranded RNA"
+      ],
+      "answer": 0,
+      "explanation": "البلازميدات القابلة للانتقال (Transmissible) تنتقل بالاقتران، أما غير القابلة للانتقال (Non-transmissible) فتكون صغيرة الحجم لعدم احتوائها على جينات النقل (Transfer genes)."
+    },
+    {
+      "q": "What is a 'bacteriocin' encoded by certain bacterial plasmids?",
+      "options": [
+        "A protein produced by bacteria that kills closely related bacteria",
+        "An enzyme that synthesizes peptidoglycan cross-links",
+        "A sugar polymer forming the outer capsule",
+        "A viral capsid surrounding bacterial DNA"
+      ],
+      "answer": 0,
+      "explanation": "البكتيريوسين (Bacteriocin) هو بروتين تشفره بعض البلازميدات ويقتل البكتيريا القريبة منها تصنيفياً."
+    },
+    {
+      "q": "When viewed under an electron microscope, what are the TWO distinct areas visible inside the bacterial cytoplasm?",
+      "options": [
+        "An amorphous matrix (containing ribosomes, nutrient granules, metabolites, plasmids) and an inner nucleoid region (DNA)",
+        "A membrane-bound nucleus and rough endoplasmic reticulum",
+        "A periplasmic space and a cortex",
+        "Mitochondria and Golgi apparatus"
+      ],
+      "answer": 0,
+      "explanation": "تحت المجهر الإلكتروني يظهر السيتوبلازم المائي بمنطقتين: 1) قالب غير متبلور (Amorphous matrix) يحوي الرايبوسومات والحبيبات والبلازميدات، 2) منطقة الـ Nucleoid الداخلية الحاوية على DNA."
+    },
+    {
+      "q": "The smallest bacteria (Mycoplasma) are approximately the same size as which group of viruses?",
+      "options": [
+        "Poxviruses (the largest viruses)",
+        "Bacteriophage beta",
+        "Retroviruses",
+        "Smallest RNA picornaviruses"
+      ],
+      "answer": 0,
+      "explanation": "أصغر بكتيريا هي المايكوبلازما (Mycoplasma) وحجمها يقارب حجم أكبر الفيروسات وهي Poxviruses."
+    },
+    {
+      "q": "What determines the characteristic rigid shape (coccus, bacillus, spiral) of a bacterium?",
+      "options": [
+        "Its rigid cell wall",
+        "Its cytoplasmic membrane phospholipids",
+        "Its loose slime layer",
+        "Its circular plasmids"
+      ],
+      "answer": 0,
+      "explanation": "الشكل المميز للبكتيريا يتحدد بواسطة الجدار الخلوي الصلب (Rigid cell wall)، ولذا تكون البكتيريا عديمة الجدار مثل المايكوبلازما متغيرة الشكل (Pleomorphic)."
+    },
+    {
+      "q": "What term describes bacteria that are variable in shape (many-shaped)?",
+      "options": [
+        "Pleomorphic",
+        "Peritrichous",
+        "Diplococci",
+        "Monotrichous"
+      ],
+      "answer": 0,
+      "explanation": "البكتيريا المتغيرة الشكل أو متعددة الأشكال تسمى Pleomorphic."
+    },
+    {
+      "q": "Which of the following is NOT listed as one of the five roles/importance of the bacterial cell wall in Lecture 2?",
+      "options": [
+        "Site of protein synthesis via 70S subunits",
+        "Protection against osmotic changes",
+        "Taking part in cell division",
+        "Providing target sites for antibiotics, lysozyme, and bacteriophages"
+      ],
+      "answer": 0,
+      "explanation": "وظائف الجدار الخلوي الخمسة: الصلابة والشكل، الحماية الأزموزية، المسامية لمرور الغذاء، المشاركة بالانقسام الخلوي، وموقع استهداف للمضادات واللايسوزايم والعاثيات. تصنيع البروتين وظيفة الرايبوسوم."
+    },
+    {
+      "q": "According to Lecture 2, which four clinical/diagnostic roles make the bacterial capsule medically important?",
+      "options": [
+        "Virulence (antiphagocytic), adherence to host tissues, lab identification with antiserum, and use as antigens in vaccines",
+        "Heat resistance, binary fission, conjugation, and motility",
+        "β-lactamase storage, Gram decolorization, chemotaxis, and protein synthesis",
+        "Energy storage, DNA replication, osmotic rupture, and endospore germination"
+      ],
+      "answer": 0,
+      "explanation": "النقاط الأربعة لأهمية المحفظة (Slide 32): عامل ضراوة ضد البلعمة، الالتصاق بأنسجة الإنسان، التشخيص المختبري بالمصل المضاد (Antiserum)، واستخدام سكرياتها كمستضدات في اللقاحات."
+    },
+    {
+      "q": "Which statement about encapsulated bacterial species is TRUE?",
+      "options": [
+        "Not all bacterial species produce capsules, and encapsulated species are found among BOTH Gram-positive and Gram-negative bacteria",
+        "Only Gram-positive bacteria can produce capsules",
+        "Only Gram-negative bacteria can produce capsules",
+        "Every bacterial species produces a polysaccharide capsule"
+      ],
+      "answer": 0,
+      "explanation": "ليست كل البكتيريا تنتج محفظة، ولكن الأنواع الممحفظة موجودة في كل من البكتيريا الموجبة والسالبة لصبغة غرام."
+    },
+    {
+      "q": "What is 'chemotaxis' as performed by bacterial flagella?",
+      "options": [
+        "Moving toward nutrients or away from harmful substances",
+        "Attaching to medical catheters via a loose slime layer",
+        "Transferring plasmids between male and female bacteria",
+        "Retaining crystal violet dye during Gram staining"
+      ],
+      "answer": 0,
+      "explanation": "الانجذاب الكيميائي (Chemotaxis) هو حركة البكتيريا بالأسواط نحو المواد المغذية أو بعيداً عن المواد الضارة."
+    },
+    {
+      "q": "Which statement best describes the beneficial roles of normal bacteria living in the human body (Slide 5)?",
+      "options": [
+        "They degrade food, make nutrients available, neutralize toxins, and play an essential role in defense against infections",
+        "They convert human 80S ribosomes into 70S ribosomes",
+        "They produce Lipid A to stimulate fever daily",
+        "They replace mitochondria in human epithelial cells"
+      ],
+      "answer": 0,
+      "explanation": "البكتيريا النافعة في أجسامنا تهضم الطعام وتوفر المغذيات وتعادل السموم وتدافع ضد العدوى."
+    },
+    {
+      "q": "Which of the following correctly lists the components of the plasma membrane as stated in Slide 17 of Lecture 2?",
+      "options": [
+        "Lipid bilayer, integral and peripheral proteins, carbohydrates, and cholesterol",
+        "Peptidoglycan, teichoic acid, and dipicolinic acid",
+        "Lipid A, core polysaccharide, and O-antigen",
+        "Flagellin, pilin, and D-glutamic acid"
+      ],
+      "answer": 0,
+      "explanation": "بحسب نص Slide 17 في ملزمة 2: مكونات الغشاء البلازمي هي طبقة دهنية مزدوجة وبروتينات متكاملة ومحيطية وكربوهيدرات وكوليسترول (ملاحظة نصية مهمة من الملزمة)."
+    },
+    {
+      "q": "Which of the following is a listed function of the cytoplasmic membrane in Lecture 2 (Slide 17)?",
+      "options": [
+        "Active transport of molecules into the cell, synthesis of cell wall precursors, energy generation, and secretion of toxins and enzymes",
+        "Antiphagocytic barrier against macrophages",
+        "Storage of metachromatic granules only",
+        "Attachment of male and female cells during conjugation"
+      ],
+      "answer": 0,
+      "explanation": "وظائف الغشاء السيتوبلازمي الأربعة في ملزمة 2: النقل الفعال للجزيئات للداخل، تصنيع طلائع الجدار الخلوي، توليد الطاقة، وإفراز السموم والإنزيمات."
+    },
+    {
+      "q": "How are 'Sarcina' cocci arranged, and what is the example given in Lecture 2?",
+      "options": [
+        "Cuboidal packets of eight cocci (e.g., Sarcina ventriculi)",
+        "Pairs of cocci (e.g., Streptococcus pneumoniae)",
+        "Groups of four cocci (Tetrad)",
+        "Long chains of rods (e.g., Bacillus anthracis)"
+      ],
+      "answer": 0,
+      "explanation": "مجموعة Sarcina تترتب بشكل رزم مكعبة والمثال المذكور في Slide 8 هو Sarcina ventriculi."
+    },
+    {
+      "q": "Which bacterial arrangement and example represent 'flagellate rods' in Slide 8 of Lecture 2?",
+      "options": [
+        "Salmonella typhi",
+        "Bacillus anthracis",
+        "Staphylococcus aureus",
+        "Vibrio cholerae"
+      ],
+      "answer": 0,
+      "explanation": "في جدول أشكال البكتيريا (Slide 8): العصيات المسوطة (Flagellate rods) مثالها Salmonella typhi."
+    },
+    {
+      "q": "Why does Medical Microbiology encompass more than just naming pathogens?",
+      "options": [
+        "It studies causative agents AND the human reaction to infection—including pathogenesis, immune response, lab diagnosis, specific treatment, and infection control",
+        "It studies only non-cellular viruses and ignores bacteria",
+        "It focuses solely on biogeochemical cycles in extreme volcanic vents",
+        "It deals exclusively with food preservation using salt"
+      ],
+      "answer": 0,
+      "explanation": "تعريف الأحياء المجهرية الطبية (Slide 3): دراسة المسببات المرضية ورد فعل الجسم، وتشمل الإمراضية، الاستجابة المناعية، التشخيص المختبري، العلاج النوعي، والسيطرة على العدوى."
+    },
+    {
+      "q": "Which statement about plasmids is TRUE regarding Gram staining groups?",
+      "options": [
+        "Plasmids occur in BOTH Gram-positive and Gram-negative bacteria, and several different types can exist in one cell",
+        "Plasmids occur exclusively in Gram-negative bacteria",
+        "A single bacterial cell can harbor only one type of plasmid at a time",
+        "Plasmids are essential components required for basic binary fission"
+      ],
+      "answer": 0,
+      "explanation": "توجد البلازميدات في كل من البكتيريا الموجبة والسالبة لصبغة غرام، ويمكن أن توجد عدة أنواع مختلفة من البلازميدات داخل خلية بكتيرية واحدة."
+    },
+    {
+      "q": "Which organelle is ABSENT in prokaryotic bacterial cells (distinguishing them from eukaryotic cells)?",
+      "options": [
+        "Mitochondria, endoplasmic reticulum, Golgi apparatus, lysosomes, and a true membrane-bound nucleus",
+        "70S ribosomes and circular DNA",
+        "Cytoplasmic membrane and peptidoglycan cell wall",
+        "Inclusion granules and flagella"
+      ],
+      "answer": 0,
+      "explanation": "بدائيات النواة (البكتيريا) تفتقر للنواة الحقيقية وللعضيات الغشائية مثل المايتوكوندريا والشبكة الإندوبلازمية وجهاز كولجي واللايسوسومات."
+    },
+    {
+      "q": "Which bacterium is NOT a Gram-positive spore-former?",
+      "options": [
+        "Pseudomonas aeruginosa",
+        "Bacillus anthracis",
+        "Clostridium tetani",
+        "Clostridium botulinum"
+      ],
+      "answer": 0,
+      "explanation": "فقط جنسا Bacillus و Clostridium (عصيات موجبة لغرام) يكونان أبواغاً داخلية، أما Pseudomonas aeruginosa فهي عصية سالبة لغرام غير مكونة للأبواغ."
+    }
+  ]
+}

@@ -1,0 +1,830 @@
+{
+  "title": "Lec 3: Bacterial Physiology & Growth",
+  "questions": [
+    {
+      "q": "Proteins account for approximately what percentage of the bacterial cytoplasmic membrane mass (significantly higher than mammalian membranes)?",
+      "options": [
+        "70%",
+        "15%",
+        "30%",
+        "95%"
+      ],
+      "answer": 0,
+      "explanation": "تشكل البروتينات حوالي 70% من كتلة الغشاء السيتوبلازمي البكتيري (أكثر من 200 نوع من البروتينات)."
+    },
+    {
+      "q": "Which of the following is a major function of the bacterial cytoplasmic membrane?",
+      "options": [
+        "Electron transport and oxidative phosphorylation in aerobic species",
+        "Protecting the cell from hypotonic osmotic rupture via rigid peptidoglycan",
+        "Antiphagocytic defense against host leukocytes",
+        "Encoding antibiotic resistance on extrachromosomal DNA"
+      ],
+      "answer": 0,
+      "explanation": "من الوظائف الخمس للغشاء السيتوبلازمي: النفاذية الاختيارية، نقل الإلكترونات والفسفرة التأكسدية، إفراز الإنزيمات المحللة، بناء الدنا والجدار، وحمل مستقبلات الانجذاب الكيميائي."
+    },
+    {
+      "q": "What are the convoluted invaginations of the bacterial cytoplasmic membrane that function in DNA compartmentalization during cell division and support respiratory enzymes?",
+      "options": [
+        "Mesosomes",
+        "Ribosomes",
+        "Inclusion granules",
+        "Periplasmic spaces"
+      ],
+      "answer": 0,
+      "explanation": "الميزوسومات (Mesosomes) هي انبعاجات معقدة من الغشاء السيتوبلازمي للداخل تعمل في فصل الـ DNA عند الانقسام وتدعم إنزيمات التنفس."
+    },
+    {
+      "q": "Approximately how many 70S ribosomes are present per bacterial cell, giving the cytoplasm a granular appearance?",
+      "options": [
+        "20,000 ribosomes/cell",
+        "50 ribosomes/cell",
+        "500 ribosomes/cell",
+        "1,000,000 ribosomes/cell"
+      ],
+      "answer": 0,
+      "explanation": "يحتوي السيتوبلازم البكتيري على حوالي 20,000 رايبوسوم في الخلية الواحدة مما يعطيه مظهراً حبيبياً (granular appearance)."
+    },
+    {
+      "q": "How are all medically important pathogenic bacteria classified based on their nutritional requirements?",
+      "options": [
+        "Heterotrophs (depend on preformed organic compounds)",
+        "Autotrophs (utilize atmospheric CO2 and N2 only)",
+        "Photoautotrophs",
+        "Lithotrophs"
+      ],
+      "answer": 0,
+      "explanation": "جميع البكتيريا الممرضة للإنسان هي Heterotrophs تعتمد على المركبات العضوية الجاهزة، بينما الـ Autotrophs ليس لها أهمية طبية."
+    },
+    {
+      "q": "Most human bacterial pathogens grow best at moderate temperatures between 25°C and 40°C and are classified as:",
+      "options": [
+        "Mesophilic",
+        "Psychrophilic",
+        "Thermophilic",
+        "Hyperthermophilic"
+      ],
+      "answer": 0,
+      "explanation": "البكتيريا المحبة للحرارة المعتدلة (Mesophilic) تنمو بأفضل شكل بين 25°C و 40°C وتشمل معظم البكتيريا الممرضة للإنسان."
+    },
+    {
+      "q": "Which temperature class grows best below 20°C (e.g., Flavobacterium spp.)?",
+      "options": [
+        "Psychrophilic",
+        "Thermophilic",
+        "Mesophilic",
+        "Capnophilic"
+      ],
+      "answer": 0,
+      "explanation": "البكتيريا المحبة للبرودة (Psychrophilic) تنمو تحت 20°C مثل Flavobacterium، بينما الـ Thermophilic تنمو بين 55-80°C مثل Bacillus stearothermophilus."
+    },
+    {
+      "q": "Bacteria that produce pigment ONLY when exposed to light are called:",
+      "options": [
+        "Photochromogenic bacteria",
+        "Capnophilic bacteria",
+        "Microaerophilic bacteria",
+        "Chemoautotrophic bacteria"
+      ],
+      "answer": 0,
+      "explanation": "البكتيريا التي تنتج صبغة فقط عند تعرضها للضوء تسمى Photochromogenic bacteria."
+    },
+    {
+      "q": "Sudden exposure of bacteria to a hypertonic solution (such as high salt concentration used as a preservative) causes osmotic withdrawal of water and cell shrinkage known as:",
+      "options": [
+        "Plasmolysis",
+        "Germination",
+        "Lyophilization",
+        "Transduction"
+      ],
+      "answer": 0,
+      "explanation": "التعرض لمحلول عالي التركيز (Hypertonic) يسبب سحب الماء وانكماش الخلية (Plasmolysis) مما يثبط النمو."
+    },
+    {
+      "q": "What is the freeze-drying process used in laboratories to preserve and protect bacteria for long periods?",
+      "options": [
+        "Lyophilization",
+        "Pasteurization",
+        "Plasmolysis",
+        "Binary fission"
+      ],
+      "answer": 0,
+      "explanation": "التجفيد (Lyophilization) هو عملية التجفيف بالتجميد (Freeze-dry process) التي تحمي وتحفظ البكتيريا."
+    },
+    {
+      "q": "Which of the following organisms is a Strict (Obligate) Aerobe that requires oxygen for growth?",
+      "options": [
+        "Pseudomonas aeruginosa",
+        "Bacteroides fragilis",
+        "Clostridium perfringens",
+        "Campylobacter jejuni"
+      ],
+      "answer": 0,
+      "explanation": "بكتيريا Pseudomonas aeruginosa هي هوائية إجبارية (Strict/Obligate Aerobe)، بينما Bacteroides fragilis لاهوائية إجبارية."
+    },
+    {
+      "q": "Which bacteria grow best in the presence of low oxygen levels (Microaerophilic)?",
+      "options": [
+        "Campylobacter spp. and Helicobacter spp.",
+        "Pseudomonas aeruginosa and Mycobacterium tuberculosis",
+        "Staphylococcus aureus and Escherichia coli",
+        "Bacteroides fragilis and Clostridium tetani"
+      ],
+      "answer": 0,
+      "explanation": "البكتيريا المحبة لقلة الأوكسجين (Microaerophilic) تشمل Campylobacter و Helicobacter."
+    },
+    {
+      "q": "Clostridium perfringens is anaerobic, yet it can tolerate exposure to oxygen. It is classified as an:",
+      "options": [
+        "Aerotolerant anaerobe",
+        "Obligate aerobe",
+        "Capnophilic organism",
+        "Obligate intracellular organism"
+      ],
+      "answer": 0,
+      "explanation": "تصنف Clostridium perfringens كـ Aerotolerant anaerobe (لاهوائية متحملة للهواء)."
+    },
+    {
+      "q": "Organisms such as Neisseria spp. and Brucella abortus that require high levels of carbon dioxide (CO2) for growth are called:",
+      "options": [
+        "Capnophilic organisms",
+        "Psychrophilic organisms",
+        "Strict anaerobes",
+        "Autotrophs"
+      ],
+      "answer": 0,
+      "explanation": "البكتيريا المحبة لثنائي أوكسيد الكربون العالي (CO2) تسمى Capnophilic مثل Neisseria و Brucella abortus."
+    },
+    {
+      "q": "Who is recognized as the 'Father of Culture Media' (solid media, Bacillus anthracis), while Louis Pasteur introduced liquid culture media?",
+      "options": [
+        "Robert Koch",
+        "Christian Gram",
+        "Alexander Fleming",
+        "Joseph Lister"
+      ],
+      "answer": 0,
+      "explanation": "روبرت كوخ (Robert Koch) هو أبو الأوساط الزرعية (Father of Culture media)، ولويس باستور طور الأوساط السائلة."
+    },
+    {
+      "q": "Which selective medium is specifically used to isolate Salmonella typhi by inhibiting Gram-positive and most Gram-negative intestinal bacteria?",
+      "options": [
+        "Bismuth sulfite agar",
+        "Blood agar",
+        "Mannitol salt agar",
+        "Cooked meat broth"
+      ],
+      "answer": 0,
+      "explanation": "وسط Bismuth sulfite هو وسط انتقائي (Selective) لعزل Salmonella typhi، بينما Blood agar تفريقي و Mannitol salt agar انتقائي وتفريقي لـ S. aureus."
+    },
+    {
+      "q": "Which culture medium acts as BOTH a selective and differential medium for Staphylococcus aureus?",
+      "options": [
+        "Mannitol salt agar (MSA)",
+        "Bismuth sulfite agar",
+        "Thioglycolate broth",
+        "Simple nutrient broth"
+      ],
+      "answer": 0,
+      "explanation": "وسط المانيتول الملحي (Mannitol salt agar) هو وسط انتقائي وتفريقي معاً لبكتيريا Staphylococcus aureus."
+    },
+    {
+      "q": "Anaerobic culture media deplete oxygen by using reducing agents such as:",
+      "options": [
+        "Thioglycolate and cooked meat broth",
+        "Crystal violet and safranin",
+        "Bismuth sulfite and mannitol",
+        "Calcium chloride and ethanol"
+      ],
+      "answer": 0,
+      "explanation": "الأوساط اللاهوائية المختزلة (Reducing media) تحتوي على Thioglycolate أو مرق اللحم المطبوخ (Cooked meat broth) لاستنفاد الأوكسجين."
+    },
+    {
+      "q": "Which culture method is used for antimicrobial susceptibility testing (disc diffusion) and bacteriophage typing?",
+      "options": [
+        "Lawn culture",
+        "Streak culture",
+        "Stab culture",
+        "Stroke culture"
+      ],
+      "answer": 0,
+      "explanation": "الزرع المنتشر كالعشب (Lawn culture) يستخدم لفحص حساسية المضادات الحيوية (أقراص المضادات) وتنميط العاثيات."
+    },
+    {
+      "q": "Which culture method is primarily used to quantify viable bacteria in liquid cultures and urine samples?",
+      "options": [
+        "Pour-plate culture",
+        "Stab culture",
+        "Stroke culture on agar slant",
+        "Anaerobic jar"
+      ],
+      "answer": 0,
+      "explanation": "طريقة صب الأطباق (Pour-plate culture) تستخدم لحساب العدد الحي للبكتيريا (Quantification) كما في عينات الإدرار (Urine samples)."
+    },
+    {
+      "q": "Which culture method is performed by puncturing a suitable medium to maintain stock cultures?",
+      "options": [
+        "Stab culture",
+        "Streak culture",
+        "Lawn culture",
+        "Pour plate"
+      ],
+      "answer": 0,
+      "explanation": "الزرع بالوخز (Stab culture) يتم بثقب الوسط الزرعي ويستخدم لحفظ المزارع المخزونة (Maintenance of stock cultures)."
+    },
+    {
+      "q": "While most bacteria reproduce by binary fission, how do Nocardia and Rhodopseudomonas acidophila reproduce respectively?",
+      "options": [
+        "Nocardia by fragmentation; Rhodopseudomonas by budding",
+        "Nocardia by budding; Rhodopseudomonas by spores",
+        "Both by sexual conjugation",
+        "Nocardia by binary fission; Rhodopseudomonas by fragmentation"
+      ],
+      "answer": 0,
+      "explanation": "تتكاثر Rhodopseudomonas acidophila بالتبرعم (Budding)، و Nocardia بالتجزؤ (Fragmentation)، و Streptomycetes بتكوين الأبواغ."
+    },
+    {
+      "q": "During which phase of the bacterial growth curve are cells undergoing intense metabolic activity (synthesizing enzymes) with little or NO cell division?",
+      "options": [
+        "Lag phase",
+        "Exponential (Log) phase",
+        "Stationary phase",
+        "Death phase"
+      ],
+      "answer": 0,
+      "explanation": "في طور التهيؤ (Lag phase) لا يزداد عدد الخلايا (لا يوجد انقسام فوري) لكن الخلايا نشطة أيضياً وتصنع الإنزيمات والجزيئات اللازمة للنمو."
+    },
+    {
+      "q": "In which phase of the bacterial growth curve are antibiotics and disinfectants MOST effective?",
+      "options": [
+        "Exponential (Log) phase",
+        "Lag phase",
+        "Stationary phase",
+        "Death phase"
+      ],
+      "answer": 0,
+      "explanation": "في الطور اللوغاريتمي (Exponential / Log phase) تنقسم الخلايا وتتضاعف بسرعة وتكون المضادات الحيوية والمطهرات في أعلى فعاليتها."
+    },
+    {
+      "q": "Which phase of the growth curve is characterized by an equilibrium where the number of microbial deaths balances the number of new cells, and toxin production/sporulation accelerates?",
+      "options": [
+        "Stationary phase",
+        "Lag phase",
+        "Log phase",
+        "Decline phase"
+      ],
+      "answer": 0,
+      "explanation": "طور الثبات (Stationary phase) يتساوى فيه معدل النمو مع معدل الموت بسبب نفاد المغذيات وتراكم الفضلات، وفيه يبدأ أو يتسارع إنتاج السموم والتبوغ."
+    },
+    {
+      "q": "Why does tuberculosis bacillus cause a chronic illness whereas meningococcal meningitis is acute and explosive?",
+      "options": [
+        "Tuberculosis bacillus has a long generation time, while meningococcus has a short generation time",
+        "Tuberculosis bacillus is an obligate anaerobe that lacks a cell wall",
+        "Meningococcus reproduces only by budding",
+        "Tuberculosis bacillus cannot survive inside body tissues"
+      ],
+      "answer": 0,
+      "explanation": "البكتيريا ذات زمن الجيل القصير (Short generation time) تسبب مرضاً حاداً وسريعاً (مثل السحايا)، بينما ذات زمن الجيل الطويل (Long generation time) مثل عصيات السل تسبب مرضاً مزمناً."
+    },
+    {
+      "q": "What is the key difference between bactericidal drugs (e.g., beta-lactams) and bacteriostatic drugs (e.g., tetracyclines)?",
+      "options": [
+        "Bactericidal drugs kill growing bacteria directly, whereas bacteriostatic drugs inhibit growth and rely on host immunity to kill them",
+        "Bacteriostatic drugs lyse the cell wall directly without host immunity",
+        "Bactericidal drugs only work during the death phase",
+        "Tetracyclines are bactericidal while beta-lactams are bacteriostatic"
+      ],
+      "answer": 0,
+      "explanation": "الأدوية القاتلة للبكتيريا (Bactericidal مثل البيتا لاكتام) تقتل البكتيريا مباشرة، بينما المثبطة (Bacteriostatic مثل التتراسايكلين) توقف النمو وتعتمد على مناعة الجسم للقضاء عليها."
+    },
+    {
+      "q": "Which method measures ONLY living (viable) bacterial cells rather than total (viable + non-viable) cells?",
+      "options": [
+        "Pour plate / Dilution plating cultures",
+        "Direct microscopy using Gram stain",
+        "Turbidity analysis using a spectrophotometer",
+        "Direct count with a hemacytometer"
+      ],
+      "answer": 0,
+      "explanation": "طريقة صب الأطباق والتخافيف (Pour plate) تقيس الخلايا الحية فقط (Viable count)، بينما المطياف الضوئي والمجهر والـ Hemacytometer تقيس العدد الكلي (الحي والميت)."
+    },
+    {
+      "q": "Trace the exact sequential steps involved in bacterial growth and binary fission from start to finish (Slide 26):",
+      "options": [
+        "Increase in cell mass & ribosome number → Duplication of bacterial chromosome (elongation) → Synthesis of new cell wall & plasma membrane → Septum formation → Cell division (separation)",
+        "Septum formation → Duplication of chromosome → Increase in cell mass → Cell separation",
+        "Cell separation → Synthesis of new cell wall → Duplication of chromosome → Septum formation",
+        "Duplication of chromosome → Immediate cell separation → Synthesis of plasma membrane → Ribosome synthesis"
+      ],
+      "answer": 0,
+      "explanation": "تتبع خطوات النمو والانقسام الثنائي بالترتيب: 1) زيادة كتلة الخلية وعدد الرايبوسومات 2) تضاعف الكروموسوم واستطالة الخلية 3) تصنيع جدار وغشاء جديدين 4) تكوين الحاجز (Septum) 5) الانفصال لخليتين (زيادة عدد الخلايا وليس حجمها)."
+    },
+    {
+      "q": "Trace the 4 phases of a bacterial growth curve in liquid medium chronologically, matching the key biological event to each phase:",
+      "options": [
+        "Lag (intense enzyme synthesis, no division) → Log (exponential doubling, max antibiotic efficacy) → Stationary (growth = death, toxins/sporulation) → Death (logarithmic decline, few survivors persist)",
+        "Log (enzyme synthesis) → Lag (exponential doubling) → Death (equilibrium) → Stationary (decline)",
+        "Lag (toxin production) → Stationary (max antibiotic efficacy) → Log (no division) → Death (no survivors)",
+        "Stationary (adaptation) → Log (death equals growth) → Lag (binary fission) → Death (spore germination)"
+      ],
+      "answer": 0,
+      "explanation": "التسلسل الكامل لمنحنى النمو: Lag (نشاط أيضي وبناء إنزيمات دون انقسام) ← Log (تضاعف أسي وأعلى فعالية للمضادات) ← Stationary (توازن النمو والموت مع تسارع السموم والتبوغ) ← Death (انخفاض لوغاريتمي مع بقاء ناجين قليلين)."
+    },
+    {
+      "q": "Trace the exact steps of the Pour-Plate method (as shown in Slide 22) and where the resulting colonies grow:",
+      "options": [
+        "Inoculate empty plate (1.0 or 0.1 ml bacterial dilution) → Add melted nutrient agar → Swirl to mix → Colonies grow BOTH IN and ON the solidified medium",
+        "Inoculate plate containing solid agar (0.1 ml) → Spread evenly with spreader → Colonies grow ONLY on the surface",
+        "Puncture solid agar tube with needle → Incubate anaerobically → Colonies grow only at the bottom",
+        "Swab entire agar surface → Place antibiotic discs → Measure inhibition zones"
+      ],
+      "answer": 0,
+      "explanation": "تتبع طريقة Pour-plate: نضع 1.0 أو 0.1 ml من التخفيف في طبق فارغ ← نضيف الآغار المنصهر ← نحرك الطبق دائرياً للمزج ← تنمو المستعمرات داخل وعلى سطح الوسط المتصلب (عكس Spread plate التي تنمو على السطح فقط)."
+    },
+    {
+      "q": "Trace the serial dilution progression shown in Slide 22 when transferring 1 ml of original inoculum sequentially into tubes each containing 9 ml of broth (5 tubes total):",
+      "options": [
+        "1:10 → 1:100 → 1:1,000 → 1:10,000 → 1:100,000",
+        "1:2 → 1:4 → 1:8 → 1:16 → 1:32",
+        "1:9 → 1:81 → 1:729 → 1:6,561 → 1:59,049",
+        "1:10 → 1:20 → 1:30 → 1:40 → 1:50"
+      ],
+      "answer": 0,
+      "explanation": "نقل 1 ml إلى 9 ml مرق يعطي تخفيفاً عشرياً (1:10) في كل خطوة، فيتدرج التخفيف: 1:10 ثم 1:100 ثم 1:1000 ثم 1:10,000 ثم 1:100,000."
+    },
+    {
+      "q": "Trace the geometric progression of a single bacterium undergoing binary fission: starting from 1 cell, how many cells exist after 5 complete generations?",
+      "options": [
+        "32 cells (1 → 2 → 4 → 8 → 16 → 32)",
+        "10 cells (1 → 2 → 4 → 6 → 8 → 10)",
+        "16 cells (1 → 2 → 4 → 8 → 16)",
+        "64 cells (1 → 2 → 4 → 8 → 16 → 32 → 64)"
+      ],
+      "answer": 0,
+      "explanation": "التكاثر الهندسي بالانشطار الثنائي ($2^n$): بعد 5 أجيال يكون العدد $2^5 = 32$ خلية (1→2→4→8→16→32)."
+    },
+    {
+      "q": "Trace the vertical growth distribution of bacteria in broth tubes from TOP (high O₂) to BOTTOM (no O₂) across the 5 oxygen groups (Slide 12):",
+      "options": [
+        "Obligate aerobes (top only) | Microaerophiles (narrow band below top) | Facultative anaerobes (dense at top + throughout) | Aerotolerant anaerobes (evenly throughout) | Obligate anaerobes (bottom only)",
+        "Obligate anaerobes (top only) | Obligate aerobes (bottom only) | Microaerophiles (evenly throughout)",
+        "Facultative anaerobes (bottom only) | Aerotolerant (top only) | Microaerophiles (bottom only)",
+        "Obligate aerobes (evenly throughout) | Aerotolerant (narrow band below top) | Obligate anaerobes (top only)"
+      ],
+      "answer": 0,
+      "explanation": "توزيع النمو في الأنابيب (Slide 12): الهوائية الإجبارية في القمة فقط، المحبة لقلة O₂ كحزمة رفيعة تحت السطح، الاختيارية كثيفة في القمة ومنتشرة بالباقي، المتحملة للهواء منتشرة بالتساوي، واللاهوائية الإجبارية في القاع فقط."
+    },
+    {
+      "q": "Trace the bacterial temperature preference curves from LOWEST optimal temperature to HIGHEST optimal temperature (Slide 8):",
+      "options": [
+        "Psychrophiles (<20°C) → Psychrotrophs (~20°C) → Mesophiles (25–40°C) → Thermophiles (55–80°C) → Hyperthermophiles (>80°C)",
+        "Mesophiles → Psychrophiles → Psychrotrophs → Hyperthermophiles → Thermophiles",
+        "Psychrotrophs → Psychrophiles → Thermophiles → Mesophiles → Hyperthermophiles",
+        "Hyperthermophiles → Thermophiles → Mesophiles → Psychrotrophs → Psychrophiles"
+      ],
+      "answer": 0,
+      "explanation": "التدرج الحراري حسب المنحنى في Slide 8 من الأبرد إلى الأعلى حرارة: Psychrophiles ثم Psychrotrophs ثم Mesophiles ثم Thermophiles ثم Hyperthermophiles."
+    },
+    {
+      "q": "Trace what happens to the bacterial death rate during the LATE Death Phase of the growth curve (Slide 31):",
+      "options": [
+        "Death rate rises to a steady logarithmic level → Majority of cells die → Death rate decreases drastically → A small number of survivors may persist for months or years",
+        "Death rate rises continuously until 100% of cells die within 1 hour with zero survivors",
+        "Death rate drops to zero and cells immediately re-enter the Log phase without fresh nutrients",
+        "All cells convert into bacteriophages"
+      ],
+      "answer": 0,
+      "explanation": "تفصيلة مهمة جداً في Slide 31: بعد موت أغلب الخلايا في طور الموت، ينخفض معدل الموت بشكل كبير جداً بحيث قد يبقى عدد قليل من الناجين لشهور أو حتى سنوات."
+    },
+    {
+      "q": "Trace the exact sequence of steps in the Spread-Plate method (Slide 22b) and compare it to the Pour-Plate method:",
+      "options": [
+        "Inoculate 0.1 ml onto plate containing solid medium → Spread inoculum evenly over surface → Colonies grow ONLY on the surface of the medium",
+        "Inoculate empty plate → Pour melted agar → Colonies grow inside the agar",
+        "Streak in 4 quadrants with an inoculating loop → Colonies grow only in quadrant 1",
+        "Puncture semi-solid agar vertically → Growth spreads throughout the tube"
+      ],
+      "answer": 0,
+      "explanation": "في طريقة Spread-plate نضع 0.1 ml على وسط صلب جاهز ثم ننشرها بالتساوي فتنمو المستعمرات على السطح فقط، بينما في Pour-plate تنمو داخل وعلى السطح."
+    },
+    {
+      "q": "Trace the osmotic consequence when a bacterium is transferred from an isotonic medium into a HYPOTONIC solution vs. a HYPERTONIC solution:",
+      "options": [
+        "Hypotonic: water enters cell → risk of cell rupture | Hypertonic: osmotic withdrawal of water → cell shrinkage (plasmolysis) inhibiting growth",
+        "Hypotonic: plasmolysis and shrinkage | Hypertonic: water enters and ruptures cell",
+        "Both hypotonic and hypertonic solutions cause plasmolysis",
+        "Neither solution affects water movement across the cytoplasmic membrane"
+      ],
+      "answer": 0,
+      "explanation": "المحلول منخفض التوتر (Hypotonic) يدخل الماء للخلية وقد يسبب انفجارها، بينما عالي التوتر (Hypertonic) يسحب الماء ويسبب انكماش الخلية (Plasmolysis) وهو أساس الحفظ بالملح."
+    },
+    {
+      "q": "Trace the Streak-Plate method (Slide 19) used in clinical microbiology laboratories:",
+      "options": [
+        "Inoculate clinical specimen in quadrant 1 → Sequentially dilute across quadrants 2, 3, and 4 using a loop → Obtain isolated single colonies (pure culture)",
+        "Cover entire plate uniformly with a swab → Place antibiotic discs → Read zones of inhibition",
+        "Mix specimen with melted agar → Swirl → Count subsurface colonies",
+        "Inoculate an agar slant tube → Perform slide agglutination"
+      ],
+      "answer": 0,
+      "explanation": "التخطيط الرباعي (Streak plate) يخفف العينة تدريجياً عبر 4 مناطق للحصول على مستعمرات منفردة معزولة نقية (Pure culture) من العينة السريرية."
+    },
+    {
+      "q": "Trace how a bacteriostatic drug (e.g., tetracycline) clears an infection inside a patient compared to a bactericidal drug (e.g., beta-lactam):",
+      "options": [
+        "Bacteriostatic arrests bacterial multiplication → Host humoral/cellular immune system kills the arrested bacteria | Bactericidal kills growing bacteria directly without needing host immune action",
+        "Bacteriostatic lyses the cell wall directly | Bactericidal relies strictly on host antibodies",
+        "Both drugs require host phagocytosis to work",
+        "Bacteriostatic drugs are effective only during the lag phase"
+      ],
+      "answer": 0,
+      "explanation": "سؤال صيدلاني-سريري جوهري: الأدوية المثبطة (Bacteriostatic مثل Tetracycline) توقف النمو وتحتاج لجهاز مناعة المريض لقتل البكتيريا، أما القاتلة (Bactericidal مثل Beta-lactams) فتقتل البكتيريا النامية مباشرة دون الحاجة للاستجابة المناعية."
+    },
+    {
+      "q": "If a patient is severely immunocompromised (weak humoral and cellular immunity), why is a bactericidal beta-lactam preferred over a bacteriostatic tetracycline?",
+      "options": [
+        "Because bactericidal drugs kill growing bacteria directly without relying on the host immune response, whereas bacteriostatic drugs require the host to kill the inhibited bacteria",
+        "Because tetracyclines only work on obligate anaerobes",
+        "Because beta-lactams work best on non-growing cells in biofilms",
+        "Because tetracyclines increase the bacterial generation time to zero"
+      ],
+      "answer": 0,
+      "explanation": "استنتاج فهمي مباشر من Slide 34: مريض نقص المناعة لا يستطيع جهازه المناعي التخلص من البكتيريا المثبطة، لذا يُفضل المضاد القاتل (Bactericidal) الذي يقتلها مباشرة."
+    },
+    {
+      "q": "Why can NON-GROWING (stressed) bacteria inside human body tissues still be clinically harmful to the patient?",
+      "options": [
+        "They remain immunogenic, toxin production starts or accelerates during the stationary phase, and sporulation can release toxins",
+        "They immediately divide faster than log-phase bacteria",
+        "They convert into autotrophs fixing atmospheric N₂",
+        "They become completely sensitive to all disinfectants"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 33: حتى البكتيريا غير النامية داخل الأنسجة تبقى ضارة لأنها مستضدية (Immunogenic)، وإنتاج السموم يبدأ أو يتسارع في طور الثبات (Stationary)، كما أن التبوغ قد يحرر السموم."
+    },
+    {
+      "q": "Which THREE factors are explicitly listed in Lecture 3 (Slide 34) as reducing or affecting the effectiveness of antimicrobial therapy?",
+      "options": [
+        "Large number of organisms (takes longer), environmental factors (organic materials reduce effectiveness), timing of exposure, and growth on biofilms",
+        "Presence of 70S ribosomes, binary fission, and peptone in media",
+        "Low temperature, dark incubation, and agar slant angle",
+        "High CO₂ concentration, blood agar, and Gram staining time"
+      ],
+      "answer": 0,
+      "explanation": "العوامل المؤثرة على فعالية المضادات (Slide 34): النمو على الأغشية الحيوية (Biofilms) يقلل الفعالية بشدة، زيادة عدد الكائنات تتطلب وقتاً أطول، المواد العضوية تقلل الفعالية، وتوقيت التعرض."
+    },
+    {
+      "q": "A microbiologist uses a spectrophotometer (turbidity analysis) on a broth culture after treating it with a bactericidal antibiotic. Why might the spectrophotometer still show high turbidity even though most bacteria are dead?",
+      "options": [
+        "Because turbidity analysis measures TOTAL counts (both viable AND non-viable dead cells), not just viable cells",
+        "Because spectrophotometers only detect spores",
+        "Because dead bacteria reproduce faster than living bacteria",
+        "Because turbidity measures only viable cells like pour-plate cultures"
+      ],
+      "answer": 0,
+      "explanation": "سؤال فهم عميق: المطياف الضوئي (Spectrophotometer) و Coulter counter والـ Hemacytometer والمجهر المباشر كلها تقيس العدد الكلي (الحي والميت)، بينما الـ Pour plate / Dilution plating يقيس الخلايا الحية فقط (Viable counts)."
+    },
+    {
+      "q": "Which automated optical instrument is listed in Lecture 3 under methods for measuring bacterial growth (total counts)?",
+      "options": [
+        "Coulter Counter",
+        "Anaerobic jar",
+        "Glass rod spooler",
+        "Electrophoresis gel"
+      ],
+      "answer": 0,
+      "explanation": "يُذكر جهاز Coulter Counter في Slide 35 كطريقة كشف بصري (Optical detection) ضمن طرق قياس النمو البكتيري."
+    },
+    {
+      "q": "Why are bacteria generally MORE tolerant to osmotic variations than animal cells?",
+      "options": [
+        "Because of the mechanical strength of their rigid cell wall",
+        "Because their cytoplasmic membrane contains only 10% protein",
+        "Because they contain contractile vacuoles",
+        "Because they have 80S ribosomes"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 9: تتحمل البكتيريا التغيرات الأزموزية بشكل أكبر بسبب القوة الميكانيكية لجدارها الخلوي (Mechanical strength of the cell wall)."
+    },
+    {
+      "q": "Compare the resistance to drying (desiccation) among Treponema pallidum, Staphylococcus spp., and bacterial spores:",
+      "options": [
+        "T. pallidum is highly sensitive → Staphylococcus spp. can stand drying for months → Bacterial spores resist desiccation for several decades",
+        "T. pallidum survives for decades → Spores die immediately on drying",
+        "Staphylococcus is the most sensitive → T. pallidum survives for months",
+        "All three die immediately upon drying because water is essential"
+      ],
+      "answer": 0,
+      "explanation": "تدرج مقاومة الجفاف (Slide 10): Treponema pallidum شديدة الحساسية للجفاف، Staphylococcus تتحمل لأشهر، والأبواغ تقاوم الجفاف لعدة عقود."
+    },
+    {
+      "q": "Why are bacterial cells during the Lag Phase NOT considered 'dormant' even though the cell number barely changes?",
+      "options": [
+        "Because the population is undergoing intense metabolic activity, specifically synthesizing enzymes and various molecules needed to adapt to the new medium",
+        "Because cells are rapidly dividing by budding",
+        "Because they are actively forming endospores",
+        "Because they are dying at the exact same rate they divide"
+      ],
+      "answer": 0,
+      "explanation": "نص صريح في Slide 28: في طور Lag لا تكون الخلايا خاملة (Not dormant) بل تمر بنشاط أيضي مكثف لتصنيع الإنزيمات والجزيئات اللازمة للنمو، وتعتمد مدته على نوع البكتيريا والوسط والعوامل البيئية."
+    },
+    {
+      "q": "What does 'bacterial growth' strictly refer to in microbiology?",
+      "options": [
+        "An increase in the NUMBER of cells (population), NOT an increase in individual cell size",
+        "An increase in the diameter of a single bacterial cell",
+        "Thickening of the capsule only",
+        "Accumulation of water in a hypotonic medium"
+      ],
+      "answer": 0,
+      "explanation": "قاعدة أساسية في Slide 26: النمو البكتيري يعني زيادة عدد الخلايا (Increase in number of cells, not cell size)."
+    },
+    {
+      "q": "What is the exact definition of 'Generation time'?",
+      "options": [
+        "The time required for one complete cell division (doubling of the population)",
+        "The duration of the lag phase before enzymes are synthesized",
+        "The time it takes for a spore to survive boiling",
+        "The total lifespan of a bacterial colony until the death phase ends"
+      ],
+      "answer": 0,
+      "explanation": "زمن الجيل (Generation time) هو الزمن اللازم لإتمام انقسام خلوي واحد كامل."
+    },
+    {
+      "q": "Which bacterial structure is analogous to eukaryotic mitochondria in supporting respiratory enzymes AND also functions in DNA compartmentalization during cell division and sporulation?",
+      "options": [
+        "Mesosome",
+        "Nucleoid",
+        "Ribosome",
+        "Plasmid"
+      ],
+      "answer": 0,
+      "explanation": "الميزوسوم (Mesosome) هو انبعاجات متعددة الطبقات من الغشاء السيتوبلازمي تعمل في فصل الـ DNA عند الانقسام والتبوغ وتدعم إنزيمات التنفس بشكل مشابه للمايتوكوندريا."
+    },
+    {
+      "q": "How does the protein content of the bacterial cytoplasmic membrane compare to mammalian cell membranes?",
+      "options": [
+        "Bacterial membranes contain >200 kinds of proteins accounting for ~70% of membrane mass, which is considerably HIGHER than mammalian cell membranes",
+        "Bacterial membranes have virtually no proteins (~5%) compared to mammalian membranes",
+        "Both bacterial and mammalian membranes have identical 20% protein mass",
+        "Bacterial membranes are 100% phospholipid with no integrated proteins"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 2: يحتوي الغشاء البكتيري على أكثر من 200 نوع بروتين وتشكل البروتينات ~70% من كتلته، وهي نسبة أعلى بكثير من أغشية خلايا الثدييات."
+    },
+    {
+      "q": "Which of the following is NOT one of the 5 major functions of the bacterial cytoplasmic membrane listed in Slide 3 of Lecture 3?",
+      "options": [
+        "Translating mRNA into peptide sequences",
+        "Excretion of hydrolytic exo-enzymes",
+        "Bearing enzymes and carrier molecules for biosynthesis of DNA, cell wall polymers, and membrane lipids",
+        "Bearing receptors for chemotactic and sensory transduction systems"
+      ],
+      "answer": 0,
+      "explanation": "ترجمة mRNA إلى بروتين هي وظيفة الرايبوسومات، أما الخيارات الأخرى فهي من الوظائف الخمس للغشاء السيتوبلازمي في Slide 3."
+    },
+    {
+      "q": "Which nutrient source provides Nitrogen and which provides Carbon in standard bacterial culture media (Slide 14)?",
+      "options": [
+        "Carbon source = Sugar; Nitrogen source = Peptone",
+        "Carbon source = Peptone; Nitrogen source = Sugar",
+        "Carbon source = Sulfur; Nitrogen source = Magnesium",
+        "Carbon source = Thioglycolate; Nitrogen source = Water"
+      ],
+      "answer": 0,
+      "explanation": "مكونات الأوساط الزرعية (Slide 14): مصدر الكربون هو السكر (Sugar)، والنيتروجين هو الببتون (Peptone)، إضافة لأيونات معدنية (Ca, Zn, Na, K, Cu, Mn, Mg, Fe) ولا معدنية (S, P) والماء."
+    },
+    {
+      "q": "Which of the following correctly distinguishes 'Physical' growth factors from 'Chemical' growth factors (Slide 7)?",
+      "options": [
+        "Physical: Temperature, pH, Light, Osmotic pressure, Moisture/desiccation | Chemical: Carbon source, Nitrogen/Sulfur/Phosphorus, Oxygen",
+        "Physical: Oxygen and Carbon | Chemical: Temperature and Light",
+        "Physical: pH and Nitrogen | Chemical: Osmotic pressure and Moisture",
+        "Physical: Peptone and Sugar | Chemical: UV rays and Heat"
+      ],
+      "answer": 0,
+      "explanation": "العوامل الفيزيائية: الحرارة، الـ pH، الضوء، الضغط الأزموزي، الرطوبة والجفاف. العوامل الكيميائية: الكربون، النيتروجين والكبريت والفسفور، والأوكسجين."
+    },
+    {
+      "q": "How do bacteria generally respond to light and UV radiation (Slide 9)?",
+      "options": [
+        "Most bacteria grow well in the dark and are sensitive to UV rays and other radiation, except photosynthetic and photochromogenic bacteria",
+        "All pathogenic bacteria require direct sunlight for photosynthesis",
+        "UV rays accelerate bacterial binary fission in the log phase",
+        "All bacteria produce colored pigments in total darkness"
+      ],
+      "answer": 0,
+      "explanation": "تنمو معظم البكتيريا جيداً في الظلام وتكون حساسة للأشعة فوق البنفسجية، باستثناء البكتيريا الضوئية (Photosynthetic) والبكتيريا المنتجة للصبغة بالضوء (Photochromogenic)."
+    },
+    {
+      "q": "Why can obligate intracellular bacteria such as Chlamydia spp. NOT be grown on routine simple agar plates?",
+      "options": [
+        "They require living cell culture systems rather than cell-free agar media",
+        "They are strict thermophiles requiring 80°C",
+        "They only grow on Bismuth sulfite agar",
+        "They are autotrophs that need only atmospheric CO₂"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 15: البكتيريا إجبارية التطفل داخل الخلايا مثل Chlamydia spp. تحتاج إلى مزارع خلوية (Cell culture) لتنمو."
+    },
+    {
+      "q": "Based on CONSISTENCY, bacterial culture media are classified into which three types?",
+      "options": [
+        "Solid, Semisolid, and Liquid",
+        "Simple, Special, and Synthetic",
+        "Aerobic, Anaerobic, and Capnophilic",
+        "Selective, Differential, and Transport"
+      ],
+      "answer": 0,
+      "explanation": "تصنف الأوساط حسب القوام (Consistency) إلى صلبة وشبه صلبة وسائلة، بينما حسب المكونات (Constituents) إلى بسيطة وخاصة وصناعية."
+    },
+    {
+      "q": "Which of the following is an example of a 'Special medium' subtype listed in Slide 15?",
+      "options": [
+        "Enriched, selective, enrichment, indicator/differential, and transport media",
+        "Solid, liquid, and semisolid media",
+        "Hypertonic and hypotonic media",
+        "Autotrophic and heterotrophic media"
+      ],
+      "answer": 0,
+      "explanation": "الأوساط الخاصة (Special media) تشمل: المخصبة (Enriched)، الانتقائية (Selective)، الإغنائية (Enrichment)، التفريقية/الكاشفة (Indicator/differential)، والناقلة (Transport)."
+    },
+    {
+      "q": "Blood agar plates are given in Lecture 3 as the classic example of a DIFFERENTIAL medium for which pathogen?",
+      "options": [
+        "Streptococcus pyogenes",
+        "Salmonella typhi",
+        "Staphylococcus aureus",
+        "Brucella abortus"
+      ],
+      "answer": 0,
+      "explanation": "أمثلة Slide 16: Bismuth sulfite انتقائي لـ Salmonella typhi، و Blood agar تفريقي لـ Streptococcus pyogenes، و Mannitol salt agar انتقائي وتفريقي لـ Staphylococcus aureus."
+    },
+    {
+      "q": "Which organism is given in Slide 16 (in addition to Neisseria spp. in Slide 11) as a classic Capnophile requiring high CO₂?",
+      "options": [
+        "Brucella abortus",
+        "Pseudomonas aeruginosa",
+        "Bacteroides fragilis",
+        "Bacillus stearothermophilus"
+      ],
+      "answer": 0,
+      "explanation": "المثالان على Capnophiles في ملزمة 3 هما Neisseria spp. (Slide 11) و Brucella abortus (Slide 16)."
+    },
+    {
+      "q": "Which culture method uses an agar slope (slant) inside a test tube to provide pure bacterial growth for slide agglutination and other diagnostic tests?",
+      "options": [
+        "Stroke culture",
+        "Stab culture",
+        "Lawn culture",
+        "Pour-plate culture"
+      ],
+      "answer": 0,
+      "explanation": "الزرع بالمسحة المائلة (Stroke culture) على أنبوب Agar slope/slant يوفر نمواً نقياً لفحص التلازن على الشريحة (Slide agglutination) والاختبارات التشخيصية."
+    },
+    {
+      "q": "Which three methods are listed in Lecture 3 (Slide 25) as 'rare sexual methods' of bacterial genetic exchange?",
+      "options": [
+        "Transformation, Transduction, and Conjugation",
+        "Binary fission, Budding, and Fragmentation",
+        "Sporulation, Germination, and Plasmolysis",
+        "Streak, Stab, and Lawn culture"
+      ],
+      "answer": 0,
+      "explanation": "ذكرت ملزمة 3 (Slide 25) أن البكتيريا نادراً ما تتبادل المادة الوراثية بطرق شبيهة بالجنسية هي: Transformation و Transduction و Conjugation."
+    },
+    {
+      "q": "Which bacterium is given in Lecture 3 as the classic example of a Thermophile growing best at 55°C–80°C?",
+      "options": [
+        "Bacillus stearothermophilus",
+        "Flavobacterium spp.",
+        "Treponema pallidum",
+        "Bacteroides fragilis"
+      ],
+      "answer": 0,
+      "explanation": "مثال البكتيريا المحبة للحرارة العالية (Thermophilic: 55-80°C) هو Bacillus stearothermophilus، بينما Flavobacterium محبة للبرودة (<20°C)."
+    },
+    {
+      "q": "How do Chemoheterotrophs differ from Chemo- and Photo-autotrophs regarding carbon and energy sources (Slide 11)?",
+      "options": [
+        "Chemoheterotrophs obtain energy from organic compounds, whereas chemo- and photo-autotrophs fix CO₂",
+        "Chemoheterotrophs fix atmospheric N₂ and CO₂ only",
+        "Autotrophs cause all human infectious diseases",
+        "Chemoheterotrophs require light for pigment production"
+      ],
+      "answer": 0,
+      "explanation": "الـ Autotrophs تثبت غاز CO₂ وليس لها أهمية طبية، بينما الـ Chemoheterotrophs تحصل على الطاقة والكربون من المركبات العضوية الجاهزة وتشمل كل الممرضات."
+    },
+    {
+      "q": "What are the three environmental/physiological causes that halt exponential growth and initiate the Stationary Phase (Slide 30)?",
+      "options": [
+        "Exhaustion of nutrients, accumulation of waste products, and harmful changes in pH",
+        "Excess oxygen, bright sunlight, and addition of peptone",
+        "Increase in ribosome number and rapid septum formation",
+        "Addition of thioglycolate and cooling to 20°C"
+      ],
+      "answer": 0,
+      "explanation": "أسباب توقف النمو الأسي والدخول في طور الثبات (Slide 30): نفاد المغذيات، تراكم الفضلات الأيضية، والتغيرات الضارة في الأس الهيدروجيني (pH)."
+    },
+    {
+      "q": "Which of the following is NOT one of the 4 practical societal applications of the microbial growth curve listed in Slide 32?",
+      "options": [
+        "Genetic engineering of fluorescent fishes",
+        "At home and dairy factory",
+        "At microbiology laboratory and hospital",
+        "At fermentation industry"
+      ],
+      "answer": 0,
+      "explanation": "التطبيقات العملية الأربعة لمنحنى النمو (Slide 32): المنزل ومصانع الألبان، مختبر الأحياء المجهرية، المستشفى، وصناعة التخمير."
+    },
+    {
+      "q": "Which bacterial genus reproduces asexually by 'Spore formation' in the list of 4 modes of reproduction (Slide 24)?",
+      "options": [
+        "Streptomycetes",
+        "Nocardia",
+        "Rhodopseudomonas acidophila",
+        "Staphylococcus aureus"
+      ],
+      "answer": 0,
+      "explanation": "طرق التكاثر اللاجنسي الأربعة (Slide 24): الانشطار الثنائي (B. subtilis, S. aureus)، التبرعم (Rhodopseudomonas acidophila)، التجزؤ (Nocardia)، وتكوين الأبواغ (Streptomycetes)."
+    },
+    {
+      "q": "Most human bacterial pathogens (such as Staphylococcus spp.) fall under which oxygen requirement category?",
+      "options": [
+        "Facultative anaerobes",
+        "Strict anaerobes",
+        "Strict aerobes",
+        "Microaerophiles"
+      ],
+      "answer": 0,
+      "explanation": "معظم البكتيريا الممرضة للإنسان (مثل Staphylococcus) هي لا هوائية اختيارية (Facultative anaerobes)؛ تنمو بشكل أفضل بوجود الأوكسجين ويمكنها النمو بدونه."
+    },
+    {
+      "q": "Which laboratory equipment options are used for cultivating obligate anaerobic bacteria (Slide 16)?",
+      "options": [
+        "Anaerobic jar, anaerobic chamber, and anaerobic bags/pouches (along with reducing media like thioglycolate or cooked meat broth)",
+        "Open streak plates incubated in bright UV light",
+        "Mannitol salt agar exposed to atmospheric air",
+        "Spectrophotometer and Coulter counter"
+      ],
+      "answer": 0,
+      "explanation": "تُزرع البكتيريا اللاهوائية باستخدام أوساط مختزلة (Thioglycolate أو Cooked meat broth) وداخل جرة لاهوائية (Anaerobic jar) أو حجرة لاهوائية أو أكياس لاهوائية."
+    },
+    {
+      "q": "What is the definition of 'Bacterial Physiology' as stated on Slide 6 of Lecture 3?",
+      "options": [
+        "The study of bacterial growth, nutrition, and metabolism",
+        "The study of viral capsids and RNA splicing",
+        "The study of antibiotic pricing in pharmacies",
+        "The classification of bacterial shapes under Gram stain"
+      ],
+      "answer": 0,
+      "explanation": "تعريف فسلجة البكتيريا (Slide 6): Growth, nutrition and metabolism."
+    },
+    {
+      "q": "Besides DNA, what does the bacterial nucleoid region include according to Slide 5 of Lecture 3?",
+      "options": [
+        "Enzymes and proteins that transcribe RNA and DNA, assisting in cell development and growth",
+        "Peptidoglycan cross-links and teichoic acids",
+        "Outer membrane LPS and β-lactamases",
+        "Dipicolinic acid and spore coat proteins"
+      ],
+      "answer": 0,
+      "explanation": "من Slide 5: يحتوي الـ Nucleoid على المادة الوراثية DNA بالإضافة إلى الإنزيمات والبروتينات التي تنسخ RNA و DNA وتساعد في تطور ونمو الخلية."
+    },
+    {
+      "q": "Which statement about Robert Koch and Louis Pasteur is accurately presented in Lecture 3 (Slide 13)?",
+      "options": [
+        "Robert Koch is the Father of Culture media (worked on Bacillus anthracis), while Louis Pasteur introduced liquid culture media",
+        "Louis Pasteur invented Gram stain, while Robert Koch discovered plasmids",
+        "Robert Koch invented the Coulter Counter, while Pasteur discovered lysozyme",
+        "Both scientists worked exclusively on anaerobic Thioglycolate broth"
+      ],
+      "answer": 0,
+      "explanation": "Slide 13: روبرت كوخ هو أبو الأوساط الزرعية (على عصيات الجمرة الخبيثة)، ولويس باستور طوّر الأوساط السائلة."
+    },
+    {
+      "q": "If you start with 10 bacterial cells in the Log phase and their generation time is 30 minutes, how many cells will be present after 2 hours (4 generations)?",
+      "options": [
+        "160 cells (10 × 2⁴)",
+        "40 cells (10 × 4)",
+        "80 cells (10 × 2³)",
+        "320 cells (10 × 2⁵)"
+      ],
+      "answer": 0,
+      "explanation": "تطبيق حسابي فهمي على النمو الهندسي: ساعتان ÷ 30 دقيقة = 4 أجيال. العدد النهائي = $10 \times 2^4 = 10 \times 16 = 160$ خلية."
+    },
+    {
+      "q": "Why do obligate anaerobes (such as Bacteroides fragilis) grow ONLY at the very bottom of a broth tube?",
+      "options": [
+        "Because they grow only in the absence of O₂ and may even die upon exposure to oxygen near the surface",
+        "Because they are heavy spore-formers that sink",
+        "Because they require high atmospheric CO₂ at the bottom",
+        "Because nutrients are absent at the top of the tube"
+      ],
+      "answer": 0,
+      "explanation": "اللاهوائية الإجبارية (Strict/Obligate anaerobes مثل Bacteroides fragilis) تنمو فقط بغياب الأوكسجين وقد تموت عند التعرض له، لذا تقتصر على قاع الأنبوب."
+    }
+  ]
+}
