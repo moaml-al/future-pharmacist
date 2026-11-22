@@ -15,6 +15,16 @@
           "file": "physio_lec2.json",
           "title": "Lec 2: Cardiovascular System",
           "count": 40
+        },
+        {
+          "file": "physio_lec3.json",
+          "title": "Lec 3: Cardiovascular System",
+          "count": 50
+        },
+        {
+          "file": "physio_clinical.json",
+          "title": "الأسئلة السريرية الشاملة (Lec 1, 2, 3)",
+          "count": 30
         }
       ]
     }
