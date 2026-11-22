@@ -10,6 +10,11 @@
           "file": "physio_lec1.json",
           "title": "Lec 1: Muscle",
           "count": 50
+        },
+        {
+          "file": "physio_lec2.json",
+          "title": "Lec 2: Cardiovascular System",
+          "count": 40
         }
       ]
     }
