@@ -19,7 +19,6 @@
       --border: #f2dce3;
       --shadow: 0 4px 16px rgba(219, 112, 147, 0.08);
       --primary: #e26d97;
-      --primary-hover: #d15884;
       --primary-soft: #fdebf1;
       --text: #2b2125;
       --muted: #7c6870;
@@ -41,7 +40,6 @@
       --border: #263147;
       --shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
       --primary: #f472b6;
-      --primary-hover: #ec4899;
       --primary-soft: rgba(244, 114, 182, 0.14);
       --text: #f1f5f9;
       --muted: #94a3b8;
@@ -65,53 +63,25 @@
       transition: background 0.25s ease, color 0.25s ease;
     }
 
-    /* Topbar */
     .topbar {
-      position: sticky;
-      top: 0;
-      z-index: 50;
-      background: var(--bg);
-      border-bottom: 1px solid var(--border);
-      padding: 10px 16px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      position: sticky; top: 0; z-index: 50;
+      background: var(--bg); border-bottom: 1px solid var(--border);
+      padding: 10px 16px; display: flex; align-items: center; justify-content: space-between;
     }
     .top-actions { display: flex; gap: 8px; align-items: center; }
     .icon-btn {
-      background: var(--card);
-      border: 1px solid var(--border);
-      color: var(--text);
-      width: 40px;
-      height: 40px;
-      border-radius: 12px;
-      font-size: 17px;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: var(--shadow);
-      transition: transform 0.12s;
+      background: var(--card); border: 1px solid var(--border); color: var(--text);
+      width: 40px; height: 40px; border-radius: 12px; font-size: 17px; cursor: pointer;
+      display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow);
     }
     .icon-btn:active { transform: scale(0.94); }
     .menu-btn {
-      background: var(--primary);
-      color: #fff;
-      border: none;
-      padding: 0 14px;
-      height: 40px;
-      border-radius: 12px;
-      font-size: 14px;
-      font-weight: 700;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      box-shadow: var(--shadow);
+      background: var(--primary); color: #fff; border: none;
+      padding: 0 14px; height: 40px; border-radius: 12px; font-size: 14px; font-weight: 700;
+      cursor: pointer; display: flex; align-items: center; gap: 8px; box-shadow: var(--shadow);
     }
-    .menu-btn:active { transform: scale(0.95); }
 
-    /* Sidebar Drawer (مثل meeee.html) */
+    /* Sidebar Drawer */
     .overlay {
       position: fixed; inset: 0; background: rgba(0,0,0,0.55);
       z-index: 90; display: none; backdrop-filter: blur(2px);
@@ -126,21 +96,16 @@
     .drawer.open { right: 0; }
     .drawer-head {
       display: flex; justify-content: space-between; align-items: center;
-      padding: 16px; border-bottom: 1px solid var(--border);
-      background: var(--hero-bg);
+      padding: 16px; border-bottom: 1px solid var(--border); background: var(--hero-bg);
     }
     .drawer-brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 15px; }
     .drawer-brand img { width: 36px; height: 36px; border-radius: 10px; object-fit: cover; background: #fff; padding: 2px; }
     .drawer-body { flex: 1; overflow-y: auto; padding: 14px; }
-    .drawer-section {
-      font-size: 11.5px; color: var(--primary); margin: 14px 6px 8px;
-      font-weight: 800; letter-spacing: 0.3px;
-    }
+    .drawer-section { font-size: 11.5px; color: var(--primary); margin: 14px 6px 8px; font-weight: 800; }
     .drawer-home-btn {
       width: 100%; background: var(--primary); color: #fff; border: none;
       padding: 12px 14px; border-radius: 12px; font-weight: 700; font-size: 14px;
-      cursor: pointer; display: flex; justify-content: space-between; align-items: center;
-      margin-bottom: 8px;
+      cursor: pointer; display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;
     }
     .drawer-item {
       width: 100%; text-align: right; background: var(--card-soft);
@@ -148,81 +113,48 @@
       padding: 11px 12px; border-radius: 12px; margin-bottom: 8px;
       cursor: pointer; font-size: 13.5px; font-weight: 700;
       display: flex; justify-content: space-between; align-items: center; gap: 8px;
-      transition: border-color 0.15s;
     }
-    .drawer-item:hover { border-color: var(--primary); }
-    .drawer-sub {
-      background: transparent; border-style: dashed;
-      font-size: 13px; font-weight: 600; padding: 9px 12px;
-    }
+    .drawer-sub { background: transparent; border-style: dashed; font-size: 13px; font-weight: 600; padding: 9px 12px; }
 
-    main { max-width: 820px; margin: 0 auto; padding: 16px 14px 50px; }
+    main { max-width: 1140px; margin: 0 auto; padding: 16px 14px 60px; }
+    .narrow-wrap { max-width: 680px; margin: 0 auto; }
 
-    /* Home View (نفس التصميم الوردي الأول) */
+    /* Home View */
     .hero-card {
-      background: var(--hero-bg);
-      border: 1px solid var(--border);
-      border-radius: 24px;
-      padding: 28px 16px;
-      text-align: center;
-      margin-bottom: 22px;
-      box-shadow: var(--shadow);
+      background: var(--hero-bg); border: 1px solid var(--border); border-radius: 24px;
+      padding: 28px 16px; text-align: center; margin-bottom: 22px; box-shadow: var(--shadow);
     }
     .hero-logo {
       width: 82px; height: 82px; border-radius: 50%; object-fit: cover;
       background: #fff; padding: 5px; margin-bottom: 12px;
       box-shadow: 0 4px 16px rgba(226, 109, 151, 0.25);
     }
-    .hero-title { margin: 0; font-size: 22px; font-weight: 800; color: var(--text); }
+    .hero-title { margin: 0; font-size: 22px; font-weight: 800; }
+    .section-title { font-size: 16px; font-weight: 800; margin: 0 4px 14px; }
 
-    .section-title { font-size: 16px; font-weight: 800; margin: 0 4px 14px; color: var(--text); }
-
-    .subjects-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 14px;
-    }
+    .subjects-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
     .subject-tile {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 22px 14px;
-      text-align: center;
-      cursor: pointer;
-      box-shadow: var(--shadow);
-      transition: transform 0.15s, border-color 0.15s;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      min-height: 142px;
+      background: var(--card); border: 1px solid var(--border); border-radius: 20px;
+      padding: 22px 14px; text-align: center; cursor: pointer; box-shadow: var(--shadow);
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 10px; min-height: 142px; transition: transform 0.15s, border-color 0.15s;
     }
     .subject-tile:active { transform: scale(0.96); }
     .subject-tile:hover { border-color: var(--primary); }
     .tile-icon {
       width: 54px; height: 54px; border-radius: 16px;
       background: var(--primary-soft); color: var(--primary);
-      display: flex; align-items: center; justify-content: center;
-      font-size: 27px;
+      display: flex; align-items: center; justify-content: center; font-size: 27px;
     }
-    .tile-name { font-size: 15.5px; font-weight: 800; color: var(--text); }
+    .tile-name { font-size: 15.5px; font-weight: 800; }
 
-    /* Cards & Buttons */
     .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 18px;
-      margin-bottom: 14px;
-      box-shadow: var(--shadow);
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 20px; padding: 18px; margin-bottom: 14px; box-shadow: var(--shadow);
     }
     .lec-card {
-      cursor: pointer;
-      display: flex; justify-content: space-between; align-items: center; gap: 12px;
-      transition: transform 0.15s, border-color 0.15s;
+      cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 12px;
     }
-    .lec-card:active { transform: scale(0.98); }
     .lec-card:hover { border-color: var(--primary); }
 
     .badge {
@@ -233,7 +165,7 @@
     .badge-clinical { background: var(--clinical-bg); color: var(--clinical); }
     .badge-warn { background: var(--warn-bg); color: var(--warn); }
 
-    /* Exam Control Header (نفس meeee.html) */
+    /* Exam Controls */
     .exam-header-top {
       display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;
       gap: 12px; padding-bottom: 14px; border-bottom: 1px solid var(--border); margin-bottom: 14px;
@@ -243,18 +175,12 @@
 
     .reshuffle-btn {
       background: #f59e0b; color: #111827; border: none;
-      padding: 10px 14px; border-radius: 12px; font-size: 13px; font-weight: 800;
-      cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
+      padding: 10px 14px; border-radius: 12px; font-size: 13px; font-weight: 800; cursor: pointer;
     }
-    .reshuffle-btn:active { transform: scale(0.96); }
-
-    .stats-row {
-      display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px;
-    }
+    .stats-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
     .stat-pill {
       background: var(--card-soft); border: 1px solid var(--border);
       padding: 7px 12px; border-radius: 12px; font-size: 12.5px; font-weight: 700;
-      display: flex; align-items: center; gap: 6px;
     }
     .stat-pill.ok { background: var(--success-bg); border-color: var(--success); color: var(--success); }
     .stat-pill.bad { background: var(--danger-bg); border-color: var(--danger); color: var(--danger); }
@@ -266,57 +192,53 @@
       font-size: 12px; font-weight: 700; color: var(--muted);
     }
     .dist-badges { display: flex; gap: 6px; font-family: monospace; }
-    .dist-badge {
-      background: var(--primary-soft); color: var(--primary);
-      padding: 3px 8px; border-radius: 6px; font-weight: 800;
-    }
+    .dist-badge { background: var(--primary-soft); color: var(--primary); padding: 3px 8px; border-radius: 6px; font-weight: 800; }
 
     .filter-row { display: flex; flex-wrap: wrap; gap: 8px; }
     .filter-btn {
       background: var(--card-soft); border: 1px solid var(--border); color: var(--text);
-      padding: 7px 14px; border-radius: 10px; font-size: 12.5px; font-weight: 700; cursor: pointer;
+      padding: 8px 14px; border-radius: 10px; font-size: 12.5px; font-weight: 700; cursor: pointer;
     }
     .filter-btn.active { background: var(--primary); border-color: var(--primary); color: #fff; }
 
-    /* Question Cards (نفس meeee.html) */
-    .q-card-head {
-      display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 10px;
+    /* Questions Grid: 1 column on Mobile, 2 columns side-by-side on iPad & Laptop */
+    .questions-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      align-items: start;
     }
-    .q-num {
-      background: var(--primary-soft); color: var(--primary);
-      padding: 4px 10px; border-radius: 8px; font-size: 12px; font-weight: 800;
+    @media (min-width: 768px) {
+      .questions-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
     }
+    .questions-grid .card { margin-bottom: 0; }
+
+    .q-card-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 10px; }
+    .q-num { background: var(--primary-soft); color: var(--primary); padding: 4px 10px; border-radius: 8px; font-size: 12px; font-weight: 800; }
     .q-text {
-      direction: ltr; text-align: left; font-size: 15.5px; font-weight: 700;
-      line-height: 1.6; margin: 0 0 14px; color: var(--text);
+      direction: ltr; text-align: left; font-size: 15px; font-weight: 700;
+      line-height: 1.6; margin: 0 0 14px;
     }
-    .opts-grid {
-      display: grid; grid-template-columns: 1fr; gap: 10px;
-    }
-    @media (min-width: 600px) {
-      .opts-grid { grid-template-columns: repeat(2, 1fr); }
-    }
+    .opts-grid { display: grid; grid-template-columns: 1fr; gap: 9px; }
     .opt-btn {
       width: 100%; direction: ltr; text-align: left;
       background: var(--card-soft); border: 1px solid var(--border); color: var(--text);
-      padding: 12px; border-radius: 14px; cursor: pointer;
-      display: flex; align-items: center; gap: 10px; font-size: 14px; line-height: 1.45;
+      padding: 11px 12px; border-radius: 13px; cursor: pointer;
+      display: flex; align-items: center; gap: 10px; font-size: 13.5px; line-height: 1.45;
       transition: all 0.15s;
     }
     .opt-btn:hover:not(:disabled) { border-color: var(--primary); }
     .opt-letter {
-      width: 30px; height: 30px; border-radius: 8px;
+      width: 28px; height: 28px; border-radius: 8px;
       background: var(--border); color: var(--text);
-      font-weight: 800; font-size: 13px;
-      display: flex; align-items: center; justify-content: center; shrink: 0; flex-shrink: 0;
+      font-weight: 800; font-size: 12.5px;
+      display: flex; align-items: center; justify-content: center; flex-shrink: 0;
     }
-    .opt-btn.correct {
-      background: var(--success-bg); border-color: var(--success); color: var(--success); font-weight: 700;
-    }
+    .opt-btn.correct { background: var(--success-bg); border-color: var(--success); color: var(--success); font-weight: 700; }
     .opt-btn.correct .opt-letter { background: var(--success); color: #fff; }
-    .opt-btn.wrong {
-      background: var(--danger-bg); border-color: var(--danger); color: var(--danger); font-weight: 700;
-    }
+    .opt-btn.wrong { background: var(--danger-bg); border-color: var(--danger); color: var(--danger); font-weight: 700; }
     .opt-btn.wrong .opt-letter { background: var(--danger); color: #fff; }
     .opt-btn.faded { opacity: 0.55; }
     .opt-btn:disabled { cursor: default; }
@@ -324,20 +246,51 @@
     .explain-box {
       margin-top: 12px; padding: 12px 14px; border-radius: 12px;
       font-size: 13.5px; line-height: 1.7;
-      border: 1px solid var(--border); background: var(--warn-bg); color: var(--text);
+      border: 1px solid var(--warn); background: var(--warn-bg); color: var(--text);
     }
     .explain-box.ok { background: var(--success-bg); border-color: var(--success); }
 
+    /* Final Summary Card at Bottom */
+    .summary-card {
+      margin-top: 22px;
+      background: var(--hero-bg);
+      border: 2px solid var(--primary);
+      border-radius: 24px;
+      padding: 26px 20px;
+      text-align: center;
+      box-shadow: var(--shadow);
+    }
+    .summary-score { font-size: 44px; font-weight: 900; color: var(--primary); margin: 4px 0; }
+    .summary-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;
+      max-width: 460px; margin: 16px auto 20px;
+    }
+    .summary-box {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 14px; padding: 12px 8px;
+    }
+    .summary-box strong { display: block; font-size: 20px; margin-bottom: 2px; }
+    .summary-box span { font-size: 12px; color: var(--muted); font-weight: 700; }
+
+    .btn-primary {
+      background: var(--primary); color: #fff; border: none;
+      padding: 13px 20px; border-radius: 14px; font-size: 14.5px; font-weight: 800;
+      cursor: pointer; margin: 5px; display: inline-flex; align-items: center; gap: 8px;
+    }
+    .btn-danger {
+      background: var(--danger); color: #fff; border: none;
+      padding: 13px 20px; border-radius: 14px; font-size: 14.5px; font-weight: 800;
+      cursor: pointer; margin: 5px; display: inline-flex; align-items: center; gap: 8px;
+    }
     .btn-outline {
       background: var(--card); border: 1px solid var(--border); color: var(--text);
-      padding: 10px 16px; border-radius: 12px; font-weight: 700; font-size: 13.5px; cursor: pointer;
+      padding: 11px 18px; border-radius: 12px; font-weight: 700; font-size: 13.5px; cursor: pointer; margin: 5px;
     }
 
     .toast {
       position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
       background: var(--primary); color: #fff; padding: 10px 18px; border-radius: 999px;
       font-size: 13px; font-weight: 700; z-index: 200; display: none;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.25);
     }
     .toast.show { display: block; }
   </style>
@@ -378,9 +331,9 @@
   <div class="toast" id="toast"></div>
 
   <script>
-    const CATALOG_KEY = 'fp_catalog_v4';
-    const FILE_PREFIX = 'fp_file_v4_';
-    const THEME_KEY = 'fp_theme_v4';
+    const CATALOG_KEY = 'fp_catalog_v5';
+    const FILE_PREFIX = 'fp_file_v5_';
+    const THEME_KEY = 'fp_theme_v5';
 
     let catalog = { appTitle: 'Future pharmacist', subjects: [] };
     let currentExamTitle = '';
@@ -438,7 +391,7 @@
     async function syncCatalog(manual = false) {
       try {
         const res = await fetch('./catalog.json?t=' + Date.now(), { cache: 'no-store' });
-        if (!res.ok) throw new Error('HTTP ' + res.status);
+        if (!res.ok) throw new Error();
         const fresh = await res.json();
         const oldStr = localStorage.getItem(CATALOG_KEY);
         const newStr = JSON.stringify(fresh);
@@ -498,14 +451,14 @@
       document.getElementById('drawerMenu').innerHTML = html;
     }
 
-    /* الواجهة الرئيسية (نفس تصميم البارحة) */
     function showHome() {
       let html = `
-        <div class="hero-card">
-          <img src="icon.jpg" alt="Future pharmacist" class="hero-logo" />
-          <h1 class="hero-title">${catalog.appTitle || 'Future pharmacist'}</h1>
-        </div>
-        <h2 class="section-title">المواد الدراسية</h2>
+        <div class="narrow-wrap">
+          <div class="hero-card">
+            <img src="icon.jpg" alt="Future pharmacist" class="hero-logo" />
+            <h1 class="hero-title">${catalog.appTitle || 'Future pharmacist'}</h1>
+          </div>
+          <h2 class="section-title">المواد الدراسية</h2>
       `;
 
       const subs = catalog.subjects || [];
@@ -520,24 +473,25 @@
         });
         html += `</div>`;
       }
+      html += `</div>`;
       document.getElementById('app').innerHTML = html;
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    /* قائمة ملازم المادة */
     function showSubject(subId) {
       const sub = (catalog.subjects || []).find(s => s.id === subId);
       if (!sub) return;
 
       let html = `
-        <button class="btn-outline" style="margin-bottom:14px;" onclick="showHome()">→ المواد الدراسية</button>
-        <div class="card" style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
-          <div style="display:flex; align-items:center; gap:12px;">
-            <div class="tile-icon" style="width:46px;height:46px;font-size:22px;">${sub.icon || '💊'}</div>
-            <h2 style="margin:0; font-size:18px;">${sub.name}</h2>
+        <div class="narrow-wrap">
+          <button class="btn-outline" style="margin:0 0 14px;" onclick="showHome()">→ المواد الدراسية</button>
+          <div class="card" style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
+            <div style="display:flex; align-items:center; gap:12px;">
+              <div class="tile-icon" style="width:46px;height:46px;font-size:22px;">${sub.icon || '💊'}</div>
+              <h2 style="margin:0; font-size:18px;">${sub.name}</h2>
+            </div>
+            ${(sub.files || []).length > 1 ? `<button class="badge" style="border:none;cursor:pointer;padding:8px 14px;" onclick="openSubjectCombined('${sub.id}')">⚡ امتحان شامل</button>` : ''}
           </div>
-          ${(sub.files || []).length > 1 ? `<button class="badge" style="border:none;cursor:pointer;padding:8px 14px;" onclick="openSubjectCombined('${sub.id}')">⚡ امتحان شامل</button>` : ''}
-        </div>
       `;
 
       (sub.files || []).forEach(f => {
@@ -548,6 +502,7 @@
           </div>`;
       });
 
+      html += `</div>`;
       document.getElementById('app').innerHTML = html;
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
@@ -582,7 +537,6 @@
       }
     }
 
-    /* محرك الخلط المتوازن A, B, C, D (نفس meeee.html) */
     function prepareBalancedQuestions(pool) {
       const shuffledQs = fisherYatesShuffle(pool);
       const targetPositions = [];
@@ -622,14 +576,17 @@
 
     function reshuffleExam() {
       userAnswers = {};
+      currentFilter = 'all';
       activeQuestions = prepareBalancedQuestions(rawPool);
       renderExamView();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
       showToast('تم خلط الأسئلة والاختيارات من جديد');
     }
 
-    function setFilter(f) {
+    function setFilter(f, scrollTop = false) {
       currentFilter = f;
       renderExamView();
+      if (scrollTop) window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
     function selectAnswer(qIdx, optIdx) {
@@ -680,7 +637,7 @@
           </div>
 
           <div class="dist-bar">
-            <span>توزيع الإجابات الصحيحة الآن:</span>
+            <span>توزيع الإجابات الصحيحة:</span>
             <div class="dist-badges">
               ${letters.map((L, i) => `<span class="dist-badge">${L}:${dist[i]}</span>`).join('')}
             </div>
@@ -698,11 +655,11 @@
         html += `
           <div class="card" style="text-align:center; padding:32px 16px;">
             <p style="font-weight:800; margin:0 0 12px;">لا توجد أسئلة مطابقة لهذا الفلتر حالياً!</p>
-            <button class="filter-btn active" onclick="setFilter('all')">عرض جميع الأسئلة</button>
+            <button class="filter-btn active" onclick="setFilter('all', true)">عرض جميع الأسئلة</button>
           </div>
         `;
       } else {
-        html += filtered.map(q => {
+        html += `<div class="questions-grid">` + filtered.map(q => {
           const sel = userAnswers[q.id];
           const isAns = sel !== undefined;
           const optsHtml = q.options.map((optText, optIdx) => {
@@ -722,7 +679,7 @@
 
           const expHtml = isAns && q.exp ? `
             <div class="explain-box ${sel === q.correctIndex ? 'ok' : ''}">
-              <strong>${sel === q.correctIndex ? '✓ إجابة صحيحة (' + letters[q.correctIndex] + '):' : '✕ إجابة خاطئة — الصحيح (' + letters[q.correctIndex] + '):'}</strong>
+              <strong>${sel === q.correctIndex ? '✓ إجابة صحيحة (' + letters[q.correctIndex] + '):' : '✕ إجابة خاطئة — الصحيح هو (' + letters[q.correctIndex] + '):'}</strong>
               <div>${q.exp}</div>
             </div>
           ` : '';
@@ -734,7 +691,6 @@
                 <div style="display:flex; gap:6px; flex-wrap:wrap;">
                   ${q.type === 'clinical' ? `<span class="badge badge-clinical">سريري</span>` : ''}
                   ${q.difficulty ? `<span class="badge badge-warn">${q.difficulty}</span>` : ''}
-                  <span class="badge" style="background:var(--card-soft);color:var(--muted);">${q.lecTag}</span>
                 </div>
               </div>
               <div class="q-text">${q.q}</div>
@@ -742,7 +698,37 @@
               ${expHtml}
             </div>
           `;
-        }).join('');
+        }).join('') + `</div>`;
+      }
+
+      /* بطاقة النتيجة النهائية وزر مراجعة الأخطاء بالأخير */
+      if (answeredKeys.length > 0) {
+        const isFinished = answeredKeys.length === total;
+        html += `
+          <div class="summary-card">
+            <span class="badge">${isFinished ? '🎉 أكملت الامتحان!' : 'ملخص أدائك لحد الآن'}</span>
+            <div class="summary-score">${pct}%</div>
+            <div class="summary-grid">
+              <div class="summary-box">
+                <strong style="color:var(--success);">${correctCount}</strong>
+                <span>إجابة صحيحة</span>
+              </div>
+              <div class="summary-box">
+                <strong style="color:var(--danger);">${wrongCount}</strong>
+                <span>أخطاء</span>
+              </div>
+              <div class="summary-box">
+                <strong>${total}</strong>
+                <span>مجموع الأسئلة</span>
+              </div>
+            </div>
+            <div>
+              ${wrongCount > 0 ? `<button class="btn-danger" onclick="setFilter('wrong', true)">🔍 اضغط هنا لمراجعة أخطائك مع الشرح (${wrongCount})</button>` : `<p style="color:var(--success);font-weight:800;margin:0 0 10px;">عاشت إيدك! ما عندك ولا خطأ 👏</p>`}
+              <button class="btn-primary" onclick="reshuffleExam()">🎲 إعادة الامتحان بخلط جديد</button>
+              <button class="btn-outline" onclick="showHome()">🏠 الرئيسية</button>
+            </div>
+          </div>
+        `;
       }
 
       document.getElementById('app').innerHTML = html;
