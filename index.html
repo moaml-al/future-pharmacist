@@ -28,8 +28,6 @@
       --danger-bg: #fff1f2;
       --warn: #d97706;
       --warn-bg: #fffbeb;
-      --clinical: #0284c7;
-      --clinical-bg: #e0f2fe;
     }
 
     [data-theme="dark"] {
@@ -49,13 +47,10 @@
       --danger-bg: rgba(244, 63, 94, 0.14);
       --warn: #fbbf24;
       --warn-bg: rgba(245, 158, 11, 0.14);
-      --clinical: #38bdf8;
-      --clinical-bg: rgba(56, 189, 248, 0.14);
     }
 
     * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
-    /* منع السحب لأسفل للتحديث (Pull-to-Refresh) نهائياً */
     html, body {
       overscroll-behavior-y: none;
       overscroll-behavior: none;
@@ -169,8 +164,6 @@
       border-radius: 999px; background: var(--primary-soft);
       color: var(--primary); font-weight: 700; white-space: nowrap;
     }
-    .badge-clinical { background: var(--clinical-bg); color: var(--clinical); }
-    .badge-warn { background: var(--warn-bg); color: var(--warn); }
 
     /* Exam Controls */
     .exam-header-top {
@@ -208,7 +201,6 @@
     }
     .filter-btn.active { background: var(--primary); border-color: var(--primary); color: #fff; }
 
-    /* Questions Grid: 1 column on Mobile, 2 columns side-by-side on iPad & Laptop */
     .questions-grid {
       display: grid;
       grid-template-columns: 1fr;
@@ -216,9 +208,7 @@
       align-items: start;
     }
     @media (min-width: 768px) {
-      .questions-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
+      .questions-grid { grid-template-columns: repeat(2, 1fr); }
     }
     .questions-grid .card { margin-bottom: 0; }
 
@@ -257,15 +247,9 @@
     }
     .explain-box.ok { background: var(--success-bg); border-color: var(--success); }
 
-    /* Final Summary Card at Bottom */
     .summary-card {
-      margin-top: 22px;
-      background: var(--hero-bg);
-      border: 2px solid var(--primary);
-      border-radius: 24px;
-      padding: 26px 20px;
-      text-align: center;
-      box-shadow: var(--shadow);
+      margin-top: 22px; background: var(--hero-bg); border: 2px solid var(--primary);
+      border-radius: 24px; padding: 26px 20px; text-align: center; box-shadow: var(--shadow);
     }
     .summary-score { font-size: 44px; font-weight: 900; color: var(--primary); margin: 4px 0; }
     .summary-grid {
@@ -325,7 +309,7 @@
       <button class="icon-btn" style="width:34px;height:34px;" onclick="toggleDrawer()">✕</button>
     </div>
     <div class="drawer-body">
-      <button class="drawer-home-btn" onclick="showHome(); toggleDrawer();">
+      <button class="drawer-home-btn" onclick="showHome(true); closeDrawer();">
         <span>🏠 الواجهة الرئيسية</span>
         <span>←</span>
       </button>
@@ -344,12 +328,43 @@
 
     let catalog = { appTitle: 'Future pharmacist', subjects: [] };
     let currentView = 'home'; // 'home' | 'subject' | 'exam'
+    let currentSubId = null;
     let currentExamTitle = '';
     let currentExamBadge = '';
     let rawPool = [];
     let activeQuestions = [];
     let userAnswers = {};
     let currentFilter = 'all';
+
+    /* معالجة زر الرجوع في الموبايل */
+    history.replaceState({ view: 'home' }, '', '#home');
+    window.addEventListener('popstate', (e) => {
+      if (isDrawerOpen()) {
+        closeDrawer();
+        history.pushState(e.state || { view: currentView, subId: currentSubId }, '');
+        return;
+      }
+      const st = e.state;
+      if (!st || st.view === 'home') {
+        showHome(false);
+      } else if (st.view === 'subject' && st.subId) {
+        showSubject(st.subId, false);
+      } else {
+        showHome(false);
+      }
+    });
+
+    function isDrawerOpen() {
+      return document.getElementById('drawer').classList.contains('open');
+    }
+    function closeDrawer() {
+      document.getElementById('drawer').classList.remove('open');
+      document.getElementById('overlay').classList.remove('show');
+    }
+    function toggleDrawer() {
+      document.getElementById('drawer').classList.toggle('open');
+      document.getElementById('overlay').classList.toggle('show');
+    }
 
     function updateRefreshVisibility() {
       const btn = document.getElementById('refreshBtn');
@@ -384,18 +399,13 @@
       setTimeout(() => t.classList.remove('show'), 2500);
     }
 
-    function toggleDrawer() {
-      document.getElementById('drawer').classList.toggle('open');
-      document.getElementById('overlay').classList.toggle('show');
-    }
-
     async function initApp() {
       const cached = localStorage.getItem(CATALOG_KEY);
       if (cached) {
         try {
           catalog = JSON.parse(cached);
           renderDrawer();
-          showHome();
+          showHome(false);
         } catch (e) {}
       }
       await syncCatalog(false);
@@ -416,7 +426,7 @@
 
         if (currentView === 'home') {
           if (!oldStr || oldStr !== newStr) {
-            showHome();
+            showHome(false);
             if (manual) showToast('تم التحديث بنجاح');
           } else if (manual) {
             showToast('محدّث لآخر نسخة');
@@ -424,7 +434,7 @@
         }
       } catch (e) {
         if (manual) showToast('تعذّر التحديث، تأكد من الاتصال');
-        if (currentView === 'home') showHome();
+        if (currentView === 'home') showHome(false);
       }
     }
 
@@ -453,12 +463,12 @@
       if (!catalog) return;
       let html = '';
       (catalog.subjects || []).forEach(sub => {
-        html += `<button class="drawer-item" onclick="showSubject('${sub.id}'); toggleDrawer();">
+        html += `<button class="drawer-item" onclick="showSubject('${sub.id}', true); closeDrawer();">
           <span>${sub.icon || '💊'} ${sub.name}</span>
           <span class="badge">${(sub.files || []).length}</span>
         </button>`;
         (sub.files || []).forEach(f => {
-          html += `<button class="drawer-item drawer-sub" onclick="openFileExam('${f.file}', '${f.title.replace(/'/g, "\'")}', '${sub.name.replace(/'/g, "\'")}'); toggleDrawer();">
+          html += `<button class="drawer-item drawer-sub" onclick="openFileExam('${f.file}', '${f.title.replace(/'/g, "\\'")}', '${sub.name.replace(/'/g, "\\'")}', '${sub.id}'); closeDrawer();">
             <span>📄 ${f.title}</span>
             ${f.count ? `<span style="font-size:11px;color:var(--muted);">${f.count} سؤال</span>` : ''}
           </button>`;
@@ -467,9 +477,12 @@
       document.getElementById('drawerMenu').innerHTML = html;
     }
 
-    function showHome() {
+    function showHome(push = false) {
       currentView = 'home';
+      currentSubId = null;
       updateRefreshVisibility();
+      if (push) history.pushState({ view: 'home' }, '', '#home');
+
       let html = `
         <div class="narrow-wrap">
           <div class="hero-card">
@@ -484,7 +497,7 @@
         html += `<div class="subjects-grid">`;
         subs.forEach(sub => {
           html += `
-            <div class="subject-tile" onclick="showSubject('${sub.id}')">
+            <div class="subject-tile" onclick="showSubject('${sub.id}', true)">
               <div class="tile-icon">${sub.icon || '💊'}</div>
               <div class="tile-name">${sub.name}</div>
             </div>`;
@@ -496,15 +509,17 @@
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    function showSubject(subId) {
+    function showSubject(subId, push = true) {
       const sub = (catalog.subjects || []).find(s => s.id === subId);
       if (!sub) return;
       currentView = 'subject';
+      currentSubId = subId;
       updateRefreshVisibility();
+      if (push) history.pushState({ view: 'subject', subId }, '', '#sub-' + subId);
 
       let html = `
         <div class="narrow-wrap">
-          <button class="btn-outline" style="margin:0 0 14px;" onclick="showHome()">→ المواد الدراسية</button>
+          <button class="btn-outline" style="margin:0 0 14px;" onclick="history.back()">→ المواد الدراسية</button>
           <div class="card" style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
             <div style="display:flex; align-items:center; gap:12px;">
               <div class="tile-icon" style="width:46px;height:46px;font-size:22px;">${sub.icon || '💊'}</div>
@@ -516,7 +531,7 @@
 
       (sub.files || []).forEach(f => {
         html += `
-          <div class="card lec-card" onclick="openFileExam('${f.file}', '${f.title.replace(/'/g, "\'")}', '${sub.name.replace(/'/g, "\'")}')">
+          <div class="card lec-card" onclick="openFileExam('${f.file}', '${f.title.replace(/'/g, "\\'")}', '${sub.name.replace(/'/g, "\\'")}', '${sub.id}')">
             <strong style="font-size:15px;">${f.title}</strong>
             ${f.count ? `<span class="badge">${f.count} سؤال</span>` : ''}
           </div>`;
@@ -527,12 +542,13 @@
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    async function openFileExam(fileName, title, subName) {
+    async function openFileExam(fileName, title, subName, subId) {
       try {
         const data = await fetchQuizFile(fileName);
         rawPool = (data.questions || []).map(q => ({ ...q, lecTag: title }));
         currentExamTitle = data.title || title;
         currentExamBadge = subName || title;
+        if (subId) currentSubId = subId;
         startExamEngine();
       } catch (e) {
         showToast(e.message || 'تعذّر تحميل الملف');
@@ -551,6 +567,7 @@
         rawPool = combined;
         currentExamTitle = 'امتحان شامل: ' + sub.name;
         currentExamBadge = sub.name;
+        currentSubId = subId;
         startExamEngine();
       } catch (e) {
         showToast(e.message || 'تعذّر تحميل الملفات');
@@ -587,6 +604,7 @@
     function startExamEngine() {
       currentView = 'exam';
       updateRefreshVisibility();
+      history.pushState({ view: 'exam', subId: currentSubId }, '', '#exam');
       userAnswers = {};
       currentFilter = 'all';
       activeQuestions = prepareBalancedQuestions(rawPool);
@@ -640,7 +658,7 @@
         <div class="card">
           <div class="exam-header-top">
             <div class="exam-title-wrap">
-              <button class="icon-btn" onclick="showHome()" title="الرئيسية">→</button>
+              <button class="icon-btn" onclick="history.back()" title="رجوع">→</button>
               <div>
                 <span class="badge">${currentExamBadge}</span>
                 <h2 class="exam-title">${currentExamTitle}</h2>
@@ -740,7 +758,7 @@
             <div>
               ${wrongCount > 0 ? `<button class="btn-danger" onclick="setFilter('wrong', true)">🔍 اضغط هنا لمراجعة أخطائك مع الشرح (${wrongCount})</button>` : `<p style="color:var(--success);font-weight:800;margin:0 0 10px;">عاشت إيدك! ما عندك ولا خطأ 👏</p>`}
               <button class="btn-primary" onclick="reshuffleExam()">🎲 إعادة الامتحان بخلط جديد</button>
-              <button class="btn-outline" onclick="showHome()">🏠 الرئيسية</button>
+              <button class="btn-outline" onclick="showHome(true)">🏠 الرئيسية</button>
             </div>
           </div>
         `;
@@ -750,7 +768,7 @@
     }
 
     applyTheme(localStorage.getItem(THEME_KEY) || 'light');
-    showHome();
+    showHome(false);
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('./sw.js');
     }
