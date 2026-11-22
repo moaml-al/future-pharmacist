@@ -1,0 +1,261 @@
+{
+  "title": "Lec 2: Cardiovascular System",
+  "questions": [
+    {
+      "q": "What is the approximate weight of the human heart in an average adult, and where is it located?",
+      "options": ["280 to 320 grams, located in the mediastinum", "100 to 150 grams, located in the pleural cavity", "500 to 600 grams, located in the abdominal cavity", "200 to 250 grams, located in the pericardial sinus"],
+      "answer": 0,
+      "explanation": "وزن القلب الطبيعي بالبالغين يتراوح بين 280 إلى 320 غرام (بحجم قبضة اليد) ويقع في المنصف (Mediastinum)."
+    },
+    {
+      "q": "Which heart valve is located between the left atrium and the left ventricle and consists of two flaps (cusps)?",
+      "options": ["Tricuspid valve", "Mitral (bicuspid) valve", "Pulmonary semilunar valve", "Aortic semilunar valve"],
+      "answer": 1,
+      "explanation": "الصمام التاجي أو ثنائي الشرفات (Mitral / Bicuspid valve) يقع بين الأذين الأيسر والبطين الأيسر ويتكون من شرفتين."
+    },
+    {
+      "q": "The atrioventricular (AV) valves are attached to the ventricular walls by strong cords called ______ which are anchored by ______.",
+      "options": ["Intercalated discs; desmosomes", "Chordae tendineae; papillary muscles", "Purkinje fibers; bundle of His", "Trabeculae carneae; fibrous skeleton"],
+      "answer": 1,
+      "explanation": "ترتبط الصمامات الأذينية البطينية (AV valves) بجدران البطين عبر الحبال الوترية (Chordae tendineae) المثبتة بالعضلات الحليمية (Papillary muscles)."
+    },
+    {
+      "q": "Which layer of the heart wall is the thickest and consists primarily of cardiac muscle cells?",
+      "options": ["Endocardium", "Myocardium", "Epicardium", "Fibrous pericardium"],
+      "answer": 1,
+      "explanation": "طبقة الـ Myocardium هي الطبقة الوسطى والأسمك في جدار القلب وتتكون من خلايا العضلة القلبية المسؤولة عن الضخ."
+    },
+    {
+      "q": "What is the innermost layer of the heart wall that consists of endothelial/epithelial tissue lining the entire circulatory system?",
+      "options": ["Epicardium", "Visceral pericardium", "Endocardium", "Parietal pericardium"],
+      "answer": 2,
+      "explanation": "الـ Endocardium هي الطبقة الداخلية المبطنة لتجاويف القلب والأوعية الدموية."
+    },
+    {
+      "q": "Which structure separates the atrial muscle from the ventricular muscle and serves to form cardiac valves and provide muscle attachment?",
+      "options": ["Intercalated disc", "Fibrous skeleton of the heart", "Pericardial cavity", "Internodal pathway"],
+      "answer": 1,
+      "explanation": "الهيكل الليفي للقلب (Fibrous skeleton) يفصل عضلة الأذينين عن البطينين كهربائياً وميكانيكياً ويكوّن الصمامات."
+    },
+    {
+      "q": "Intercalated discs joining adjacent cardiac muscle cells end-to-end contain two specialized junctions:",
+      "options": ["Tight junctions and hemidesmosomes", "Desmosomes (for mechanical strength) and gap junctions (for electrical spread)", "Synaptic clefts and nicotinic receptors", "Caveolae and dense bodies"],
+      "answer": 1,
+      "explanation": "الأقراص البينية تحتوي على Desmosomes لربط الخلايا بقوة ونقل القوة، و Gap junctions لنقل الإشارة الكهربائية بسرعة."
+    },
+    {
+      "q": "Which anatomical feature allows ventricular contraction to squeeze blood upward from the apex of the heart?",
+      "options": ["Parallel arrangement of atrial fibers", "Spiral arrangement of ventricular muscle", "Presence of multiple peripheral nuclei", "Absence of sarcomeres"],
+      "answer": 1,
+      "explanation": "الترتيب الحلزوني (Spiral arrangement) لعضلة البطين يعصر الدم للأعلى بدءاً من قمة القلب (Apex)."
+    },
+    {
+      "q": "Which of the following correctly matches the physiological property of cardiac muscle with its pharmacological term?",
+      "options": ["Excitability = Inotropic action", "Conductivity = Dromotropic action", "Contractility = Bathmotropic action", "Autorhythmicity = Dromotropic action"],
+      "answer": 1,
+      "difficulty": "صعب",
+      "explanation": "التوصيل (Conductivity) يُسمى Dromotropic، والاستثارة (Excitability) تُسمى Bathmotropic، والانقباض (Contractility) يُسمى Inotropic."
+    },
+    {
+      "q": "Autorhythmic (pacemaker) fibers constitute approximately what percentage of total cardiac muscle fibers?",
+      "options": ["1%", "10%", "40%", "75%"],
+      "answer": 0,
+      "explanation": "الألياف ذاتية الإيقاع (Autorhythmic fibers) تشكل 1% فقط من ألياف عضلة القلب لكنها مسؤولة عن توليد وتوصيل النبض."
+    },
+    {
+      "q": "Where is the Sinoatrial (SA) node located?",
+      "options": ["At the base of the right atrium near the septum", "In the right atrial wall near the opening of the superior vena cava", "Inside the interventricular septum", "At the apex of the left ventricle"],
+      "answer": 1,
+      "explanation": "العقدة الجيبية الأذينية (SA node) تقع في جدار الأذين الأيمن قرب فتحة الوريد الأجوف العلوي (SVC)."
+    },
+    {
+      "q": "Why does the SA node act as the primary pacemaker of the human heart?",
+      "options": ["It has the slowest conduction velocity", "It has the fastest rate of generating action potentials (70–80 times/min)", "It is the only region containing gap junctions", "It is directly controlled by somatic motor neurons"],
+      "answer": 1,
+      "explanation": "تعمل الـ SA node كمنظم ضربات رئيسي لأنها تمتلك أسرع معدل لتوليد جهود الفعل (70–80 مرة/دقيقة) مقارنة بـ AV node (40–60) وبوركنجي (20–35)."
+    },
+    {
+      "q": "What is the intrinsic firing rate of the AV node if the SA node fails to generate impulses?",
+      "options": ["70–80 times/min", "40–60 times/min", "20–35 times/min", "100–120 times/min"],
+      "answer": 1,
+      "explanation": "معدل توليد النبض في الـ AV node (المنظم الثانوي) هو 40 إلى 60 نبضة بالدقيقة."
+    },
+    {
+      "q": "Why do autorhythmic cells exhibit spontaneous depolarization (pacemaker potential)?",
+      "options": ["They have a very stable resting membrane potential of -90 mV", "They have natural leakiness to Na+ and Ca2+, causing gradual depolarization to threshold (-40 mV)", "They lack K+ channels completely", "They require continuous acetylcholine release"],
+      "answer": 1,
+      "difficulty": "صعب",
+      "explanation": "الخلايا ذاتية الإيقاع ليس لها جهد راحة ثابت بسبب تسرب طبيعي لأيونات Na+ و Ca2+ يرفع الجهد تدريجياً حتى يصل للعتبة (-40 mV)."
+    },
+    {
+      "q": "Which part of the cardiac conduction system has the FASTEST conduction velocity (4 m/s)?",
+      "options": ["AV node", "Atrial muscle", "Bundle of His", "Purkinje system"],
+      "answer": 3,
+      "explanation": "ألياف بوركنجي (Purkinje system) تمتلك أعلى سرعة توصيل (4 m/s) لتنشيط البطينين بشكل متزامن."
+    },
+    {
+      "q": "Which part of the cardiac conduction system has the SLOWEST conduction velocity (0.05 m/s), allowing the atria to finish contracting before the ventricles contract?",
+      "options": ["SA node", "AV node", "Purkinje fibers", "Internodal pathways"],
+      "answer": 1,
+      "explanation": "العقدة الأذينية البطينية (AV node) لها أبطأ سرعة توصيل (0.05 m/s) وهذا التأخير يسمح للأذينين بإكمال تفريغ الدم قبل انقباض البطينين."
+    },
+    {
+      "q": "Why is conduction slow through the AV bundle/node myofibrils?",
+      "options": ["Their fiber sizes are smaller and they have diminished numbers of gap junctions", "They are myelinated with Schwann cells", "They have excessive numbers of gap junctions", "They lack voltage-gated channels"],
+      "answer": 0,
+      "difficulty": "صعب",
+      "explanation": "بطء التوصيل يرجع لصغر حجم أليافها وقلة عدد الوصلات الفجوية (Gap junctions) بين الخلايا المتتالية مما يزيد المقاومة."
+    },
+    {
+      "q": "What is the resting membrane potential (RMP) of ventricular cardiac muscle compared to the SA node?",
+      "options": ["Cardiac muscle: -85 mV; SA node: -55 mV", "Cardiac muscle: -55 mV; SA node: -90 mV", "Cardiac muscle: -70 mV; SA node: -70 mV", "Cardiac muscle: -40 mV; SA node: -85 mV"],
+      "answer": 0,
+      "explanation": "جهد الراحة في عضلة القلب -85 mV (أو -90 mV) بينما في الـ SA node يكون -55 mV (أقل سالبية وأقرب للعتبة)."
+    },
+    {
+      "q": "During Phase 0 (rapid depolarization) of the cardiac contractile muscle action potential, which ion movement occurs?",
+      "options": ["Rapid Na+ influx through voltage-gated fast Na+ channels", "Slow Ca2+ influx through L-type channels", "Rapid K+ efflux", "Cl- influx"],
+      "answer": 0,
+      "explanation": "طور إزالة الاستقطاب السريع (Phase 0) يحدث بسبب فتح قنوات الصوديوم السريعة ودخول Na+ للخلية."
+    },
+    {
+      "q": "What ionic mechanism is responsible for the unique Plateau phase (Phase 2) of the cardiac action potential?",
+      "options": ["Closure of all ion channels", "Ca2+ influx through slow voltage-gated Ca2+ channels balanced by K+ efflux", "Continuous opening of fast Na+ channels", "Active pumping of K+ into the cell"],
+      "answer": 1,
+      "explanation": "طور الهضبة (Plateau) ينتج عن دخول الكالسيوم عبر القنوات البطيئة بالتزامن مع خروج البوتاسيوم مما يبقي الغشاء مزال الاستقطاب."
+    },
+    {
+      "q": "Phase 3 (repolarization) of the cardiac action potential occurs due to:",
+      "options": ["Opening of fast Na+ channels", "Closure of Ca2+ channels and continued K+ outflow through additional voltage-gated K+ channels", "Influx of extracellular Ca2+", "Blockade of K+ channels"],
+      "answer": 1,
+      "explanation": "إعادة الاستقطاب (Phase 3) تحدث عند انغلاق قنوات الكالسيوم واستمرار خروج البوتاسيوم (K+ efflux)."
+    },
+    {
+      "q": "How long is the refractory period in cardiac muscle compared to skeletal muscle?",
+      "options": ["250 msec in cardiac muscle vs. 3 msec in skeletal muscle", "3 msec in cardiac muscle vs. 250 msec in skeletal muscle", "10 msec in both", "800 msec in cardiac muscle vs. 100 msec in skeletal muscle"],
+      "answer": 0,
+      "explanation": "فترة العصيان في عضلة القلب طويلة جداً (250 msec) مقارنة بالعضلة الهيكلية (3 msec) لمنع الكزاز (Tetanus) والسماح بالامتلاء."
+    },
+    {
+      "q": "An 'Extra systole' (premature contraction) can be seen on a cardiogram when a second sufficiently strong stimulus falls during which period?",
+      "options": ["Absolute refractory period", "Relative refractory period", "Phase 0 depolarization", "Plateau phase"],
+      "answer": 1,
+      "difficulty": "صعب",
+      "explanation": "الانقباضة الإضافية (Extra systole) تحدث عندما يقع محفز ثانٍ قوي بما يكفي خلال فترة العصيان النسبية (Relative refractory period)."
+    },
+    {
+      "q": "How does the 'All-or-None Law' differ between cardiac muscle and skeletal muscle?",
+      "options": ["Cardiac muscle follows the all-or-none law as a whole, whereas in skeletal muscle it applies only to a single muscle fiber", "Skeletal muscle follows it as a whole organ, whereas cardiac muscle does not", "Neither muscle type follows the all-or-none law", "It applies only to the AV node"],
+      "answer": 0,
+      "explanation": "بسبب الـ Gap junctions تعمل عضلة القلب كوحدة واحدة فتتبع قانون الكل أو لا شيء بالكامل، بينما بالهيكلية ينطبق على الليف المفرد فقط."
+    },
+    {
+      "q": "In cardiac muscle, the Treppe (staircase) phenomenon observed when stimuli of the same strength are applied at short intervals is due to the 'beneficial effect', which includes:",
+      "options": ["Decreased viscosity, mild increase in temperature, and increased intracellular Ca2+ levels", "Increased viscosity and depletion of Ca2+", "Complete closure of L-type Ca2+ channels", "Parasympathetic hyperpolarization"],
+      "answer": 0,
+      "explanation": "ظاهرة السلم (Treppe) تحدث بسبب التأثير المفيد: نقصان اللزوجة، ارتفاع بسيط بالحرارة، وزيادة مستوى أيونات الكالسيوم."
+    },
+    {
+      "q": "Inside the T-tubules of cardiac muscle, an abundance of extracellular calcium is bound by which substance?",
+      "options": ["Mucopolysaccharides", "Hemoglobin", "Tropomyosin", "Acetylcholinesterase"],
+      "answer": 0,
+      "difficulty": "صعب",
+      "explanation": "تحتوي الأنابيب المستعرضة (T-tubules) في القلب على كمية وفيرة من الكالسيوم المرتبط بـ Mucopolysaccharides."
+    },
+    {
+      "q": "A 62-year-old man with hypertension and angina is prescribed Verapamil (an L-type Ca2+ channel blocker). What is its physiological effect on the heart?",
+      "options": ["Increases contractility and heart rate", "Blocks slow Ca2+ channels, reducing contractility and AV conduction", "Blocks fast Na+ channels exclusively", "Stimulates beta-1 adrenergic receptors"],
+      "answer": 1,
+      "type": "clinical",
+      "explanation": "حاصرات قنوات الكالسيوم (مثل Verapamil و Diltiazem) تثبط قنوات Ca2+ البطيئة فتقلل قوة الانقباض والتوصيل وتُستخدم للضغط والذبحة."
+    },
+    {
+      "q": "Which antiarrhythmic drug blocks K+ channels to prolong repolarization duration and is used for atrial fibrillation and ventricular arrhythmias?",
+      "options": ["Ivabradine", "Amiodarone (or Sotalol)", "Prazosin", "Atropine"],
+      "answer": 1,
+      "type": "clinical",
+      "explanation": "أدوية Amiodarone و Sotalol تغلق قنوات البوتاسيوم (K+ channels) فتطيل مدة إعادة الاستقطاب وتُستخدم لاضطرابات النظم."
+    },
+    {
+      "q": "A patient with stable angina and heart failure is given Ivabradine to lower heart rate without reducing contractility. Which specific channel in the SA node does Ivabradine block?",
+      "options": ["L-type Ca2+ channels", "F-type cation channels (If channels)", "Fast Na+ channels", "Muscarinic M2 receptors"],
+      "answer": 1,
+      "type": "clinical",
+      "difficulty": "صعب",
+      "explanation": "دواء Ivabradine يغلق قنوات If (F-type cation channels) في الـ SA node فيقلل معدل ضربات القلب."
+    },
+    {
+      "q": "A patient presents to the emergency room with severe symptomatic bradycardia and AV block. Which drug blocks vagal M2 muscarinic receptors to increase heart rate?",
+      "options": ["Metoprolol", "Atropine", "Prazosin", "Furosemide"],
+      "answer": 1,
+      "type": "clinical",
+      "explanation": "الأتروبين (Atropine) يغلق مستقبلات M2 المسكارينية فيثبط العصب الحائر (Vagus) ويرفع معدل ضربات القلب."
+    },
+    {
+      "q": "A patient presents with sudden supraventricular tachycardia (SVT). Which drug is administered to transiently block AV node conduction and terminate the arrhythmia?",
+      "options": ["Adenosine", "Salbutamol", "Nitroglycerin", "Losartan"],
+      "answer": 0,
+      "type": "clinical",
+      "explanation": "الأدينوسين (Adenosine) يغلق التوصيل في الـ AV node ويُستخدم بشكل رئيسي لعلاج تسارع القلب فوق البطيني (SVT)."
+    },
+    {
+      "q": "At a normal resting heart rate of 75 beats per minute, approximately how long does one complete cardiac cycle last?",
+      "options": ["250 msec", "800 msec", "1500 msec", "300 msec"],
+      "answer": 1,
+      "explanation": "عند معدل 75 نبضة/دقيقة، تستغرق الدورة القلبية الواحدة حوالي 800 ملي ثانية (0.8 ثانية)."
+    },
+    {
+      "q": "A patient develops severe tachycardia (160 bpm). Why can this significantly decrease cardiac output?",
+      "options": ["It shortens diastole disproportionately, reducing ventricular filling time", "It prolongs diastole excessively", "It prevents the aortic valve from opening", "It increases end-diastolic volume above normal"],
+      "answer": 0,
+      "type": "clinical",
+      "explanation": "تسارع القلب (Tachycardia) يقصّر جميع أطوار الدورة وخاصة الانبساط (Diastole)، مما يقلل زمن امتلاء البطين بالدم فيقل النتاج القلبي."
+    },
+    {
+      "q": "At the end of atrial systole when the AV valves close, the ventricles contain their maximum blood volume, known as:",
+      "options": ["End-Systolic Volume (ESV)", "Stroke Volume (SV)", "End-Diastolic Volume (EDV)", "Residual Volume"],
+      "answer": 2,
+      "explanation": "أقصى حجم للدم داخل البطين عند نهاية الامتلاء وانغلاق صمامات AV يُسمى حجم نهاية الانبساط (EDV)."
+    },
+    {
+      "q": "During ventricular ejection, Stroke Volume (SV) normally represents approximately what percentage of End-Diastolic Volume (EDV), leaving End-Systolic Volume (ESV) at about 40%?",
+      "options": ["20%", "40%", "60%", "95%"],
+      "answer": 2,
+      "explanation": "حجم الضربة (SV) يمثل حوالي 60% من الـ EDV، بينما يبقى حوالي 40% داخل البطين كحجم نهاية الانقباض (ESV)."
+    },
+    {
+      "q": "During which two phases of the cardiac cycle are ALL four heart valves (both AV and semilunar valves) simultaneously closed?",
+      "options": ["Atrial systole and ventricular ejection", "Isovolumetric ventricular contraction and isovolumetric relaxation", "Rapid inflow and diastasis", "Passive atrial filling and ventricular ejection"],
+      "answer": 1,
+      "difficulty": "صعب",
+      "explanation": "تكون جميع الصمامات الأربعة مغلقة في طوري الانقباض متساوي الحجم (Isovolumetric contraction) والاسترخاء متساوي الحجم (Isovolumetric relaxation)."
+    },
+    {
+      "q": "On the Wiggers diagram, the 'dicrotic notch' seen on the aortic pressure curve corresponds directly to which mechanical event?",
+      "options": ["Opening of the AV valves", "Closure of the aortic semilunar valve", "Atrial contraction", "Opening of the pulmonary valve"],
+      "answer": 1,
+      "difficulty": "صعب",
+      "explanation": "الثلمة (Dicrotic notch) في منحنى ضغط الأبهر ناتجة عن انغلاق الصمام الأبهري (Aortic valve closes)."
+    },
+    {
+      "q": "Which of the following is NOT one of the 6 components plotted simultaneously on a Wiggers diagram?",
+      "options": ["Aortic pressure and ventricular pressure", "Ventricular volume", "Electrocardiogram (ECG) and Phonocardiogram", "Arterial oxygen saturation curve"],
+      "answer": 3,
+      "explanation": "مخطط Wiggers يربط 6 متغيرات: ضغط الأبهر، ضغط الأذين، ضغط البطين، حجم البطين، تخطيط القلب ECG، وتخطيط أصوات القلب Phonocardiogram."
+    },
+    {
+      "q": "Which drug class reduces cardiac PRELOAD primarily through venodilation and is commonly used for angina and heart failure?",
+      "options": ["ACE inhibitors (Lisinopril)", "Nitrates (Nitroglycerin)", "Beta-blockers (Metoprolol)", "Cardiac glycosides (Digoxin)"],
+      "answer": 1,
+      "type": "clinical",
+      "explanation": "النترات (Nitroglycerin) تقلل الحمل القبلي (Preload) عبر توسيع الأوردة، بينما ACE inhibitors و ARBs تقلل الحمل البعدي (Afterload)."
+    },
+    {
+      "q": "How does parasympathetic stimulation affect the SA node membrane potential to decrease heart rate (e.g., from 75 bpm to 40 bpm)?",
+      "options": ["Causes hyperpolarization and slower spontaneous depolarization", "Causes reduced repolarization and more rapid depolarization", "Opens fast Na+ channels continuously", "Eliminates the threshold potential"],
+      "answer": 0,
+      "difficulty": "صعب",
+      "explanation": "التحفيز الباراسمبثاوي يسبب فرط استقطاب (Hyperpolarization) وإبطاء إزالة الاستقطاب التلقائية في الـ SA node مما يخفض نبض القلب."
+    }
+  ]
+}
