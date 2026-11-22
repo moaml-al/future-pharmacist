@@ -1,0 +1,305 @@
+{
+  "title": "Lec 3: Cardiovascular System",
+  "questions": [
+    {
+      "q": "How do the movements of the atrioventricular (AV) and semilunar valves occur to maintain unidirectional blood flow?",
+      "options": ["Passively in response to pressure gradients", "Actively by contraction of smooth muscle inside the cusps", "Through direct sympathetic innervation of the valve flaps", "By voluntary skeletal muscle control"],
+      "answer": 0,
+      "explanation": "تتكون صمامات القلب من طيات رقيقة من نسيج ليفي قوي وحركتها تكون سلبية (Passive) تعتمد على فرق الضغط."
+    },
+    {
+      "q": "How many cusps (leaflets) do the pulmonary and aortic semilunar valves each have?",
+      "options": ["Two cusps", "Three cusps", "Four cusps", "One cusp"],
+      "answer": 1,
+      "explanation": "كل من الصمام الرئوي والصمام الأبهري (Semilunar valves) يتكون من ثلاث شرفات (Three cusps) لمنع رجوع الدم للبطين عند الاسترخاء."
+    },
+    {
+      "q": "What is the main physiological role of the semilunar valves?",
+      "options": ["Prevent backward flow of blood from the ventricles into the atria", "Prevent backward flow of blood from the pulmonary artery and aorta into the ventricles during relaxation", "Pump blood directly into the vena cavae", "Generate electrical impulses for the ventricles"],
+      "answer": 1,
+      "explanation": "تمنع الصمامات الهلالية (Semilunar valves) رجوع الدم من الشريان الرئوي والأبهر إلى البطينين عند استرخاء البطينين."
+    },
+    {
+      "q": "Which of the following correctly traces the pathway of the SYSTEMIC circulation?",
+      "options": ["LV → Aorta → Systemic arteries → Systemic capillaries → Veins → SVC & IVC → RA", "RV → Pulmonary trunk → Pulmonary arteries → Lungs → Pulmonary veins → LA", "RA → Tricuspid valve → RV → Aorta → Body tissues → LA", "LA → Mitral valve → LV → Pulmonary artery → Lungs → RA"],
+      "answer": 0,
+      "explanation": "تبدأ الدورة الجهازية (Systemic) من البطين الأيسر (LV) عبر الأبهر إلى أنسجة الجسم وتنتهي بالأذين الأيمن (RA) عبر SVC و IVC."
+    },
+    {
+      "q": "Which of the following correctly characterizes the PULMONARY circulation compared to the systemic circulation?",
+      "options": ["Low resistance and low pressure (25/10 mmHg)", "High resistance and high pressure (120/80 mmHg)", "High resistance and low pressure (25/10 mmHg)", "Low resistance and high pressure (120/80 mmHg)"],
+      "answer": 0,
+      "explanation": "تتميز الدورة الرئوية بمقاومة منخفضة وضغط منخفض (25/10 mmHg)، بينما الدورة الجهازية ذات مقاومة عالية وضغط عالٍ (120/80 mmHg)."
+    },
+    {
+      "q": "In the cardiovascular system, which blood vessels are described as the 'exchange system' and are only one cell thick?",
+      "options": ["Arteries", "Arterioles", "Capillaries", "Veins"],
+      "answer": 2,
+      "explanation": "الشعيرات الدموية (Capillaries) هي نظام التبادل وسمك جدارها خلية واحدة فقط، بينما الشرايين نظام توزيع والأوردة نظام تجميع."
+    },
+    {
+      "q": "Approximately what percentage of total body weight is made up of blood?",
+      "options": ["8%", "25%", "45%", "55%"],
+      "answer": 0,
+      "explanation": "يشكل الدم 8% من وزن الجسم الكلي، بينما تشكل السوائل والأنسجة الأخرى 92%."
+    },
+    {
+      "q": "In a centrifuged sample of whole blood, what are the normal volume percentages of plasma and formed elements?",
+      "options": ["Plasma 55% and Formed elements 45%", "Plasma 45% and Formed elements 55%", "Plasma 91% and Formed elements 9%", "Plasma 70% and Formed elements 30%"],
+      "answer": 0,
+      "explanation": "عند الطرد المركزي للدم، تشكل البلازما 55% من الحجم والعناصر المكونة (الخلايا) تشكل 45%."
+    },
+    {
+      "q": "What is the most abundant plasma protein (57% of plasma proteins) that creates colloid osmotic (oncotic) pressure to prevent water from leaking out of capillaries?",
+      "options": ["Globulin", "Fibrinogen", "Albumin", "Prothrombin"],
+      "answer": 2,
+      "explanation": "الألبومين (Albumin) هو أكثر بروتينات البلازما وفرة (57%) ويحافظ على الضغط الأزموزي الغرواني لمنع تسرب الماء للأنسجة."
+    },
+    {
+      "q": "Which plasma proteins are divided into alpha, beta, and gamma types, where alpha and beta transport lipids/fat-soluble vitamins and gamma act as antibodies?",
+      "options": ["Albumins", "Globulins", "Fibrinogen", "Prothrombin"],
+      "answer": 1,
+      "explanation": "الغلوبولينات (Globulins) تشكل 38% من بروتينات البلازما؛ ألفا وبيتا تنقل الدهون والفيتامينات الذائبة بالدهون، وغاما هي الأجسام المضادة."
+    },
+    {
+      "q": "Which type of white blood cell (leukocyte) is the most abundant in normal blood, making up 60%–70% of leukocytes?",
+      "options": ["Lymphocytes", "Monocytes", "Neutrophils", "Eosinophils"],
+      "answer": 2,
+      "explanation": "العدلات (Neutrophils) هي أكثر خلايا الدم البيضاء نسبةً (60–70%)، تليها اللمفاويات (20–25%)."
+    },
+    {
+      "q": "In hematopoiesis, platelets are derived directly from which large bone marrow cell?",
+      "options": ["Reticulocyte", "Megakaryocyte", "Promyelocyte", "Monocyte"],
+      "answer": 1,
+      "explanation": "تتكون الصفيحات الدموية (Platelets) من تفتت خلية الـ Megakaryocyte في نخاع العظم."
+    },
+    {
+      "q": "What is the definition of 'local controls' in blood flow regulation?",
+      "options": ["Mechanisms independent of nerves or circulating hormones by which organs alter their own arteriolar resistance", "Sympathetic reflexes originating from the medulla", "Hormonal control via angiotensin II and ADH only", "Parasympathetic vasodilation of skeletal muscle"],
+      "answer": 0,
+      "explanation": "التحكم الموضعي (Local controls) هو آليات مستقلة عن الأعصاب والهرمونات الجوالة تقوم بها الأعضاء لتنظيم مقاومتها الوعائية ذاتياً."
+    },
+    {
+      "q": "What is the initial trigger that causes local arteriolar vasodilation and increased blood flow during ACTIVE HYPEREMIA?",
+      "options": ["Temporary occlusion of an artery", "Increased metabolic activity of the organ", "A sudden increase in arterial blood pressure", "Increased sympathetic norepinephrine release"],
+      "answer": 1,
+      "explanation": "في فرط الدم النشط (Active hyperemia)، يكون المحفز الأساسي هو زيادة النشاط الأيضي للعضو مما يقلل O2 ويزيد نواتج الأيض فيتوسع الشريان."
+    },
+    {
+      "q": "Which vasodilator peptide is generated locally from circulating kininogen by the enzyme kallikrein (derived from prekallikrein secreted by the liver)?",
+      "options": ["Endothelin-1", "Bradykinin", "Angiotensin II", "Adenosine"],
+      "answer": 1,
+      "explanation": "البراديكينين (Bradykinin) ببتيد موسّع للأوعية يتكون من Kininogen بفعل إنزيم Kallikrein."
+    },
+    {
+      "q": "Within what approximate arterial blood pressure range does flow autoregulation (myogenic range) operate effectively?",
+      "options": ["20 – 60 mmHg", "60 – 160 mmHg", "160 – 240 mmHg", "10 – 40 mmHg"],
+      "answer": 1,
+      "explanation": "تعمل آلية التنظيم الذاتي للتدفق (Flow autoregulation) ضمن مدى ضغط شرياني يتراوح بين 60 إلى 160 mmHg."
+    },
+    {
+      "q": "According to the MYOGENIC mechanism of autoregulation, what happens when arterial blood pressure increases?",
+      "options": ["Arterioles stretch → vascular smooth muscle constricts → resistance increases → blood flow is maintained", "Arterioles stretch → vascular smooth muscle dilates → resistance decreases", "Metabolites accumulate → arterioles dilate", "Sympathetic nerves fire → arterioles relax"],
+      "answer": 0,
+      "explanation": "في الآلية العضلية الذاتية (Myogenic)، تستجيب العضلات الملساء للتمدد؛ فزيادة الضغط تمدد الشريان فينقبض لزيادة المقاومة وإبقاء التدفق ثابتاً."
+    },
+    {
+      "q": "Which of the following vasodilator metabolites accumulate during decreased blood flow in the METABOLIC mechanism of autoregulation?",
+      "options": ["Adenosine, CO2, H+, K+, lactate, and inosine", "Endothelin-1, angiotensin II, and norepinephrine", "O2, calcium, and fibrinogen", "Thromboxane A2 and ADH"],
+      "answer": 0,
+      "explanation": "نقص التدفق يؤدي لتراكم نواتج الأيض الموسّعة للأوعية مثل Adenosine و CO2 و H+ و K+ و Lactate و Inosine."
+    },
+    {
+      "q": "In which organs do MYOGENIC autoregulation factors predominantly dominate?",
+      "options": ["Heart and brain", "Kidney and intestines", "Skeletal muscle and skin", "Lungs and liver"],
+      "answer": 1,
+      "explanation": "العوامل العضلية (Myogenic) تسود في الكلية والأمعاء، بينما العوامل الأيضية (Metabolic) تسود في القلب والدماغ والعضلات الهيكلية."
+    },
+    {
+      "q": "Which organ has the MOST developed autoregulation mechanism, utilizing Tubuloglomerular Feedback (TGF)?",
+      "options": ["Skeletal muscle", "Kidney", "Skin", "Heart"],
+      "answer": 1,
+      "explanation": "الكلية تمتلك أكثر آليات التنظيم الذاتي تطوراً عبر التغذية الراجعة الأنبوبية الكبيبية (TGF)."
+    },
+    {
+      "q": "How does Tubuloglomerular Feedback (TGF) in the kidney maintain a constant glomerular filtration rate (GFR)?",
+      "options": ["Macula densa senses increased NaCl → signals afferent arteriole to constrict", "Macula densa senses decreased O2 → signals efferent arteriole to dilate", "Baroreceptors in the carotid sinus constrict the renal vein", "Endothelial cells release bradykinin"],
+      "answer": 0,
+      "explanation": "خلايا الـ Macula densa تتحسس تركيز NaCl؛ فإذا زاد التدفق زاد NaCl فترسل إشارة لتضييق الشريان الوارد (Afferent arteriole) للحفاظ على GFR ثابتاً."
+    },
+    {
+      "q": "What is REACTIVE HYPEREMIA?",
+      "options": ["A temporary increase in blood flow above normal upon reopening an artery after temporary occlusion", "Increased blood flow during intense skeletal muscle exercise", "Constant blood flow maintained during changes in arterial pressure", "Vasoconstriction of skin arterioles during cold exposure"],
+      "answer": 0,
+      "explanation": "فرط الدم التفاعلي (Reactive hyperemia) يحدث بعد انسداد مؤقت للشريان؛ فعند فتحه يزداد التدفق مؤقتاً فوق الطبيعي بسبب تراكم نواتج الأيض أثناء الانسداد."
+    },
+    {
+      "q": "Which pair correctly matches endothelial factors with their vascular effects?",
+      "options": ["Nitric Oxide (NO) → Vasodilation; Endothelin-1 → Vasoconstriction", "Nitric Oxide (NO) → Vasoconstriction; Endothelin-1 → Vasodilation", "Both NO and Endothelin-1 cause vasodilation", "Both NO and Endothelin-1 cause vasoconstriction"],
+      "answer": 0,
+      "explanation": "أوكسيد النيتريك (NO) المفرز من البطانة يسبب توسعاً وعائياً، بينما Endothelin-1 يسبب تضيقاً وعائياً قوياً."
+    },
+    {
+      "q": "Sympathetic postganglionic neurons innervating most arterioles release norepinephrine, which binds to which receptors on vascular smooth muscle to cause vasoconstriction?",
+      "options": ["Alpha (α)-adrenergic receptors", "Beta-1 (β1)-adrenergic receptors", "Muscarinic receptors", "Nicotinic receptors"],
+      "answer": 0,
+      "explanation": "يرتبط النورأدرينالين بمستقبلات α-adrenergic على العضلات الملساء للأوعية ليسبب تضيقاً وعائياً، بينما في القلب يرتبط بمستقبلات β-adrenergic."
+    },
+    {
+      "q": "Because sympathetic neurons to arterioles maintain a basal level of tonic constriction, how is sympathetic-mediated vasodilation achieved?",
+      "options": ["By decreasing sympathetic discharge below the basal level", "By releasing acetylcholine onto alpha receptors", "By activating parasympathetic nerves to all arterioles", "By increasing norepinephrine release"],
+      "answer": 0,
+      "explanation": "الأعصاب السمبثاوية تحافظ دائماً على درجة من التضيق القاعدي (Tonic constriction)، لذا يحدث التوسع الوعائي بتقليل النشاط السمبثاوي دون المستوى القاعدي."
+    },
+    {
+      "q": "How do skin arterioles respond when body temperature increases?",
+      "options": ["Reflex inhibition of sympathetic input → arterioles dilate → body heat radiates", "Reflex enhancement of sympathetic input → arterioles constrict", "Parasympathetic stimulation → arterioles constrict", "Release of endothelin-1 → heat retention"],
+      "answer": 0,
+      "explanation": "عند ارتفاع حرارة الجسم يحدث تثبيط انعكاسي للسمبثاوي فتتوسع شرايين الجلد لتشتيت الحرارة، بينما البرد والخوف والنزف تزيد السمبثاوي فتتضيق."
+    },
+    {
+      "q": "Plasma epinephrine secreted by the adrenal medulla causes vasodilation in skeletal muscle arterioles by binding to which receptors?",
+      "options": ["Alpha (α) receptors", "Beta-2 (β2) receptors", "Muscarinic M2 receptors", "Ryanodine receptors"],
+      "answer": 1,
+      "explanation": "الأدرينالين (Epinephrine) يسبب توسعاً وعائياً في شرايين العضلات الهيكلية عبر ارتباطه بمستقبلات β2."
+    },
+    {
+      "q": "What is the role of parasympathetic neurons in the innervation of systemic arterioles?",
+      "options": ["With few exceptions, there is little or no important parasympathetic innervation of arterioles", "They are the primary cause of vasoconstriction in all organs", "They provide equal dual innervation to every arteriole", "They release norepinephrine onto beta-2 receptors"],
+      "answer": 0,
+      "explanation": "معظم الأوعية الدموية (الشرايين الصغيرة) تستلم تعصيباً سمبثاوياً فقط، ولا يوجد تعصيب باراسمبثاوي مهم لها إلا باستثناءات قليلة."
+    },
+    {
+      "q": "Mean Arterial Pressure (MAP) is governed by which core physiological equation?",
+      "options": ["MAP = Cardiac Output (CO) × Total Peripheral Resistance (TPR)", "MAP = Heart Rate (HR) ÷ Stroke Volume (SV)", "MAP = Systolic Pressure + Diastolic Pressure", "MAP = CO ÷ TPR"],
+      "answer": 0,
+      "explanation": "متوسط الضغط الشرياني (MAP) يساوي النتاج القلبي (CO) مضروباً في المقاومة المحيطية الكلية (TPR)."
+    },
+    {
+      "q": "What is the normal resting Cardiac Output (CO) and normal resting Mean Arterial Pressure (MAP) in an adult?",
+      "options": ["CO ≈ 5 L/min; MAP ≈ 95–100 mmHg", "CO ≈ 15 L/min; MAP ≈ 120–140 mmHg", "CO ≈ 2 L/min; MAP ≈ 60–70 mmHg", "CO ≈ 10 L/min; MAP ≈ 80 mmHg"],
+      "answer": 0,
+      "explanation": "النتاج القلبي الطبيعي وقت الراحة حوالي 5 لتر/دقيقة، ومتوسط الضغط الشرياني (MAP) حوالي 95–100 mmHg."
+    },
+    {
+      "q": "How is Mean Arterial Pressure (MAP) roughly calculated from systolic and diastolic blood pressures?",
+      "options": ["Diastolic Pressure + 1/3 Pulse Pressure", "Systolic Pressure + 1/3 Diastolic Pressure", "Systolic Pressure − Diastolic Pressure", "1/2 (Systolic + Diastolic)"],
+      "answer": 0,
+      "explanation": "يُحسب متوسط الضغط الشرياني تقريباً بجمع الضغط الانبساطي مع ثلث ضغط النبض (Diastolic + 1/3 Pulse Pressure)."
+    },
+    {
+      "q": "Which of the following is the MOST important determinant of Total Peripheral Resistance (TPR)?",
+      "options": ["Radius of systemic arterioles", "Length of the aorta", "Heart rate", "Atrial pressure"],
+      "answer": 0,
+      "explanation": "المقاومة المحيطية الكلية (TPR) تتحدد بشكل أساسي بنصف قطر الشرايين الصغيرة (Arteriolar radius)، إضافة إلى لزوجة الدم وطول الوعاء."
+    },
+    {
+      "q": "Where are the arterial baroreceptors (stretch receptors for short-term blood pressure regulation) located?",
+      "options": ["Carotid sinus and aortic arch", "Right atrium and pulmonary veins", "Kidney macula densa and glomerulus", "Coronary arteries and apex of the heart"],
+      "answer": 0,
+      "explanation": "مستقبلات الضغط (Baroreceptors) تقع في الجيب السباتي (Carotid sinus) وقوس الأبهر (Aortic arch) وتنقل إشاراتها عبر العصب التاسع والعاشر للنخاع المستطيل."
+    },
+    {
+      "q": "When arterial blood pressure rises, how does the baroreceptor reflex restore pressure toward normal?",
+      "options": ["Increases parasympathetic activity (slows HR) and inhibits sympathetic tone (causes vasodilation)", "Increases sympathetic tone to heart and arterioles", "Stimulates renin release from the kidneys", "Decreases firing via the glossopharyngeal and vagus nerves"],
+      "answer": 0,
+      "explanation": "ارتفاع الضغط يزيد إطلاق مستقبلات الضغط فينشّط الباراسمبثاوي (يبطئ النبض) ويثبط السمبثاوي (يوسّع الأوعية) لخفض الضغط."
+    },
+    {
+      "q": "What chemical changes are detected by the carotid and aortic bodies in the chemoreceptor reflex?",
+      "options": ["Low O2, high CO2, and low pH", "High O2, low CO2, and high pH", "High glucose and high NaCl", "Low calcium and high albumin"],
+      "answer": 0,
+      "explanation": "المستقبلات الكيميائية في الأجسام السباتية والأبهرية تتحسس انخفاض O2 وارتفاع CO2 وانخفاض الـ pH فتحفز المركز المحرك للأوعية لرفع الضغط."
+    },
+    {
+      "q": "Which of the following belongs to INTERMEDIATE blood pressure regulation (operating over minutes to hours)?",
+      "options": ["Renin-Angiotensin-Aldosterone System (RAAS), stress-relaxation mechanism, and capillary fluid shift", "Baroreceptor reflex and chemoreceptor reflex", "CNS ischemic response only", "Active hyperemia only"],
+      "answer": 0,
+      "explanation": "التنظيم المتوسط للضغط (دقائق إلى ساعات) يشمل نظام RAAS، وآلية الاسترخاء الإجهادي للأوعية، وانتقال السوائل عبر الشعيرات."
+    },
+    {
+      "q": "In the Renin-Angiotensin-Aldosterone System (RAAS), what enzyme converts Angiotensin I into the potent vasoconstrictor Angiotensin II?",
+      "options": ["Renin", "Angiotensin-Converting Enzyme (ACE)", "Kallikrein", "Thrombin"],
+      "answer": 1,
+      "explanation": "الكلى تفرز Renin ليحول Angiotensinogen إلى Angiotensin I، ثم يقوم إنزيم ACE بتحويله إلى Angiotensin II (مضيّق وعائي قوي ويحفز الألدوستيرون)."
+    },
+    {
+      "q": "How do parasympathetic nerves (acetylcholine on muscarinic receptors) affect VENTRICULAR muscle contractility?",
+      "options": ["No significant effect", "Markedly increase contractility", "Completely stop ventricular contraction", "Double the stroke volume"],
+      "answer": 0,
+      "explanation": "الأعصاب الباراسمبثاوية تقلل نبض الـ SA node وتوصيل الـ AV node وانقباض الأذينين، لكن ليس لها تأثير مهم على عضلة البطينين."
+    },
+    {
+      "q": "During hemorrhage (drop in arterial pressure), decreased firing by arterial baroreceptors triggers which compensatory response?",
+      "options": ["Decreased parasympathetic to heart; increased sympathetic to heart, veins, and arterioles", "Increased parasympathetic to heart; decreased sympathetic to arterioles", "Vasodilation of veins and arterioles", "Increased urinary loss of sodium and water"],
+      "answer": 0,
+      "explanation": "عند النزف ينخفض الضغط فيقل إطلاق مستقبلات الضغط، مما يقلل الباراسمبثاوي ويزيد السمبثاوي للقلب والأوردة والشرايين لرفع النتاج القلبي والمقاومة."
+    },
+    {
+      "q": "In Coronary Artery Disease (CAD), prolonged complete occlusion of a coronary artery by a thrombus after plaque rupture leads to irreversible myocardial necrosis, which is replaced by:",
+      "options": ["Non-contractile scar tissue", "Regenerated functional cardiomyocytes", "Skeletal muscle fibers", "Elastic cartilage"],
+      "answer": 0,
+      "explanation": "لأن خلايا عضلة القلب لا تتجدد، فإن النسيج الميت بعد الجلطة القلبية (MI) يُستبدل بنسيج ندبي غير قابل للانقباض (Non-contractile scar tissue)."
+    },
+    {
+      "q": "What is the key physiological difference between SYSTOLIC dysfunction and DIASTOLIC dysfunction in heart failure?",
+      "options": ["Systolic = decreased contractility (reduced EF); Diastolic = stiff, non-compliant ventricle (impaired filling)", "Systolic = stiff ventricle; Diastolic = weakened contractility", "Systolic affects only the right side; Diastolic affects only the left side", "Both are caused exclusively by atrial fibrillation"],
+      "answer": 0,
+      "explanation": "الخلل الانقباضي (Systolic) يتميز بضعف الانقباض ونقص الـ EF، بينما الخلل الانبساطي (Diastolic) يتميز بتيبّس البطين وضعف امتلائه بالدم."
+    },
+    {
+      "q": "What is the primary fluid accumulation consequence of LEFT-sided heart failure versus RIGHT-sided heart failure?",
+      "options": ["Left-sided → pulmonary edema (dyspnea); Right-sided → peripheral edema (legs and abdomen)", "Left-sided → peripheral edema; Right-sided → pulmonary edema", "Both cause only peripheral edema", "Both cause only pulmonary edema"],
+      "answer": 0,
+      "explanation": "فشل الجانب الأيسر يسبب تجمع الدم بالرئتين (وذمة رئوية وضيق نفس)، بينما فشل الجانب الأيمن يسبب تجمع الدم بالأوردة الجهازية (وذمة محيطية بالساقين والبطن)."
+    },
+    {
+      "q": "In valvular heart disease, what is the difference between STENOSIS and REGURGITATION (insufficiency)?",
+      "options": ["Stenosis = narrowed rigid orifice (↑ resistance → hypertrophy); Regurgitation = incomplete closure (backward flow → volume overload)", "Stenosis = incomplete closure; Regurgitation = narrowed orifice", "Stenosis causes volume overload; Regurgitation causes no hemodynamic effect", "Both only affect the pulmonary valve"],
+      "answer": 0,
+      "explanation": "التضيّق (Stenosis) يزيد المقاومة ويسبب تضخم العضلة، بينما القصور/الارتجاع (Regurgitation) يسمح برجوع الدم للخلف ويسبب حمل حجمي زائد."
+    },
+    {
+      "q": "Why can Atrial Fibrillation (AF) significantly drop cardiac output in individuals with a compromised heart?",
+      "options": ["It eliminates the coordinated 'atrial kick' (the final 15–20% of ventricular filling)", "It completely blocks the Bundle of His", "It causes tetanic contraction of the ventricles", "It permanently closes the aortic valve"],
+      "answer": 0,
+      "explanation": "الرجفان الأذيني (AF) يلغي الانقباض الأذيني المتناسق (Atrial kick) الذي يوفر آخر 15–20% من امتلاء البطين بالدم."
+    },
+    {
+      "q": "In cardiac excitation-contraction coupling (CICR), what is the major signal that opens ryanodine receptor Ca2+ channels on the sarcoplasmic reticulum?",
+      "options": ["Extracellular Ca2+ entering through voltage-gated L-type Ca2+ channels during the action potential", "Direct mechanical link with DHPR without extracellular Ca2+", "Binding of acetylcholine to the SR", "Efflux of K+ during repolarization"],
+      "answer": 0,
+      "explanation": "في عضلة القلب، دخول الكالسيوم الخارجي عبر قنوات L-type يعمل كمحفز (Trigger Ca2+) لفتح قنوات Ryanodine على الـ SR وتحرير الكالسيوم."
+    },
+    {
+      "q": "Why can the number of active cross-bridges in cardiac muscle increase if cytosolic Ca2+ increases still further?",
+      "options": ["Because the amount of Ca2+ normally released does not saturate all troponin binding sites", "Because cardiac muscle has no troponin", "Because ATP is unlimited in cardiac cells", "Because cardiac muscle undergoes tetanus"],
+      "answer": 0,
+      "explanation": "كمية الكالسيوم المتحررة طبيعياً في القلب لا تشبع جميع مواقع الارتباط على الـ Troponin، لذا فإن زيادة الكالسيوم تزيد عدد الجسور العرضية وقوة الانقباض."
+    },
+    {
+      "q": "What initiates the INTRINSIC pathway of blood coagulation?",
+      "options": ["Vessel damage exposing collagen → contact activation of Factor XII to XIIa", "Release of Tissue Factor (TF) activating Factor VII to VIIa", "Direct activation of fibrinogen by platelets", "Release of bradykinin from the liver"],
+      "answer": 0,
+      "explanation": "المسار الداخلي (Intrinsic pathway) يبدأ عند تلف الوعاء وانكشاف الكولاجين مما ينشط العامل XII إلى XIIa بالتلامس."
+    },
+    {
+      "q": "What initiates the EXTRINSIC pathway of blood coagulation?",
+      "options": ["Subendothelial cells exposed to blood releasing Tissue Factor, which activates Factor VII to VIIa", "Contact activation of Factor XII by exposed collagen", "Activation of Factor XI by thrombin", "Synthesis of thromboxane A2"],
+      "answer": 0,
+      "explanation": "المسار الخارجي (Extrinsic pathway) يبدأ بانكشاف الخلايا تحت البطانية وإفراز العامل النسيجي (Tissue factor) الذي ينشط العامل VII إلى VIIa."
+    },
+    {
+      "q": "In the final common pathway of coagulation, Factor Xa (with Factor Va and activated platelets) converts Prothrombin into ______, which then converts Fibrinogen into ______.",
+      "options": ["Thrombin; Fibrin", "Fibrin; Thrombin", "Plasmin; Collagen", "Kallikrein; Bradykinin"],
+      "answer": 0,
+      "explanation": "يحوّل العامل Xa البروثرومبين إلى ثرومبين (Thrombin)، ثم يحوّل الثرومبين الفايبرينوجين إلى خيوط فايبرين (Fibrin) لتكوين الخثرة النهائية."
+    },
+    {
+      "q": "During hemostasis, activated platelets discharge chemical mediators and synthesize which substance that promotes both vasoconstriction and further platelet aggregation (platelet plug)?",
+      "options": ["Thromboxane A2", "Nitric Oxide", "Albumin", "Angiotensin I"],
+      "answer": 0,
+      "explanation": "الصفيحات المنشطة تفرز وسائط كيميائية وتصنّع Thromboxane A2 الذي يعزز التضيق الوعائي وتجمع المزيد من الصفيحات لتكوين السدادة الصفيحية."
+    }
+  ]
+}
