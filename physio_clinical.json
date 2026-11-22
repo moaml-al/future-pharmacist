@@ -1,0 +1,185 @@
+{
+  "title": "Clinical Cases (Lec 1, 2 & 3)",
+  "questions": [
+    {
+      "q": "A 32-year-old woman presents with drooping eyelids (ptosis) and progressive skeletal muscle weakness that worsens with repeated use. Autoantibodies are found blocking her postsynaptic ACh receptors at the neuromuscular junction. What is the most likely diagnosis?",
+      "options": ["Myasthenia gravis", "Duchenne muscular dystrophy", "Hypocalcemic tetany", "Rigor mortis"],
+      "answer": 0,
+      "explanation": "الوهن العضلي الوبيل (Myasthenia gravis) مرض مناعي ذاتي تهاجم فيه الأجسام المضادة مستقبلات ACh في الـ NMJ فتقلل التواصل العصبي العضلي."
+    },
+    {
+      "q": "A 6-year-old boy presents with progressive muscle wasting and weakness. Genetic testing reveals a mutation in the gene encoding a structural protein that links the cytoskeleton to the extracellular matrix, causing the sarcolemma to tear during contraction. Which protein is defective?",
+      "options": ["Dystrophin", "Titin", "Calmodulin", "Troponin"],
+      "answer": 0,
+      "explanation": "ضمور دوشين العضلي (Duchenne Muscular Dystrophy) ينتج عن طفرة في بروتين Dystrophin فيتمزق الساركوليما أثناء الانقباض وتموت الخلايا."
+    },
+    {
+      "q": "A patient with severe hypoparathyroidism develops dangerously low extracellular Ca2+ levels and experiences painful sustained muscle spasms (hypocalcemic tetany). What is the physiological mechanism?",
+      "options": ["Low extracellular Ca2+ increases nerve membrane permeability to Na+, causing spontaneous repetitive action potentials", "Low extracellular Ca2+ directly binds troponin permanently", "Low extracellular Ca2+ blocks acetylcholinesterase", "Low extracellular Ca2+ prevents ATP synthesis"],
+      "answer": 0,
+      "explanation": "نقص الكالسيوم خارج الخلية يزيد نفاذية غشاء العصب للصوديوم (Na+) مما يسبب إطلاق جهود فعل تلقائية متكررة وتشنجات عضلية."
+    },
+    {
+      "q": "After death, skeletal muscles become stiff (rigor state) because cellular ATP is depleted. Which step of the cross-bridge cycle is directly blocked in the absence of ATP?",
+      "options": ["Detachment of myosin heads from actin", "Binding of Ca2+ to troponin", "Release of ACh from motor neurons", "Formation of initial cross-bridges"],
+      "answer": 0,
+      "explanation": "غياب الـ ATP يمنع انفصال رؤوس المايوسين عن الأكتين، فتبقى مرتبطة بإحكام وتحدث حالة التيبّس (Rigor state)."
+    },
+    {
+      "q": "A marathon runner collapses after 3 hours of low-intensity, long-duration running due to muscle fatigue. Which of the following is the primary physiological cause of fatigue in this type of exercise?",
+      "options": ["Depletion of glycogen stores, disrupted Ca2+ regulation, and central fatigue", "Accumulation of creatine phosphate", "Hypercalcemia in the extracellular fluid", "Loss of dense bodies"],
+      "answer": 0,
+      "explanation": "التعب في التمارين طويلة المدة ومنخفضة الشدة ينتج عن استنفاد مخازن الكلايكوجين واضطراب تنظيم الكالسيوم والتعب العصبي المركزي."
+    },
+    {
+      "q": "A sprinter runs a 100-meter dash in 11 seconds. Which ATP regeneration pathway provides the immediate energy for this short burst of intense activity?",
+      "options": ["Creatine phosphate (CP)", "Oxidative phosphorylation", "Beta-oxidation of fatty acids", "Ketone body metabolism"],
+      "answer": 0,
+      "explanation": "فوسفات الكرياتين (Creatine Phosphate) يعيد تصنيع الـ ATP بسرعة فائقة للجهد الفوري القصير (لحوالي 15 ثانية)."
+    },
+    {
+      "q": "A bodybuilder performs high-load, low-repetition resistance training for 6 months and notices a significant increase in biceps size. What cellular adaptation is responsible?",
+      "options": ["Hypertrophy due to addition of more myofibrils/filaments", "Hyperplasia due to formation of new muscle cells", "Conversion of smooth muscle to skeletal muscle", "Increased extracellular fluid retention"],
+      "answer": 0,
+      "explanation": "تمارين المقاومة تسبب تضخماً (Hypertrophy) بزيادة مساحة المقطع العرضي للألياف عبر إضافة لييفات جديدة، وليس زيادة عدد الخلايا (Hyperplasia)."
+    },
+    {
+      "q": "A patient with an acute asthma attack uses a beta-2 adrenergic agonist inhaler (salbutamol). How does this drug affect airway smooth muscle?",
+      "options": ["Induces airway smooth muscle relaxation (bronchodilation)", "Triggers bronchoconstriction via MLCK activation", "Increases gap junction formation", "Causes tetanic spasm of the bronchioles"],
+      "answer": 0,
+      "explanation": "محفزات مستقبلات Beta-2 (مثل Salbutamol) تسبب استرخاء العضلات الملساء في الممرات الهوائية وتوسيع القصبات (Bronchodilation)."
+    },
+    {
+      "q": "A dehydrated athlete experiences sudden, involuntary, painful tetanic muscle cramps during a football match. Which of the following is a common trigger for this condition?",
+      "options": ["Local electrolyte imbalances (Na+, K+, Mg2+) and hyper-excitation of motor neurons", "Complete blockade of nicotinic ACh receptors", "Mutation in the dystrophin gene", "Excessive myoglobin accumulation"],
+      "answer": 0,
+      "explanation": "التشنجات العضلية (Muscle cramps) غالباً ما تنتج عن اختلال الأملاح الموضعي (Na+, K+, Mg2+) والجفاف أو فرط استثارة الأعصاب الحركية."
+    },
+    {
+      "q": "A pregnant woman enters active labor, and strong coordinated uterine contractions begin. Which smooth muscle adaptation facilitates this coordinated contraction?",
+      "options": ["Oxytocin-driven contractions and gap junction upregulation", "Conversion of single-unit to multi-unit smooth muscle", "Formation of sarcomeres and T-tubules", "Activation of troponin C"],
+      "answer": 0,
+      "explanation": "الرحم يحتوي على عضلات ملساء أحادية الوحدة؛ وعند الولادة يزداد عدد الوصلات الفجوية (Gap junctions) وتقوى الانقباضات بتحفيز الأوكسيتوسين."
+    },
+    {
+      "q": "A 62-year-old man with hypertension and angina is prescribed Verapamil (an L-type Ca2+ channel blocker). What is its main physiological effect on cardiac muscle?",
+      "options": ["Blocks slow Ca2+ channels, reducing contractility and AV conduction", "Increases contractility and heart rate", "Blocks fast Na+ channels exclusively", "Stimulates beta-1 adrenergic receptors"],
+      "answer": 0,
+      "explanation": "حاصرات قنوات الكالسيوم (مثل Verapamil) تغلق قنوات Ca2+ البطيئة فتقلل قوة الانقباض والتوصيل وتُستخدم للضغط والذبحة."
+    },
+    {
+      "q": "A patient presents to the emergency room with sudden supraventricular tachycardia (SVT). Which drug is given to transiently block AV node conduction and terminate the arrhythmia?",
+      "options": ["Adenosine", "Atropine", "Salbutamol", "Prazosin"],
+      "answer": 0,
+      "explanation": "الأدينوسين (Adenosine) يغلق التوصيل في العقدة الأذينية البطينية (AV node) ويُستخدم بشكل أساسي لعلاج SVT."
+    },
+    {
+      "q": "A patient with severe symptomatic bradycardia and AV block is treated with Atropine. How does Atropine increase heart rate?",
+      "options": ["Blocks muscarinic (M2) receptors, inhibiting vagal parasympathetic tone", "Blocks beta-1 receptors on the SA node", "Blocks L-type Ca2+ channels", "Activates If channels directly"],
+      "answer": 0,
+      "explanation": "الأتروبين يغلق مستقبلات M2 المسكارينية فيمنع تأثير العصب الحائر (Vagus) مما يرفع معدل ضربات القلب."
+    },
+    {
+      "q": "A patient with stable angina and heart failure is prescribed Ivabradine to lower heart rate. Which specific channels in the SA node does Ivabradine block?",
+      "options": ["F-type cation channels (If channels)", "Voltage-gated K+ channels", "Fast Na+ channels", "Ryanodine receptors"],
+      "answer": 0,
+      "explanation": "دواء Ivabradine يغلق قنوات If في الـ SA node فيقلل معدل ضربات القلب ويُستخدم للذبحة المستقرة وفشل القلب."
+    },
+    {
+      "q": "A patient with atrial fibrillation and ventricular arrhythmias is started on Amiodarone. What is its mechanism of action on the cardiac action potential?",
+      "options": ["Blocks K+ channels, increasing repolarization duration", "Blocks fast Na+ channels, shortening the plateau", "Opens L-type Ca2+ channels", "Stimulates muscarinic receptors"],
+      "answer": 0,
+      "explanation": "دواء Amiodarone (و Sotalol) يغلق قنوات البوتاسيوم (K+) فيطيل مدة إعادة الاستقطاب ويُستخدم لاضطرابات النظم الأذينية والبطينية."
+    },
+    {
+      "q": "A patient with severe tachycardia (170 bpm) develops dizziness and hypotension due to falling cardiac output. Why does severe tachycardia reduce cardiac output?",
+      "options": ["It disproportionately shortens diastole, reducing ventricular filling time", "It prolongs diastole excessively", "It prevents AV node delay", "It causes cardiac tetanus"],
+      "answer": 0,
+      "explanation": "التسارع الشديد يقصّر فترة الانبساط (Diastole) بشكل كبير مما يقلل وقت امتلاء البطين بالدم فينخفض النتاج القلبي."
+    },
+    {
+      "q": "A patient with acute angina pectoris places a Nitroglycerin tablet under his tongue and his chest pain subsides. How do nitrates relieve cardiac workload?",
+      "options": ["Decrease preload through venodilation", "Increase contractility via beta-1 stimulation", "Block AV node conduction", "Increase total peripheral resistance"],
+      "answer": 0,
+      "explanation": "النترات (Nitroglycerin) توسّع الأوردة فتقلل الحمل القبلي (Preload) وتخفف الجهد على عضلة القلب."
+    },
+    {
+      "q": "A patient with hypertension and heart failure is prescribed Lisinopril (an ACE inhibitor). What is its primary hemodynamic effect?",
+      "options": ["Decreases afterload via vasodilation", "Increases preload via fluid retention", "Increases heart rate via beta-1 activation", "Blocks K+ channels in the SA node"],
+      "answer": 0,
+      "explanation": "مثبطات ACE (مثل Lisinopril و Enalapril) تقلل الحمل البعدي (Afterload) عبر التوسع الوعائي وتُستخدم للضغط وفشل القلب."
+    },
+    {
+      "q": "A patient with heart failure and fluid overload is given Furosemide (a diuretic). How does this medication improve his condition?",
+      "options": ["Decreases preload by reducing blood volume", "Increases afterload by constricting arterioles", "Directly increases myocardial contractility", "Blocks muscarinic M2 receptors"],
+      "answer": 0,
+      "explanation": "المدرات (مثل Furosemide و Spironolactone) تقلل حجم الدم مما يقلل الحمل القبلي (Preload) على القلب."
+    },
+    {
+      "q": "A patient with heart failure and atrial fibrillation is prescribed Digoxin (a cardiac glycoside). What are its two main effects on the heart?",
+      "options": ["Increases contractility and slows AV conduction", "Decreases contractility and increases heart rate", "Causes venodilation only", "Blocks alpha-1 receptors on arterioles"],
+      "answer": 0,
+      "explanation": "الديجوكسين (Digoxin) يزيد قوة انقباض عضلة القلب ويبطئ التوصيل الكهربائي (مفيد لفشل القلب والرجفان الأذيني)."
+    },
+    {
+      "q": "A 58-year-old smoker presents with crushing chest pain after rupture of an atherosclerotic plaque in his left anterior descending coronary artery. Prolonged occlusion causes irreversible myocardial necrosis. What will replace the dead cardiac muscle cells?",
+      "options": ["Non-contractile scar tissue", "Regenerated cardiomyocytes", "Smooth muscle cells", "Skeletal muscle fibers"],
+      "answer": 0,
+      "explanation": "لأن خلايا عضلة القلب لا تتجدد، فإن النسيج الميت بعد الجلطة القلبية (MI) يُستبدل بنسيج ندبي غير قابل للانقباض."
+    },
+    {
+      "q": "A 68-year-old patient with a history of previous myocardial infarction presents with severe shortness of breath (dyspnea) and fluid in the lungs (pulmonary edema). Echocardiography shows a reduced ejection fraction (EF). What type of heart failure is this?",
+      "options": ["Left-sided systolic heart failure", "Right-sided diastolic heart failure", "Isolated right-sided failure", "Atrial fibrillation without failure"],
+      "answer": 0,
+      "explanation": "انخفاض الـ EF يدل على خلل انقباضي (Systolic dysfunction)، وتجمع السوائل بالرئتين (Pulmonary edema) يدل على فشل الجانب الأيسر."
+    },
+    {
+      "q": "A patient with chronic lung disease develops swelling in both legs and abdominal distension (peripheral edema) due to blood backing up into the systemic veins. Which side of the heart is primarily failing?",
+      "options": ["Right-sided heart failure", "Left-sided heart failure", "Aortic valve insufficiency only", "SA node failure"],
+      "answer": 0,
+      "explanation": "فشل الجانب الأيمن للقلب يسبب ارتداد الدم للأوردة الجهازية فتظهر الوذمة المحيطية (Peripheral edema) في الساقين والبطن."
+    },
+    {
+      "q": "An elderly patient is diagnosed with severe Aortic Stenosis (narrowed, rigid aortic valve orifice). What structural adaptation occurs in the left ventricle to overcome the increased resistance?",
+      "options": ["Left ventricular cardiac hypertrophy", "Left ventricular thinning and dilation only", "Atrophy of the papillary muscles", "Loss of Purkinje fibers"],
+      "answer": 0,
+      "explanation": "تضيّق الصمام الأبهري (Aortic stenosis) يزيد المقاومة فيجبر البطين الأيسر على الانقباض بضغط أعلى مما يسبب تضخم عضلة القلب (Hypertrophy)."
+    },
+    {
+      "q": "A patient with Mitral Regurgitation has incomplete closure of the left AV valve during ventricular systole. What is the direct hemodynamic consequence?",
+      "options": ["Retrograde (backward) blood flow causing volume overload in the left atrium and reduced forward stroke volume", "Increased resistance to atrial emptying only", "Complete cessation of pulmonary circulation", "Immediate drop in left atrial pressure"],
+      "answer": 0,
+      "explanation": "ارتجاع الصمام التاجي (Mitral regurgitation) يسمح برجوع الدم للخلف نحو الأذين الأيسر مما يسبب حمل حجمي زائد ويقلل حجم الضربة الفعّال للأمام."
+    },
+    {
+      "q": "A patient with a compromised heart develops Atrial Fibrillation (AF), causing rapid uncoordinated atrial depolarizations and a noticeable drop in cardiac output. Why does cardiac output fall?",
+      "options": ["Loss of the coordinated 'atrial kick' (the final 15–20% of ventricular filling)", "Complete blockage of the aortic valve", "Increased ventricular contractility", "Prolonged absolute refractory period"],
+      "answer": 0,
+      "explanation": "الرجفان الأذيني يلغي الـ Atrial kick الذي يوفر آخر 15–20% من امتلاء البطين، مما يخفض النتاج القلبي."
+    },
+    {
+      "q": "A trauma patient loses a large volume of blood (hemorrhage), causing a sharp drop in arterial pressure. How does the baroreceptor reflex immediately compensate?",
+      "options": ["Decreases parasympathetic to heart; increases sympathetic to heart, veins, and arterioles", "Increases parasympathetic to heart; dilates arterioles", "Increases urinary loss of sodium and water", "Inhibits renin release"],
+      "answer": 0,
+      "explanation": "انخفاض الضغط يقلل إطلاق مستقبلات الضغط فينخفض الباراسمبثاوي ويزيد السمبثاوي للقلب والأوردة والشرايين لرفع النتاج القلبي والمقاومة."
+    },
+    {
+      "q": "A patient in severe hemorrhagic shock has a mean arterial pressure of 45 mmHg (below the 60–160 mmHg autoregulatory range). What happens to organ perfusion?",
+      "options": ["Autoregulation fails, leading to severe hypoperfusion and risk of tissue necrosis", "Myogenic constriction increases blood flow back to normal", "Tubuloglomerular feedback increases GFR above normal", "Active hyperemia restores arterial pressure"],
+      "answer": 0,
+      "explanation": "عندما يهبط الضغط دون مدى التنظيم الذاتي (60–160 mmHg) كما في الصدمة (Shock)، تفشل آلية التنظيم الذاتي ويحدث نقص تروية شديد."
+    },
+    {
+      "q": "A blood pressure cuff is inflated on a patient's arm to temporarily occlude the brachial artery for 2 minutes, then released. Upon reopening, blood flow to the forearm temporarily surges above normal. What is this phenomenon called?",
+      "options": ["Reactive hyperemia", "Active hyperemia", "Myogenic constriction", "Cushing's reflex"],
+      "answer": 0,
+      "explanation": "زيادة التدفق المؤقتة فوق الطبيعي بعد إزالة انسداد شرياني مؤقت تُسمى فرط الدم التفاعلي (Reactive hyperemia) بسبب تراكم نواتج الأيض."
+    },
+    {
+      "q": "A patient with a genetic deficiency in Factor VIII (Hemophilia A) experiences prolonged bleeding after minor trauma. Which blood coagulation pathway is primarily impaired?",
+      "options": ["Intrinsic pathway", "Extrinsic pathway only", "Platelet plug vasoconstriction only", "Fibrinolysis"],
+      "answer": 0,
+      "explanation": "العامل الثامن (Factor VIII) جزء أساسي من المسار الداخلي للتخثر (Intrinsic pathway)؛ نقصه يعطل تنشيط العامل X عبر هذا المسار."
+    }
+  ]
+}
